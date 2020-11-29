@@ -12,8 +12,9 @@
         <pubDate>Sun, 29 Nov 2020 02:06:51 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/11/29-%E6%97%A5%E8%A8%98/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201129/sky.jpg" alt="Featured image of post 11/29 日記" /&gt;&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
-&lt;p&gt;和 Jacky 一起去圖書館讀書，然後去研三吃漢堡王。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/20201129/sky.jpg" alt="Featured image of post 11/29 日記" /&gt;&lt;p&gt;早上起床洗了衣服，然後洗了澡，之後架好了部落格，然後就去讀書。&lt;/p&gt;
+&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
+&lt;p&gt;和 Jacky 吃了買一送一的冰炫風，然後一起去圖書館讀書，晚餐去研三吃漢堡王。從圖書館出來時，看到了漂亮的雲。&lt;/p&gt;
 &lt;h2 id=&#34;部落格&#34;&gt;部落格&lt;/h2&gt;
 &lt;p&gt;從星期四努力到現在，終於搞定了。&lt;/p&gt;
 &lt;p&gt;之後會拿這個部落格來寫日記，可能也會寫一點練題紀錄，摻雜一點點讀書帳的味道。&lt;/p&gt;
@@ -40,6 +41,11 @@
 &lt;td style=&#34;text-align:center&#34;&gt;40&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;40&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;ch7&#34;&gt;Ch7&lt;/h3&gt;
@@ -48,6 +54,12 @@
 &lt;li&gt;RC Circuit: $$\tau = RC$$&lt;/li&gt;
 &lt;li&gt;RL Circuit: $$\tau = \displaystyle \frac{L}{R}$$&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;羽球&#34;&gt;羽球&lt;/h2&gt;
+&lt;p&gt;今天在新館打球，不小心跑到舊館。風很大，只有穿短袖短褲，不小心著涼了。今天前場比較積極，所以被稱讚有進步。有和碩班的學長姐打了兩場，覺得還不錯，之後幾場感覺比較沒力。&lt;/p&gt;
+&lt;h2 id=&#34;驗題&#34;&gt;驗題&lt;/h2&gt;
+&lt;p&gt;和 Hyperbola 吵了很久，他的 BIT2D 不是區間更新，而只有單點更新。&lt;/p&gt;
+&lt;p&gt;最後想了一下，二維 BIT 的區間更新 $$O(\log^2 N)$$ 應該做不到，需要 $$O(N\log N)$$。&lt;/p&gt;
+&lt;p&gt;暗自覺得他都不搞清楚原理，對自己在寫的東西沒有概念。也許就像 MT 說的，很多競程選手學東西都求快，不夠扎實。卡車對他的觀察有點道理，他有時候過分自信，不容易發現自己的錯。&lt;/p&gt;
 </description>
         </item>
         
