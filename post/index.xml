@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Dec 2020 21:34:29 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 12:30:04 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020/12/07 日記</title>
+      <link>https://Luke2336.github.io/p/20201207/</link>
+      <pubDate>Mon, 07 Dec 2020 12:30:04 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201207/</guid>
+      <description>起床後洗了澡，然後就買了個丼飯吃，邊看「夜叉姬 E8」。之後去上認識語言，今天主要是在講雙語嬰兒的認知能力，然後也講了 Executive Function (EF) 的概念，我認為用它去描述一個人是否聰明是合理的。老師也談了應該在 6 歲前，給予小孩足夠的陪伴，在前額葉發展的黃金期，陪他一起讀外語繪本。下課後，在宿舍泡了杯紅茶，然後讀電路學 Ch11 的投影片。之後寫了兩題電路學，花了 45 分鐘。
+電路學 CH11   Instantaneous Power $$\displaystyle\begin{aligned} i(t) &amp;amp;= I_m \cos (\omega t + \theta_i)\\ v(t) &amp;amp;= V_m \cos (\omega t + \theta_v)\\ p(t) &amp;amp;= \frac{1}{2} I_m V_m (\cos(\theta_v - \theta_i) + \cos(2\omega t + \theta_v + \theta_i)) \end{aligned}$$
+  Average Power $$\displaystyle\begin{aligned} P &amp;amp;= \frac{1}{T} \int_0^T p(t) dt \\ &amp;amp;= \frac{1}{2} I_m V_m \cos(\theta_v - \theta_i) \\ &amp;amp;= \frac{1}{2} Re[\mathbb{VI}^*] \end{aligned}$$</description>
+    </item>
+    
     <item>
       <title>2020/12/06 日記</title>
       <link>https://Luke2336.github.io/p/20201206/</link>
@@ -50,7 +61,7 @@
     </item>
     
     <item>
-      <title>CF_GYM_100274</title>
+      <title>CF GYM 100274</title>
       <link>https://Luke2336.github.io/p/cf_gym_100274/</link>
       <pubDate>Thu, 03 Dec 2020 23:56:03 +0800</pubDate>
       
