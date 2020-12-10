@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 12:34:03 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 20:09:00 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020/12/10 日記</title>
+      <link>https://Luke2336.github.io/p/20201210/</link>
+      <pubDate>Thu, 10 Dec 2020 20:09:00 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201210/</guid>
+      <description>早上先去還書，之後去處理報帳，把剩下的人的電話交給助理，之後買了麥當勞吃。接下來開始動工交換要繳交的備審資料，今天下午完成了自傳中想放的簡歷表，刪刪減減後，用不到三十行就把高中大學比較重點的成績呈現出來，比當初申請大學時的簡潔。
+之後去上電路學，今天是教電路間的磁場交互作用，提到了一些竊取晶片信用卡密碼的觀念。下課時，跟老師提了想明晚提早補考，以在週六回去參加期待多年的北一大校慶。
+下課後去圖書館領預約了三個月的電路學課本，剛開學時就推薦採購，幸好在學期末前拿到手了，以後寫電路學功課就方便了。順便借了一本中文的作業系統，希望能把之前的觀念補起來。
+晚上去買了自助餐吃，但好像肉夾太多了，被多收五塊錢。然後看了兩集「雲畫的月光」，算是搞笑劇，應該會當作配飯的韓劇。然後讀了一下電路學。
+電路學 CH11     Units      Complex Power VA $$\mathbb{S} = P + jQ = \frac{1}{2} \mathbb{VI}^* = V _{rms} I _{rms} \angle (\theta_v - \theta_i)$$   Apparent Power VA $$S = \vert\mathbb{S}\vert = V _{rms} I _{rms}$$   Real Power Watt $$P$$   Reactive Power VAR $$Q$$   Power Factor  $$pf = \frac{P}{S} = \cos(\theta_v - \theta_i)$$     $$\mathbb{Z} = R + jX = |\mathbb{Z}|\angle \theta,\ \theta_v - \theta_i = \theta \in [-90\degree, 90\degree]$$</description>
+    </item>
+    
     <item>
       <title>2020/12/09 日記</title>
       <link>https://Luke2336.github.io/p/20201209/</link>
@@ -27,7 +40,7 @@ D. Kattis - ivana  賽局 DP 把環狀的東西，直接複製兩份去建表。
       <guid>https://Luke2336.github.io/p/20201208/</guid>
       <description>起床時就覺得很冷很不舒服，心情很悶，就又睡了一下，然後去上電路學。在宿舍時，跌下了樓梯，幸好只滑了五階左右，沒有受傷，只有腰有點痠，腳踝和膝蓋略略不適。上課時因為想吐的感覺，有點坐立不安，回宿舍後一直睡到快三點。起床後又躺到快四點，什麼東西都沒吃。
 電路學今天比較早教完，老師就用十分鐘聊了一下他對台大前一陣子很多學生自殺的想法，他認為，自殺是愚蠢的，讀書讀不好，可能就只是選錯科系，就像交男女朋友一樣，很難第一次就找到對的人，轉換跑道就好了。我認為他這段話或許是正確的，但自殺不應該被想成這麼簡單的行為。
-傍晚看了中醫，因為反胃，所以一整天都沒吃飯，所以有些暈眩，眼前一片黑，針灸後噁心感消失了。之後去建中路吃了原味燉品屋，點了人參雞，覺得他人參付滿多的。躺了一下，然後去上電路學的演習課，今天 TA 只有講幾個大概念，所以 20:15 左右就下課了。
+傍晚看了中醫，因為反胃，所以一整天都沒吃飯，所以有些暈眩，眼前一片黑，針灸後噁心感消失了。之後去建中路吃了原味燉品屋，點了人參雞，覺得人參滿多的。躺了一下，然後去上電路學的演習課，今天 TA 只有講幾個大概念，所以 20:15 左右就下課了。
 半夜收到 email 通知說電路學要補考，覺得很難過，因為自己覺得重點的觀念都已經學會了，卻還是考得不好。滿挫折的，因為這是自己最近花比較多心力的科目，覺得能做好，卻還是沒有。</description>
     </item>
     
