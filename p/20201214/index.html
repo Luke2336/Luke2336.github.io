@@ -11,7 +11,7 @@ pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一
 pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數  1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3#define mod 1000000007 4typedef long long ll; 5int main () { 6 ios_base::sync_with_stdio(0); cin.tie(0); 7 string s; cin &amp;gt;&amp;gt; s; 8 ll sum = 0; 9 for (int i = 0; s[i]; i&#43;&#43;) 10 sum = (sum * 10 &#43; s[i] - &amp;#39;0&amp;#39;) % mod; 11 for (ll i = 1, frac = 1; ; i&#43;&#43;) { 12 frac = (frac * i) % mod; 13 if (frac == sum) { 14 cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; break; 15 } 16 } 17 return 0; 18}  認識語言 今天老師突然取消了之後所有考試，直接計算分數。除了 20% 的期末報告外，我拿了 72 分，看起來有機會拿 A&#43;。'>
 <meta property='og:url' content='https://Luke2336.github.io/p/20201214/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2020-12-14T11:29:37&#43;08:00'/><meta property='article:modified_time' content='2020-12-14T11:29:37&#43;08:00'/><meta property='og:image' content='https://Luke2336.github.io/post/20201214/%E6%97%A9%E9%A4%90.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:published_time' content='2020-12-14T11:29:37&#43;08:00'/><meta property='article:modified_time' content='2020-12-14T11:29:37&#43;08:00'/><meta property='og:image' content='https://Luke2336.github.io/post/20201214/%E6%97%A9%E9%A4%90.jpg' />
 <meta name="twitter:title" content="2020/12/14 日記">
 <meta name="twitter:description" content="早上搭車回新竹，雨很大，上車後到台北就沒雨了。從馬偕下車，然後搭小紅巴回學校。之後剪了香蜂草的枯枝病葉，還除了蟲，然後洗了衣服，吃了昨晚買的巧克力拿破崙配伯爵茶。
 pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數  1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3#define mod 1000000007 4typedef long long ll; 5int main () { 6 ios_base::sync_with_stdio(0); cin.tie(0); 7 string s; cin &amp;gt;&amp;gt; s; 8 ll sum = 0; 9 for (int i = 0; s[i]; i&#43;&#43;) 10 sum = (sum * 10 &#43; s[i] - &amp;#39;0&amp;#39;) % mod; 11 for (ll i = 1, frac = 1; ; i&#43;&#43;) { 12 frac = (frac * i) % mod; 13 if (frac == sum) { 14 cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; break; 15 } 16 } 17 return 0; 18}  認識語言 今天老師突然取消了之後所有考試，直接計算分數。除了 20% 的期末報告外，我拿了 72 分，看起來有機會拿 A&#43;。"><meta name="twitter:card" content="summary_large_image">
@@ -212,6 +212,12 @@ pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一
 
     <footer class="article-footer">
     
+    <section class="article-tags">
+        
+            <a href="/tags/code/">Code</a>
+        
+    </section>
+
 
     </footer>
 
@@ -233,6 +239,18 @@ pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一
         <h2 class="section-title">Related contents</h2>
         <div class="related-contents">
             <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/p/20201209/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2020/12/09 日記</h2>
+        </div>
+    </a>
+</article>
                 
                     
 <article class="has-image">
@@ -296,18 +314,6 @@ pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一
 
         <div class="article-details">
             <h2 class="article-title">2020/12/10 日記</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="">
-    <a href="/p/20201209/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2020/12/09 日記</h2>
         </div>
     </a>
 </article>
