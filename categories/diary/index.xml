@@ -14,7 +14,7 @@
       
       <guid>https://Luke2336.github.io/p/20201214/</guid>
       <description>早上搭車回新竹，雨很大，上車後到台北就沒雨了。從馬偕下車，然後搭小紅巴回學校。之後剪了香蜂草的枯枝病葉，還除了蟲，然後洗了衣服，吃了昨晚買的巧克力拿破崙配伯爵茶。
-pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3#define mod 1000000007 4typedef long long ll; 5int main () { 6 ios_base::sync_with_stdio(0); cin.tie(0); 7 string s; cin &amp;gt;&amp;gt; s; 8 ll sum = 0; 9 for (int i = 0; s[i]; i++) 10 sum = (sum * 10 + s[i] - &amp;#39;0&amp;#39;) % mod; 11 for (ll i = 1, frac = 1; ; i++) { 12 frac = (frac * i) % mod; 13 if (frac == sum) { 14 cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; break; 15 } 16 } 17 return 0; 18}  認識語言 今天老師突然取消了之後所有考試，直接計算分數。除了 20% 的期末報告外，我拿了 72 分，看起來有機會拿 A+。</description>
+pJ. Inverse Factorial  答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3#define mod 1000000007 4typedef long long ll; 5int main () { 6 ios_base::sync_with_stdio(0); cin.tie(0); 7 string s; cin &amp;gt;&amp;gt; s; 8 ll sum = 0; 9 for (int i = 0; s[i]; i++) 10 sum = (sum * 10 + s[i] - &amp;#39;0&amp;#39;) % mod; 11 for (ll i = 1, frac = 1; ; i++) { 12 frac = (frac * i) % mod; 13 if (frac == sum) { 14 cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; break; 15 } 16 } 17 return 0; 18}  CSES - 1202 - Investigation  最短路徑水題 Dijkstra  1#include&amp;lt;bits/stdc++.</description>
     </item>
     
     <item>
