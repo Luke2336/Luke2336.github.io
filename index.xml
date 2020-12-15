@@ -16,6 +16,7 @@
 &lt;h2 id=&#34;pj-inverse-factorialhttpsopenkattiscomcontestsusgm6kproblemsinversefactorial&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.kattis.com/contests/usgm6k/problems/inversefactorial&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;pJ. Inverse Factorial&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;給定一個長度不超過 1e6 的字串，代表 n!，求 n 是多少？&lt;/li&gt;
 &lt;li&gt;答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
