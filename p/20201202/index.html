@@ -18,6 +18,18 @@ Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  
 <meta name="twitter:description" content="OS HW1 (Python) 中午研究了一下 OS 的作業一，因為對 Python 還不熟，所以先研究了一些模組和函式的用法。之後再慢慢研究 Multithread、Multiprocessing 和 Coroutine。因為期中考表現的很糟，希望能在作業拚一下，把總成績拉到 A。
 Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  1import requests 2from bs4 import BeautifulSoup 3url = input() 4r = requests.get(url) 5while r.status_code != requests.codes.ok : # 200 6	r = requests.get(url) 7soup = BeautifulSoup(r.text, &amp;#39;html.parser&amp;#39;) 8print(soup.find(&amp;#39;title&amp;#39;).text) SHA 記得要先 encode(&#39;utf-8&#39;)
 1import hashlib # 內建的 2 3def SHA256(s): 4 sha = hashlib.sha256() 5 sha.update(s.encode(&amp;#39;utf-8&amp;#39;)) 6 return sha.">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W1C6W63ELX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W1C6W63ELX');
+</script>
+
+
+
     </head>
     <body class="">
         <div class="container flex on-phone--column align-items--flex-start extended article-page with-toolbar">
