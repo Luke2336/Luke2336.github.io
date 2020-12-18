@@ -6,7 +6,26 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Dec 2020 10:20:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 10:16:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020/12/17 日記</title>
+      <link>https://Luke2336.github.io/p/20201217/</link>
+      <pubDate>Thu, 17 Dec 2020 10:16:18 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201217/</guid>
+      <description>晚餐吃了烤雞。
+資工系停修事件 學校某些重要的條文或會議記錄沒有被公開清楚，（畢竟學生會的貼文本身不具任何效益），產生各種模糊地帶，再加上行政人員不見得全在狀況內。
+自己期中退選時，被課務組拿他們的價值觀來跟我說教，也覺得超不合理的。
+因為分數不好看而停修確實不合理，但大學部的學分費是吃到飽，所以大家很容易選超過可負擔的量。
+電路學 CH13 Self Inductance $$L = N \frac{d \phi}{di}$$
+Mutual Inductance $$M = M_{12} = M_{21}$$
+$$v_2 = N_2 \frac{d \phi_{12}}{dt} = M_{21}\frac{di_1}{dt}, \ M_{21} = N_2 \frac{d \phi_{12}}{di_1}$$
+Coupled Circuit $$v_1 = L_1 \frac{di_1}{dt} + M \frac{di_2}{dt}$$
+$$\mathbb{V}_1 = j \omega L_1 \mathbb{I}_1 + j \omega M \mathbb{I}_2$$
+Energy $$w = \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2$$
+Coupling Coefficient $$k = \frac{M}{\sqrt{L_1 L_2}} = \frac{\phi_{12}}{\phi_{11} + \phi_{12}} = \frac{\phi_{21}}{\phi_{21} + \phi_{22}} \in [0, 1]$$</description>
+    </item>
+    
     <item>
       <title>2020/12/16 日記</title>
       <link>https://Luke2336.github.io/p/20201216/</link>
@@ -16,7 +35,7 @@
       <description>早上上完德文課，又翹了 OS，吃完了蛋糕，讀了電路學，然後上了羽球課，洗個澡就去練習了。中午參考這篇文章，把 Google Analytics 加到 Blog。
 羽球課 下週要考期末考，但練了一下腳步，覺得很不熟練，甚至還是不會後場的換腳，前場左邊比較跑不到點，然後回中時換另一個方向略略不順。
 之後分組打單打比賽，打了 3 場 7 分，輸了一場，其他幾場都以不錯的比數取勝，普遍看到大家發球不夠高或遠，很容易就變成平球戰。我則是後場接球能力不好，沒辦法很快跑位打回到後場。結束後和學姊單挑了一場 21 分，後面體力不支，就沒有贏了。
-CPTC 001  官網 官方題解     Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, Sort   C Hyperbola Enumerate, Prefix Sum   D Hyperbola 互動題, DP   E Kelly 數位 DP    今天難得全都 1AC。讀完題後也有迅速抓出水題，兩題都在正常速度開完。pD 被曲線通靈出來，他邊寫我邊聽 LinLee 講題目。我決定把 pE 拿去做，pC 則留給他們想。pE 算是定義好狀態就很好寫的題目，之前常在 AtCoder 看到類似的題目。</description>
+CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, Sort   C Hyperbola Enumerate, Prefix Sum   D Hyperbola 互動題, DP   E Kelly 數位 DP    今天難得全都 1AC。讀完題後也有迅速抓出水題，兩題都在正常速度開完。pD 被曲線通靈出來，他邊寫我邊聽 LinLee 講題目。我決定把 pE 拿去做，pC 則留給他們想。pE 算是定義好狀態就很好寫的題目，之前常在 AtCoder 看到類似的題目。</description>
     </item>
     
     <item>

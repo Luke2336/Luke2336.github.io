@@ -6,7 +6,47 @@
         <description>Recent content on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 16 Dec 2020 10:20:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 17 Dec 2020 10:16:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2020/12/17 日記</title>
+        <link>https://Luke2336.github.io/p/20201217/</link>
+        <pubDate>Thu, 17 Dec 2020 10:16:18 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20201217/</guid>
+        <description>&lt;img src="https://Luke2336.github.io/post/20201217/circuit_note1.jpg" alt="Featured image of post 2020/12/17 日記" /&gt;&lt;p&gt;晚餐吃了烤雞。&lt;/p&gt;
+&lt;h2 id=&#34;資工系停修事件&#34;&gt;資工系停修事件&lt;/h2&gt;
+&lt;p&gt;學校某些重要的條文或會議記錄沒有被公開清楚，（畢竟學生會的貼文本身不具任何效益），產生各種模糊地帶，再加上行政人員不見得全在狀況內。&lt;/p&gt;
+&lt;p&gt;自己期中退選時，被課務組拿他們的價值觀來跟我說教，也覺得超不合理的。&lt;/p&gt;
+&lt;p&gt;因為分數不好看而停修確實不合理，但大學部的學分費是吃到飽，所以大家很容易選超過可負擔的量。&lt;/p&gt;
+&lt;h2 id=&#34;電路學-ch13&#34;&gt;電路學 CH13&lt;/h2&gt;
+&lt;h3 id=&#34;self-inductance&#34;&gt;Self Inductance&lt;/h3&gt;
+&lt;p&gt;$$L = N \frac{d \phi}{di}$$&lt;/p&gt;
+&lt;h3 id=&#34;mutual-inductance&#34;&gt;Mutual Inductance&lt;/h3&gt;
+&lt;p&gt;$$M = M_{12} = M_{21}$$&lt;/p&gt;
+&lt;p&gt;$$v_2 = N_2 \frac{d \phi_{12}}{dt} = M_{21}\frac{di_1}{dt}, \ M_{21} = N_2 \frac{d \phi_{12}}{di_1}$$&lt;/p&gt;
+&lt;h3 id=&#34;coupled-circuit&#34;&gt;Coupled Circuit&lt;/h3&gt;
+&lt;p&gt;$$v_1 = L_1 \frac{di_1}{dt} + M \frac{di_2}{dt}$$&lt;/p&gt;
+&lt;p&gt;$$\mathbb{V}_1 = j \omega L_1 \mathbb{I}_1 +  j \omega M \mathbb{I}_2$$&lt;/p&gt;
+&lt;h4 id=&#34;energy&#34;&gt;Energy&lt;/h4&gt;
+&lt;p&gt;$$w = \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2$$&lt;/p&gt;
+&lt;h4 id=&#34;coupling-coefficient&#34;&gt;Coupling Coefficient&lt;/h4&gt;
+&lt;p&gt;$$k = \frac{M}{\sqrt{L_1 L_2}} = \frac{\phi_{12}}{\phi_{11} + \phi_{12}} = \frac{\phi_{21}}{\phi_{21} + \phi_{22}} \in [0, 1]$$&lt;/p&gt;
+&lt;h4 id=&#34;perfect-coupling&#34;&gt;Perfect Coupling&lt;/h4&gt;
+&lt;p&gt;$$k = 1 \iff \phi_{11} = \phi_{22} = 0$$&lt;/p&gt;
+&lt;h3 id=&#34;linear-transformers&#34;&gt;Linear Transformers&lt;/h3&gt;
+&lt;p&gt;$$\begin{aligned} \mathbb{Z}_{in} &amp;amp;= \mathbb{Z}_P + \mathbb{Z}_R \\ &amp;amp;= (R_1 + j \omega L_1) + \frac{\omega^2 M^2}{R_2 + j \omega L_2 + \mathbb{Z}_L}\\ \mathbb{Z}_P &amp;amp;:\text{primary impedance}\\ \mathbb{Z}_R &amp;amp;:\text{reflected impedance}
+\end{aligned}$$&lt;/p&gt;
+&lt;h4 id=&#34;ideal-transformers&#34;&gt;Ideal Transformers&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$$\begin{cases}
+L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
+\end{cases}$$&lt;/li&gt;
+&lt;li&gt;$$\mathbb{V}_2 = \sqrt{\frac{L_2}{L_1}} \mathbb{V}_1 = n \mathbb{V}_1$$&lt;/li&gt;
+&lt;li&gt;Turn Ratio $$n = \frac{\mathbb{V}_2}{\mathbb{V}_1} = \frac{\mathbb{I}_1}{\mathbb{I}_2} = \frac{N_2}{N_1} = \sqrt{\frac{\mathbb{Z}_L}{\mathbb{Z}_{in}}}$$&lt;/li&gt;
+&lt;li&gt;Make Ideal !! $$\omega L_2 \gg |\mathbb{Z}_L|$$&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>2020/12/16 日記</title>
         <link>https://Luke2336.github.io/p/20201216/</link>
         <pubDate>Wed, 16 Dec 2020 10:20:38 +0800</pubDate>
@@ -17,13 +57,8 @@
 &lt;h2 id=&#34;羽球課&#34;&gt;羽球課&lt;/h2&gt;
 &lt;p&gt;下週要考期末考，但練了一下腳步，覺得很不熟練，甚至還是不會後場的換腳，前場左邊比較跑不到點，然後回中時換另一個方向略略不順。&lt;/p&gt;
 &lt;p&gt;之後分組打單打比賽，打了 3 場 7 分，輸了一場，其他幾場都以不錯的比數取勝，普遍看到大家發球不夠高或遠，很容易就變成平球戰。我則是後場接球能力不好，沒辦法很快跑位打回到後場。結束後和學姊單挑了一場 21 分，後面體力不支，就沒有贏了。&lt;/p&gt;
-&lt;h2 id=&#34;cptc-001&#34;&gt;CPTC 001&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nctu-pcca.github.io/cptcWeb/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官網&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hackmd.io/@cptc/cptc001-solution?fbclid=IwAR2Y25mx73Ru1M8H94DdCsLk2q4knuEKPZZbDLQUvRZUMFnWVL9bvsKhj_I&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官方題解&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;cptc-001httpsgithubcomnctu-pccacptcdatatreemaincptc001fbclidiwar3dz3esmwfmivhrzslkzri3a8slj3twvnd8eep9cchooedf7azhqxgtvwy&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/NCTU-PCCA/cptcData/tree/main/cptc001?fbclid=IwAR3dZ3esMwFMiVhRzSLkZRI3a8SlJ3TWvnd8eEp9cCHoOEDF7aZhqxGtvWY&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CPTC 001&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
