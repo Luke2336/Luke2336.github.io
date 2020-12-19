@@ -6,7 +6,20 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Dec 2020 10:16:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 11:45:29 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020/12/18 日記</title>
+      <link>https://Luke2336.github.io/p/20201218/</link>
+      <pubDate>Fri, 18 Dec 2020 11:45:29 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201218/</guid>
+      <description>下午上了 OS，覺得真的有點無聊，不確定下學期還要不要選他的課。晚餐吃了香菇雞湯，覺得還不錯吃。
+學生證不見？ 一回宿舍就發現找不到學生證，似乎從小包包裡掉出來了，後來有找到。順便研究了學校的掛失系統，覺得一張 $200 會很想哭，加上裡面還剩 $500 以上。雖然掛失後會把 48 Hr 後的餘額退還，但還是很緊張。發現如果 12:00 前申請補發，當天下午就能拿到，比想像中方便。沒有學生證，就不能打球了！！
+語言學演講 中午去聽語言學的演講，學到了一些 L1 / L2 English 的差異。
+ Topic: Boundaries, Contrast and Differentiation in Continuous Speech Talker: Chiu-yu Tseng  CSES - 1146 - Counting Bits 問 1 ~ n 的二進制表示法中，共有多少個 1-bit？
+   十進位 $$2^2$$ $$2^1$$ $$2^0$$     0 0 0 0   1 0 0 1   2 0 1 0   3 0 1 1   4 1 0 0   5 1 0 1   6 1 1 0   7 1 1 1    觀察 0/1 交替的方式，最末位是每隔 1 個，接下來是每隔 2 個，接下來是每隔 4 個&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>2020/12/17 日記</title>
       <link>https://Luke2336.github.io/p/20201217/</link>

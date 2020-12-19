@@ -6,7 +6,32 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Dec 2020 11:29:37 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 11:45:29 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020/12/18 日記</title>
+      <link>https://Luke2336.github.io/p/20201218/</link>
+      <pubDate>Fri, 18 Dec 2020 11:45:29 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201218/</guid>
+      <description>下午上了 OS，覺得真的有點無聊，不確定下學期還要不要選他的課。晚餐吃了香菇雞湯，覺得還不錯吃。
+學生證不見？ 一回宿舍就發現找不到學生證，似乎從小包包裡掉出來了，後來有找到。順便研究了學校的掛失系統，覺得一張 $200 會很想哭，加上裡面還剩 $500 以上。雖然掛失後會把 48 Hr 後的餘額退還，但還是很緊張。發現如果 12:00 前申請補發，當天下午就能拿到，比想像中方便。沒有學生證，就不能打球了！！
+語言學演講 中午去聽語言學的演講，學到了一些 L1 / L2 English 的差異。
+ Topic: Boundaries, Contrast and Differentiation in Continuous Speech Talker: Chiu-yu Tseng  CSES - 1146 - Counting Bits 問 1 ~ n 的二進制表示法中，共有多少個 1-bit？
+   十進位 $$2^2$$ $$2^1$$ $$2^0$$     0 0 0 0   1 0 0 1   2 0 1 0   3 0 1 1   4 1 0 0   5 1 0 1   6 1 1 0   7 1 1 1    觀察 0/1 交替的方式，最末位是每隔 1 個，接下來是每隔 2 個，接下來是每隔 4 個&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>2020/12/16 日記</title>
+      <link>https://Luke2336.github.io/p/20201216/</link>
+      <pubDate>Wed, 16 Dec 2020 10:20:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201216/</guid>
+      <description>早上上完德文課，又翹了 OS，吃完了蛋糕，讀了電路學，然後上了羽球課，洗個澡就去練習了。中午參考這篇文章，把 Google Analytics 加到 Blog。
+羽球課 下週要考期末考，但練了一下腳步，覺得很不熟練，甚至還是不會後場的換腳，前場左邊比較跑不到點，然後回中時換另一個方向略略不順。
+之後分組打單打比賽，打了 3 場 7 分，輸了一場，其他幾場都以不錯的比數取勝，普遍看到大家發球不夠高或遠，很容易就變成平球戰。我則是後場接球能力不好，沒辦法很快跑位打回到後場。結束後和學姊單挑了一場 21 分，後面體力不支，就沒有贏了。
+CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, Sort   C Hyperbola Enumerate, Prefix Sum   D Hyperbola 互動題, DP   E Kelly 數位 DP    今天難得全都 1AC。讀完題後也有迅速抓出水題，兩題都在正常速度開完。pD 被曲線通靈出來，他邊寫我邊聽 LinLee 講題目。我決定把 pE 拿去做，pC 則留給他們想。pE 算是定義好狀態就很好寫的題目，之前常在 AtCoder 看到類似的題目。</description>
+    </item>
+    
     <item>
       <title>2020/12/14 日記</title>
       <link>https://Luke2336.github.io/p/20201214/</link>
@@ -45,6 +70,17 @@ D. Kattis - ivana  賽局 DP 把環狀的東西，直接複製兩份去建表。
       
       <guid>https://Luke2336.github.io/p/cf_gym_100274/</guid>
       <description>CF-GYM100274 pA  問題：2 &amp;lt;= n &amp;lt;= 1e18，2 &amp;lt;= k &amp;lt;= 1e12，求 n! 是 k 的幾次方。 作法：將 k 做質因數分解，然後各自算出次方數後，再取最小值。 時間：$$O(\log n \sqrt k)$$  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, int&amp;gt; pli; 5vector&amp;lt;pli&amp;gt; prime_factor (ll k) { 6 vector&amp;lt;pli&amp;gt; ret; 7 for (ll i = 2; i * i &amp;lt;= k; i++) { 8 if (k % i) continue; 9 pli p = pli(i, 0); 10 while (k % i == 0) k /= i, p.</description>
+    </item>
+    
+    <item>
+      <title>2020/12/02 日記</title>
+      <link>https://Luke2336.github.io/p/20201202/</link>
+      <pubDate>Wed, 02 Dec 2020 10:58:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201202/</guid>
+      <description>OS HW1 (Python) 中午研究了一下 OS 的作業一，因為對 Python 還不熟，所以先研究了一些模組和函式的用法。之後再慢慢研究 Multithread、Multiprocessing 和 Coroutine。因為期中考表現的很糟，希望能在作業拚一下，把總成績拉到 A。
+Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  1import requests 2from bs4 import BeautifulSoup 3url = input() 4r = requests.get(url) 5while r.status_code != requests.codes.ok : # 200 6	r = requests.get(url) 7soup = BeautifulSoup(r.text, &amp;#39;html.parser&amp;#39;) 8print(soup.find(&amp;#39;title&amp;#39;).text) SHA 記得要先 encode(&#39;utf-8&#39;)
+1import hashlib # 內建的 2 3def SHA256(s): 4 sha = hashlib.sha256() 5 sha.update(s.encode(&amp;#39;utf-8&amp;#39;)) 6 return sha.</description>
     </item>
     
   </channel>
