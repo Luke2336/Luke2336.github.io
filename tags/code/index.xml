@@ -6,7 +6,26 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Dec 2020 11:45:29 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 22:03:36 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder Beginning Contest 186</title>
+      <link>https://Luke2336.github.io/p/atcoder_abc186/</link>
+      <pubDate>Sat, 19 Dec 2020 22:03:36 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/atcoder_abc186/</guid>
+      <description>AtCoder Beginning Contest 186 pE 讓我卡了一下，於是就掉分了。pF 想到了一個假解，浪費了不少時間。可能是因為剛打完 CF，所以狀態不好。
+A. Brick 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 int n, w; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; w; 5 cout &amp;lt;&amp;lt; n / w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 6 return 0; 7}  B. Blocks on Grid 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 ios_base::sync_with_stdio(0); cin.tie(0); 5 int h, w; cin &amp;gt;&amp;gt; h &amp;gt;&amp;gt; w; 6 int sum = 0, m = 105; 7 for (int i = 0; i &amp;lt; h; i++) { 8 for (int j = 0; j &amp;lt; w; j++) { 9 int x; cin &amp;gt;&amp;gt; x; 10 sum += x; 11 m = min(m, x); 12 } 13 } 14 cout &amp;lt;&amp;lt; sum - m * h * w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 15 return 0; 16}  C.</description>
+    </item>
+    
+    <item>
+      <title>2020/12/19 日記</title>
+      <link>https://Luke2336.github.io/p/20201219/</link>
+      <pubDate>Sat, 19 Dec 2020 10:38:44 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201219/</guid>
+      <description>北一女校慶擺攤事件  倫子老師的貼文 身為北一女校友以及一個女性，覺得台灣媒體及網民的素質極低。以陪聊天賺錢究竟是不是物化女性呢？若是反過來難道會變成物化男性嗎？顯然這完全是網友們本身對女性帶有著性別偏見。  Code  Codeforces Round #691 (Div. 2) AtCoder Beginning Contest 186  </description>
+    </item>
+    
     <item>
       <title>2020/12/18 日記</title>
       <link>https://Luke2336.github.io/p/20201218/</link>
