@@ -18,12 +18,23 @@ A. Brick 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main()
     </item>
     
     <item>
+      <title>Codeforces Round 691 Div. 2</title>
+      <link>https://Luke2336.github.io/p/cf_contest_1459/</link>
+      <pubDate>Sat, 19 Dec 2020 19:07:58 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/cf_contest_1459/</guid>
+      <description>Codeforces Round #691 (Div. 2) 因為 pC 找不到 bug，就一直亂丟，於是打得超爛。Rating 加了 43 到 1695。
+pA. Red-Blue Shuffle 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define pb push_back 6int main() { 7 ios_base::sync_with_stdio(0); cin.tie(0); 8 int T; cin &amp;gt;&amp;gt; T; 9 while (T--) { 10 int n; cin &amp;gt;&amp;gt; n; 11 string R, B; 12 cin &amp;gt;&amp;gt; R &amp;gt;&amp;gt; B; 13 int r = 0, b = 0; 14 for (int i = 0; i &amp;lt; n; i++) 15 if (R[i] &amp;gt; B[i]) r++; 16 else if (R[i] &amp;lt; B[i]) b++; 17 if (r &amp;gt; b) cout &amp;lt;&amp;lt; &amp;#34;RED\n&amp;#34;; 18 else if (r &amp;lt; b) cout &amp;lt;&amp;lt; &amp;#34;BLUE\n&amp;#34;; 19 else cout &amp;lt;&amp;lt; &amp;#34;EQUAL\n&amp;#34;; 20 } 21 return 0; 22}  pB.</description>
+    </item>
+    
+    <item>
       <title>2020/12/19 日記</title>
       <link>https://Luke2336.github.io/p/20201219/</link>
       <pubDate>Sat, 19 Dec 2020 10:38:44 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20201219/</guid>
-      <description>北一女校慶擺攤事件  倫子老師的貼文 身為北一女校友以及一個女性，覺得台灣媒體及網民的素質極低。以陪聊天賺錢究竟是不是物化女性呢？若是反過來難道會變成物化男性嗎？顯然這完全是網友們本身對女性帶有著性別偏見。  Code  Codeforces Round #691 (Div. 2) AtCoder Beginning Contest 186  </description>
+      <description>半夜很餓，難得的去全家買了義大利麵當宵夜。
+北一女校慶擺攤事件  倫子老師的貼文 身為北一女校友以及一個女性，覺得台灣媒體及網民的素質極低。以陪聊天賺錢究竟是不是物化女性呢？若是反過來難道會變成物化男性嗎？顯然這完全是網友們本身對女性帶有著性別偏見。  Code  Codeforces Round #691 (Div. 2) AtCoder Beginning Contest 186  </description>
     </item>
     
     <item>

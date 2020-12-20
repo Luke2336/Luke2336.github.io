@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='AtCoder Beginning Contest 186 pE 讓我卡了一下，於是就掉分了。pF 想到了一個假解，浪費了不少時間。可能是因為剛打完 CF，所以狀態不好。
-A. Brick 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main() { 4 int n, w; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; w; 5 cout &amp;lt;&amp;lt; n / w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 6 return 0; 7}  B. Blocks on Grid 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main() { 4 ios_base::sync_with_stdio(0); cin.tie(0); 5 int h, w; cin &amp;gt;&amp;gt; h &amp;gt;&amp;gt; w; 6 int sum = 0, m = 105; 7 for (int i = 0; i &amp;lt; h; i&#43;&#43;) { 8 for (int j = 0; j &amp;lt; w; j&#43;&#43;) { 9 int x; cin &amp;gt;&amp;gt; x; 10 sum &#43;= x; 11 m = min(m, x); 12 } 13 } 14 cout &amp;lt;&amp;lt; sum - m * h * w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 15 return 0; 16}  C.'><title>AtCoder Beginning Contest 186</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='ABC 186'><title>AtCoder Beginning Contest 186</title>
 
 <link rel='canonical' href='https://Luke2336.github.io/p/atcoder_abc186/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='AtCoder Beginning Contest 186'>
-<meta property='og:description' content='AtCoder Beginning Contest 186 pE 讓我卡了一下，於是就掉分了。pF 想到了一個假解，浪費了不少時間。可能是因為剛打完 CF，所以狀態不好。
-A. Brick 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main() { 4 int n, w; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; w; 5 cout &amp;lt;&amp;lt; n / w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 6 return 0; 7}  B. Blocks on Grid 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main() { 4 ios_base::sync_with_stdio(0); cin.tie(0); 5 int h, w; cin &amp;gt;&amp;gt; h &amp;gt;&amp;gt; w; 6 int sum = 0, m = 105; 7 for (int i = 0; i &amp;lt; h; i&#43;&#43;) { 8 for (int j = 0; j &amp;lt; w; j&#43;&#43;) { 9 int x; cin &amp;gt;&amp;gt; x; 10 sum &#43;= x; 11 m = min(m, x); 12 } 13 } 14 cout &amp;lt;&amp;lt; sum - m * h * w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 15 return 0; 16}  C.'>
+<meta property='og:description' content='ABC 186'>
 <meta property='og:url' content='https://Luke2336.github.io/p/atcoder_abc186/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='AtCoder' /><meta property='article:tag' content='Code' /><meta property='article:published_time' content='2020-12-19T22:03:36&#43;08:00'/><meta property='article:modified_time' content='2020-12-19T22:03:36&#43;08:00'/><meta property='og:image' content='https://Luke2336.github.io/post/AtCoder_ABC186/AtCoder_ABC186_Standing.jpg' />
 <meta name="twitter:title" content="AtCoder Beginning Contest 186">
-<meta name="twitter:description" content="AtCoder Beginning Contest 186 pE 讓我卡了一下，於是就掉分了。pF 想到了一個假解，浪費了不少時間。可能是因為剛打完 CF，所以狀態不好。
-A. Brick 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main() { 4 int n, w; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; w; 5 cout &amp;lt;&amp;lt; n / w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 6 return 0; 7}  B. Blocks on Grid 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main() { 4 ios_base::sync_with_stdio(0); cin.tie(0); 5 int h, w; cin &amp;gt;&amp;gt; h &amp;gt;&amp;gt; w; 6 int sum = 0, m = 105; 7 for (int i = 0; i &amp;lt; h; i&#43;&#43;) { 8 for (int j = 0; j &amp;lt; w; j&#43;&#43;) { 9 int x; cin &amp;gt;&amp;gt; x; 10 sum &#43;= x; 11 m = min(m, x); 12 } 13 } 14 cout &amp;lt;&amp;lt; sum - m * h * w &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 15 return 0; 16}  C."><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="ABC 186"><meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content='https://Luke2336.github.io/post/AtCoder_ABC186/AtCoder_ABC186_Standing.jpg' />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1C6W63ELX"></script>
@@ -176,6 +173,10 @@ A. Brick 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3in
         <a href="/p/atcoder_abc186/">AtCoder Beginning Contest 186</a>
     </h2>
 
+    
+    <h3 class="article-subtitle">
+        ABC 186
+    </h3>
     <footer class="article-time">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -392,6 +393,24 @@ A. Brick 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3in
         <h2 class="section-title">Related contents</h2>
         <div class="related-contents">
             <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/p/cf_contest_1459/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/CF_CONTEST_1459/CF_1459_Standing.jpg" loading="lazy" data-key="CF_CONTEST_1459" data-hash="/post/CF_CONTEST_1459/CF_1459_Standing.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Codeforces Round 691 Div. 2</h2>
+        </div>
+    </a>
+</article>
                 
                     
 <article class="">
