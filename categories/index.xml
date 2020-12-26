@@ -6,13 +6,22 @@
     <description>Recent content in Categories on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Dec 2020 10:18:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Dec 2020 10:08:59 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary</title>
       <link>https://Luke2336.github.io/categories/diary/</link>
-      <pubDate>Wed, 23 Dec 2020 10:18:18 +0800</pubDate>
+      <pubDate>Fri, 25 Dec 2020 10:08:59 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/categories/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course</title>
+      <link>https://Luke2336.github.io/categories/course/</link>
+      <pubDate>Wed, 23 Dec 2020 10:19:18 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/categories/course/</guid>
       <description></description>
     </item>
     
@@ -22,15 +31,6 @@
       <pubDate>Sat, 19 Dec 2020 22:03:36 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/categories/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Course</title>
-      <link>https://Luke2336.github.io/categories/course/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Luke2336.github.io/categories/course/</guid>
       <description></description>
     </item>
     
