@@ -6,7 +6,45 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Dec 2020 10:21:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 11:59:10 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020/12/28 日記</title>
+      <link>https://Luke2336.github.io/p/20201228/</link>
+      <pubDate>Mon, 28 Dec 2020 11:59:10 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20201228/</guid>
+      <description>今天將認識語言的報告寫完，中午就交出去了，傍晚便收到評語，得到了 94 分，覺得很開心，因為有幾個問題被認為提得不錯，主要是對於演化的部分。
+下午又整理了一下德文筆記，讀了一點點 OS，然後晚餐吃了漢堡。頭有點痛，偶而也會暈，這幾天都很早起來，算是輕微失眠。</description>
+    </item>
+    
+    <item>
+      <title>德文（一）筆記</title>
+      <link>https://Luke2336.github.io/p/german1/</link>
+      <pubDate>Mon, 28 Dec 2020 10:19:18 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/german1/</guid>
+      <description>方向 / 方位    中文 German     上 über   下 unter   左 links   右 rechts       中文 German     東 der Osten   西 der Westen   南 der Süden   北 der Norden     Berlin liegt im Osten von Deutschland. in die Mitte  數字用法    Zahlen German Zahlen German Zahlen German     0 null 10 zehn 20 zwanzig   1 eins 11 elf 21 einundzwanzig   2 zwei 12 zwölf     3 drei 13 dreizehn     4 vier 14 vierzehn     5 fünf 15 fünfzehn     6 sechs 16 sechzehn     7 sieben 17 siebzehn     8 acht 18 achtzehn     9 neun 19 neunzehn         Zahlen German     20 zwanzig   30 dreißig   40 vierzig   50 fünfzig   60 sechzig   70 siebzig   100 (ein)hundert   101 hunderteins   1.</description>
+    </item>
+    
+    <item>
+      <title>認識語言 期末報告</title>
+      <link>https://Luke2336.github.io/p/understanding_language_final_report/</link>
+      <pubDate>Mon, 28 Dec 2020 10:09:29 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/understanding_language_final_report/</guid>
+      <description>「認識語言」期末報告 以下介紹五個我在「認識語言」下半學期學到的重點。
+1. Chomsky 和行為主義 (Behaviorism) 的對立 語言的學習是後天的 (nurutre)，還是天生就有的 (nuture) 學習能力？
+行為主義興起的背景，要從佛洛伊德的時代開始談起，當時心理學是立足於潛意識等無法觀測的東西，因此很多科學家無法認同心理學屬於科學的一支。
+在 Parlov、Skinner 和 Waston 等人的努力下，產生了行為主義學派。他們透過設計實驗來研究人或動物的行為模式，像是古典制約的實驗中，Parlov 的狗被制約，每次接收到搖鈴刺激 (stimulus)，就會不由自主的流口水。而 Skinner 進一步提出了操作制約，透過食物來讓老鼠自己學會按開關。
+行為主義者宣稱，他們可透過制約，也就是給予 positive/negative reforcement，使人類學習，這屬於 stimulus-response learning。他們認為母語的學習也可以透過同樣的管道。
+對此，Chomsky 有不同的看法，他認為語言的習得無法僅僅透過後天的經驗，先天的能力是必須的，因此他提出了 Universal Grammar。&amp;ldquo;What you know exceeds what you were taught.&amp;quot;，舉例來說，小孩子會犯一些大人不會犯的錯誤，像是 &amp;ldquo;holded&amp;rdquo;，這是他們無法透過模仿習得，可以推論出他們先天具備一些學習語言的能力，像是統計、歸納等等。
+Chomsky 說明了在語言的學習上，本能和經驗都是重要的。我認為他的想法是重要且具有突破性的，因為他不只影響了語言學的發展，更對心理學造成了重大的影響，他證明了行為主義是無法解釋所有現象的，讓心理學研究慢慢走出行為主義的框架。
+2. Universal Grammar (UG) Universal Grammar 是 Chomsky 的理論，為了描述所有語言的共同點。Universal Grammar 是由 principles 和 parameters 共同組成。
+由於孩童學習語言的時間是有限的，且他們能得到的資訊量也是有限的，但他們能表達的語句，卻是無限的。可見，這些語句不僅僅是藉由經驗而習得，而需要藉由人類天生就有的 Universal Grammar，將得到的句子提取出一些共通的 principles。像是人們能判斷句子中的代名詞或是反身代名詞是在指誰，都是我們在學習時無法直接解釋的，這些天生就具備的能力，就是屬於 Universal Grammar。
+但這些 principles 卻只能解釋語言具有共通性，而無法解釋語言的差異性，因此他在理論中加入了 parameters 的想法。
+在英語中，是先表達動詞，然後才是受詞。然而，在日語中，兩者卻是相反的。又或是在英文中，我們會將 Where/Who 等疑問詞放在句子開頭，而在中文中，我們卻會任意擺放哪裡/誰/何時在句子的其他位置。這些現象無法被 principles 概括，因此我們有了 parameters。parameters 提供了孩童在學習時，能藉由聽到的資訊，將母語中沒有的 parameters 捨棄，讓他們能專注於學習母語中有的文法或發音。</description>
+    </item>
+    
     <item>
       <title>2020/12/27 日記</title>
       <link>https://Luke2336.github.io/p/20201227/</link>
@@ -49,15 +87,6 @@ Toggl 用了這個軟體一週，發現用功的時間似乎有增加。發現�
       <description>早上維持了昨夜的疲倦感，很不想做事。
 上完電路學後，複習了德文。今天電路學教 Laplace Transform。晚上跑去市區吃飯，吃了前幾天吃湯圓時看到的肉。
 109-2 課表 今天早上看了選課結果，不甚滿意，沒選上密碼學，也沒選上素描課，考慮再選一門 EDA 湊 15 學分。</description>
-    </item>
-    
-    <item>
-      <title>德文（一）筆記</title>
-      <link>https://Luke2336.github.io/p/german1/</link>
-      <pubDate>Wed, 23 Dec 2020 10:19:18 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/p/german1/</guid>
-      <description>數字用法    Zahlen German Zahlen German Zahlen German     0 null 10 zehn 20 zwanzig   1 eins 11 elf 21 einundzwanzig   2 zwei 12 zwölf     3 drei 13 dreizehn     4 vier 14 vierzehn     5 fünf 15 fünfzehn     6 sechs 16 sechzehn     7 sieben 17 siebzehn     8 acht 18 achtzehn     9 neun 19 neunzehn         Zahlen German     20 zwanzig   30 dreißig   40 vierzig   50 fünfzig   60 sechzig   70 siebzig   100 (ein)hundert   101 hunderteins   1.</description>
     </item>
     
     <item>
