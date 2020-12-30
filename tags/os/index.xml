@@ -6,7 +6,17 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Dec 2020 10:58:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 14:40:40 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS CH5 複習</title>
+      <link>https://Luke2336.github.io/p/os_ch5/</link>
+      <pubDate>Mon, 28 Dec 2020 14:40:40 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/os_ch5/</guid>
+      <description>CH5 - Process Synchronization The Critical-Section Problem 有些資源只能同時被一個 process 使用。
+do { entry_section(); // critical section  exit_section(); // remainder section while (true);  Mutual Excusion Progress (Freedom from Deadlock) Bounded Wait (Freedom from Starvation)   preemptive: 資源被使用時可以被打斷 non-preemptive  Peterson&amp;rsquo;s Solution class PetersonLock { // shared var.  bool flag[2]; int victim; public: void lock() { int i = ThreadID.get(); int j = 1 - i; flag[i] = true; victim = i; while (flag[j] &amp;amp;&amp;amp; victim == i); } void unlock() { int i = ThreadID.</description>
+    </item>
+    
     <item>
       <title>2020/12/02 日記</title>
       <link>https://Luke2336.github.io/p/20201202/</link>
