@@ -6,7 +6,17 @@
     <description>Recent content in 電路學 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Dec 2020 10:16:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 15:29:08 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>電路學第 14 章</title>
+      <link>https://Luke2336.github.io/p/circuit_ch14/</link>
+      <pubDate>Wed, 30 Dec 2020 15:29:08 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/circuit_ch14/</guid>
+      <description>CH14 這章用 Frequency Domain 來討論電路學，主要的重點有以下幾個：
+ Frequency &amp;amp; Magnitude Responce Bode Plots Resonance, Half-Power Freq., Quality Factor Filter: Lowpass, Highpass, Bandpass, Bandstop Magnitude &amp;amp; Frequency Scaling  </description>
+    </item>
+    
     <item>
       <title>2020/12/17 日記</title>
       <link>https://Luke2336.github.io/p/20201217/</link>
