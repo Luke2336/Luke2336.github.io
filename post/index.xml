@@ -6,7 +6,28 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 21:21:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 11:59:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder Educational DP Contest</title>
+      <link>https://Luke2336.github.io/p/atcoder_education_dp/</link>
+      <pubDate>Mon, 04 Jan 2021 11:59:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/atcoder_education_dp/</guid>
+      <description>AtCoder Educational DP Contest  [於 Feb, 2020 完成]
+這套從簡到難的 DP 題組，有不少經典題，很適合照順序刷。 開始刷了之後，才發現自己實力的不足，有幾題想了很久還是想不出來，只好去翻別人的解答。刷完發現 code 都不長，狀態也不難列，但轉移式都要想很久。
+ A. Frog 1 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 int N; scanf(&amp;#34;%d&amp;#34;, &amp;amp;N); 5 int dp[2] = {}, a[2] = {}; 6 scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a[1], &amp;amp;a[0]); 7 dp[0] = abs(a[1] - a[0]); 8 for (int i = 3; i &amp;lt;= N; i++) { 9 int x; scanf(&amp;#34;%d&amp;#34;,&amp;amp;x); 10 dp[i % 2] = min(dp[i % 2] + abs(x - a[i % 2]), 11 dp[(i + 1) % 2] + abs(x - a[(i + 1) % 2])); 12 a[i % 2] = x; 13 } 14 printf(&amp;#34;%d\n&amp;#34;, dp[N % 2]); 15 return 0; 16}  B.</description>
+    </item>
+    
+    <item>
+      <title>2021/01/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210104/</link>
+      <pubDate>Mon, 04 Jan 2021 11:58:39 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210104/</guid>
+      <description>為了寫 OS 功課，下午去計中想試著裝 Ubuntu，但因為記憶體只有 1GB，所以根本不可能。最後想了一下，應該只需要用 Linux 就可以完成功課了，但是用工作站的 Linux 卻抓不到 Kernel Header。心累～
+很開心 nini 學妹下午從台北回來時，買了蛋糕給我吃。</description>
+    </item>
+    
     <item>
       <title>2021/01/03 日記</title>
       <link>https://Luke2336.github.io/p/20210103/</link>

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Dec 2020 15:29:08 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 11:59:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder</title>
+      <link>https://Luke2336.github.io/tags/atcoder/</link>
+      <pubDate>Mon, 04 Jan 2021 11:59:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/tags/atcoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://Luke2336.github.io/tags/code/</link>
+      <pubDate>Mon, 04 Jan 2021 11:59:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>course</title>
       <link>https://Luke2336.github.io/tags/course/</link>
@@ -85,24 +103,6 @@
       <pubDate>Wed, 23 Dec 2020 10:18:18 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/tags/idea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AtCoder</title>
-      <link>https://Luke2336.github.io/tags/atcoder/</link>
-      <pubDate>Sat, 19 Dec 2020 22:03:36 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/tags/atcoder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>https://Luke2336.github.io/tags/code/</link>
-      <pubDate>Sat, 19 Dec 2020 22:03:36 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/tags/code/</guid>
       <description></description>
     </item>
     

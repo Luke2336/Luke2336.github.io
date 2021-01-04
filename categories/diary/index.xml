@@ -6,7 +6,17 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 21:21:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 11:58:39 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210104/</link>
+      <pubDate>Mon, 04 Jan 2021 11:58:39 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210104/</guid>
+      <description>為了寫 OS 功課，下午去計中想試著裝 Ubuntu，但因為記憶體只有 1GB，所以根本不可能。最後想了一下，應該只需要用 Linux 就可以完成功課了，但是用工作站的 Linux 卻抓不到 Kernel Header。心累～
+很開心 nini 學妹下午從台北回來時，買了蛋糕給我吃。</description>
+    </item>
+    
     <item>
       <title>2021/01/03 日記</title>
       <link>https://Luke2336.github.io/p/20210103/</link>
