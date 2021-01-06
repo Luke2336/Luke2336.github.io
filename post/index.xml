@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 11:59:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 13:35:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210105/</link>
+      <pubDate>Tue, 05 Jan 2021 13:35:28 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210105/</guid>
+      <description>早上很想睡，但還是去上了電路學。今天是教如何在 s-domain 下用 Laplace Transform 解電路，比較需要注意的就是 Initial Condition 的部分。
+下午為了寫 OS 作業，所以裝了 TA 提供的 Ubuntu VM。這是我第一次裝 Linux，平常只有比賽的時候會使用 Linux。
+晚餐前注意到含羞草開花了。
+晚上去上了電路學的助教課，結果只有我一個人去，有個女生十幾分鐘就說身體不舒服離開了。結束時和助教隨口聊了一下天，才知道他大學是讀清大。
+在 VirtualBox 裝 Ubuntu  在官網下載 VirtualBox-6.1.16-140961-OSX.dmg。  點擊 VirtualBox.pkg 安裝。 下載 TA 提供的 Ubuntu-18.04 VM 使用 VB 匯入 Ubuntu-VM.ovf。  啟動 VM，將需要用到的 Terminal 和 gedit 拉到左邊。   含羞草開花 不知道是不是因為最近太冷了，加上給的水少，所以就長出花苞了。有一個好像已經謝了，看了一下網路上的文章，他開花到凋謝的時間大概五六小時，希望有機會能看到花。</description>
+    </item>
+    
     <item>
       <title>AtCoder Educational DP Contest</title>
       <link>https://Luke2336.github.io/p/atcoder_education_dp/</link>
@@ -25,7 +38,8 @@
       
       <guid>https://Luke2336.github.io/p/20210104/</guid>
       <description>為了寫 OS 功課，下午去計中想試著裝 Ubuntu，但因為記憶體只有 1GB，所以根本不可能。最後想了一下，應該只需要用 Linux 就可以完成功課了，但是用工作站的 Linux 卻抓不到 Kernel Header。心累～
-很開心 nini 學妹下午從台北回來時，買了蛋糕給我吃。</description>
+很開心 nini 學妹下午從台北回來時，買了蛋糕給我吃。
+洗完澡後，吃了吐司抹果醬當晚餐。</description>
     </item>
     
     <item>
