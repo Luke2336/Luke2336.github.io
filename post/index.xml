@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 13:35:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jan 2021 10:28:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/06 日記</title>
+      <link>https://Luke2336.github.io/p/20210106/</link>
+      <pubDate>Wed, 06 Jan 2021 10:28:28 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210106/</guid>
+      <description>昨天下腹不舒服，花了一段時間才入睡。早上躺到十點才起床，中間醒來了兩次。
+醒來後就開始寫作業，有了進度後就去買了雞腿便當吃，然後把韓劇「我的女友是九尾狐」看完，雖然國小時已經看過一遍，但最近突然想重溫一下。
+之後把 HW2 的 PartI-1 寫完，主要是把函式的參數做修正，使兩隻程式的 shmget 回傳的 id 是一樣的。午睡起床後寫了 PartII。
+晚餐吃了壽司，肚子略略不舒服，吃了阿德比之後就好了。
+OS HW2  學會用 shmget() 和 shmat() 使兩個 processes 共享記憶體。  shmget() 的參數要注意，兩個程式的 key 值要是一樣的正整數。而 shmflg 的值則是建立記憶體的那隻程式設為 IPC_CREAT|0666，另一隻設 0。   PartII 是要把兩個 pointer 的 page table 指向同一個 physical address。重點是用 cr3 和 virtual_address 取得 page_table_address。  </description>
+    </item>
+    
     <item>
       <title>2021/01/05 日記</title>
       <link>https://Luke2336.github.io/p/20210105/</link>
