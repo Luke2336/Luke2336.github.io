@@ -6,7 +6,33 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Jan 2021 14:39:43 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2021 22:03:11 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder Regular Contest 111</title>
+      <link>https://Luke2336.github.io/p/atcoder_arc111/</link>
+      <pubDate>Sat, 09 Jan 2021 22:03:11 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/atcoder_arc111/</guid>
+      <description>因為 pA 卡住，所以慘慘的 QAQ
+掉了 31 分到 1685。
+AtCoder Regular Contest 111 A. Simple Math 2 題意 $$1 \leq n \leq 10^{18}, 1 \leq m \leq 10^4, \text{find }\lfloor \frac{10^n}{m}\rfloor \mod m.$$
+解法  求 (10 ** n) % (m * m) // m。 紀錄餘數的循環節。 卡題原因：  忘記循環不一定從一開始。 用了 unordered_map 判斷餘數是否出現過導致 TLE，換成 array 就變很快了。    Code 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4#define pb push_back 5int s[100000008]; 6int main() { 7 ll n, m, mm; 8 cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m; 9 mm = m * m; 10 ll r, d = 1; 11 vector&amp;lt;int&amp;gt; v; // 紀錄餘數 12 for (int i = 0; i &amp;lt;= n; i++) { 13 r = d % mm; 14 if (s[r] || (i &amp;amp;&amp;amp; r == v[0])) break; 15 s[r] = i; 16 v.</description>
+    </item>
+    
+    <item>
+      <title>2021/01/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210109/</link>
+      <pubDate>Sat, 09 Jan 2021 22:02:20 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210109/</guid>
+      <description>昨天 11 點前就睡了，但還是睡到 10 點半左右，因為真的很冷。隊友們都去幫忙監考某考試了。
+早餐吃了麵包，然後今天看了好幾集卡通「烘焙王」。
+重新算了電路學 CH11 的作業，為期末考做準備。
+下午吃了麥當勞，今天的薯條超鹹，然後又被找下去吃了蛋捲冰淇淋。
+晚上打了 AtCoder 的 ARC 111，但還是覺得今天太廢了，肯定是上週作業壓力太大，連續趕了三份 OS 作業，所以今天就放鬆到開始耍廢。
+AtCoder Regular Contest 111 打得慘慘的，掉了 31 分！</description>
+    </item>
+    
     <item>
       <title>2021/01/08 日記</title>
       <link>https://Luke2336.github.io/p/20210108/</link>
@@ -19,9 +45,10 @@
 房間的濕度約為 65%，溫度則為 15 度左右。但外面似乎已經到 8 度了，超級冷的。穿了羽絨衣跟襪子，但還是手腳冰冷。
 開始複習電路學期末，下午讀了第 15 和 16 章，有關 Laplace 的部分，也自己導了 Initial/Final-Value Theorem。
 看到 Slack 有人說 CSES 增加題目了，於是想起自己還剩一堆沒刷，就開了一題恢復手感。
+借了 HW2 的 Code 給雙曲線參考，順便讓他幫我跑一下，不然我一直無法解決找不到 /dev/os 的問題，沒想到晚上他告訴我，在他那邊跑是對的，真是太好了！
 晚上吃了麻油雞麵，暖暖身體。飯後看了電影「爺爺與貓」。
 CSES - 2189 - Point Location Test 基礎的幾何題。
-1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, ll&amp;gt; point; 5#define x first 6#define y second 7ll check(point p[]) { 8 ll dx = p[1].x - p[0].x, dy = p[1].</description>
+1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, ll&amp;gt; point; 5#define x first 6#define y second 7ll check(point p[]) { 8 ll dx = p[1].</description>
     </item>
     
     <item>
