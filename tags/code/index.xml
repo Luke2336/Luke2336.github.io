@@ -6,7 +6,24 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 11:59:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 14:39:43 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/08 日記</title>
+      <link>https://Luke2336.github.io/p/20210108/</link>
+      <pubDate>Fri, 08 Jan 2021 14:39:43 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210108/</guid>
+      <description>早上難得的吃了早餐，去提款機提錢，順便在旁邊買三明治吃，泡了柚子茶喝。
+用 Virtualbox 的設定，多掛載了 1GB 的記憶體給 Ubuntu VM，於是多出了一個 /dev/sdb 可以切。然後早上就順利把 HW3 做完了。
+中午吃了麥當勞，點了玉米湯，在宿舍泡伯爵茶一直冷掉。
+房間的濕度約為 65%，溫度則為 15 度左右。但外面似乎已經到 8 度了，超級冷的。穿了羽絨衣跟襪子，但還是手腳冰冷。
+開始複習電路學期末，下午讀了第 15 和 16 章，有關 Laplace 的部分，也自己導了 Initial/Final-Value Theorem。
+看到 Slack 有人說 CSES 增加題目了，於是想起自己還剩一堆沒刷，就開了一題恢復手感。
+晚上吃了麻油雞麵，暖暖身體。飯後看了電影「爺爺與貓」。
+CSES - 2189 - Point Location Test 基礎的幾何題。
+1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, ll&amp;gt; point; 5#define x first 6#define y second 7ll check(point p[]) { 8 ll dx = p[1].x - p[0].x, dy = p[1].</description>
+    </item>
+    
     <item>
       <title>AtCoder Educational DP Contest</title>
       <link>https://Luke2336.github.io/p/atcoder_education_dp/</link>
