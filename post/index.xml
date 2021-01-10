@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Jan 2021 22:03:11 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 19:28:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210110/</link>
+      <pubDate>Sun, 10 Jan 2021 19:28:14 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210110/</guid>
+      <description>今天還是很冷，有點過敏，一直流鼻水。也因此大部分的時間都被我混過去，什麼事都沒有好好做，大概只有洗衣服和算了一點點電路學，主要是 Laplace 的部分，發現自己大部分都會，只是不夠熟練。
+決定早點去睡，很難得不到八點就去睡，書沒讀到預定進度其實有點恐慌，但身體舒服點再讀會更有效率。
+結果 12 點剛過就醒了，睡不到 4 小時。去全家買了宵夜吃，練完了電路學 15、16 章的習題。
+Toggl 這是三週的讀書時間，邁入期末週後明顯時間上升不少，很多時間都耗在 OS 上面，因為之前一直放生它。電路學就是每週固定有點進度，其他幾科都在 12 月底結束了。很開心最近用功的時間持續上升，雖然一旦少做點事就有點緊張。</description>
+    </item>
+    
     <item>
       <title>AtCoder Regular Contest 111</title>
       <link>https://Luke2336.github.io/p/atcoder_arc111/</link>
