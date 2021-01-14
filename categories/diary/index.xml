@@ -6,7 +6,29 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Jan 2021 13:50:46 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 10:36:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/13 日記</title>
+      <link>https://Luke2336.github.io/p/20210113/</link>
+      <pubDate>Wed, 13 Jan 2021 10:36:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210113/</guid>
+      <description>早上被某學長約出去圖書館教他演算法，結果因為他說頭暈想吐就被放鴿子了。之後就在圖書館，寫 OS HW4，但還是卡住做不出來，問了彥彤，結果他還沒開始做。
+中午吃了水餃，心情悶悶的，就在宿舍寫 Blog，把修課心得搬到這邊。
+晚上去了 PCCA 聚餐，吃忠孝路的「海水屋」，隊友非常喜歡吃金沙豆腐，大部分的菜我覺得吃起來都不好吃，份量也有點少。隊友的作業好像也還剩不少。
+OS HW4 - Meltdown  Meltdown: Reading Kernel Memory from User Space，網路上有看到中文翻譯。  </description>
+    </item>
+    
+    <item>
+      <title>2021/01/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210112/</link>
+      <pubDate>Tue, 12 Jan 2021 14:56:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210112/</guid>
+      <description>今天考完了電路學期末考，於是想開始進入寒假狀態，已經有了一些想做的事。
+Todo List  期末的作業們  OS HW4 電路學 Final Project   寒假  競程  PCCA 寒訓 CSES 題單   德文  DW Learn German   Blog  目錄 修課心得 日記      OS HW4 - Meltdown  要在能特定的 CPU 上才能 Meltdown，大部分 Intel 的 CPU 都可以。 Meltdown  現代的 CPU 多透過 Pipeline 去執行指令，當其中某些較快的指令執行完畢後，就會發出 Out-of-order Exception。再 CPU 處理 Exception 前，資料會先從 Register 複製到 Cache。 Meltdown 透過某些指令將 Cache 裡的東西搬到 User Mode 能存取的記憶體裡。    </description>
+    </item>
+    
     <item>
       <title>2021/01/11 日記</title>
       <link>https://Luke2336.github.io/p/20210111/</link>

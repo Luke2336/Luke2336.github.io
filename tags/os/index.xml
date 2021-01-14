@@ -6,7 +6,17 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jan 2021 10:28:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jan 2021 14:56:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210112/</link>
+      <pubDate>Tue, 12 Jan 2021 14:56:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210112/</guid>
+      <description>今天考完了電路學期末考，於是想開始進入寒假狀態，已經有了一些想做的事。
+Todo List  期末的作業們  OS HW4 電路學 Final Project   寒假  競程  PCCA 寒訓 CSES 題單   德文  DW Learn German   Blog  目錄 修課心得 日記      OS HW4 - Meltdown  要在能特定的 CPU 上才能 Meltdown，大部分 Intel 的 CPU 都可以。 Meltdown  現代的 CPU 多透過 Pipeline 去執行指令，當其中某些較快的指令執行完畢後，就會發出 Out-of-order Exception。再 CPU 處理 Exception 前，資料會先從 Register 複製到 Cache。 Meltdown 透過某些指令將 Cache 裡的東西搬到 User Mode 能存取的記憶體裡。    </description>
+    </item>
+    
     <item>
       <title>2021/01/06 日記</title>
       <link>https://Luke2336.github.io/p/20210106/</link>

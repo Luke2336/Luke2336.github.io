@@ -6,7 +6,51 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Jan 2021 13:50:46 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 12:21:15 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交大修課心得</title>
+      <link>https://Luke2336.github.io/p/course_nctu/</link>
+      <pubDate>Wed, 13 Jan 2021 12:21:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/course_nctu/</guid>
+      <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
+ 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織   計算理論  基礎圖論 演算法概論 隨機演算法 高等演算法   其他選修  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論     電機  電子學（一） 電子實驗（一）   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學     外文  大一英文（一）    修課建議  微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</description>
+    </item>
+    
+    <item>
+      <title>2021/01/13 日記</title>
+      <link>https://Luke2336.github.io/p/20210113/</link>
+      <pubDate>Wed, 13 Jan 2021 10:36:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210113/</guid>
+      <description>早上被某學長約出去圖書館教他演算法，結果因為他說頭暈想吐就被放鴿子了。之後就在圖書館，寫 OS HW4，但還是卡住做不出來，問了彥彤，結果他還沒開始做。
+中午吃了水餃，心情悶悶的，就在宿舍寫 Blog，把修課心得搬到這邊。
+晚上去了 PCCA 聚餐，吃忠孝路的「海水屋」，隊友非常喜歡吃金沙豆腐，大部分的菜我覺得吃起來都不好吃，份量也有點少。隊友的作業好像也還剩不少。
+OS HW4 - Meltdown  Meltdown: Reading Kernel Memory from User Space，網路上有看到中文翻譯。  </description>
+    </item>
+    
+    <item>
+      <title>[DW-A1] Hallo!</title>
+      <link>https://Luke2336.github.io/p/dw_a1_hallo/</link>
+      <pubDate>Tue, 12 Jan 2021 16:06:58 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/dw_a1_hallo/</guid>
+      <description>Hallo! Grammar Formal 正式的會握手。
+ Guten Tag, Frau Kamp!
+     時間     Guten Morgen! ~ 11:00   Guten Tag! 11:00 ~ 18:00   Gutne Abend! 18:00 ~    Informal  Hallo, Tom!
+  Hey! Hi! Tach! Na?      Region     Servus! Austria (informal)   Früß Gott! Southern Germany and Austria   Grüezi!</description>
+    </item>
+    
+    <item>
+      <title>2021/01/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210112/</link>
+      <pubDate>Tue, 12 Jan 2021 14:56:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210112/</guid>
+      <description>今天考完了電路學期末考，於是想開始進入寒假狀態，已經有了一些想做的事。
+Todo List  期末的作業們  OS HW4 電路學 Final Project   寒假  競程  PCCA 寒訓 CSES 題單   德文  DW Learn German   Blog  目錄 修課心得 日記      OS HW4 - Meltdown  要在能特定的 CPU 上才能 Meltdown，大部分 Intel 的 CPU 都可以。 Meltdown  現代的 CPU 多透過 Pipeline 去執行指令，當其中某些較快的指令執行完畢後，就會發出 Out-of-order Exception。再 CPU 處理 Exception 前，資料會先從 Register 複製到 Cache。 Meltdown 透過某些指令將 Cache 裡的東西搬到 User Mode 能存取的記憶體裡。    </description>
+    </item>
+    
     <item>
       <title>2021/01/11 日記</title>
       <link>https://Luke2336.github.io/p/20210111/</link>
