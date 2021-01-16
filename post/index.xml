@@ -6,15 +6,29 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 15:29:40 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 21:38:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[DW] ABC</title>
-      <link>https://Luke2336.github.io/p/dw_abc/</link>
-      <pubDate>Thu, 14 Jan 2021 15:29:40 +0800</pubDate>
+      <title>2021/01/16 日記</title>
+      <link>https://Luke2336.github.io/p/20210116/</link>
+      <pubDate>Sat, 16 Jan 2021 21:38:53 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/dw_abc/</guid>
-      <description>ABC A/a    German English     die Ananas pineapple   die Paprika bell pepper   Stift 原子筆    N/n    German English     die Nase nose   die Banane(n) banana     Ich brauche 9 Bananen, aber ich habe nur eine Banane.
- I/i    German English     die Information information   die Musik music     Ich liebe Musik.</description>
+      <guid>https://Luke2336.github.io/p/20210116/</guid>
+      <description>今天仍然五點半就自然醒了，之後七點半又醒了一次，最後睡到九點半。左腳有點發炎，喉嚨右側也有點發炎。
+台中行 中午跟朋友去台中玩，有台中人帶就是不一樣，以前覺得台中很無聊。先去了台中女中附近逛街，喝了春水堂的紅茶凍飲。然後去了第一市場附近，走了電子街，去了幸發亭吃蜜豆冰，覺得這種冰很特別，加了很多種水果。之後去了台中都會公園看夕陽，晚上去文心路吃港式飲茶，覺得油雞和葡式蛋塔超級好吃。
+寒假 TODO 新增了幾個想做的事，希望能讓寒假充實一點。
+ 學 Kotlin 寫自己的 Codebook 寫完 CSES 大部分的題目 複習機率、線性代數  </description>
+    </item>
+    
+    <item>
+      <title>2021/01/15 日記</title>
+      <link>https://Luke2336.github.io/p/20210115/</link>
+      <pubDate>Fri, 15 Jan 2021 15:17:37 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210115/</guid>
+      <description>早上有點失眠，在床上躺了一陣子才起床。打扮了一下之後，去清大走了走，賞梅。
+晚餐吃了璽子牛肉麵，之後開始寫水題。因為有點累，所以十一點前就睡了。
+CSES - 2191 - Polygon Area 給一個簡單多邊形，輸出面積的兩倍。
+1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4typedef long long ll; 5typedef pair&amp;lt;ll, ll&amp;gt; pii; 6#define x first 7#define y second 8#define pb push_back 9ll det(vector&amp;lt;pii&amp;gt; &amp;amp;p, int n) { 10 ll cnt = 0; 11 for (int i = 0; i &amp;lt; n; i++) 12 cnt += p[i].x * p[i + 1].y - p[i + 1].x * p[i].y; 13 return (cnt &amp;gt; 0) ?</description>
     </item>
     
     <item>
