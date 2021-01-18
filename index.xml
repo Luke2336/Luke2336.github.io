@@ -6,7 +6,47 @@
         <description>Recent content on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 16 Jan 2021 21:38:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Jan 2021 03:02:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2021/01/18 日記</title>
+        <link>https://Luke2336.github.io/p/20210118/</link>
+        <pubDate>Mon, 18 Jan 2021 03:02:24 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210118/</guid>
+        <description>&lt;p&gt;今天起床後吃了雞腿蛋包飯，然後和蘇于討論電路學的專題，之後去買需要的材料，為了鐵粉，我們決定買暖暖包，結果找遍了清夜及交大的每家店都缺貨。晚餐吃了六扇門，發現小吃部在整修。&lt;/p&gt;
+&lt;p&gt;晚上躺了一下之後，就去洗了澡，然後用 Kotlin 寫了 AtCoder 的水題。&lt;/p&gt;
+&lt;p&gt;結果衣服還沒洗，星期三就要回家了 QAQ&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/01/17 日記</title>
+        <link>https://Luke2336.github.io/p/20210117/</link>
+        <pubDate>Sun, 17 Jan 2021 16:41:41 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210117/</guid>
+        <description>&lt;p&gt;花了不少時間才起床，買了麥當勞，看完了烘焙王。&lt;/p&gt;
+&lt;p&gt;之後就開始研究怎樣才能讓之後寫 Kotlin 比較方便，改了 bashrc，建立了 &lt;code&gt;oj&lt;/code&gt; 指令支援 .cpp / .py / .kt 三種副檔名。&lt;/p&gt;
+&lt;p&gt;傍晚研究了 Kotlin 的 Tutorial，然後吃了雞腿便當，一邊看了小時候看的甄嬛傳。&lt;/p&gt;
+&lt;h2 id=&#34;bashrc&#34;&gt;/.bashrc&lt;/h2&gt;
+&lt;p&gt;將雙曲線寫好的 bashrc 增加了 Kotlin 的指令。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;oj&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;ext&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##*.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;filename&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##*/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;filename&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;filename&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;%.*&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$ext&lt;/span&gt; in
+        cpp &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; g++ -o &lt;span class=&#34;s2&#34;&gt;&amp;#34;/tmp/&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$filename&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/tmp/&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$filename&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+        py  &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; python3 &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+        kt  &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; kotlinc &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -include-runtime -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$filename&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;.jar 
+              &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; java -jar &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$filename&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;.jar
+              &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$filename&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;.jar &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;esac&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;使用方式&#34;&gt;使用方式&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;$ oj 1.cpp
+$ oj 2.kt
+$ oj 3.py
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
         <title>2021/01/16 日記</title>
         <link>https://Luke2336.github.io/p/20210116/</link>
         <pubDate>Sat, 16 Jan 2021 21:38:53 +0800</pubDate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kotlin on Luke&#39;s Blog</title>
+    <link>https://Luke2336.github.io/tags/kotlin/</link>
+    <description>Recent content in Kotlin on Luke&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 16:41:41 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/17 日記</title>
+      <link>https://Luke2336.github.io/p/20210117/</link>
+      <pubDate>Sun, 17 Jan 2021 16:41:41 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210117/</guid>
+      <description>花了不少時間才起床，買了麥當勞，看完了烘焙王。
+之後就開始研究怎樣才能讓之後寫 Kotlin 比較方便，改了 bashrc，建立了 oj 指令支援 .cpp / .py / .kt 三種副檔名。
+傍晚研究了 Kotlin 的 Tutorial，然後吃了雞腿便當，一邊看了小時候看的甄嬛傳。
+/.bashrc 將雙曲線寫好的 bashrc 增加了 Kotlin 的指令。
+oj() { ext=${1##*.} filename=${1##*/} filename=${filename%.*} case $ext in cpp ) g++ -o &amp;#34;/tmp/$filename&amp;#34; &amp;#34;$1&amp;#34; &amp;amp;&amp;amp; &amp;#34;/tmp/$filename&amp;#34; ;; py ) python3 &amp;#34;$1&amp;#34; ;; kt ) kotlinc &amp;#34;$1&amp;#34; -include-runtime -d &amp;#34;$filename&amp;#34;.jar &amp;amp;&amp;amp; java -jar &amp;#34;$filename&amp;#34;.jar &amp;amp;&amp;amp; rm &amp;#34;$filename&amp;#34;.jar ;; esac } 使用方式 $ oj 1.cpp $ oj 2.kt $ oj 3.</description>
+    </item>
+    
+  </channel>
+</rss>
