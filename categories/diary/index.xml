@@ -6,7 +6,30 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jan 2021 03:02:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 23:12:56 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/20 日記</title>
+      <link>https://Luke2336.github.io/p/20210120/</link>
+      <pubDate>Wed, 20 Jan 2021 23:12:56 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210120/</guid>
+      <description>因為口腔靠近喉嚨的部分痛了好幾天，所以去看了學校的醫生，然後醫生認為是智齒發炎。覺得有點煩，畢竟要去看牙醫很麻煩，要先預約，然後又要痛個好幾天。
+晚上吃了烤雞和冰淇淋，但心情還是很煩悶。
+Kattis - Printing Costs 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main () { 4 string s = &amp;#34; !\&amp;#34;#$%&amp;amp;\&amp;#39;()*+,-./0123456789:;&amp;lt;=&amp;gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~&amp;#34;; 5 int a[] = {0, 9, 6, 24, 29, 22, 6 24, 3, 12, 12 ,17, 13, 7 7, 7, 4, 10, 22, 19, 8 22, 23, 21, 27, 26, 16, 9 23, 26, 8, 11, 10, 14, 10 10, 15, 32, 24, 29, 20, 11 26, 26, 20, 25, 25, 18, 12 18, 21, 16, 28, 25, 26, 13 23, 31, 28, 25, 16, 23, 14 19, 26, 18, 14, 22, 18, 15 10, 18, 7, 8, 3, 23, 16 25, 17, 25, 23, 18, 30, 17 21, 15, 20, 21, 16, 22, 18 18, 20, 25, 25, 13, 21, 19 17, 17, 13, 19, 13, 24, 20 19, 18, 12, 18, 9 }; 21 ios::sync_with_stdio(0); cin.</description>
+    </item>
+    
+    <item>
+      <title>2021/01/19 日記</title>
+      <link>https://Luke2336.github.io/p/20210119/</link>
+      <pubDate>Wed, 20 Jan 2021 23:03:17 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210119/</guid>
+      <description>下午簡略的弄了電路期末專題。晚上收到老師的信，結果電路期末又不及格了，星期四下午要補考，原本預計星期三中午要回基隆 QAQ
+晚上卡車勾了題目，於是就刷了兩題。
+Kattis - Tic Tac Toe 給定一個 3x3 的棋盤，問是不是合法的。
+1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3 4bool check(char t[3][4]) { 5 for (int i = 0; i &amp;lt; 3; i++) { 6 if (t[i][0] != &amp;#39;.&amp;#39; &amp;amp;&amp;amp; t[i][0] == t[i][1] 7 &amp;amp;&amp;amp; t[i][1] == t[i][2]) return false; 8 if (t[0][i] != &amp;#39;.&amp;#39; &amp;amp;&amp;amp; t[0][i] == t[1][i] 9 &amp;amp;&amp;amp; t[1][i] == t[2][i]) return false; 10 } 11 if (t[0][0] != &amp;#39;.&amp;#39; &amp;amp;&amp;amp; t[0][0] == t[1][1] 12 &amp;amp;&amp;amp; t[1][1] == t[2][2]) return false; 13 if (t[0][2] !</description>
+    </item>
+    
     <item>
       <title>2021/01/18 日記</title>
       <link>https://Luke2336.github.io/p/20210118/</link>
