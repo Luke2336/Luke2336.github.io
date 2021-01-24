@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 01:16:13 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 14:34:01 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/24 日記</title>
+      <link>https://Luke2336.github.io/p/20210124/</link>
+      <pubDate>Sun, 24 Jan 2021 14:34:01 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210124/</guid>
+      <description>雙曲線說他最近很忙，沒空用寒訓的東西，也沒空對練，讓我覺得壓力有些大。
+看到 Google Code Jam to I/O for Women 2021 開放註冊了，但是辦在 2/13 23:00，應該沒得打了 QAQ
+晚餐原本想吃炸雞腿，但今天沒賣，於是只吃了豬肉丼。之後很餓便把夏天冰的百香果拿出來吃，然後又下去全家買了雞肉義大利麵。
+下午在寫寒假作業，已經寫到 17 題了，但離 100 題好遙遠。
+ Kattis - Almost Union-Find Kattis - Thank God it’s Friday Kattis - Natrij Kattis - Semafori Kattis - Triple Texting Kattis - Functional Fun Kattis - Timebomb  Kattis - Almost Union-Find 1 ≤ n, m ≤ 1e5，有三種操作：
+ 1 p q 代表將 p 和 q 所屬的集合合併。 2 p q 代表將 p 移到 q 所屬的集合。 3 p 為查詢 p 所屬集合大小及元素和。  操作 2 較難處理，方法為創出新的節點，並將元素指向新的節點。</description>
+    </item>
+    
     <item>
       <title>2021/01/23 日記</title>
       <link>https://Luke2336.github.io/p/20210123/</link>
@@ -127,7 +141,7 @@ CSES - 2191 - Polygon Area 給一個簡單多邊形，輸出面積的兩倍。
       <pubDate>Thu, 14 Jan 2021 14:25:28 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/dw_a1_kein_problem/</guid>
-      <description>Kein Problem!    German  English     das Restaurant die Restaurants restaurant   das Hotel die Hotels hotel   das Theater die Theater theater   das Konzert die Konzerte concert   das Museum die Mussen museum   der Supermarkt die Supermärkte supermarket   die Bank die Banken bank   die Flughafen die Flughäfen airport   der Pilot die Piloten pilot   die Pilotin die Pilotinen pilot   das Büro die Büros office   das Kino die Kinos movie theater   die Toilette die Toiletten toilet   das Zentrum die Zentren downtown, city center   die Universität die Universitäten university, college   der Student die Studenten student   die Studentin die Studentinen student   die Familie die Familien family       German  English     Taxi     der Bus die Busse bus   die Gitarre die Gitarren guitar   das Hobby die Hobbys hobby   die Musik  music   der Sport  sports   die Kultur  culture   die E-Mail die E-Mails e-mail   das Telefon die Telefone telephone   der Computer die Computer computer   der Kaffee die Kaffees coffee   die Pizza die Pizzen/Pizzas pizza    die Spaghetti spaghetti   das Problem die Probleme problem   die Information  Information       German English     bitte please   Kein Problem No problem       German  English     studieren studiert, studierte to study in an university    </description>
+      <description>Kein Problem!    German  English     das Restaurant die Restaurants restaurant   das Hotel die Hotels hotel   das Theater die Theater theater   das Konzert die Konzerte concert   das Museum die Mussen museum   der Supermarkt die Supermärkte supermarket   die Bank die Banken bank   die Flughafen die Flughäfen airport   der Pilot die Piloten pilot   die Pilotin die Pilotinnen pilot   das Büro die Büros office   das Kino die Kinos movie theater   die Toilette die Toiletten toilet   das Zentrum die Zentren downtown, city center   die Universität die Universitäten university, college   der Student die Studenten student   die Studentin die Studentinen student   die Familie die Familien family       German  English     Taxi     der Bus die Busse bus   die Gitarre die Gitarren guitar   das Hobby die Hobbys hobby   die Musik  music   der Sport  sports   die Kultur  culture   die E-Mail die E-Mails e-mail   das Telefon die Telefone telephone   der Computer die Computer computer   der Kaffee die Kaffees coffee   die Pizza die Pizzen/Pizzas pizza    die Spaghetti spaghetti   das Problem die Probleme problem   die Information  Information       German English     bitte please   Kein Problem No problem       German  English     studieren studiert, studierte to study in an university    </description>
     </item>
     
     <item>
