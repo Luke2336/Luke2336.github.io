@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 14:34:01 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 13:38:47 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/25 日記</title>
+      <link>https://Luke2336.github.io/p/20210125/</link>
+      <pubDate>Mon, 25 Jan 2021 13:38:47 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210125/</guid>
+      <description>OS 的總成績出來了，被調了 7 分左右。
+晚餐吃了將軍村的「翟九」紅燒牛肉麵，覺得價位偏高，但肉質偏祡，湯味略苦，不合胃口。
+圖書館 早上去圖書館還書，順便借了幾本書。
+含羞草開花 含羞草開花了，但看到時已經謝了一半。
+系羽 下午 14:00 - 15:40 去舊館打球，覺得退步滿多的。去的人不多，只有五六個，打了幾場雙打。但也能趁現在改一下打球的風格，後場除了切球，還多試了長球。
+導師 打完球後去請導師簽文件，順便聊了一個鐘頭。有問了一下有沒有推薦的機率論，老師推薦了 Ross 的 Introduction to Probability Models，老師還多借了另一本書給我讀。
+Kattis - Average Speed 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int T(string s) { 4 int h = (s[0] - &amp;#39;0&amp;#39;) * 10 + s[1] - &amp;#39;0&amp;#39;; 5 int m = (s[3] - &amp;#39;0&amp;#39;) * 10 + s[4] - &amp;#39;0&amp;#39;; 6 int ss = (s[6] - &amp;#39;0&amp;#39;) * 10 + s[7] - &amp;#39;0&amp;#39;; 7 return (h * 60 + m) * 60 + ss; 8} 9void input(string s, int &amp;amp;op, int &amp;amp;speed, int &amp;amp;time) { 10 stringstream ss; 11 ss.</description>
+    </item>
+    
     <item>
       <title>2021/01/24 日記</title>
       <link>https://Luke2336.github.io/p/20210124/</link>
