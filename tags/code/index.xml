@@ -6,7 +6,21 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 13:38:47 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 10:38:26 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/26 日記</title>
+      <link>https://Luke2336.github.io/p/20210126/</link>
+      <pubDate>Tue, 26 Jan 2021 10:38:26 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210126/</guid>
+      <description>看到德文一的成績出來了，拿了 A，可能是期末考考差了，希望下學期的德文二能拼到 A+。
+上週四從家裡寄限時信，結果今天都還沒到宿舍。
+早餐吃了燻雞蛋土司，午餐吃了麥當勞。下午寫了題，然後讀了代數的第一章，是在講同餘系，還有用輾轉相除法求解同餘方程式。
+晚上吃了火鍋。
+筆記 - 近世代數 Toggl 上週主要都在學 kotlin 和寫 PCCA 的寒假作業，希望寒假能恢復實作的能力。
+Kattis Kattis - The Dragon of Loowater 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main () { 4 int n, m; 5 while (cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m) { 6 if (!n &amp;amp;&amp;amp; !m) break; 7 vector&amp;lt;int&amp;gt; a(n), b(m); 8 for (int i = 0; i &amp;lt; n; i++) cin &amp;gt;&amp;gt; a[i]; 9 for (int i = 0; i &amp;lt; m; i++) cin &amp;gt;&amp;gt; b[i]; 10 sort(a.</description>
+    </item>
+    
     <item>
       <title>2021/01/25 日記</title>
       <link>https://Luke2336.github.io/p/20210125/</link>
