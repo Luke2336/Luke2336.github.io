@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 12:01:22 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 10:06:55 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/28 日記</title>
+      <link>https://Luke2336.github.io/p/20210128/</link>
+      <pubDate>Fri, 29 Jan 2021 10:06:55 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210128/</guid>
+      <description>早上洗個澡後，中午去隊練，結果 LinLee 又遲到一小時，真是的！
+晚餐吃了烤雞和冰淇淋，覺得很開心。 之後因為練習很累就早睡了。
+隊練 今天和 LinLee 和 LnadyLu 進行對練，打了 CF GYM 102785 - ICPC Central Russia Regional Contest (CRRC 18)。
+我寫了 pB，還有想了 pG 的轉移式。我很早就想出 pG 的狀態，LinLee 幫我想了轉移時的複雜度，不過要處理運算式很麻煩就是了，於是交給 LandyLu。
+LandyLu 自己解了不少偏向找規律的題目。
+   Problem  Solver     A 水題 LinLee   B BFS Kelly   C String LinLee   D     E Math Landy   F     G DP, String Landy, LinLee, Kelly   H 構造 Landy   I     J DP LinLee   K      pB.</description>
+    </item>
+    
     <item>
       <title>2021/01/27 日記</title>
       <link>https://Luke2336.github.io/p/20210127/</link>
