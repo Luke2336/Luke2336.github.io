@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jan 2021 16:29:26 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 11:00:15 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course</title>
+      <link>https://Luke2336.github.io/categories/course/</link>
+      <pubDate>Sun, 31 Jan 2021 11:00:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/categories/course/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Diary</title>
       <link>https://Luke2336.github.io/categories/diary/</link>
@@ -26,29 +35,11 @@
     </item>
     
     <item>
-      <title>Dairy</title>
-      <link>https://Luke2336.github.io/categories/dairy/</link>
-      <pubDate>Thu, 28 Jan 2021 12:01:22 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/categories/dairy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>German</title>
       <link>https://Luke2336.github.io/categories/german/</link>
       <pubDate>Thu, 14 Jan 2021 14:25:28 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/categories/german/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Course</title>
-      <link>https://Luke2336.github.io/categories/course/</link>
-      <pubDate>Wed, 13 Jan 2021 12:21:15 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/categories/course/</guid>
       <description></description>
     </item>
     
