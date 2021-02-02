@@ -6,7 +6,22 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 12:05:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 10:17:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/01/31 日記</title>
+      <link>https://Luke2336.github.io/p/20210131/</link>
+      <pubDate>Sun, 31 Jan 2021 10:17:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210131/</guid>
+      <description>早上去吃早餐，順便摸了小黑白。
+刷了一些 Zerojudge 的水題。
+ e948 e968 e926 f070 f345  更新了修課心得。
+傍晚去餵小乖，順便跟廟旁邊的小貓玩。
+晚餐吃了魚，還有卦菜雞。
+有點進入放假倦怠期&amp;hellip;
+Kattis - Firefly 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4int main() { 5 ios::sync_with_stdio(0), cin.tie(0); 6 int n, h; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; h; 7 vector&amp;lt;int&amp;gt; a(n); 8 for (int i = 0; i &amp;lt; n; i++) cin &amp;gt;&amp;gt; a[i]; 9 vector&amp;lt;int&amp;gt; even(h + 1), odd(h + 1); 10 for (int i = 0; i &amp;lt; n; i += 2) 11 even[a[i]]++, odd[a[i + 1]]++; 12 for (int i = h - 2; i &amp;gt;= 1; i--) 13 even[i] += even[i + 1], odd[i] += odd[i + 1]; 14 int ans = n, cnt = 0; 15 for (int i = 1; i &amp;lt;= h; i++) { 16 int sum = odd[h - i + 1] + even[i]; 17 if (sum &amp;lt; ans) ans = sum, cnt = 1; 18 else if (sum == ans) cnt++; 19 } 20 cout &amp;lt;&amp;lt; ans &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; cnt &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 21 return 0; 22}  </description>
+    </item>
+    
     <item>
       <title>Longest Common Increasing Subsequence(LCIS)</title>
       <link>https://Luke2336.github.io/p/lcis/</link>
