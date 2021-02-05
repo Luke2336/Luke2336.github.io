@@ -6,7 +6,32 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Feb 2021 10:19:00 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 17:42:09 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210204/</link>
+      <pubDate>Thu, 04 Feb 2021 17:42:09 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210204/</guid>
+      <description>早上在清夜吃完永和豆漿後，就搭豪泰去北車，下高速公路時遇到車禍，塞了很久，下車的地點換到轉運站裡，之後就到館前路的台灣銀行開戶。
+開戶完之後，就去北一女找老師，等老師下班的時間，看了樂儀旗的練習。之後一起去了館前路的「咖啡弄」吃了午餐，覺得還滿棒的！之後我們到北門附近散步，逛了一些歷史建築，之後就各自回去了。
+在北車地下街逛了誠品，覺得頭有點昏，回到新竹後覺得很累。
+回宿舍後讀了德文，晚上去忠孝路的大潤發吃了烤雞，等了很久才出餐。
+開戶 - 台灣銀行館前分行  雙證件、印章、$1000 大概花 30 分鐘，官方說法是 40 分鐘。我隔壁的先生連 email 都沒有，感覺就要弄很久。 量完體溫後，保全會問你要辦什麼，說要開戶，就直接拿到號碼牌，完全不用等，就直接被叫號了。 會問職業，還有確認是否要在那家分行開戶，之後就一直簽名。 要下載兩個手機 app（強迫推銷），「台灣銀行」和「台灣行動支付」，行員會讓你在製作卡片時自己做這件事。結果行員聽到我沒用過行動支付，她似乎很訝異。 網銀要回家自己更換密碼開通。回去後發現自己的讀卡機不支援 macOS，一整個慘，之後回基隆再弄。  台北記憶倉庫 是日治時代留下的三井物產的倉庫，裡面有小酒吧，有賣一些精釀啤酒，還有一些歷史介紹。
+台博館鐵道部 因為要收門票，就沒有進去參觀了。</description>
+    </item>
+    
+    <item>
+      <title>2021/02/03 日記</title>
+      <link>https://Luke2336.github.io/p/20210203/</link>
+      <pubDate>Wed, 03 Feb 2021 14:10:52 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210203/</guid>
+      <description>心情不太好，懶懶散散的不想做任何事。
+Code zerojudge:
+ c303 c304  CSES 2195 - Convex Hull  這題是要求在凸包上的所有點，所以 cross() &amp;lt; 0 才需要拔掉。 cross 的部分要記得開 long long，不然會溢位。  1// monotone chain 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4struct point { 5 long long x, y; 6 point() {} 7 point(long long _x, long long _y) { x = _x, y = _y;} 8 point operator-(const point p) { 9 return point(x - p.x, y - p.y); 10 } 11 long long cross(const point &amp;amp;p) { 12 return x * p.</description>
+    </item>
+    
     <item>
       <title>2021/02/02 日記</title>
       <link>https://Luke2336.github.io/p/20210202/</link>
