@@ -6,7 +6,27 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 17:42:09 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 20:11:59 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/06 日記</title>
+      <link>https://Luke2336.github.io/p/20210206/</link>
+      <pubDate>Sat, 06 Feb 2021 20:11:59 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210206/</guid>
+      <description>今天去動物園玩，直接搭遊園車從鳥園站開始走，花了近五個小時，除了爬蟲館和貓熊館以外幾乎都有參觀到，還看了新的穿山甲館。比較喜歡的動物有小貓熊、狐獴、無尾熊等等。
+晚上在北車二樓吃飯，然後搭自強號回去，下車時不小心開了駕駛室的門，超囧。</description>
+    </item>
+    
+    <item>
+      <title>2021/02/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210205/</link>
+      <pubDate>Fri, 05 Feb 2021 09:38:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210205/</guid>
+      <description>下午吃了草莓加煉乳，晚餐去博愛吃了牛肉麵，然後耍廢看了一部電影。
+Kattis - Alphabet 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main () { 4 string s; cin &amp;gt;&amp;gt; s; 5 int dp[30][55] = {}; 6 for (int i = 0; i &amp;lt; 26; i++) 7 for (int j = 0; s[j]; j++) 8 if (s[j] == i + &amp;#39;a&amp;#39;) 9 dp[i + 1][j + 1] = dp[i][j] + 1; 10 else 11 dp[i + 1][j + 1] = max(dp[i][j + 1], dp[i + 1][j]); 12 cout &amp;lt;&amp;lt; 26 - dp[26][s.</description>
+    </item>
+    
     <item>
       <title>2021/02/04 日記</title>
       <link>https://Luke2336.github.io/p/20210204/</link>
