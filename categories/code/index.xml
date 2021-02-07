@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 12:05:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 14:08:22 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS Command Line Note</title>
+      <link>https://Luke2336.github.io/p/mac_cmd/</link>
+      <pubDate>Sun, 07 Feb 2021 14:08:22 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/mac_cmd/</guid>
+      <description>常用指令    command 用途     clear clear terminal window   ls list directory content   ls -a 將隱藏檔案也列出   cd change directory to home   cd .. change directory to parent   cd - change directory to last working directory   cd / change directory to root   pwd print working directory   rm file_name remove file   mkdir dir_name make directory   rmdir dir_name remove directory   rm -R dir_name remove the directory and all files in the directory   cp -R A B 將 A 資料夾的東西全部複製到 B   mv A dir_name 將 A 搬到資料夾   cat file_name 查看內容   grep text file_name 抓取內容    </description>
+    </item>
+    
     <item>
       <title>Longest Common Increasing Subsequence(LCIS)</title>
       <link>https://Luke2336.github.io/p/lcis/</link>

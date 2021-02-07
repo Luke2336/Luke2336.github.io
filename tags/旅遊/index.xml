@@ -6,7 +6,20 @@
     <description>Recent content in 旅遊 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Feb 2021 20:11:59 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 12:44:00 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/07 日記</title>
+      <link>https://Luke2336.github.io/p/20210207/</link>
+      <pubDate>Sun, 07 Feb 2021 12:44:00 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210207/</guid>
+      <description>今天左下腹有些不舒服，頭也悶悶痛痛的，在車上一直睡。
+zerojudge:
+ e507 e513 a782 a780 b112  馬崗 五色鳥、喜鵲巢。
+石頭屋的貓。
+蜜月灣 Kattis - Walrus Weights 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main () { 4 ios::sync_with_stdio(0), cin.tie(0); 5 int n; cin &amp;gt;&amp;gt; n; 6 bool dp[2005] = {true}; 7 for (int i = 0; i &amp;lt; n; i++) { 8 int x; cin &amp;gt;&amp;gt; x; 9 for (int j = 2000; j &amp;gt;= x; j--) 10 dp[j] = dp[j] | dp[j - x]; 11 } 12 for (int i = 0; i &amp;lt;= 1000; i++) 13 if (dp[1000 + i]) { 14 cout &amp;lt;&amp;lt; 1000 + i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 15 return 0; 16 } else if (dp[1000 - i]) { 17 cout &amp;lt;&amp;lt; 1000 - i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 18 return 0; 19 } 20 return 0; 21}  </description>
+    </item>
+    
     <item>
       <title>2021/02/06 日記</title>
       <link>https://Luke2336.github.io/p/20210206/</link>
@@ -14,7 +27,9 @@
       
       <guid>https://Luke2336.github.io/p/20210206/</guid>
       <description>今天去動物園玩，直接搭遊園車從鳥園站開始走，花了近五個小時，除了爬蟲館和貓熊館以外幾乎都有參觀到，還看了新的穿山甲館。比較喜歡的動物有小貓熊、狐獴、無尾熊等等。
-晚上在北車二樓吃飯，然後搭自強號回去，下車時不小心開了駕駛室的門，超囧。</description>
+晚上在北車二樓吃飯，然後搭自強號回去，下車時不小心開了駕駛室的門，超囧。
+zerojudge 滿 500 題了 www
+ e473 e196 e466 d925 d810 a158 d813  </description>
     </item>
     
     <item>
