@@ -253,7 +253,7 @@
         <pubDate>Sun, 07 Feb 2021 12:44:00 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210207/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210207/sea.jpg" alt="Featured image of post 2021/02/07 日記" /&gt;&lt;p&gt;今天左下腹有些不舒服，頭也悶悶痛痛的，在車上一直睡。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210207/sea.jpg" alt="Featured image of post 2021/02/07 日記" /&gt;&lt;p&gt;今天左下腹有些不舒服，頭也悶悶痛痛的，在車上一直睡。&lt;/p&gt;
 &lt;p&gt;zerojudge:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;e507&lt;/li&gt;
@@ -264,13 +264,13 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;馬崗&#34;&gt;馬崗&lt;/h2&gt;
 &lt;p&gt;五色鳥、喜鵲巢。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210207/bird.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210207/net.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210207/bird.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210207/net.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;石頭屋的貓。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210207/cat1.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210207/cat2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210207/cat1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210207/cat2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;蜜月灣&#34;&gt;蜜月灣&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210207/sea.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210207/sea.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;kattis---walrus-weightshttpsopenkattiscomproblemswalrusweights&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.kattis.com/problems/walrusweights&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kattis - Walrus Weights&lt;/a&gt;&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
@@ -323,8 +323,8 @@
         <pubDate>Fri, 05 Feb 2021 09:38:23 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210205/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210205/%E8%8D%89%E8%8E%93.jpg" alt="Featured image of post 2021/02/05 日記" /&gt;&lt;p&gt;下午吃了草莓加煉乳，晚餐去博愛吃了牛肉麵，然後耍廢看了一部電影。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210205/%e8%8d%89%e8%8e%93.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210205/%E8%8D%89%E8%8E%93.jpg" alt="Featured image of post 2021/02/05 日記" /&gt;&lt;p&gt;下午吃了草莓加煉乳，晚餐去博愛吃了牛肉麵，然後耍廢看了一部電影。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210205/%e8%8d%89%e8%8e%93.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;kattis---alphabethttpsopenkattiscomproblemsalphabet&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.kattis.com/problems/alphabet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kattis - Alphabet&lt;/a&gt;&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
@@ -350,7 +350,7 @@
         <pubDate>Thu, 04 Feb 2021 17:42:09 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210204/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210204/1.jpg" alt="Featured image of post 2021/02/04 日記" /&gt;&lt;p&gt;早上在清夜吃完永和豆漿後，就搭豪泰去北車，下高速公路時遇到車禍，塞了很久，下車的地點換到轉運站裡，之後就到館前路的台灣銀行開戶。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210204/1.jpg" alt="Featured image of post 2021/02/04 日記" /&gt;&lt;p&gt;早上在清夜吃完永和豆漿後，就搭豪泰去北車，下高速公路時遇到車禍，塞了很久，下車的地點換到轉運站裡，之後就到館前路的台灣銀行開戶。&lt;/p&gt;
 &lt;p&gt;開戶完之後，就去北一女找老師，等老師下班的時間，看了樂儀旗的練習。之後一起去了館前路的「咖啡弄」吃了午餐，覺得還滿棒的！之後我們到北門附近散步，逛了一些歷史建築，之後就各自回去了。&lt;/p&gt;
 &lt;p&gt;在北車地下街逛了誠品，覺得頭有點昏，回到新竹後覺得很累。&lt;/p&gt;
 &lt;p&gt;回宿舍後讀了德文，晚上去忠孝路的大潤發吃了烤雞，等了很久才出餐。&lt;/p&gt;
@@ -369,7 +369,7 @@
 &lt;h2 id=&#34;台博館鐵道部httpswwwgooglecomtwmapsplacee59c8be7ab8be887bae781a3e58d9ae789a9e9a4a8e990b5e98193e983a82504771921215102433176zdata4m121m63m51s0x3442a9862c7ba8010xad75309a1c2ed0d82z6ie65yyx6kiy5oa25ycj5bqr8m23d2504769624d12151242833m41s0x3442a90d9b7d59650xcd93d5794fea5e368m23d2504875384d1215109482hlzh-twauthuser0&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.google.com.tw/maps/place/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%8D%9A%E7%89%A9%E9%A4%A8%E9%90%B5%E9%81%93%E9%83%A8/@25.0477192,121.5102433,17.6z/data=!4m12!1m6!3m5!1s0x3442a9862c7ba801:0xad75309a1c2ed0d8!2z6Ie65YyX6KiY5oa25YCJ5bqr!8m2!3d25.0476962!4d121.5124283!3m4!1s0x3442a90d9b7d5965:0xcd93d5794fea5e36!8m2!3d25.0487538!4d121.5109482?hl=zh-TW&amp;amp;authuser=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;台博館鐵道部&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;因為要收門票，就沒有進去參觀了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210204/2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210204/2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -449,8 +449,8 @@
         <pubDate>Tue, 02 Feb 2021 10:19:00 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210202/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210202/cat.jpg" alt="Featured image of post 2021/02/02 日記" /&gt;&lt;p&gt;早上妹妹翻肚肚給我看。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210202/cat.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210202/cat.jpg" alt="Featured image of post 2021/02/02 日記" /&gt;&lt;p&gt;早上妹妹翻肚肚給我看。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210202/cat.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;練習用 Python 解水題。&lt;/p&gt;
 &lt;p&gt;zerojedge 水題：&lt;/p&gt;
 &lt;ul&gt;
@@ -497,7 +497,7 @@
         <pubDate>Sun, 31 Jan 2021 11:00:15 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/course_nctu/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/%E4%BA%A4%E5%A4%A7%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/G0.png" alt="Featured image of post 交大修課心得" /&gt;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/%E4%BA%A4%E5%A4%A7%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/G0.png" alt="Featured image of post 交大修課心得" /&gt;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
 &lt;p&gt;這邊的分類不代表開課系所，只是用課的性質去歸納。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;物理
@@ -593,12 +593,12 @@
 &lt;p&gt;數位電路設計 → 數位電路實驗 → 計算機組織 → 作業系統&lt;/p&gt;
 &lt;p&gt;離散數學、資料結構、機率 → 演算法 → GPE&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1071.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1072.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1081.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1082.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1083.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1091.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1071.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1072.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1081.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1082.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1083.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1091.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;物理&#34;&gt;物理&lt;/h2&gt;
 &lt;h3 id=&#34;物理一二榮譽班英文班&#34;&gt;物理（一）、（二）榮譽班（英文班）&lt;/h3&gt;
 &lt;ul&gt;
@@ -1093,7 +1093,7 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/eelab2.png&#34; alt=&#34;&#34;  /&gt; &lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/eelab1.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/eelab2.png&#34; alt=&#34;&#34;  /&gt; &lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/eelab1.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;電路學英文班&#34;&gt;電路學（英文班）&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;授課助教：生醫 蔡德明&lt;/li&gt;
@@ -1158,13 +1158,13 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
     &gt;AMA 軟體&lt;/a&gt;（PPT外掛）進行造型繪製。內容包含對稱、碎形、錯覺等等，上課教的很扎實，設計的過程不只對圖形構造的方法更了解，也能學到如何利用工具提升自己的工作速度，避免一再重複一樣的操作，是一門滿有意義的課。老師準備要退休了，真難過。&lt;/li&gt;
 &lt;li&gt;期末專題是以繪本的方式呈現，至少 25 頁，我做了大約 30 小時，但最後總成績卻還是 A 而已。平常的作業我花的時間大約 5 小時，但認識某資工大神每次花 10 小時做作業，自認不如人家。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g1.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g2.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g3.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g4.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g5.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g6.png&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g7.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g1.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g2.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g3.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g4.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g5.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g6.png&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g7.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;校基本---統計方法與資料分析&#34;&gt;校基本 - 統計方法與資料分析&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;授課老師：唐麗英&lt;/li&gt;
@@ -1367,7 +1367,7 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
         <pubDate>Fri, 29 Jan 2021 12:03:58 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210129/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210129/algebra1.jpg" alt="Featured image of post 2021/01/29 日記" /&gt;&lt;ul&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210129/algebra1.jpg" alt="Featured image of post 2021/01/29 日記" /&gt;&lt;ul&gt;
 &lt;li&gt;弄了寒訓的題單，研究了 LCIS。&lt;/li&gt;
 &lt;li&gt;研究轉系，發現歷年轉入資工大三的人極少。推測可能是因為需要修完必修，而必修不好加簽？&lt;/li&gt;
 &lt;li&gt;晚上跟導師和師母去靠近東門那區吃飯。&lt;/li&gt;
@@ -1397,7 +1397,7 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
 &lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;筆記---近世代數&#34;&gt;筆記 - 近世代數&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210129/algebra1.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210129/algebra1.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1406,12 +1406,12 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
         <pubDate>Fri, 29 Jan 2021 10:06:55 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210128/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210128/Dashboard.png" alt="Featured image of post 2021/01/28 日記" /&gt;&lt;p&gt;早上洗個澡後，中午去隊練，結果 LinLee 又遲到一小時，真是的！&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210128/Dashboard.png" alt="Featured image of post 2021/01/28 日記" /&gt;&lt;p&gt;早上洗個澡後，中午去隊練，結果 LinLee 又遲到一小時，真是的！&lt;/p&gt;
 &lt;p&gt;晚餐吃了烤雞和冰淇淋，覺得很開心。 之後因為練習很累就早睡了。&lt;/p&gt;
 &lt;h2 id=&#34;隊練&#34;&gt;隊練&lt;/h2&gt;
 &lt;p&gt;今天和 LinLee 和 LnadyLu 進行對練，打了 &lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/gym/102785&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CF GYM 102785 - ICPC Central Russia Regional Contest (CRRC 18)&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210128/Standing.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210128/Standing.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;我寫了 pB，還有想了 pG 的轉移式。我很早就想出 pG 的狀態，LinLee 幫我想了轉移時的複雜度，不過要處理運算式很麻煩就是了，於是交給 LandyLu。&lt;/p&gt;
 &lt;p&gt;LandyLu 自己解了不少偏向找規律的題目。&lt;/p&gt;
 &lt;table&gt;
@@ -1647,11 +1647,11 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
 &lt;p&gt;早餐吃了燻雞蛋土司，午餐吃了麥當勞。下午寫了題，然後讀了代數的第一章，是在講同餘系，還有用輾轉相除法求解同餘方程式。&lt;/p&gt;
 &lt;p&gt;晚上吃了火鍋。&lt;/p&gt;
 &lt;h2 id=&#34;筆記---近世代數&#34;&gt;筆記 - 近世代數&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210126/algebra1.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210126/algebra2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/Diary/20210126/algebra1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/Diary/20210126/algebra2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;toggl&#34;&gt;Toggl&lt;/h2&gt;
 &lt;p&gt;上週主要都在學 kotlin 和寫 PCCA 的寒假作業，希望寒假能恢復實作的能力。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210126/toggl.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/Diary/20210126/toggl.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;kattis&#34;&gt;Kattis&lt;/h2&gt;
 &lt;h3 id=&#34;kattis---the-dragon-of-loowaterhttpsopenkattiscomproblemsloowater&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.kattis.com/problems/loowater&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kattis - The Dragon of Loowater&lt;/a&gt;&lt;/h3&gt;
@@ -1804,11 +1804,11 @@ Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
         <pubDate>Mon, 25 Jan 2021 13:38:47 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210125/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210125/flower.jpg" alt="Featured image of post 2021/01/25 日記" /&gt;&lt;p&gt;OS 的總成績出來了，被調了 7 分左右。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210125/flower.jpg" alt="Featured image of post 2021/01/25 日記" /&gt;&lt;p&gt;OS 的總成績出來了，被調了 7 分左右。&lt;/p&gt;
 &lt;p&gt;晚餐吃了將軍村的「翟九」紅燒牛肉麵，覺得價位偏高，但肉質偏祡，湯味略苦，不合胃口。&lt;/p&gt;
 &lt;h2 id=&#34;圖書館&#34;&gt;圖書館&lt;/h2&gt;
 &lt;p&gt;早上去圖書館還書，順便借了幾本書。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210125/book.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210125/book.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;含羞草開花&#34;&gt;含羞草開花&lt;/h2&gt;
 &lt;p&gt;含羞草開花了，但看到時已經謝了一半。&lt;/p&gt;
 &lt;h2 id=&#34;系羽&#34;&gt;系羽&lt;/h2&gt;
@@ -2946,7 +2946,7 @@ $ oj 3.py
         <pubDate>Fri, 15 Jan 2021 15:17:37 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210115/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210115/%E6%A2%85.jpg" alt="Featured image of post 2021/01/15 日記" /&gt;&lt;p&gt;早上有點失眠，在床上躺了一陣子才起床。打扮了一下之後，去清大走了走，賞梅。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210115/%E6%A2%85.jpg" alt="Featured image of post 2021/01/15 日記" /&gt;&lt;p&gt;早上有點失眠，在床上躺了一陣子才起床。打扮了一下之後，去清大走了走，賞梅。&lt;/p&gt;
 &lt;p&gt;晚餐吃了璽子牛肉麵，之後開始寫水題。因為有點累，所以十一點前就睡了。&lt;/p&gt;
 &lt;h2 id=&#34;cses---2191---polygon-areahttpscsesfiproblemsettask2191&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://cses.fi/problemset/task/2191&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CSES - 2191 - Polygon Area&lt;/a&gt;&lt;/h2&gt;
@@ -2978,33 +2978,33 @@ $ oj 3.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;清華踏青&#34;&gt;清華踏青&lt;/h2&gt;
 &lt;p&gt;天氣很好，於是就搭小紅巴出去走走。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210115/map.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/map.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;第二招待所&#34;&gt;第二招待所&lt;/h3&gt;
 &lt;p&gt;去二招吃印度料理，被老闆娘說很久沒看到我，今天生意相對比較好的樣子。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e4%ba%8c%e6%8b%9b.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e4%ba%8c%e6%8b%9b.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;梅園&#34;&gt;梅園&lt;/h3&gt;
 &lt;p&gt;第一次在梅花開的時候過去，上次去是秋天某次滿月和電資系羽的一個學長去夜遊。梅花開的很茂盛，賞花的人也絡繹不絕，剛剛在二招吃飯的一桌老人們也在這邊。有很多蜜蜂在採蜜，有一株有結了三顆梅子，看起來很好吃。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e6%a2%85.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e6%a2%855.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e6%a2%852.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e6%a2%853.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e6%a2%854.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/flower3.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e6%a2%85%e5%9c%92.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e6%a2%85.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e6%a2%855.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e6%a2%852.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e6%a2%853.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e6%a2%854.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/flower3.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e6%a2%85%e5%9c%92.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;相思湖&#34;&gt;相思湖&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210115/lake.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/lake.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;蝴蝶園&#34;&gt;蝴蝶園&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210115/Butterfly.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/Butterfly2.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/flower1.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/plant.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/flower2.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e8%8d%b7%e8%8a%b1.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/Butterfly.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/Butterfly2.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/flower1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/plant.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/flower2.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e8%8d%b7%e8%8a%b1.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;台積館&#34;&gt;台積館&lt;/h3&gt;
 &lt;p&gt;發現了一條蝴蝶園通往台積館的小徑，就從南大門走回交大，然後在石園發現了三隻五色鳥。之後買了蛋捲冰淇淋就回宿舍休息了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210115/road.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e4%ba%94%e8%89%b2%e9%b3%a5.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20210115/%e5%8d%97%e5%a4%a7%e9%96%80.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/road.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e4%ba%94%e8%89%b2%e9%b3%a5.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210115/%e5%8d%97%e5%a4%a7%e9%96%80.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3557,12 +3557,12 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Sun, 10 Jan 2021 19:28:14 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210110/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210110/toggl.png" alt="Featured image of post 2021/01/10 日記" /&gt;&lt;p&gt;今天還是很冷，有點過敏，一直流鼻水。也因此大部分的時間都被我混過去，什麼事都沒有好好做，大概只有洗衣服和算了一點點電路學，主要是 Laplace 的部分，發現自己大部分都會，只是不夠熟練。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210110/toggl.png" alt="Featured image of post 2021/01/10 日記" /&gt;&lt;p&gt;今天還是很冷，有點過敏，一直流鼻水。也因此大部分的時間都被我混過去，什麼事都沒有好好做，大概只有洗衣服和算了一點點電路學，主要是 Laplace 的部分，發現自己大部分都會，只是不夠熟練。&lt;/p&gt;
 &lt;p&gt;決定早點去睡，很難得不到八點就去睡，書沒讀到預定進度其實有點恐慌，但身體舒服點再讀會更有效率。&lt;/p&gt;
 &lt;p&gt;結果 12 點剛過就醒了，睡不到 4 小時。去全家買了宵夜吃，練完了電路學 15、16 章的習題。&lt;/p&gt;
 &lt;h2 id=&#34;toggl&#34;&gt;Toggl&lt;/h2&gt;
 &lt;p&gt;這是三週的讀書時間，邁入期末週後明顯時間上升不少，很多時間都耗在 OS 上面，因為之前一直放生它。電路學就是每週固定有點進度，其他幾科都在 12 月底結束了。很開心最近用功的時間持續上升，雖然一旦少做點事就有點緊張。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210110/toggl.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210110/toggl.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3571,9 +3571,9 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Sat, 09 Jan 2021 22:03:11 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/atcoder_arc111/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/AtCoder_ARC111/Task.png" alt="Featured image of post AtCoder Regular Contest 111" /&gt;&lt;p&gt;因為 pA 卡住，所以慘慘的 QAQ&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/AtCoder_ARC111/Task.png" alt="Featured image of post AtCoder Regular Contest 111" /&gt;&lt;p&gt;因為 pA 卡住，所以慘慘的 QAQ&lt;/p&gt;
 &lt;p&gt;掉了 31 分到 1685。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/AtCoder_ARC111/AtCoder_ARC111.md&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Other/AtCoder_ARC111/AtCoder_ARC111.md&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;atcoder-regular-contest-111httpsatcoderjpcontestsarc111&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/arc111&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;AtCoder Regular Contest 111&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;a-simple-math-2&#34;&gt;A. Simple Math 2&lt;/h2&gt;
@@ -3719,7 +3719,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Fri, 08 Jan 2021 14:39:43 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210108/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210108/movie.jpg" alt="Featured image of post 2021/01/08 日記" /&gt;&lt;p&gt;早上難得的吃了早餐，去提款機提錢，順便在旁邊買三明治吃，泡了柚子茶喝。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210108/movie.jpg" alt="Featured image of post 2021/01/08 日記" /&gt;&lt;p&gt;早上難得的吃了早餐，去提款機提錢，順便在旁邊買三明治吃，泡了柚子茶喝。&lt;/p&gt;
 &lt;p&gt;用 Virtualbox 的設定，多掛載了 1GB 的記憶體給 Ubuntu VM，於是多出了一個 &lt;code&gt;/dev/sdb&lt;/code&gt; 可以切。然後早上就順利把 HW3 做完了。&lt;/p&gt;
 &lt;p&gt;中午吃了麥當勞，點了玉米湯，在宿舍泡伯爵茶一直冷掉。&lt;/p&gt;
 &lt;p&gt;房間的濕度約為 65%，溫度則為 15 度左右。但外面似乎已經到 8 度了，超級冷的。穿了羽絨衣跟襪子，但還是手腳冰冷。&lt;/p&gt;
@@ -3761,7 +3761,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
 &lt;p&gt;導演是岩合光昭，他在 NHK 有電視節目&lt;a class=&#34;link&#34; href=&#34;https://www4.nhk.or.jp/nekoaruki/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;岩合光昭的貓步走世界（岩合光昭の世界ネコ歩き）&lt;/a&gt;，好想看！！&lt;/p&gt;
 &lt;p&gt;故事是描述在小島上面的老爺爺老奶奶們和貓咪的故事，主角是小玉和阿吉爺爺。查了一下是由漫畫改編。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210108/movie.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210108/movie.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3805,7 +3805,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Tue, 05 Jan 2021 13:35:28 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210105/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210105/flower.jpg" alt="Featured image of post 2021/01/05 日記" /&gt;&lt;p&gt;早上很想睡，但還是去上了電路學。今天是教如何在 s-domain 下用 Laplace Transform 解電路，比較需要注意的就是 Initial Condition 的部分。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210105/flower.jpg" alt="Featured image of post 2021/01/05 日記" /&gt;&lt;p&gt;早上很想睡，但還是去上了電路學。今天是教如何在 s-domain 下用 Laplace Transform 解電路，比較需要注意的就是 Initial Condition 的部分。&lt;/p&gt;
 &lt;p&gt;下午為了寫 OS 作業，所以裝了 TA 提供的 Ubuntu VM。這是我第一次裝 Linux，平常只有比賽的時候會使用 Linux。&lt;/p&gt;
 &lt;p&gt;晚餐前注意到含羞草開花了。&lt;/p&gt;
 &lt;p&gt;晚上去上了電路學的助教課，結果只有我一個人去，有個女生十幾分鐘就說身體不舒服離開了。結束時和助教隨口聊了一下天，才知道他大學是讀清大。&lt;/p&gt;
@@ -3813,18 +3813,18 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
 &lt;ol&gt;
 &lt;li&gt;在&lt;a class=&#34;link&#34; href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;官網&lt;/a&gt;下載 VirtualBox-6.1.16-140961-OSX.dmg。
-&lt;img src=&#34;https://Luke2336.github.io/post/20210105/1.png&#34; alt=&#34;&#34;  /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210105/1.png&#34; alt=&#34;&#34;  /&gt;&lt;/li&gt;
 &lt;li&gt;點擊 VirtualBox.pkg 安裝。&lt;/li&gt;
 &lt;li&gt;下載 TA 提供的 &lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1TDwDVUdQJ_peGHfQmmaBaPZGeQ-fXfp8/view&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ubuntu-18.04 VM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;使用 VB 匯入 Ubuntu-VM.ovf。
-&lt;img src=&#34;https://Luke2336.github.io/post/20210105/2.png&#34; alt=&#34;&#34;  /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210105/2.png&#34; alt=&#34;&#34;  /&gt;&lt;/li&gt;
 &lt;li&gt;啟動 VM，將需要用到的 Terminal 和 gedit 拉到左邊。
-&lt;img src=&#34;https://Luke2336.github.io/post/20210105/3.png&#34; alt=&#34;&#34;  /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210105/3.png&#34; alt=&#34;&#34;  /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;含羞草開花&#34;&gt;含羞草開花&lt;/h2&gt;
 &lt;p&gt;不知道是不是因為最近太冷了，加上給的水少，所以就長出花苞了。有一個好像已經謝了，看了一下網路上的文章，他開花到凋謝的時間大概五六小時，希望有機會能看到花。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20210105/flower.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210105/flower.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4712,7 +4712,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Mon, 04 Jan 2021 11:58:39 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20210104/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20210104/cake.jpg" alt="Featured image of post 2021/01/04 日記" /&gt;&lt;p&gt;為了寫 OS 功課，下午去計中想試著裝 Ubuntu，但因為記憶體只有 1GB，所以根本不可能。最後想了一下，應該只需要用 Linux 就可以完成功課了，但是用工作站的 Linux 卻抓不到 Kernel Header。心累～&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210104/cake.jpg" alt="Featured image of post 2021/01/04 日記" /&gt;&lt;p&gt;為了寫 OS 功課，下午去計中想試著裝 Ubuntu，但因為記憶體只有 1GB，所以根本不可能。最後想了一下，應該只需要用 Linux 就可以完成功課了，但是用工作站的 Linux 卻抓不到 Kernel Header。心累～&lt;/p&gt;
 &lt;p&gt;很開心 nini 學妹下午從台北回來時，買了蛋糕給我吃。&lt;/p&gt;
 &lt;p&gt;洗完澡後，吃了吐司抹果醬當晚餐。&lt;/p&gt;
 </description>
@@ -4767,7 +4767,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Wed, 30 Dec 2020 15:29:08 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/circuit_ch14/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/circuit_ch14/filter.jpg" alt="Featured image of post 電路學第 14 章" /&gt;&lt;h2 id=&#34;ch14&#34;&gt;CH14&lt;/h2&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/circuit_ch14/filter.jpg" alt="Featured image of post 電路學第 14 章" /&gt;&lt;h2 id=&#34;ch14&#34;&gt;CH14&lt;/h2&gt;
 &lt;p&gt;這章用 Frequency Domain 來討論電路學，主要的重點有以下幾個：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Frequency &amp;amp; Magnitude Responce&lt;/li&gt;
@@ -4776,12 +4776,12 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
 &lt;li&gt;Filter: Lowpass, Highpass, Bandpass, Bandstop&lt;/li&gt;
 &lt;li&gt;Magnitude &amp;amp; Frequency Scaling&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/circuit_ch14/14-1.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/circuit_ch14/14-2.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/circuit_ch14/14-3.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/circuit_ch14/14-4.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/circuit_ch14/14-5.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/circuit_ch14/14-6.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Other/circuit_ch14/14-1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/circuit_ch14/14-2.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/circuit_ch14/14-3.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/circuit_ch14/14-4.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/circuit_ch14/14-5.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/circuit_ch14/14-6.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4821,7 +4821,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Mon, 28 Dec 2020 14:40:40 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/os_ch5/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/os_review/OS.jpg" alt="Featured image of post OS CH5 複習" /&gt;&lt;h1 id=&#34;ch5---process-synchronization&#34;&gt;CH5 - Process Synchronization&lt;/h1&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/os_review/OS.jpg" alt="Featured image of post OS CH5 複習" /&gt;&lt;h1 id=&#34;ch5---process-synchronization&#34;&gt;CH5 - Process Synchronization&lt;/h1&gt;
 &lt;h2 id=&#34;the-critical-section-problem&#34;&gt;The Critical-Section Problem&lt;/h2&gt;
 &lt;p&gt;有些資源只能同時被一個 process 使用。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -4995,7 +4995,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Mon, 28 Dec 2020 10:19:18 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/german1/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/German1/Mecschen.jpg" alt="Featured image of post 德文（一）筆記" /&gt;&lt;h2 id=&#34;方向--方位&#34;&gt;方向 / 方位&lt;/h2&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/German1/Mecschen.jpg" alt="Featured image of post 德文（一）筆記" /&gt;&lt;h2 id=&#34;方向--方位&#34;&gt;方向 / 方位&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -6123,7 +6123,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Mon, 28 Dec 2020 10:09:29 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/understanding_language_final_report/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/understanding_language_final_report/larynx.png" alt="Featured image of post 認識語言 期末報告" /&gt;&lt;h1 id=&#34;認識語言期末報告&#34;&gt;「認識語言」期末報告&lt;/h1&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/understanding_language_final_report/larynx.png" alt="Featured image of post 認識語言 期末報告" /&gt;&lt;h1 id=&#34;認識語言期末報告&#34;&gt;「認識語言」期末報告&lt;/h1&gt;
 &lt;p&gt;以下介紹五個我在「認識語言」下半學期學到的重點。&lt;/p&gt;
 &lt;h2 id=&#34;1-chomsky-和行為主義-behaviorism-的對立&#34;&gt;1. Chomsky 和行為主義 (Behaviorism) 的對立&lt;/h2&gt;
 &lt;p&gt;語言的學習是後天的 (nurutre)，還是天生就有的 (nuture) 學習能力？&lt;/p&gt;
@@ -6191,10 +6191,10 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Sun, 27 Dec 2020 10:21:14 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201227/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201227/Chocolate.jpg" alt="Featured image of post 2020/12/27 日記" /&gt;&lt;p&gt;中午和ㄠㄨ一起吃了麥當勞，然後在系計中唸了 OS，晚餐吃了女二樓下的丼飯。他送了我一盒巧克力，當作其中一樣聖誕禮物。晚上他回去上競程，我洗完澡後，在宿舍裡寫認識語言的期末報告。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201227/Chocolate.jpg" alt="Featured image of post 2020/12/27 日記" /&gt;&lt;p&gt;中午和ㄠㄨ一起吃了麥當勞，然後在系計中唸了 OS，晚餐吃了女二樓下的丼飯。他送了我一盒巧克力，當作其中一樣聖誕禮物。晚上他回去上競程，我洗完澡後，在宿舍裡寫認識語言的期末報告。&lt;/p&gt;
 &lt;h2 id=&#34;toggl&#34;&gt;Toggl&lt;/h2&gt;
 &lt;p&gt;用了這個軟體一週，發現用功的時間似乎有增加。發現自己雖然平常課不多，但假日還是相對會想強迫自己用功。這幾天身體相對疲憊，所以週間做的事略少。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201227/Toggl.png&#34; alt=&#34;Toggl&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201227/Toggl.png&#34; alt=&#34;Toggl&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -6216,7 +6216,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Fri, 25 Dec 2020 10:08:59 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201225/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201225/%E7%91%AA%E9%9C%B2%E9%80%A3.jpg" alt="Featured image of post 2020/12/25 日記" /&gt;&lt;p&gt;下午去找導師簽交換的文件，然後就開始做家教的投影片。傍晚悅庭來找我玩，送了我瑪露連。晚餐去吃了火鍋，生理期身體不太舒服。飯後複習了德文，然後才休息。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201225/%E7%91%AA%E9%9C%B2%E9%80%A3.jpg" alt="Featured image of post 2020/12/25 日記" /&gt;&lt;p&gt;下午去找導師簽交換的文件，然後就開始做家教的投影片。傍晚悅庭來找我玩，送了我瑪露連。晚餐去吃了火鍋，生理期身體不太舒服。飯後複習了德文，然後才休息。&lt;/p&gt;
 &lt;p&gt;晚上看了怡芬老師的貼文，被感動到，加上很想念北一女，所以就哭了。&lt;/p&gt;
 </description>
         </item>
@@ -6226,11 +6226,11 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Thu, 24 Dec 2020 14:10:19 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201224/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201224/%E8%AA%B2%E8%A1%A8.png" alt="Featured image of post 2020/12/24 日記" /&gt;&lt;p&gt;早上維持了昨夜的疲倦感，很不想做事。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201224/%E8%AA%B2%E8%A1%A8.png" alt="Featured image of post 2020/12/24 日記" /&gt;&lt;p&gt;早上維持了昨夜的疲倦感，很不想做事。&lt;/p&gt;
 &lt;p&gt;上完電路學後，複習了德文。今天電路學教 Laplace Transform。晚上跑去市區吃飯，吃了前幾天吃湯圓時看到的肉。&lt;/p&gt;
 &lt;h3 id=&#34;109-2-課表&#34;&gt;109-2 課表&lt;/h3&gt;
 &lt;p&gt;今天早上看了選課結果，不甚滿意，沒選上密碼學，也沒選上素描課，考慮再選一門 EDA 湊 15 學分。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201224/%e8%aa%b2%e8%a1%a8.png&#34; alt=&#34;課表&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201224/%e8%aa%b2%e8%a1%a8.png&#34; alt=&#34;課表&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -6264,7 +6264,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Tue, 22 Dec 2020 14:38:56 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201222/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201222/card1.jpg" alt="Featured image of post 2020/12/22 日記" /&gt;&lt;p&gt;有點煩悶，犬齒附近又咬到發炎了。很疲倦，不想做任何事。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201222/card1.jpg" alt="Featured image of post 2020/12/22 日記" /&gt;&lt;p&gt;有點煩悶，犬齒附近又咬到發炎了。很疲倦，不想做任何事。&lt;/p&gt;
 &lt;p&gt;晚上上完電路後，去吃了海洋牛排。&lt;/p&gt;
 </description>
         </item>
@@ -6274,7 +6274,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Mon, 21 Dec 2020 10:53:26 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201221/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201221/card1.jpg" alt="Featured image of post 2020/12/21 日記" /&gt;&lt;h2 id=&#34;christmas-card&#34;&gt;Christmas Card&lt;/h2&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201221/card1.jpg" alt="Featured image of post 2020/12/21 日記" /&gt;&lt;h2 id=&#34;christmas-card&#34;&gt;Christmas Card&lt;/h2&gt;
 &lt;p&gt;畫了聖誕卡片，想要送給隊友。&lt;/p&gt;
 &lt;h2 id=&#34;認識語言&#34;&gt;認識語言&lt;/h2&gt;
 &lt;p&gt;今天是最後一堂課，教了 Finate State Grammars，下週要交期末報告。&lt;/p&gt;
@@ -6374,7 +6374,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;toggl&#34;&gt;Toggl&lt;/h2&gt;
 &lt;p&gt;今天開始重新尋找計時工具，發現了這款可在裝置間同步的 APP。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201220/Toggl.jpg&#34; alt=&#34;Toggl&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201220/Toggl.jpg&#34; alt=&#34;Toggl&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -6383,7 +6383,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Sat, 19 Dec 2020 22:03:36 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/atcoder_abc186/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/AtCoder_ABC186/AtCoder_ABC186_Standing.jpg" alt="Featured image of post AtCoder Beginning Contest 186" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-186httpsatcoderjpcontestsabc186&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc186&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/AtCoder_ABC186/AtCoder_ABC186_Standing.jpg" alt="Featured image of post AtCoder Beginning Contest 186" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-186httpsatcoderjpcontestsabc186&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc186&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;AtCoder Beginning Contest 186&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;pE 讓我卡了一下，於是就掉分了。pF 想到了一個假解，浪費了不少時間。可能是因為剛打完 CF，所以狀態不好。&lt;/p&gt;
 &lt;h2 id=&#34;a-brick&#34;&gt;A. Brick&lt;/h2&gt;
@@ -6558,7 +6558,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Sat, 19 Dec 2020 19:07:58 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/cf_contest_1459/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/CF_CONTEST_1459/CF_1459_Standing.jpg" alt="Featured image of post Codeforces Round 691 Div. 2" /&gt;&lt;h1 id=&#34;codeforces-round-691-div-2httpscodeforcescomcontest1459&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/1459&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/CF_CONTEST_1459/CF_1459_Standing.jpg" alt="Featured image of post Codeforces Round 691 Div. 2" /&gt;&lt;h1 id=&#34;codeforces-round-691-div-2httpscodeforcescomcontest1459&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/contest/1459&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Codeforces Round #691 (Div. 2)&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;因為 pC 找不到 bug，就一直亂丟，於是打得超爛。Rating 加了 43 到 1695。&lt;/p&gt;
 &lt;h2 id=&#34;pa-red-blue-shuffle&#34;&gt;pA. Red-Blue Shuffle&lt;/h2&gt;
@@ -6818,7 +6818,7 @@ from User Space&lt;/a&gt;，網路上有看到中文翻譯。&lt;/li&gt;
         <pubDate>Thu, 17 Dec 2020 10:16:18 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201217/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201217/circuit_note1.jpg" alt="Featured image of post 2020/12/17 日記" /&gt;&lt;p&gt;晚餐吃了烤雞。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201217/circuit_note1.jpg" alt="Featured image of post 2020/12/17 日記" /&gt;&lt;p&gt;晚餐吃了烤雞。&lt;/p&gt;
 &lt;h2 id=&#34;資工系停修事件&#34;&gt;資工系停修事件&lt;/h2&gt;
 &lt;p&gt;學校某些重要的條文或會議記錄沒有被公開清楚，（畢竟學生會的貼文本身不具任何效益），產生各種模糊地帶，再加上行政人員不見得全在狀況內。&lt;/p&gt;
 &lt;p&gt;自己期中退選時，被課務組拿他們的價值觀來跟我說教，也覺得超不合理的。&lt;/p&gt;
@@ -6858,7 +6858,7 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
         <pubDate>Wed, 16 Dec 2020 10:20:38 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201216/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201216/CPTC001_scoreboard.jpg" alt="Featured image of post 2020/12/16 日記" /&gt;&lt;p&gt;早上上完德文課，又翹了 OS，吃完了蛋糕，讀了電路學，然後上了羽球課，洗個澡就去練習了。中午參考&lt;a class=&#34;link&#34; href=&#34;https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201216/CPTC001_scoreboard.jpg" alt="Featured image of post 2020/12/16 日記" /&gt;&lt;p&gt;早上上完德文課，又翹了 OS，吃完了蛋糕，讀了電路學，然後上了羽球課，洗個澡就去練習了。中午參考&lt;a class=&#34;link&#34; href=&#34;https://coreychen71.github.io/post/Diarys/2019-05/hugoaddgoogleanalytics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;這篇文章&lt;/a&gt;，把 Google Analytics 加到 Blog。&lt;/p&gt;
 &lt;h2 id=&#34;羽球課&#34;&gt;羽球課&lt;/h2&gt;
 &lt;p&gt;下週要考期末考，但練了一下腳步，覺得很不熟練，甚至還是不會後場的換腳，前場左邊比較跑不到點，然後回中時換另一個方向略略不順。&lt;/p&gt;
@@ -6979,7 +6979,7 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;電路學&#34;&gt;電路學&lt;/h2&gt;
 &lt;p&gt;因為不太能理解這兩個式子是怎麼推導的，所以就 Line 了老師。得到的結論是，可以透過改變兩個電流的大小，把有平方的那一項變 0，之後我們就可以推出第二個式子。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201216/Circuit_ch13p20.jpg&#34; alt=&#34;電路學問題 Ch&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201216/Circuit_ch13p20.jpg&#34; alt=&#34;電路學問題 Ch&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -6988,13 +6988,13 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
         <pubDate>Tue, 15 Dec 2020 08:17:24 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201215/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201215/umbrella.jpg" alt="Featured image of post 2020/12/15 日記" /&gt;&lt;p&gt;早上寫了投 Google 2021 Summer Intern, SWE 的履歷，然後去上電路學，期中補考勉勉強強有了 60 分，中午去科一印成績單和在學證明，因為中正堂施工不開放，但也去了郵局辦事。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201215/umbrella.jpg" alt="Featured image of post 2020/12/15 日記" /&gt;&lt;p&gt;早上寫了投 Google 2021 Summer Intern, SWE 的履歷，然後去上電路學，期中補考勉勉強強有了 60 分，中午去科一印成績單和在學證明，因為中正堂施工不開放，但也去了郵局辦事。&lt;/p&gt;
 &lt;p&gt;下午去找了 TTYeh 老師，聊了一下近況，以及助教的工作。下午寫了交換申請資料中的研修計畫，寫了兩頁半，感覺應該差不多了，主要都在花時間看課程表。&lt;/p&gt;
 &lt;p&gt;晚餐吃了自助餐，配了卡通「新神偷卡門」，然後去工五看了電路學考卷，和蘇于討論了期末專題。然後收了包裹，整理了衣櫃，收到了兩隻折傘。&lt;/p&gt;
 &lt;p&gt;整理衣服時，發現衣櫃後面藏進了一隻蟑螂，之後我就覺得好焦慮。&lt;/p&gt;
 &lt;h3 id=&#34;交換申請資料-----研修計畫簡歷表&#34;&gt;交換申請資料 &amp;mdash; 研修計畫＆簡歷表&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201215/%e7%a0%94%e4%bf%ae%e8%a8%88%e7%95%ab.jpg&#34; alt=&#34;研修計畫&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20201215/%e7%b0%a1%e6%ad%b7%e8%a1%a8.jpg&#34; alt=&#34;簡歷表&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201215/%e7%a0%94%e4%bf%ae%e8%a8%88%e7%95%ab.jpg&#34; alt=&#34;研修計畫&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201215/%e7%b0%a1%e6%ad%b7%e8%a1%a8.jpg&#34; alt=&#34;簡歷表&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -7003,7 +7003,7 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
         <pubDate>Mon, 14 Dec 2020 11:29:37 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201214/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201214/%E6%97%A9%E9%A4%90.jpg" alt="Featured image of post 2020/12/14 日記" /&gt;&lt;p&gt;早上搭車回新竹，雨很大，上車後到台北就沒雨了。從馬偕下車，然後搭小紅巴回學校。之後剪了香蜂草的枯枝病葉，還除了蟲，然後洗了衣服，吃了昨晚買的巧克力拿破崙配伯爵茶。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201214/%E6%97%A9%E9%A4%90.jpg" alt="Featured image of post 2020/12/14 日記" /&gt;&lt;p&gt;早上搭車回新竹，雨很大，上車後到台北就沒雨了。從馬偕下車，然後搭小紅巴回學校。之後剪了香蜂草的枯枝病葉，還除了蟲，然後洗了衣服，吃了昨晚買的巧克力拿破崙配伯爵茶。&lt;/p&gt;
 &lt;h2 id=&#34;pj-inverse-factorialhttpsopenkattiscomcontestsusgm6kproblemsinversefactorial&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.kattis.com/contests/usgm6k/problems/inversefactorial&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;pJ. Inverse Factorial&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -7089,19 +7089,19 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
         <pubDate>Mon, 14 Dec 2020 11:16:40 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201213/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201213/%E5%85%AB%E5%93%A51.jpg" alt="Featured image of post 2020/12/13 日記" /&gt;&lt;p&gt;回到家之後很好睡，睡了 12 小時。早上寫完電路學作業，難得的好天氣，下午就被帶去海邊看貓，晚上去礁溪吃甕仔雞和泡溫泉，在那邊遇到奇怪的蘭陽溫泉嘉年華遊行。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201213/%E5%85%AB%E5%93%A51.jpg" alt="Featured image of post 2020/12/13 日記" /&gt;&lt;p&gt;回到家之後很好睡，睡了 12 小時。早上寫完電路學作業，難得的好天氣，下午就被帶去海邊看貓，晚上去礁溪吃甕仔雞和泡溫泉，在那邊遇到奇怪的蘭陽溫泉嘉年華遊行。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;喜歡被摸屁屁的白貓&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e5%a0%a4%e9%98%b2%e7%9a%84%e7%99%bd%e8%b2%931.jpg&#34; alt=&#34;堤防上的白貓&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e7%9f%b3%e9%a0%ad%e5%b1%8b%e7%9a%84%e6%a9%98%e8%b2%931.jpg&#34; alt=&#34;石頭屋的橘貓&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e5%a0%a4%e9%98%b2%e7%9a%84%e7%99%bd%e8%b2%931.jpg&#34; alt=&#34;堤防上的白貓&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e7%9f%b3%e9%a0%ad%e5%b1%8b%e7%9a%84%e6%a9%98%e8%b2%931.jpg&#34; alt=&#34;石頭屋的橘貓&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;很愛蹭的小黑白，想抱回家。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e5%b0%8f%e9%bb%91%e7%99%bd1.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e5%b0%8f%e9%bb%91%e7%99%bd2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e5%b0%8f%e9%bb%91%e7%99%bd1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e5%b0%8f%e9%bb%91%e7%99%bd2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;以前在石頭屋遇到的小貓已經變媽媽了，生了三隻小花貓，一隻健康有問題被獸醫院收養。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e9%bb%91%e7%99%bd%e6%af%8d%e8%b2%931.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e9%bb%91%e7%99%bd%e6%af%8d%e8%b2%932.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e4%b8%89%e8%8a%b1%e5%b0%8f%e5%ad%a91.jpg&#34; alt=&#34;&#34;  /&gt;
-&lt;img src=&#34;https://Luke2336.github.io/post/20201213/%e9%bb%91%e8%b2%931.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e9%bb%91%e7%99%bd%e6%af%8d%e8%b2%931.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e9%bb%91%e7%99%bd%e6%af%8d%e8%b2%932.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e4%b8%89%e8%8a%b1%e5%b0%8f%e5%ad%a91.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201213/%e9%bb%91%e8%b2%931.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -7110,7 +7110,7 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
         <pubDate>Mon, 14 Dec 2020 11:16:34 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201212/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201212/%E6%93%8D%E5%A0%B4.jpg" alt="Featured image of post 2020/12/12 日記" /&gt;&lt;p&gt;一大早就搭別人的車，很早就到北一了，發現憲兵的制服很像警察&amp;hellip;&amp;hellip;&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201212/%E6%93%8D%E5%A0%B4.jpg" alt="Featured image of post 2020/12/12 日記" /&gt;&lt;p&gt;一大早就搭別人的車，很早就到北一了，發現憲兵的制服很像警察&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;先去資訊組和芳蘭老師聊天，遇到了湘鈴學姊。&lt;/p&gt;
 &lt;p&gt;之後去找怡芬老師，但她還在忙，於是我就先去找貽婷老師了，但只遇到進松，聊了一陣子，還拍了一張照。&lt;/p&gt;
 &lt;p&gt;去國文科看展，遇到班導，覺得學妹作品很美，作文比賽的得獎作品，文字青澀，沈重而帶有著青春的憂愁。然後也看了資訊科的展，但覺得學妹的作品不吸引人。&lt;/p&gt;
@@ -7143,7 +7143,7 @@ L_1, L_2, M \to \infty\\ k = 1 \iff M = \sqrt{L_1 L_2} \\ R_1 = R_2 = 0
         <pubDate>Thu, 10 Dec 2020 20:09:00 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201210/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201210/circiut_note_1.jpg" alt="Featured image of post 2020/12/10 日記" /&gt;&lt;p&gt;早上先去還書，之後去處理報帳，把剩下的人的電話交給助理，之後買了麥當勞吃。接下來開始動工交換要繳交的備審資料，今天下午完成了自傳中想放的簡歷表，刪刪減減後，用不到三十行就把高中大學比較重點的成績呈現出來，比當初申請大學時的簡潔。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201210/circiut_note_1.jpg" alt="Featured image of post 2020/12/10 日記" /&gt;&lt;p&gt;早上先去還書，之後去處理報帳，把剩下的人的電話交給助理，之後買了麥當勞吃。接下來開始動工交換要繳交的備審資料，今天下午完成了自傳中想放的簡歷表，刪刪減減後，用不到三十行就把高中大學比較重點的成績呈現出來，比當初申請大學時的簡潔。&lt;/p&gt;
 &lt;p&gt;之後去上電路學，今天是教電路間的磁場交互作用，提到了一些竊取晶片信用卡密碼的觀念。下課時，跟老師提了想明晚提早補考，以在週六回去參加期待多年的北一大校慶。&lt;/p&gt;
 &lt;p&gt;下課後去圖書館領預約了三個月的電路學課本，剛開學時就推薦採購，幸好在學期末前拿到手了，以後寫電路學功課就方便了。順便借了一本中文的作業系統，希望能把之前的觀念補起來。&lt;/p&gt;
 &lt;p&gt;晚上去買了自助餐吃，但好像肉夾太多了，被多收五塊錢。然後看了兩集「雲畫的月光」，算是搞笑劇，應該會當作配飯的韓劇。然後讀了一下電路學。&lt;/p&gt;
@@ -7278,7 +7278,7 @@ $$L = \frac{\omega P_1 (\tan {\theta _2} - \tan {\theta _2})}{V _{rms} ^2}$$&lt;
         <pubDate>Tue, 08 Dec 2020 16:03:04 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201208/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201208/%E5%8E%9F%E5%91%B3%E7%87%89%E5%93%81%E5%B1%8B.jpg" alt="Featured image of post 2020/12/08 日記" /&gt;&lt;p&gt;起床時就覺得很冷很不舒服，心情很悶，就又睡了一下，然後去上電路學。在宿舍時，跌下了樓梯，幸好只滑了五階左右，沒有受傷，只有腰有點痠，腳踝和膝蓋略略不適。上課時因為想吐的感覺，有點坐立不安，回宿舍後一直睡到快三點。起床後又躺到快四點，什麼東西都沒吃。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201208/%E5%8E%9F%E5%91%B3%E7%87%89%E5%93%81%E5%B1%8B.jpg" alt="Featured image of post 2020/12/08 日記" /&gt;&lt;p&gt;起床時就覺得很冷很不舒服，心情很悶，就又睡了一下，然後去上電路學。在宿舍時，跌下了樓梯，幸好只滑了五階左右，沒有受傷，只有腰有點痠，腳踝和膝蓋略略不適。上課時因為想吐的感覺，有點坐立不安，回宿舍後一直睡到快三點。起床後又躺到快四點，什麼東西都沒吃。&lt;/p&gt;
 &lt;p&gt;電路學今天比較早教完，老師就用十分鐘聊了一下他對台大前一陣子很多學生自殺的想法，他認為，自殺是愚蠢的，讀書讀不好，可能就只是選錯科系，就像交男女朋友一樣，很難第一次就找到對的人，轉換跑道就好了。我認為他這段話或許是正確的，但自殺不應該被想成這麼簡單的行為。&lt;/p&gt;
 &lt;p&gt;傍晚看了中醫，因為反胃，所以一整天都沒吃飯，所以有些暈眩，眼前一片黑，針灸後噁心感消失了。之後去建中路吃了&lt;a class=&#34;link&#34; href=&#34;https://www.google.com/maps/place/%E5%8E%9F%E5%91%B3%E7%87%89%E5%93%81%E5%B1%8B/@24.7942813,120.9918262,15z/data=!4m19!1m13!4m12!1m4!2m2!1d120.9991168!2d24.7857152!4e1!1m6!1m2!1s0x346836138f299871:0xcff0bf08520ca104!2z5Y6f5ZGz54eJ5ZOB5bGL!2m2!1d120.9941949!2d24.8002472!3m4!1s0x346836138f299871:0xcff0bf08520ca104!8m2!3d24.8002472!4d120.9941949&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;原味燉品屋&lt;/a&gt;，點了人參雞，覺得人參滿多的。躺了一下，然後去上電路學的演習課，今天 TA 只有講幾個大概念，所以 20:15 左右就下課了。&lt;/p&gt;
@@ -7291,7 +7291,7 @@ $$L = \frac{\omega P_1 (\tan {\theta _2} - \tan {\theta _2})}{V _{rms} ^2}$$&lt;
         <pubDate>Mon, 07 Dec 2020 12:30:04 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201207/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201207/circiut_note_1.jpg" alt="Featured image of post 2020/12/07 日記" /&gt;&lt;p&gt;起床後洗了澡，然後就買了個丼飯吃，邊看「夜叉姬 E8」。之後去上認識語言，今天主要是在講雙語嬰兒的認知能力，然後也講了 Executive Function (EF) 的概念，我認為用它去描述一個人是否聰明是合理的。老師也談了應該在 6 歲前，給予小孩足夠的陪伴，在前額葉發展的黃金期，陪他一起讀外語繪本。下課後，在宿舍泡了杯紅茶，然後讀電路學 Ch11 的投影片。之後寫了兩題電路學，花了 45 分鐘。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201207/circiut_note_1.jpg" alt="Featured image of post 2020/12/07 日記" /&gt;&lt;p&gt;起床後洗了澡，然後就買了個丼飯吃，邊看「夜叉姬 E8」。之後去上認識語言，今天主要是在講雙語嬰兒的認知能力，然後也講了 Executive Function (EF) 的概念，我認為用它去描述一個人是否聰明是合理的。老師也談了應該在 6 歲前，給予小孩足夠的陪伴，在前額葉發展的黃金期，陪他一起讀外語繪本。下課後，在宿舍泡了杯紅茶，然後讀電路學 Ch11 的投影片。之後寫了兩題電路學，花了 45 分鐘。&lt;/p&gt;
 &lt;h2 id=&#34;電路學-ch11&#34;&gt;電路學 CH11&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -7837,7 +7837,7 @@ Structures in Bilingual Infants&amp;rdquo;，一篇關於單語和雙語環境�
 &lt;/ul&gt;
 &lt;h2 id=&#34;隊練pcf_gym_100274&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://Luke2336.github.io/p/cf_gym_100274&#34; &gt;隊練&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;因為學弟昨天就被劇透了，所以就沒補昨天的題目了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/20201203/CF_GYM_100274_Standing.png&#34; alt=&#34;Standing&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20201203/CF_GYM_100274_Standing.png&#34; alt=&#34;Standing&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;宵夜&#34;&gt;宵夜&lt;/h2&gt;
 &lt;p&gt;練完題後，卡車約我們檢討，並去&lt;a class=&#34;link&#34; href=&#34;https://goo.gl/maps/nYmc5Sy3hZ6zQC4V9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;和味&lt;/a&gt;吃宵夜，我點了清粥，他們都點滷肉飯。在那邊的停車場遇到三隻有人餵的貓咪。&lt;/p&gt;
@@ -8044,7 +8044,7 @@ Structures in Bilingual Infants&amp;rdquo;，一篇關於單語和雙語環境�
         <pubDate>Mon, 30 Nov 2020 11:59:23 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201130/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201130/circiut_note_1.jpg" alt="Featured image of post 2020/11/30 日記" /&gt;&lt;p&gt;今天精神較好，可能是因為前一晚吃了 B 群，雖然為了報帳早起沒睡飽，但晚上的效率還不錯。下午上完課肚子餓，就先買了麥當勞吃。傍晚洗澡前練了一下揮拍，又跳了繩。晚上原本想吃燒餅蛋，但豆漿店又沒有燒餅了。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201130/circiut_note_1.jpg" alt="Featured image of post 2020/11/30 日記" /&gt;&lt;p&gt;今天精神較好，可能是因為前一晚吃了 B 群，雖然為了報帳早起沒睡飽，但晚上的效率還不錯。下午上完課肚子餓，就先買了麥當勞吃。傍晚洗澡前練了一下揮拍，又跳了繩。晚上原本想吃燒餅蛋，但豆漿店又沒有燒餅了。&lt;/p&gt;
 &lt;h2 id=&#34;icpc-報帳&#34;&gt;ICPC 報帳&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;因為雙曲線早上要值班，所以就跟他約在系計中，想說要幫他送報帳的報表。但沒想到他收的時候都不檢查，他說是因為他擔心他檢查了，有問題他就要負責。心好累，跟他耗了一小時。我覺得他很不負責任，然後整個過程一直兇我，LinLee 聯絡不到，他也一副不在意。我真的很不開心。&lt;/li&gt;
@@ -8122,7 +8122,7 @@ Structures in Bilingual Infants&amp;rdquo;，一篇關於單語和雙語環境�
         <pubDate>Sun, 29 Nov 2020 02:06:51 +0800</pubDate>
         
         <guid>https://Luke2336.github.io/p/20201129/</guid>
-        <description>&lt;img src="https://Luke2336.github.io/post/20201129/sky.jpg" alt="Featured image of post 2020/11/29 日記" /&gt;&lt;p&gt;早上起床洗了衣服，然後洗了澡，之後架好了部落格，然後就去讀書。&lt;/p&gt;
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20201129/sky.jpg" alt="Featured image of post 2020/11/29 日記" /&gt;&lt;p&gt;早上起床洗了衣服，然後洗了澡，之後架好了部落格，然後就去讀書。&lt;/p&gt;
 &lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
 &lt;p&gt;和 Jacky 吃了買一送一的冰炫風，然後一起去圖書館讀書，晚餐去研三吃漢堡王。從圖書館出來時，看到了漂亮的雲。&lt;/p&gt;
 &lt;h2 id=&#34;部落格&#34;&gt;部落格&lt;/h2&gt;

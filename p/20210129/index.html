@@ -11,11 +11,11 @@
 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;3using namespace std; 4inline bool up(char c) {return isupper(c);} 5inline bool low(char c) {return islower(c);} 6int main() { 7 ios::sync_with_stdio(0), cin.tie(0); 8 string s; cin &amp;gt;&amp;gt; s; 9 int len = s.length(); 10 vector&amp;lt;int&amp;gt; dp[2]; 11 dp[0].resize(len), dp[1].resize(len); 12 dp[0][0] = low(s[0]), dp[1][0] = up(s[0]); 13 for (int i = 1; s[i]; i&#43;&#43;) { 14 dp[0][i] = dp[0][i - 1] &#43; low(s[i]); 15 dp[1][i] = min(dp[0][i - 1], dp[1][i - 1]) &#43; up(s[i]); 16 } 17 cout &amp;lt;&amp;lt; min(dp[0][len - 1], dp[1][len - 1]) &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; 18 return 0; 19}  筆記 - 近世代數 '>
 <meta property='og:url' content='https://Luke2336.github.io/p/20210129/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Codeforces' /><meta property='article:tag' content='代數' /><meta property='article:published_time' content='2021-01-29T12:03:58&#43;08:00'/><meta property='article:modified_time' content='2021-01-29T12:03:58&#43;08:00'/><meta property='og:image' content='https://Luke2336.github.io/post/20210129/algebra1.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Codeforces' /><meta property='article:tag' content='代數' /><meta property='article:published_time' content='2021-01-29T12:03:58&#43;08:00'/><meta property='article:modified_time' content='2021-01-29T12:03:58&#43;08:00'/><meta property='og:image' content='https://Luke2336.github.io/post/Diary/20210129/algebra1.jpg' />
 <meta name="twitter:title" content="2021/01/29 日記">
 <meta name="twitter:description" content=" 弄了寒訓的題單，研究了 LCIS。 研究轉系，發現歷年轉入資工大三的人極少。推測可能是因為需要修完必修，而必修不好加簽？ 晚上跟導師和師母去靠近東門那區吃飯。 飯後洗了衣服，又收拾了東西。 看完了甄嬛傳，順便補了一下夜叉姬的進度。  Codeforces 180 C. Letter 寫這題才發現 isupper() 不是回傳 0 或 1。
 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;3using namespace std; 4inline bool up(char c) {return isupper(c);} 5inline bool low(char c) {return islower(c);} 6int main() { 7 ios::sync_with_stdio(0), cin.tie(0); 8 string s; cin &amp;gt;&amp;gt; s; 9 int len = s.length(); 10 vector&amp;lt;int&amp;gt; dp[2]; 11 dp[0].resize(len), dp[1].resize(len); 12 dp[0][0] = low(s[0]), dp[1][0] = up(s[0]); 13 for (int i = 1; s[i]; i&#43;&#43;) { 14 dp[0][i] = dp[0][i - 1] &#43; low(s[i]); 15 dp[1][i] = min(dp[0][i - 1], dp[1][i - 1]) &#43; up(s[i]); 16 } 17 cout &amp;lt;&amp;lt; min(dp[0][len - 1], dp[1][len - 1]) &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; 18 return 0; 19}  筆記 - 近世代數 "><meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content='https://Luke2336.github.io/post/20210129/algebra1.jpg' />
+	<meta name="twitter:image" content='https://Luke2336.github.io/post/Diary/20210129/algebra1.jpg' />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1C6W63ELX"></script>
 <script>
@@ -156,7 +156,7 @@
     <header class="article-header">
         <div class="article-image">
             
-                <img src="/post/20210129/algebra1.jpg" loading="lazy" alt="Featured image of post 2021/01/29 日記" />
+                <img src="/post/Diary/20210129/algebra1.jpg" loading="lazy" alt="Featured image of post 2021/01/29 日記" />
             
         </div>
     
@@ -220,7 +220,7 @@
 <span class="ln">19</span><span class="p">}</span>
 </code></pre></div>
 <h2 id="筆記---近世代數">筆記 - 近世代數</h2>
-<p><img src="/post/20210129/algebra1.jpg" alt=""  /></p>
+<p><img src="/post/Diary/20210129/algebra1.jpg" alt=""  /></p>
 
 </section>
 
@@ -266,7 +266,7 @@
         
             <div class="article-image">
                 
-                    <img src="/post/20210128/Dashboard.png" loading="lazy" data-key="20210128" data-hash="/post/20210128/Dashboard.png"/>
+                    <img src="/post/Diary/20210128/Dashboard.png" loading="lazy" data-key="20210128" data-hash="/post/Diary/20210128/Dashboard.png"/>
                 
             </div>
         
@@ -308,7 +308,7 @@
         
             <div class="article-image">
                 
-                    <img src="/post/20210207/sea.jpg" loading="lazy" data-key="20210207" data-hash="/post/20210207/sea.jpg"/>
+                    <img src="/post/Diary/20210207/sea.jpg" loading="lazy" data-key="20210207" data-hash="/post/Diary/20210207/sea.jpg"/>
                 
             </div>
         
@@ -326,7 +326,7 @@
         
             <div class="article-image">
                 
-                    <img src="/post/20210205/%e8%8d%89%e8%8e%93.jpg" loading="lazy" data-key="20210205" data-hash="/post/20210205/草莓.jpg"/>
+                    <img src="/post/Diary/20210205/%e8%8d%89%e8%8e%93.jpg" loading="lazy" data-key="20210205" data-hash="/post/Diary/20210205/草莓.jpg"/>
                 
             </div>
         
