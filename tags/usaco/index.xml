@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>USACO on Luke&#39;s Blog</title>
+    <link>https://Luke2336.github.io/tags/usaco/</link>
+    <description>Recent content in USACO on Luke&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Feb 2021 11:30:39 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210209/</link>
+      <pubDate>Tue, 09 Feb 2021 11:30:39 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210209/</guid>
+      <description>今天左下腹還是悶悶的。
+USACO  重新開始刷 USACO，USACO 最早是 2018 年就有看到的網站，以前因為是英文題面所以沒認真刷。覺得不能亂刷題，應該有系統的刷題，所以就想寒假把這邊刷到 chapter 3，練基礎能力。 今天刷完 Chapter 1 了～  1.4 Wormholes 1.4 Ski Course Design 1.5 Arithmetic Progressions 1.5 Mother’s Milk 1.6 Number Triangles 1.6 Prime Palindromes 1.6 Superprime Rib    1.4 Wormholes  題意：有 12 個蟲洞，要配對成兩兩一組，一旦碰到蟲洞就會被傳送到另一端，且一直往 +X 方向移動，問有多少種組合能形成環？ 這題是很好的題目，能練習實作暴搜。首先要會 DFS 枚舉組合，方法是每次找到第一個沒被用到的點，然後枚舉能和他匹配的點。之後再檢查每個組合是否有環，採取 BFS，每次走兩步，先一步蟲洞，再走到下一個點。  1/* 2ID: whitech1 3TASK: wormhole 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8typedef pair&amp;lt;int, int&amp;gt; pii; 9#define x first 10#define y second 11int n, ans = 0; 12vector&amp;lt;pii&amp;gt; p; 13vector&amp;lt;vector&amp;lt;bool&amp;gt; &amp;gt; G; 14vector&amp;lt;int&amp;gt; pr; 15bool check() { 16 vector&amp;lt;int&amp;gt; visit(n); 17 queue&amp;lt;int&amp;gt; q; 18 for (int i = 0; i &amp;lt; n; i++) q.</description>
+    </item>
+    
+  </channel>
+</rss>
