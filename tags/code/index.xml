@@ -6,7 +6,30 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 11:30:39 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 09:57:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210211/</link>
+      <pubDate>Thu, 11 Feb 2021 09:57:18 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210211/</guid>
+      <description>過年好痛苦。昨晚做了惡夢，夢到 Alice 跟我絕交，覺得很難過。晚上醒來好幾次。好討厭除夕，跟一群一直刺探隱私的人吃飯。
+自己過生日好孤單。
+USACO  2.2 Preface Numbering 2.2 Subset Sums  2.2 Preface Numbering  題意：給定 N ≤ 3500，計算 1 ~ N 的羅馬字母表示法共用了每種字母個幾個。  1/* 2ID: whitech1 3TASK: preface 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8int d[13] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1}; 9string s[13] = {&amp;#34;M&amp;#34;, &amp;#34;CM&amp;#34;, &amp;#34;D&amp;#34;, &amp;#34;CD&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;XC&amp;#34;, &amp;#34;L&amp;#34;, &amp;#34;XL&amp;#34;, &amp;#34;X&amp;#34;, &amp;#34;IX&amp;#34;, &amp;#34;V&amp;#34;, &amp;#34;IV&amp;#34;, &amp;#34;I&amp;#34;}; 10int cnt[13]; 11void solve(int x) { 12 for (int i = 0; i &amp;lt; 13; i++) { 13 cnt[i] += x / d[i]; 14 x %= d[i]; 15 } 16} 17int main() { 18 freopen(&amp;#34;preface.</description>
+    </item>
+    
+    <item>
+      <title>2021/02/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210210/</link>
+      <pubDate>Wed, 10 Feb 2021 11:36:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210210/</guid>
+      <description>今天是 20 歲的最後一天！
+晚上吃小火鍋，看到了弟弟的摩托車。
+USACO 寫完了 Section 2.1。
+ 2.1 The Castle 2.1 Ordered Fractions 2.1 Sorting a Three-Valued Sequence 2.1 Healthy Holsteins 2.1 Hamming Codes  2.1 The Castle  &amp;ldquo;Farthest to the west&amp;rdquo; 是指「最西邊」。 題意：給定每個房間的四道牆，問拆一道牆能形成的最大房間大小。 解法：Flood Fill 算出每個房間的大小，再試著拆每道牆。  1/* 2ID: whitech1 3TASK: castle 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8const char D[5] = &amp;#34;WNES&amp;#34;; 9const int dx[4] = {0, -1, 0, 1}; 10const int dy[4] = {-1, 0, 1, 0}; 11int main() { 12 freopen(&amp;#34;castle.</description>
+    </item>
+    
     <item>
       <title>2021/02/09 日記</title>
       <link>https://Luke2336.github.io/p/20210209/</link>
