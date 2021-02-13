@@ -6,7 +6,22 @@
     <description>Recent content in USACO on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Feb 2021 11:50:19 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Feb 2021 09:00:08 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/13 日記</title>
+      <link>https://Luke2336.github.io/p/20210213/</link>
+      <pubDate>Sat, 13 Feb 2021 09:00:08 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210213/</guid>
+      <description>貓咪 早上去餵小乖和小咪。
+七堵友蚋、石公潭、萬崁路 石公潭、附近的礦坑
+萬崁路上的一心宮門口的櫻花樹。
+萬里、龜吼漁港 買了某店的芋圓，沒幾個客人卻等了超過 10 分鐘，60 元一碗，只有 4 顆芋圓，紅豆湯顏色也偏淡&amp;hellip;老闆不斷問客人好不好吃，但大家好像都不想回答。從小吃九份芋圓長大的我，只能說應該主要是做觀光客生意。
+之後去龜吼漁港吃了巧晏漁坊，第一次吃，覺得相對別家價格較低，口味也不錯，雖然生意有點好，位子很小。點了油雞、蝦、海瓜子，都覺得不錯。
+USACO 寫完 Section 2.3。
+ 2.3 Longest Prefix 2.3 Cow Pedigrees 2.3 Zero Sum 2.3 Money Systems 2.3 Controlling Companies  2.3 Longest Prefix  題意：給定一個字串集合，大小 n ≤ 200，元素長度小魚 L ≤ 10，以及一個字串 S。問能用集合中元素組成的最長 S 前綴有多長？ 解法：DP，O(nL|S|)。  1/* 2ID: whitech1 3TASK: prefix 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8int main() { 9 freopen(&amp;#34;prefix.in&amp;#34;, &amp;#34;r&amp;#34;, stdin); 10 freopen(&amp;#34;prefix.</description>
+    </item>
+    
     <item>
       <title>2021/02/12 日記</title>
       <link>https://Luke2336.github.io/p/20210212/</link>
