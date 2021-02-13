@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UVA on Luke&#39;s Blog</title>
+    <link>https://Luke2336.github.io/tags/uva/</link>
+    <description>Recent content in UVA on Luke&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jul 2018 10:13:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/uva/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UVA 106 - Fermat vs. Pythagoras</title>
+      <link>https://Luke2336.github.io/p/uva_106/</link>
+      <pubDate>Wed, 04 Jul 2018 10:13:53 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/uva_106/</guid>
+      <description>UVA 106 - Fermat vs. Pythagoras 題目敘述 輸入 N (1 ≤ N ≤ 1000000)，求X² + Y² = Z²（0 &amp;lt; X &amp;lt; Y &amp;lt; Z ≤ N）的解中
+ 三數互質 gcd(X, Y, Z) = 1 的解有幾組 １ ~ Ｎ 中有幾個正整數沒被任何一組解包含  解法 原本想枚舉 Y 和 Z，但時間上會是 10¹¹ 等級，顯然不是一個好方法。
+這時，突然想到了「畢式三元數」(Pythagorean triple)，畢竟每次數學培訓上數論都會講到，前幾天翻數學競賽的書也剛好看到，不過似乎只針對「互質畢式三元數」討論而已。
+ 「互質畢式三元數」性質如下：
+X, Y, Z ∈ 𝚴，X² + Y² ＝ Z² 且 gcd(X, Y, Z) = 1，則可表示為
+ X = m² - n² Y = 2mn Z = m² + n²  其中 m &amp;gt; n，gcd(m, n) = 1，m, n 為一奇一偶。</description>
+    </item>
+    
+  </channel>
+</rss>

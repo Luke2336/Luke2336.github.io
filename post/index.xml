@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 09:57:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 11:50:19 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210212/</link>
+      <pubDate>Fri, 12 Feb 2021 11:50:19 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210212/</guid>
+      <description>早餐吃了稀飯。 將 Blogger 的幾篇文章搬到這個新的 Blog 上。 將 USACO Section 2.2 完成。 去金山泡溫泉。  金山  去金山鴨肉，發現要戴口罩才能端菜，幸好我有帶一個口罩在身上。 吃了糖葫蘆和冰淇淋，泡了溫泉。 買了 3 張 200 元刮刮樂，刮中 1000 + 1500。 去了水尾漁港看風景，看到有人在停車場放煙火，這大概是這輩子看過最近距離的煙火。走過了觀景橋，到提防散步。  USACO  2.2 Runaround Numbers 2.2 Party Lamps  2.2 Runaround Numbers  題意：給定 M ≤ 2^32，找出一個大於 M 的循環數。循環數的定義為，沒用到 0，且每個位元不重複，從第一個位元 d 開始向右走 d 位，走到最右邊則從最左邊繼續，然後在從此位繼續，走完全部回到第一位且不重複。 解法：DFS 暴搜所有解，不斷更新最小值剪枝。  1/* 2ID: whitech1 3TASK: runround 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8typedef long long ll; 9ll m; 10vector&amp;lt;int&amp;gt; v; 11bool used[10]; 12bool check(ll num, int len) { 13 if (num &amp;lt;= m) return false; 14 vector&amp;lt;int&amp;gt; cnt(len); 15 for (int i = 0, r = 0; i &amp;lt; len; i++) { 16 r = (r + v[r]) % len; 17 cnt[r]++; 18 } 19 for (int i = 0; i &amp;lt; len; i++) 20 if (!</description>
+    </item>
+    
     <item>
       <title>2021/02/11 日記</title>
       <link>https://Luke2336.github.io/p/20210211/</link>
@@ -25,7 +34,7 @@ USACO  2.2 Preface Numbering 2.2 Subset Sums  2.2 Preface Numbering  題意：�
       
       <guid>https://Luke2336.github.io/p/news_2020/</guid>
       <description>很混亂的一年，所有的事情都受到疫情影響。
-國內事件    Date News     2020/01/06 蘇花改通車   2020/01/11 蔡英文當選總統   2020/01/24 陳時中擔任 CECC 指揮官   2020/01/31 北捷環狀線通車   2020/02/06 7 天 2 片口罩   2020/03/02 大學延後開學   2020/03/19 限制入境   2020/04/09 14 天 9 片口罩   2002/05/29 通姦除罪化釋憲   2002/05/31 敦南誠品熄燈   2020/06/06 罷免高雄市長韓國瑜、議長跳樓   2020/07/01 5G   2020/07/30 前總統李登輝過世   2020/08/28 宣布萊豬進口   2020/11/07 清大前校長劉炯朗過世   2020/12/12 中天關台   2020/12/12 北一女校慶聊天擺攤事件   2020/12/25 民法下修 18 歲成年三讀通過   2021/01/20 部桃事件   2021/02/01 陽明交大合校   2021/02/06 高雄市議員黃捷罷免案   2021/02/09 趙少康宣布代表國民黨參選總統     交大學聯會於罷韓時的「返鄉專車」具政治立場，我認為不妥。 2020 這波韓流令人感慨台灣新聞媒體的力量，媒體  國外新聞    Date News     2019/12/30 李文亮對華南海鮮市場疫情發出警告   2020/01/08 烏航於伊朗空域解體   2020/01/22 武漢封城   2020/01/31 英國正式脫歐   2020/02/04 公主號停靠橫濱   2020/02/11 WHO 命名 Covid 19   2020/02/20 韓國新天地教會事件   2020/03/24 東奧宣布停辦   2020/04/05 英國女王發布演說   2020/04/16 日本發布緊急事態   2020/06/30 香港國安法正式生效   2020/08/04 黎巴嫩港口爆炸   2020/11/03 美國大選，拜登獲勝   2021/01/20 拜登就任   2021/01/27 華爾街 Gamestop 散戶事件   2021/02/01 緬甸政變     香港議題在台灣大選後就被國內媒體淡化。 美中衝突不斷擴大，華為等中國企業被封殺。 美國大選爭議很多。  </description>
+國內事件    Date News     2020/01/06 蘇花改通車   2020/01/11 蔡英文當選總統   2020/01/24 陳時中擔任 CECC 指揮官   2020/01/31 北捷環狀線通車   2020/02/06 7 天 2 片口罩   2020/03/02 大學延後開學   2020/03/19 限制入境   2020/04/09 14 天 9 片口罩   2002/05/29 通姦除罪化釋憲   2002/05/31 敦南誠品熄燈   2020/06/06 罷免高雄市長韓國瑜、議長跳樓   2020/07/01 5G   2020/07/30 前總統李登輝過世   2020/08/28 宣布萊豬進口   2020/11/07 清大前校長劉炯朗過世   2020/12/12 中天關台   2020/12/12 北一女校慶聊天擺攤事件   2020/12/25 民法下修 18 歲成年三讀通過   2021/01/20 部桃事件   2021/02/01 陽明交大合校   2021/02/06 高雄市議員黃捷罷免案   2021/02/09 趙少康宣布代表國民黨參選總統     交大學聯會於罷韓時的「返鄉專車」具政治立場，我認為不妥。 2020 這波韓流令人感慨台灣新聞媒體的力量，媒體能造神，也能把一個人轟下台，台灣的民意主要還是靠媒體炒作，還有靠網民帶風向。  國外新聞    Date News     2019/12/30 李文亮對華南海鮮市場疫情發出警告   2020/01/08 烏航於伊朗空域解體   2020/01/22 武漢封城   2020/01/31 英國正式脫歐   2020/02/04 公主號停靠橫濱   2020/02/11 WHO 命名 Covid 19   2020/02/20 韓國新天地教會事件   2020/03/24 東京奧運宣布停辦   2020/04/05 英國女王發布演說   2020/04/16 日本發布緊急事態   2020/06/30 香港國安法正式生效   2020/08/04 黎巴嫩港口爆炸   2020/11/03 美國大選，拜登獲勝   2021/01/20 拜登就任   2021/01/27 華爾街 Gamestop 散戶事件   2021/02/01 緬甸政變     香港議題在台灣大選後就被國內媒體淡化。 美中衝突不斷擴大，華為等中國企業被封殺。 美國大選爭議很多。  </description>
     </item>
     
     <item>
@@ -1099,6 +1108,41 @@ Date 和 Jacky 吃了買一送一的冰炫風，然後一起去圖書館讀書�
 部落格 從星期四努力到現在，終於搞定了。
 之後會拿這個部落格來寫日記，可能也會寫一點練題紀錄，摻雜一點點讀書帳的味道。
  參考了 bb 的部落格，決定使用 hugo 搭配 github.io。 從 blogger 轉來使用 hugo 的原因，其實是想用 markdown，因為會寫一些數學或是程式碼。 逛了一整晚的 Hugo Theme，最後決定用中國人設計的 hugo-theme-stack，主要是喜歡他簡潔的頁面，還有 categories 的設計。 參考 這篇 來放到 github 上。  電路學 Midterm 2 複習    Chapter Time (min) #Problem     7 40 7   8 40 5    Ch7  $$\displaystyle y(t) = y(\infty) + (y(t_0) - y(\infty)) e^{\frac{-(t - t_0)}{\tau}}$$ RC Circuit: $$\tau = RC$$ RL Circuit: $$\tau = \displaystyle \frac{L}{R}$$  羽球 今天在新館打球，不小心跑到舊館。風很大，只有穿短袖短褲，不小心著涼了。今天前場比較積極，所以被稱讚有進步。有和碩班的學長姐打了兩場，覺得還不錯，之後幾場感覺比較沒力。</description>
+    </item>
+    
+    <item>
+      <title>Codeforces Round #615 (Div. 3)</title>
+      <link>https://Luke2336.github.io/p/cf_contest_1294/</link>
+      <pubDate>Fri, 24 Jan 2020 11:26:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/cf_contest_1294/</guid>
+      <description>Codeforces Round #615 (Div. 3) 第一次 CF 賽中破台，排名 +178，總算 1700 了。 pD 稍微想了一下子，pE 實作上卡了很久，有些邊界問題沒考慮清楚。pF 想了一下子才發現很好寫，但忘了考慮一直鏈的情況，所以 WA 了一次。
+A. Collecting Coins 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long LL; 4int main() { 5 ios::sync_with_stdio(0), cin.tie(0); 6 int t; cin &amp;gt;&amp;gt; t; 7 while (t--) { 8 LL a, b, c, n; 9 cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b &amp;gt;&amp;gt; c &amp;gt;&amp;gt; n; 10 LL sum = n + a + b + c; 11 if (sum % 3) { 12 cout &amp;lt;&amp;lt; &amp;#34;NO\n&amp;#34;; 13 continue; 14 } 15 sum /= 3; 16 if (sum &amp;lt; a || sum &amp;lt; b || sum &amp;lt; c) { 17 cout &amp;lt;&amp;lt; &amp;#34;NO\n&amp;#34;; 18 continue; 19 } 20 cout &amp;lt;&amp;lt; &amp;#34;YES\n&amp;#34;; 21 } 22 return 0; 23}  B.</description>
+    </item>
+    
+    <item>
+      <title>Zerojudge a813 - 城市觀測</title>
+      <link>https://Luke2336.github.io/p/zj_a813/</link>
+      <pubDate>Tue, 07 Aug 2018 09:52:33 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/zj_a813/</guid>
+      <description>此篇是從舊 Blog 搬過來。
+Zerojudge a813 - 4. 城市觀測 題目敘述 有 N 棟房子。對於任意 AB 兩棟房子，只要 AB 中間沒有房子的高度超過 A 或 B，則 A 可看見 B。求 1 ~ N 每棟房子可看見的房子總數。
+ 測資一，0 &amp;lt; N ≤ 300，0 &amp;lt; H[i] ≤ 1e5，3/17分 測資二，0 &amp;lt; N ≤ 5000，0 &amp;lt; H[i] ≤ 1e5，3/17分 測資三，0 &amp;lt; N ≤ 1e6，0 &amp;lt; H[i] ≤ 1e9，11/17分  範例測資  N = 2，H = {1,1}，ans = 1+1 = 2 N = 3，H = {1,2,3}，ans = 1+2+1 = 4 N = 5，H = {5,2,3,4,4}，ans = 4+2+3+3+2 = 14  參考解法 「A 可看見 B」和「B 可看見 A」等價，因此只要計算一半就好了，也就是可以將問題簡化成，計算每棟房子往左看的sum x 2。</description>
+    </item>
+    
+    <item>
+      <title>UVA 106 - Fermat vs. Pythagoras</title>
+      <link>https://Luke2336.github.io/p/uva_106/</link>
+      <pubDate>Wed, 04 Jul 2018 10:13:53 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/uva_106/</guid>
+      <description>UVA 106 - Fermat vs. Pythagoras 題目敘述 輸入 N (1 ≤ N ≤ 1000000)，求X² + Y² = Z²（0 &amp;lt; X &amp;lt; Y &amp;lt; Z ≤ N）的解中
+ 三數互質 gcd(X, Y, Z) = 1 的解有幾組 １ ~ Ｎ 中有幾個正整數沒被任何一組解包含  解法 原本想枚舉 Y 和 Z，但時間上會是 10¹¹ 等級，顯然不是一個好方法。
+這時，突然想到了「畢式三元數」(Pythagorean triple)，畢竟每次數學培訓上數論都會講到，前幾天翻數學競賽的書也剛好看到，不過似乎只針對「互質畢式三元數」討論而已。
+ 「互質畢式三元數」性質如下：
+X, Y, Z ∈ 𝚴，X² + Y² ＝ Z² 且 gcd(X, Y, Z) = 1，則可表示為
+ X = m² - n² Y = 2mn Z = m² + n²  其中 m &amp;gt; n，gcd(m, n) = 1，m, n 為一奇一偶。</description>
     </item>
     
   </channel>

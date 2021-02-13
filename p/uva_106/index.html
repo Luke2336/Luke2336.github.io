@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='UVA 106 - Fermat vs. Pythagoras 題目敘述 輸入 N (1 ≤ N ≤ 1000000)，求X² &#43; Y² = Z²（0 &amp;lt; X &amp;lt; Y &amp;lt; Z ≤ N）的解中
+ 三數互質 gcd(X, Y, Z) = 1 的解有幾組 １ ~ Ｎ 中有幾個正整數沒被任何一組解包含  解法 原本想枚舉 Y 和 Z，但時間上會是 10¹¹ 等級，顯然不是一個好方法。
+這時，突然想到了「畢式三元數」(Pythagorean triple)，畢竟每次數學培訓上數論都會講到，前幾天翻數學競賽的書也剛好看到，不過似乎只針對「互質畢式三元數」討論而已。
+ 「互質畢式三元數」性質如下：
+X, Y, Z ∈ 𝚴，X² &#43; Y² ＝ Z² 且 gcd(X, Y, Z) = 1，則可表示為
+ X = m² - n² Y = 2mn Z = m² &#43; n²  其中 m &amp;gt; n，gcd(m, n) = 1，m, n 為一奇一偶。'><title>UVA 106 - Fermat vs. Pythagoras</title>
+
+<link rel='canonical' href='https://Luke2336.github.io/p/uva_106/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='UVA 106 - Fermat vs. Pythagoras'>
+<meta property='og:description' content='UVA 106 - Fermat vs. Pythagoras 題目敘述 輸入 N (1 ≤ N ≤ 1000000)，求X² &#43; Y² = Z²（0 &amp;lt; X &amp;lt; Y &amp;lt; Z ≤ N）的解中
+ 三數互質 gcd(X, Y, Z) = 1 的解有幾組 １ ~ Ｎ 中有幾個正整數沒被任何一組解包含  解法 原本想枚舉 Y 和 Z，但時間上會是 10¹¹ 等級，顯然不是一個好方法。
+這時，突然想到了「畢式三元數」(Pythagorean triple)，畢竟每次數學培訓上數論都會講到，前幾天翻數學競賽的書也剛好看到，不過似乎只針對「互質畢式三元數」討論而已。
+ 「互質畢式三元數」性質如下：
+X, Y, Z ∈ 𝚴，X² &#43; Y² ＝ Z² 且 gcd(X, Y, Z) = 1，則可表示為
+ X = m² - n² Y = 2mn Z = m² &#43; n²  其中 m &amp;gt; n，gcd(m, n) = 1，m, n 為一奇一偶。'>
+<meta property='og:url' content='https://Luke2336.github.io/p/uva_106/'>
+<meta property='og:site_name' content='Luke&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='UVA' /><meta property='article:published_time' content='2018-07-04T10:13:53&#43;08:00'/><meta property='article:modified_time' content='2018-07-04T10:13:53&#43;08:00'/>
+<meta name="twitter:title" content="UVA 106 - Fermat vs. Pythagoras">
+<meta name="twitter:description" content="UVA 106 - Fermat vs. Pythagoras 題目敘述 輸入 N (1 ≤ N ≤ 1000000)，求X² &#43; Y² = Z²（0 &amp;lt; X &amp;lt; Y &amp;lt; Z ≤ N）的解中
+ 三數互質 gcd(X, Y, Z) = 1 的解有幾組 １ ~ Ｎ 中有幾個正整數沒被任何一組解包含  解法 原本想枚舉 Y 和 Z，但時間上會是 10¹¹ 等級，顯然不是一個好方法。
+這時，突然想到了「畢式三元數」(Pythagorean triple)，畢竟每次數學培訓上數論都會講到，前幾天翻數學競賽的書也剛好看到，不過似乎只針對「互質畢式三元數」討論而已。
+ 「互質畢式三元數」性質如下：
+X, Y, Z ∈ 𝚴，X² &#43; Y² ＝ Z² 且 gcd(X, Y, Z) = 1，則可表示為
+ X = m² - n² Y = 2mn Z = m² &#43; n²  其中 m &amp;gt; n，gcd(m, n) = 1，m, n 為一奇一偶。">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W1C6W63ELX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W1C6W63ELX');
+</script>
+
+
+
+    </head>
+    <body class="">
+        <div class="container flex on-phone--column align-items--flex-start extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+
+                
+                    
+                    <img src="/img/avatar_hub3ca20c5681882dedf57093afec72812_1125837_300x300_resize_q75_box.jpg" width="300"
+                        height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+
+                
+                    <span class="emoji">🍧</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://Luke2336.github.io">Luke&#39;s Blog</a></h1>
+        <h2 class="site-description">Nurture passes nature.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://Luke2336.github.io" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+                <a href="/categories/code/">Code</a>
+            
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/uva_106/">UVA 106 - Fermat vs. Pythagoras</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Jul 04, 2018</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <h2 id="uva-106---fermat-vs-pythagorashttpsonlinejudgeorgindexphpoptioncom_onlinejudgeitemid8category24pageshow_problemproblem42"><a class="link" href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=42"  target="_blank" rel="noopener"
+    >UVA 106 - Fermat vs. Pythagoras</a></h2>
+<h3 id="題目敘述">題目敘述</h3>
+<p>輸入 N (1 ≤ N ≤ 1000000)，求X² + Y² = Z²（0 &lt; X &lt; Y &lt; Z ≤ N）的解中</p>
+<ul>
+<li>三數互質 gcd(X, Y, Z) = 1 的解有幾組</li>
+<li>１ ~ Ｎ 中有幾個正整數沒被任何一組解包含</li>
+</ul>
+<h3 id="解法">解法</h3>
+<p>原本想枚舉 Y 和 Z，但時間上會是 10¹¹ 等級，顯然不是一個好方法。</p>
+<p>這時，突然想到了「畢式三元數」(Pythagorean triple)，畢竟每次數學培訓上數論都會講到，前幾天翻數學競賽的書也剛好看到，不過似乎只針對「互質畢式三元數」討論而已。</p>
+<blockquote>
+<p>「互質畢式三元數」性質如下：</p>
+<p>X, Y, Z ∈ 𝚴，X² + Y² ＝ Z² 且 gcd(X, Y, Z) = 1，則可表示為</p>
+<ul>
+<li>X = m² - n²</li>
+<li>Y = 2mn</li>
+<li>Z = m² + n²</li>
+</ul>
+<p>其中 m &gt; n，gcd(m, n) = 1，m, n 為一奇一偶。</p>
+</blockquote>
+<p>這題的範圍不僅僅限於 gcd(X, Y, Z) = 1，
+但只要將每組「畢式三元數」除以 gcd(X, Y, Z)，就都能變成「互質畢式三元數」了。換句話說，「畢式三元數」一定是由某一組「互質畢式三元數」乘ｋ倍而來。
+表示為 <code>X = k (m² - n²)，Y = 2kmn，Z = k (m² + n²)</code>。</p>
+<hr>
+<p>考慮 m, n 的範圍，1000000 ≥ N ≥ Z ＝ m² + n²，得 1000 ≥ √N ≥ m &gt; n ≥ 1。
+枚舉 m, n的時間為 10⁶ 等級，明顯能快很多。</p>
+<p>我的方法是跑一層 for 枚舉 m，裡面再跑一層 for 枚舉 n，if(gcd(m, n) == 1)，則跑一層 k。</p>
+<p>寫完後，丟到 UVA 上排名 21，時間 0.050。
+（第一名 0.008，我超好奇怎麼辦到？）
+天啊！這真的怪爆了，我到底哪裡比別人快啊？於是 google 了別人的解法。</p>
+<p>看到大部分的人都是對每筆輸入 N 跑一次 for m in range(1,sqrt(N))，這方法我沒想到&hellip;&hellip;因為我寫 DP 寫中毒了，於是動不動就想直接給他一次找完，也就是直接「建表」。</p>
+<hr>
+<p>這題的數論難關解決後，建表的過程確實有點卡，於是就來記一下重點部分。</p>
+<p>大部分人是直接開個 bool 紀錄數字出現過了沒，還有開個變數紀錄有幾組互質的。</p>
+<p>首先，來談互質的組數 p。用 DP 的角度切入，p[i] 和 p[i-1] 有關嗎？</p>
+<p><code>p[i] = p[i - 1] ＋ (z == i 的互質組數)</code>。
+所以就開個 cnt 陣列紀錄，每找到一組互質畢式三元數，cnt[Z]++。p[N]就是cnt[N]的前綴和，O(N)一次做完即可。</p>
+<p>接著，是算有幾個沒用過的數。1 ~ i + 1 會比 1 ~ i 多一個數能用，而 1 ~ i 用過的數 1 ~ i + 1 也同樣被用過。<code>num[i + 1] ＝ num[i] + 1 - (有幾個數在 Z == i + 1 時才出現)</code>。所以重點是計算有幾個數在 Z = i + 1 時第一次出現，也就是紀錄每個數搭配的 Z 的最小值，最後在掃過一遍就行了。</p>
+<p>因為都是由互質三元數去找其他三元數，所以不會找到重複的，所以效率佳。寫這篇時發現自己沒有應用到一奇一偶的性質，改成 n += 2 後，丟到UVA上排名 13，時間 0.040。</p>
+<h3 id="code">Code</h3>
+<div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="ln"> 1</span><span class="cp">#include</span><span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
+</span><span class="ln"> 2</span><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="ln"> 3</span><span class="cp">#define MAX 1000001
+</span><span class="ln"> 4</span><span class="cp"></span><span class="kt">int</span> <span class="n">f</span><span class="p">[</span><span class="n">MAX</span><span class="p">],</span> <span class="n">num</span><span class="p">[</span><span class="n">MAX</span><span class="p">],</span> <span class="n">p</span><span class="p">[</span><span class="n">MAX</span><span class="p">],</span> <span class="n">ans</span><span class="p">[</span><span class="n">MAX</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">};</span>
+<span class="ln"> 5</span><span class="kr">inline</span> <span class="kt">bool</span> <span class="nf">coprime</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">,</span> <span class="kt">int</span> <span class="n">z</span><span class="p">)</span> <span class="p">{</span>
+<span class="ln"> 6</span>    <span class="k">return</span> <span class="n">__gcd</span><span class="p">(</span><span class="n">__gcd</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span> <span class="n">z</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">;</span>
+<span class="ln"> 7</span><span class="p">}</span>
+<span class="ln"> 8</span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 9</span>    <span class="n">fill</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">f</span> <span class="o">+</span> <span class="n">MAX</span><span class="p">,</span> <span class="n">MAX</span><span class="p">);</span>
+<span class="ln">10</span>    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">m</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">m</span> <span class="o">&lt;</span> <span class="mi">1000</span><span class="p">;</span> <span class="n">m</span><span class="o">++</span><span class="p">)</span>
+<span class="ln">11</span>        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="p">(</span><span class="n">m</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="n">m</span><span class="p">;</span> <span class="n">n</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+<span class="ln">12</span>            <span class="k">if</span> <span class="p">(</span><span class="n">__gcd</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span> <span class="k">continue</span><span class="p">;</span>
+<span class="ln">13</span>            <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="n">m</span> <span class="o">*</span> <span class="n">m</span> <span class="o">-</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">m</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">m</span> <span class="o">*</span> <span class="n">m</span> <span class="o">+</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">;</span>
+<span class="ln">14</span>            <span class="k">if</span> <span class="p">(</span><span class="n">z</span> <span class="o">&gt;=</span> <span class="n">MAX</span><span class="p">)</span> <span class="k">break</span><span class="p">;</span>
+<span class="ln">15</span>            <span class="k">if</span> <span class="p">(</span><span class="n">coprime</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span> <span class="p">{</span>
+<span class="ln">16</span>                <span class="n">p</span><span class="p">[</span><span class="n">z</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+<span class="ln">17</span>                <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">k</span> <span class="o">=</span> <span class="n">MAX</span> <span class="o">/</span> <span class="n">z</span><span class="p">;</span> <span class="n">k</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">k</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+<span class="ln">18</span>                    <span class="kt">int</span> <span class="n">xx</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">k</span><span class="p">,</span> <span class="n">yy</span> <span class="o">=</span> <span class="n">y</span> <span class="o">*</span> <span class="n">k</span><span class="p">,</span> <span class="n">zz</span> <span class="o">=</span> <span class="n">z</span> <span class="o">*</span> <span class="n">k</span><span class="p">;</span>
+<span class="ln">19</span>                    <span class="n">f</span><span class="p">[</span><span class="n">xx</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">xx</span><span class="p">],</span> <span class="n">zz</span><span class="p">);</span>
+<span class="ln">20</span>                    <span class="n">f</span><span class="p">[</span><span class="n">yy</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">yy</span><span class="p">],</span> <span class="n">zz</span><span class="p">);</span>
+<span class="ln">21</span>                    <span class="n">f</span><span class="p">[</span><span class="n">zz</span><span class="p">]</span> <span class="o">=</span> <span class="n">zz</span><span class="p">;</span>
+<span class="ln">22</span>                <span class="p">}</span>
+<span class="ln">23</span>            <span class="p">}</span>
+<span class="ln">24</span>        <span class="p">}</span>
+<span class="ln">25</span>    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">MAX</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="ln">26</span>        <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span> <span class="n">num</span><span class="p">[</span><span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">++</span><span class="p">;</span>
+<span class="ln">27</span>    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">MAX</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="ln">28</span>        <span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ans</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">num</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<span class="ln">29</span>    <span class="kt">int</span> <span class="n">N</span><span class="p">;</span>
+<span class="ln">30</span>    <span class="k">while</span> <span class="p">(</span><span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">N</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">p</span><span class="p">[</span><span class="n">N</span><span class="p">],</span> <span class="n">ans</span><span class="p">[</span><span class="n">N</span><span class="p">]);</span>
+<span class="ln">31</span>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="ln">32</span><span class="p">}</span>
+</code></pre></div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/code/">Code</a>
+        
+            <a href="/tags/uva/">UVA</a>
+        
+    </section>
+
+
+    </footer>
+
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+    integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+    crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.querySelector(`.article-content`));"></script>
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/p/tioj1214/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">TIOJ 1214 樹同構</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/lcis/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Longest Common Increasing Subsequence(LCIS)</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/atcoder_abs/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AtCoder Beginners Selection</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/atcoder_arc111/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/Other/AtCoder_ARC111/Task.png" loading="lazy" data-key="atcoder_arc111" data-hash="/post/Other/AtCoder_ARC111/Task.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AtCoder Regular Contest 111</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/atcoder_education_dp/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AtCoder Educational DP Contest</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">&copy; 2021 Luke&#39;s Blog</section>
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="1.1.0">Stack</a></b> designed by
+        <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="/css/highlight/light.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/highlight/dark.min.css" media="(prefers-color-scheme: dark)">
+
+    </body>
+</html>

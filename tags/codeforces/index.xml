@@ -62,5 +62,15 @@ pA. Red-Blue Shuffle 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std;
       <description>CF-GYM100274 pA  問題：2 &amp;lt;= n &amp;lt;= 1e18，2 &amp;lt;= k &amp;lt;= 1e12，求 n! 是 k 的幾次方。 作法：將 k 做質因數分解，然後各自算出次方數後，再取最小值。 時間：$$O(\log n \sqrt k)$$  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, int&amp;gt; pli; 5vector&amp;lt;pli&amp;gt; prime_factor (ll k) { 6 vector&amp;lt;pli&amp;gt; ret; 7 for (ll i = 2; i * i &amp;lt;= k; i++) { 8 if (k % i) continue; 9 pli p = pli(i, 0); 10 while (k % i == 0) k /= i, p.</description>
     </item>
     
+    <item>
+      <title>Codeforces Round #615 (Div. 3)</title>
+      <link>https://Luke2336.github.io/p/cf_contest_1294/</link>
+      <pubDate>Fri, 24 Jan 2020 11:26:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/cf_contest_1294/</guid>
+      <description>Codeforces Round #615 (Div. 3) 第一次 CF 賽中破台，排名 +178，總算 1700 了。 pD 稍微想了一下子，pE 實作上卡了很久，有些邊界問題沒考慮清楚。pF 想了一下子才發現很好寫，但忘了考慮一直鏈的情況，所以 WA 了一次。
+A. Collecting Coins 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long LL; 4int main() { 5 ios::sync_with_stdio(0), cin.tie(0); 6 int t; cin &amp;gt;&amp;gt; t; 7 while (t--) { 8 LL a, b, c, n; 9 cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b &amp;gt;&amp;gt; c &amp;gt;&amp;gt; n; 10 LL sum = n + a + b + c; 11 if (sum % 3) { 12 cout &amp;lt;&amp;lt; &amp;#34;NO\n&amp;#34;; 13 continue; 14 } 15 sum /= 3; 16 if (sum &amp;lt; a || sum &amp;lt; b || sum &amp;lt; c) { 17 cout &amp;lt;&amp;lt; &amp;#34;NO\n&amp;#34;; 18 continue; 19 } 20 cout &amp;lt;&amp;lt; &amp;#34;YES\n&amp;#34;; 21 } 22 return 0; 23}  B.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zerojudge on Luke&#39;s Blog</title>
+    <link>https://Luke2336.github.io/tags/zerojudge/</link>
+    <description>Recent content in Zerojudge on Luke&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Aug 2018 09:52:33 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/zerojudge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zerojudge a813 - 城市觀測</title>
+      <link>https://Luke2336.github.io/p/zj_a813/</link>
+      <pubDate>Tue, 07 Aug 2018 09:52:33 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/zj_a813/</guid>
+      <description>此篇是從舊 Blog 搬過來。
+Zerojudge a813 - 4. 城市觀測 題目敘述 有 N 棟房子。對於任意 AB 兩棟房子，只要 AB 中間沒有房子的高度超過 A 或 B，則 A 可看見 B。求 1 ~ N 每棟房子可看見的房子總數。
+ 測資一，0 &amp;lt; N ≤ 300，0 &amp;lt; H[i] ≤ 1e5，3/17分 測資二，0 &amp;lt; N ≤ 5000，0 &amp;lt; H[i] ≤ 1e5，3/17分 測資三，0 &amp;lt; N ≤ 1e6，0 &amp;lt; H[i] ≤ 1e9，11/17分  範例測資  N = 2，H = {1,1}，ans = 1+1 = 2 N = 3，H = {1,2,3}，ans = 1+2+1 = 4 N = 5，H = {5,2,3,4,4}，ans = 4+2+3+3+2 = 14  參考解法 「A 可看見 B」和「B 可看見 A」等價，因此只要計算一半就好了，也就是可以將問題簡化成，計算每棟房子往左看的sum x 2。</description>
+    </item>
+    
+  </channel>
+</rss>

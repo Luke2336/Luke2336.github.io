@@ -6,7 +6,16 @@
     <description>Recent content in USACO on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 09:57:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 11:50:19 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210212/</link>
+      <pubDate>Fri, 12 Feb 2021 11:50:19 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210212/</guid>
+      <description>早餐吃了稀飯。 將 Blogger 的幾篇文章搬到這個新的 Blog 上。 將 USACO Section 2.2 完成。 去金山泡溫泉。  金山  去金山鴨肉，發現要戴口罩才能端菜，幸好我有帶一個口罩在身上。 吃了糖葫蘆和冰淇淋，泡了溫泉。 買了 3 張 200 元刮刮樂，刮中 1000 + 1500。 去了水尾漁港看風景，看到有人在停車場放煙火，這大概是這輩子看過最近距離的煙火。走過了觀景橋，到提防散步。  USACO  2.2 Runaround Numbers 2.2 Party Lamps  2.2 Runaround Numbers  題意：給定 M ≤ 2^32，找出一個大於 M 的循環數。循環數的定義為，沒用到 0，且每個位元不重複，從第一個位元 d 開始向右走 d 位，走到最右邊則從最左邊繼續，然後在從此位繼續，走完全部回到第一位且不重複。 解法：DFS 暴搜所有解，不斷更新最小值剪枝。  1/* 2ID: whitech1 3TASK: runround 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8typedef long long ll; 9ll m; 10vector&amp;lt;int&amp;gt; v; 11bool used[10]; 12bool check(ll num, int len) { 13 if (num &amp;lt;= m) return false; 14 vector&amp;lt;int&amp;gt; cnt(len); 15 for (int i = 0, r = 0; i &amp;lt; len; i++) { 16 r = (r + v[r]) % len; 17 cnt[r]++; 18 } 19 for (int i = 0; i &amp;lt; len; i++) 20 if (!</description>
+    </item>
+    
     <item>
       <title>2021/02/11 日記</title>
       <link>https://Luke2336.github.io/p/20210211/</link>
