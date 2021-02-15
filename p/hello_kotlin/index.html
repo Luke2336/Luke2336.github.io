@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x &#43; y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret &#43; x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x &#43; v) 6} null  用 ?'><title>Hello, Kotlin!</title>
+
+<link rel='canonical' href='https://Luke2336.github.io/p/hello_kotlin/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Hello, Kotlin!'>
+<meta property='og:description' content='Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x &#43; y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret &#43; x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x &#43; v) 6} null  用 ?'>
+<meta property='og:url' content='https://Luke2336.github.io/p/hello_kotlin/'>
+<meta property='og:site_name' content='Luke&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Kotlin' /><meta property='article:published_time' content='2021-02-14T17:14:36&#43;08:00'/><meta property='article:modified_time' content='2021-02-14T17:14:36&#43;08:00'/>
+<meta name="twitter:title" content="Hello, Kotlin!">
+<meta name="twitter:description" content="Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x &#43; y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret &#43; x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x &#43; v) 6} null  用 ?">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W1C6W63ELX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W1C6W63ELX');
+</script>
+
+
+
+    </head>
+    <body class="">
+        <div class="container flex on-phone--column align-items--flex-start extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+
+                
+                    
+                    <img src="/img/avatar_hub3ca20c5681882dedf57093afec72812_1125837_300x300_resize_q75_box.jpg" width="300"
+                        height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+
+                
+                    <span class="emoji">🍧</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://Luke2336.github.io">Luke&#39;s Blog</a></h1>
+        <h2 class="site-description">Nurture passes nature.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://Luke2336.github.io" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+                <a href="/categories/code/">Code</a>
+            
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/hello_kotlin/">Hello, Kotlin!</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Feb 14, 2021</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <ul>
+<li><a class="link" href="https://play.kotlinlang.org/byExample/overview"  target="_blank" rel="noopener"
+    >Learn Kotlin by Example (kotlinlang.org)</a></li>
+</ul>
+<h2 id="output">Output</h2>
+<h3 id="println"><code>println()</code></h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln">1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">2</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;Hello, World!&#34;</span><span class="p">)</span>
+<span class="ln">3</span><span class="p">}</span></code></pre></div>
+<h2 id="function">Function</h2>
+<h3 id="fun"><code>fun</code></h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">sum</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">Int</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">Int</span><span class="p">):</span> <span class="n">Int</span> <span class="p">{</span>
+<span class="ln"> 2</span>    <span class="k">return</span> <span class="n">x</span> <span class="p">+</span> <span class="n">y</span>
+<span class="ln"> 3</span><span class="p">}</span>
+<span class="ln"> 4</span>
+<span class="ln"> 5</span><span class="c1">// Single-Expression
+</span><span class="ln"> 6</span><span class="c1"></span><span class="k">fun</span> <span class="nf">mul</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">Int</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">Int</span><span class="p">)</span> <span class="p">=</span> <span class="n">x</span> <span class="p">*</span> <span class="n">y</span>
+<span class="ln"> 7</span>
+<span class="ln"> 8</span><span class="c1">// Default Arguments
+</span><span class="ln"> 9</span><span class="c1"></span><span class="k">fun</span> <span class="nf">printMSG</span> <span class="p">(</span><span class="n">msg1</span><span class="p">:</span> <span class="n">String</span> <span class="p">=</span> <span class="s2">&#34;Hello&#34;</span><span class="p">,</span> <span class="n">msg2</span><span class="p">:</span> <span class="n">String</span><span class="p">)</span> <span class="p">{</span>
+<span class="ln">10</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">$msg1</span><span class="s2">, </span><span class="si">$msg2</span><span class="s2">!&#34;</span><span class="p">)</span>
+<span class="ln">11</span><span class="p">}</span>
+<span class="ln">12</span>
+<span class="ln">13</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">14</span>    <span class="n">println</span><span class="p">(</span><span class="n">sum</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">))</span>
+<span class="ln">15</span>    <span class="n">println</span><span class="p">(</span><span class="n">mul</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="m">5</span><span class="p">))</span>
+<span class="ln">16</span>    <span class="n">printMSG</span><span class="p">(</span><span class="s2">&#34;Hi&#34;</span><span class="p">,</span> <span class="s2">&#34;Jack&#34;</span><span class="p">)</span>
+<span class="ln">17</span>    <span class="n">printMSG</span><span class="p">(</span><span class="n">msg2</span> <span class="p">=</span> <span class="s2">&#34;Kelly&#34;</span><span class="p">)</span>
+<span class="ln">18</span><span class="p">}</span></code></pre></div>
+<h3 id="vararg"><code>vararg</code></h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="hl"><span class="ln">1</span><span class="k">fun</span> <span class="nf">sum</span><span class="p">(</span><span class="k">vararg</span> <span class="n">a</span><span class="p">:</span> <span class="n">Int</span><span class="p">):</span> <span class="n">Int</span> <span class="p">{</span>
+</span><span class="ln">2</span>    <span class="k">var</span> <span class="py">ret</span> <span class="p">=</span> <span class="m">0</span>
+<span class="ln">3</span>    <span class="k">for</span> <span class="p">(</span><span class="n">x</span> <span class="k">in</span> <span class="n">a</span><span class="p">)</span> <span class="n">ret</span> <span class="p">=</span> <span class="n">ret</span> <span class="p">+</span> <span class="n">x</span>
+<span class="ln">4</span>    <span class="k">return</span> <span class="n">ret</span>
+<span class="ln">5</span><span class="p">}</span>
+<span class="ln">6</span>
+<span class="ln">7</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">8</span>    <span class="n">println</span><span class="p">(</span><span class="n">sum</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="p">-</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">))</span>
+<span class="ln">9</span><span class="p">}</span></code></pre></div>
+<h2 id="variable">Variable</h2>
+<h3 id="val-var"><code>val</code> <code>var</code></h3>
+<ul>
+<li><code>val</code> 一定要初始化</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln">1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="hl"><span class="ln">2</span>    <span class="k">val</span> <span class="py">v</span> <span class="p">=</span> <span class="m">1</span> <span class="c1">// immutalbe
+</span></span><span class="hl"><span class="ln">3</span><span class="c1"></span>    <span class="k">var</span> <span class="py">x</span><span class="p">:</span> <span class="n">Int</span> <span class="c1">// mutable
+</span></span><span class="ln">4</span><span class="c1"></span>    <span class="n">x</span> <span class="p">=</span> <span class="m">1</span>
+<span class="ln">5</span>    <span class="n">println</span><span class="p">(</span><span class="n">x</span> <span class="p">+</span> <span class="n">v</span><span class="p">)</span>
+<span class="ln">6</span><span class="p">}</span></code></pre></div>
+<h3 id="null"><code>null</code></h3>
+<ul>
+<li>用 <code>?</code> 代表 nullable</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 2</span>    <span class="k">var</span> <span class="py">notNull</span><span class="p">:</span> <span class="n">String</span> <span class="p">=</span> <span class="s2">&#34;Hi!&#34;</span>
+<span class="ln"> 3</span>    <span class="c1">// notNull = null // error
+</span><span class="hl"><span class="ln"> 4</span><span class="c1"></span>    <span class="k">var</span> <span class="py">canNull</span><span class="p">:</span> <span class="n">String</span><span class="p">?</span> <span class="p">=</span> <span class="s2">&#34;Hello!&#34;</span>
+</span><span class="ln"> 5</span>    <span class="n">canNull</span> <span class="p">=</span> <span class="k">null</span>
+<span class="ln"> 6</span>
+<span class="ln"> 7</span>    <span class="k">fun</span> <span class="nf">len</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="n">String</span><span class="p">)</span> <span class="p">=</span> <span class="n">println</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">length</span><span class="p">)</span>
+<span class="ln"> 8</span>    
+<span class="ln"> 9</span>    <span class="n">len</span><span class="p">(</span><span class="n">notNull</span><span class="p">)</span>
+<span class="ln">10</span>    <span class="c1">// len(canNull) // error
+</span><span class="ln">11</span><span class="c1"></span>    <span class="n">canNull</span> <span class="p">=</span> <span class="s2">&#34;OAO&#34;</span>
+<span class="ln">12</span>    <span class="n">len</span><span class="p">(</span><span class="n">canNull</span><span class="p">)</span>
+<span class="ln">13</span>
+<span class="ln">14</span>    <span class="k">fun</span> <span class="nf">nullLen</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="n">String</span><span class="p">?)</span> <span class="p">{</span>
+<span class="ln">15</span>        <span class="k">var</span> <span class="py">L</span><span class="p">:</span><span class="n">Int</span> <span class="p">=</span> <span class="m">0</span>
+<span class="ln">16</span>        <span class="k">if</span> <span class="p">(</span><span class="n">s</span> <span class="o">!=</span> <span class="k">null</span><span class="p">)</span> <span class="n">L</span> <span class="p">=</span> <span class="n">s</span><span class="p">.</span><span class="n">length</span>
+<span class="ln">17</span>        <span class="n">println</span><span class="p">(</span><span class="n">L</span><span class="p">)</span>
+<span class="ln">18</span>    <span class="p">}</span>
+<span class="ln">19</span>    
+<span class="ln">20</span>    <span class="n">canNull</span> <span class="p">=</span> <span class="k">null</span>
+<span class="ln">21</span>    <span class="n">nullLen</span><span class="p">(</span><span class="n">canNull</span><span class="p">)</span>
+<span class="ln">22</span><span class="p">}</span></code></pre></div>
+<h2 id="flow-control">Flow Control</h2>
+<h3 id="when"><code>when</code></h3>
+<p>類似 c++ 中的 switch。</p>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">cases</span><span class="p">(</span><span class="n">obj</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="p">{</span>
+<span class="hl"><span class="ln"> 2</span>    <span class="k">when</span> <span class="p">(</span><span class="n">obj</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="ln"> 3</span>        <span class="m">1</span> <span class="o">-&gt;</span> <span class="n">println</span><span class="p">(</span><span class="s2">&#34;One&#34;</span><span class="p">)</span>
+<span class="ln"> 4</span>        <span class="k">is</span> <span class="n">String</span> <span class="o">-&gt;</span> <span class="n">println</span><span class="p">(</span><span class="s2">&#34;String&#34;</span><span class="p">)</span>
+<span class="ln"> 5</span>        <span class="k">else</span> <span class="o">-&gt;</span> <span class="n">println</span><span class="p">(</span><span class="s2">&#34;Else&#34;</span><span class="p">)</span>
+<span class="ln"> 6</span>    <span class="p">}</span>
+<span class="ln"> 7</span><span class="p">}</span>
+<span class="ln"> 8</span>
+<span class="ln"> 9</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">10</span>    <span class="n">cases</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>
+<span class="ln">11</span>    <span class="n">cases</span><span class="p">(</span><span class="m">1.0</span><span class="p">)</span>
+<span class="ln">12</span>    <span class="n">cases</span><span class="p">(</span><span class="s2">&#34;a&#34;</span><span class="p">)</span>
+<span class="ln">13</span><span class="p">}</span></code></pre></div>
+<h3 id="for"><code>for</code></h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln">1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">2</span>    <span class="k">val</span> <span class="py">L</span> <span class="p">=</span> <span class="n">listOf</span><span class="p">(</span><span class="s2">&#34;apple&#34;</span><span class="p">,</span> <span class="s2">&#34;banana&#34;</span><span class="p">,</span> <span class="s2">&#34;orange&#34;</span><span class="p">)</span>
+<span class="hl"><span class="ln">3</span>    <span class="k">for</span> <span class="p">(</span><span class="n">x</span> <span class="k">in</span> <span class="n">L</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="ln">4</span>        <span class="n">println</span><span class="p">(</span><span class="s2">&#34;I like </span><span class="si">$x</span><span class="s2">.&#34;</span><span class="p">)</span>
+<span class="ln">5</span>    <span class="p">}</span>
+<span class="ln">6</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 2</span>    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="m">0.</span><span class="p">.</span><span class="m">3</span><span class="p">)</span> <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1">//0123
+</span><span class="ln"> 3</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
+<span class="ln"> 4</span>    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="m">0.</span><span class="p">.</span><span class="m">8</span> <span class="n">step</span> <span class="m">2</span><span class="p">)</span> <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1">//02468
+</span><span class="ln"> 5</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
+<span class="ln"> 6</span>    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="m">3</span> <span class="n">downTo</span> <span class="m">0</span><span class="p">)</span> <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1">//3210
+</span><span class="ln"> 7</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
+<span class="ln"> 8</span>    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="m">8</span> <span class="n">downTo</span> <span class="m">0</span> <span class="n">step</span> <span class="m">2</span><span class="p">)</span> <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1">//86420
+</span><span class="ln"> 9</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
+<span class="ln">10</span><span class="p">}</span></code></pre></div>
+<h3 id="while"><code>while</code></h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln">1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">2</span>    <span class="k">var</span> <span class="py">i</span> <span class="p">=</span> <span class="m">0</span>
+<span class="ln">3</span>    <span class="k">var</span> <span class="py">sum</span> <span class="p">=</span> <span class="m">0</span>
+<span class="hl"><span class="ln">4</span>    <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="p">&lt;</span> <span class="m">5</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="ln">5</span>        <span class="n">sum</span> <span class="o">+=</span> <span class="n">i</span>
+<span class="ln">6</span>        <span class="n">i</span><span class="o">++</span>
+<span class="ln">7</span>    <span class="p">}</span>
+<span class="ln">8</span>    <span class="n">println</span><span class="p">(</span><span class="n">sum</span><span class="p">)</span>
+<span class="ln">9</span><span class="p">}</span></code></pre></div>
+<h3 id="if"><code>if</code></h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln">1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">2</span>    <span class="k">val</span> <span class="py">x</span> <span class="p">=</span> <span class="sc">&#39;t&#39;</span>
+<span class="hl"><span class="ln">3</span>    <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="k">in</span> <span class="sc">&#39;a&#39;</span><span class="o">..</span><span class="sc">&#39;e&#39;</span><span class="p">)</span>
+</span><span class="ln">4</span>        <span class="n">println</span><span class="p">(</span><span class="s2">&#34;Good&#34;</span><span class="p">)</span>
+<span class="ln">5</span>    <span class="k">else</span>
+<span class="ln">6</span>        <span class="n">println</span><span class="p">(</span><span class="s2">&#34;Bad&#34;</span><span class="p">)</span>
+<span class="ln">7</span><span class="p">}</span></code></pre></div>
+<h2 id="collections">Collections</h2>
+<h3 id="list">List</h3>
+<ul>
+<li><code>MutableList</code>, <code>List</code></li>
+<li><code>mutableListOf()</code>, <code>listOf()</code></li>
+<li><code>add()</code></li>
+<li><code>getOrNull()</code>, `getOrElse()</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 2</span>    <span class="k">val</span> <span class="py">L</span><span class="p">:</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">listOf</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">)</span>
+<span class="ln"> 3</span>    <span class="k">var</span> <span class="py">mL</span><span class="p">:</span> <span class="n">MutableList</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">mutableListOf</span><span class="p">(</span><span class="m">0</span><span class="p">)</span>
+<span class="ln"> 4</span>    <span class="n">L</span><span class="p">.</span><span class="n">forEach</span> <span class="p">{</span>
+<span class="ln"> 5</span>        <span class="n">x</span> <span class="o">-&gt;</span> <span class="n">mL</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="ln"> 6</span>    <span class="p">}</span>
+<span class="ln"> 7</span>    <span class="n">mL</span><span class="p">.</span><span class="n">forEach</span> <span class="p">{</span>
+<span class="ln"> 8</span>        <span class="n">i</span> <span class="o">-&gt;</span> <span class="n">println</span><span class="p">(</span><span class="s2">&#34;elemetn: </span><span class="si">$i</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="ln"> 9</span>    <span class="p">}</span>
+<span class="ln">10</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;L[2] = </span><span class="si">${L.getOrNull(2)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// 3
+</span><span class="ln">11</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;L[3] = </span><span class="si">${L.getOrNull(3)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// null
+</span><span class="ln">12</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;L[10] = </span><span class="si">${L.getOrElse(10, {it}</span><span class="s2">)}&#34;</span><span class="p">)</span> <span class="c1">// 10
+</span><span class="ln">13</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${L.subList(1, 2)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// [2]
+</span><span class="ln">14</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<h4 id="search--sort">Search &amp; Sort</h4>
+<ul>
+<li><code>sort()</code>, <code>shuffle()</code>, <code>reverse()</code></li>
+<li><code>indexOf()</code>, <code>lastIndexOf()</code></li>
+<li><code>indexOfFirst()</code>, <code>indexOfLast()</code></li>
+<li><code>binarySearch()</code></li>
+<li><code>fill()</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 2</span>    <span class="k">var</span> <span class="py">mL</span><span class="p">:</span> <span class="n">MutableList</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">mutableListOf</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">9</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span>
+<span class="ln"> 3</span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">indexOf</span><span class="p">(</span><span class="m">1</span><span class="p">))</span> <span class="c1">// 1
+</span><span class="ln"> 4</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">lastIndexOf</span><span class="p">(</span><span class="m">1</span><span class="p">))</span> <span class="c1">// 5
+</span><span class="ln"> 5</span><span class="c1"></span>    <span class="n">mL</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span> <span class="c1">// [1, 1, 2, 5, 7, 9]
+</span><span class="ln"> 6</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">indexOf</span><span class="p">(</span><span class="m">1</span><span class="p">))</span> <span class="c1">// 0
+</span><span class="ln"> 7</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">lastIndexOf</span><span class="p">(</span><span class="m">1</span><span class="p">))</span> <span class="c1">// 1
+</span><span class="ln"> 8</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">indexOfFirst</span><span class="p">{</span> <span class="k">it</span> <span class="p">&gt;</span> <span class="m">5</span> <span class="p">})</span> <span class="c1">// 4
+</span><span class="ln"> 9</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">binarySearch</span><span class="p">(</span><span class="m">3</span><span class="p">))</span> <span class="c1">// -4
+</span><span class="ln">10</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">.</span><span class="n">binarySearch</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">5</span><span class="p">))</span> <span class="c1">// 1
+</span><span class="ln">11</span><span class="c1"></span>    <span class="n">mL</span><span class="p">.</span><span class="n">fill</span><span class="p">(</span><span class="m">0</span><span class="p">)</span>
+<span class="ln">12</span>    <span class="n">println</span><span class="p">(</span><span class="n">mL</span><span class="p">)</span> <span class="c1">// [0, 0, 0, 0, 0, 0]
+</span><span class="ln">13</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<h3 id="set">Set</h3>
+<ul>
+<li><code>Set</code>, <code>MutableSet</code></li>
+<li><code>setOf()</code>, <code>mutableSetOf()</code></li>
+<li><code>add()</code>: return Boolean</li>
+<li><code>intersect()</code>, <code>union()</code>, <code>subtract()</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln"> 1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 2</span>    <span class="k">val</span> <span class="py">S1</span><span class="p">:</span> <span class="n">Set</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">setOf</span><span class="p">(</span><span class="m">4</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span>
+<span class="ln"> 3</span>    <span class="k">val</span> <span class="py">S2</span><span class="p">:</span> <span class="n">Set</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">setOf</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">)</span>
+<span class="ln"> 4</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;Two sets are equal: </span><span class="si">${S1 == S2}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// true
+</span><span class="ln"> 5</span><span class="c1"></span>    <span class="k">val</span> <span class="py">S3</span><span class="p">:</span> <span class="n">Set</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">setOf</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">6</span><span class="p">)</span>
+<span class="ln"> 6</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;S2 union S3: </span><span class="si">${S2 union S3}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// [1, 2, 3, 4, 0, 6]
+</span><span class="ln"> 7</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;S2 intersect S3: </span><span class="si">${S2 intersect S3}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// [2, 4]
+</span><span class="ln"> 8</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;S2 subtract S3: </span><span class="si">${S2 subtract S3}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// [1, 3]
+</span><span class="ln"> 9</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;S3 subtract S2: </span><span class="si">${S3 subtract S2}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// [0, 6]
+</span><span class="ln">10</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;S1 subtract S2: </span><span class="si">${S1 subtract S2}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// []
+</span><span class="ln">11</span><span class="c1"></span>    <span class="k">var</span> <span class="py">S4</span><span class="p">:</span> <span class="n">MutableSet</span><span class="p">&lt;</span><span class="n">Int</span><span class="p">&gt;</span> <span class="p">=</span> <span class="n">mutableSetOf</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">)</span>
+<span class="ln">12</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${S4.add(0)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// true
+</span><span class="ln">13</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${S4.add(1)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// false
+</span><span class="ln">14</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/code/">Code</a>
+        
+            <a href="/tags/kotlin/">Kotlin</a>
+        
+    </section>
+
+
+    </footer>
+
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+    integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+    crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.querySelector(`.article-content`));"></script>
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/p/atcoder_abs/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AtCoder Beginners Selection</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/tioj1214/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">TIOJ 1214 樹同構</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/lcis/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Longest Common Increasing Subsequence(LCIS)</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/atcoder_arc111/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/Other/AtCoder_ARC111/Task.png" loading="lazy" data-key="atcoder_arc111" data-hash="/post/Other/AtCoder_ARC111/Task.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AtCoder Regular Contest 111</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/atcoder_education_dp/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AtCoder Educational DP Contest</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">&copy; 2021 Luke&#39;s Blog</section>
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="1.1.0">Stack</a></b> designed by
+        <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="/css/highlight/light.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/highlight/dark.min.css" media="(prefers-color-scheme: dark)">
+
+    </body>
+</html>

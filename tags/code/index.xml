@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Feb 2021 09:00:08 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Feb 2021 17:14:36 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, Kotlin!</title>
+      <link>https://Luke2336.github.io/p/hello_kotlin/</link>
+      <pubDate>Sun, 14 Feb 2021 17:14:36 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/hello_kotlin/</guid>
+      <description>Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x + y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret + x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x + v) 6} null  用 ?</description>
+    </item>
+    
     <item>
       <title>2021/02/13 日記</title>
       <link>https://Luke2336.github.io/p/20210213/</link>
