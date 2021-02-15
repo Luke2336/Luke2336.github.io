@@ -6,7 +6,17 @@
     <description>Recent content in USACO on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Feb 2021 09:00:08 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Feb 2021 11:00:39 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/15 日記</title>
+      <link>https://Luke2336.github.io/p/20210215/</link>
+      <pubDate>Mon, 15 Feb 2021 11:00:39 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210215/</guid>
+      <description>大湖公園、南港車站 下午搭火車去南港，搭捷運去大湖公園散步，野餐的人很多。之後去南港車站吃飯，去 2F 的蔦屋書店看書，然後搭火車回家。
+USACO  2.4 The Tamworth Two 2.4 Overfencing  2.4 The Tamworth Two  題意：給定一個 10 x 10 的地圖，Farmer 和 Cow 以同樣的方式行走，他們一開始皆面向北，每分鐘可行走一步，當遇到障礙物時，則花一分鐘順時鐘轉 90 度，請問要多久兩者才會相遇在同一格？若不相遇則輸出 0。 解法：模擬。最多有 10 x 10 x 4 = 400 種狀態，兩者則有 400 x 400 = 160000 種狀態，若他們並未相遇，則不可能會相遇。  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3char board[12][12]; 4const int dx[4] = {-1, 0, 1, 0}, dy[4] = {0, 1, 0, -1}; 5struct state { 6 int x, y, d; 7 state() {d = 0;} 8 state(int _x, int _y, int _d) { 9 x = _x, y = _y, d = _d; 10 } 11}; 12inline bool same(state A, state B) { 13 return A.</description>
+    </item>
+    
     <item>
       <title>2021/02/13 日記</title>
       <link>https://Luke2336.github.io/p/20210213/</link>
