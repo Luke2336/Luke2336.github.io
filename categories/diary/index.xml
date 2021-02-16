@@ -6,7 +6,18 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Feb 2021 11:00:39 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 13:46:37 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/16 日記</title>
+      <link>https://Luke2336.github.io/p/20210216/</link>
+      <pubDate>Tue, 16 Feb 2021 13:46:37 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210216/</guid>
+      <description>今天又變冷了，睡到 11 點半才起床，弟弟已經回台北了。今天一整天都在刷 USACO，傍晚又睡了午覺，晚餐吃了醉雞和蝦。
+USACO 寫完 Section 2.4 了，完成了 Chapter 2，希望這週能將 Chapter 3 刷完。
+ 2.4 Cow Tours 2.4 Bessie Come Home 2.4 Fractions to Decimals 3.1 Agri-Net 3.1 Score Inflation 3.1 Humble Numbers 3.1 Contact  2.4 Cow Tours  題意：給定一個大小為 N ≤ 150 的圖，這個圖為加上一條邊可聯通的非聯通圖。問加上一條邊後的最小直徑（diameter）為多少。 解法：先做一次 Floyd-Warshall 算出枚舉加入 (i, j)，i、j 兩聯通塊和 i、j 最遠的點距和 i、j 的距離相加，再和未聯通前的最大直徑比較。  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3const double INF = 40000000; 4inline double dst(int x, int y, int xx, int yy) { 5 double dx = x - xx, dy = y - yy; 6 return sqrt(dx * dx + dy * dy); 7} 8int main() { 9 freopen(&amp;#34;cowtour.</description>
+    </item>
+    
     <item>
       <title>2021/02/15 日記</title>
       <link>https://Luke2336.github.io/p/20210215/</link>
