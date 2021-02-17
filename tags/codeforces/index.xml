@@ -6,7 +6,21 @@
     <description>Recent content in Codeforces on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 12:05:24 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Feb 2021 09:59:41 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/17 日記</title>
+      <link>https://Luke2336.github.io/p/20210217/</link>
+      <pubDate>Wed, 17 Feb 2021 09:59:41 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210217/</guid>
+      <description>雨很大又很冷。晚餐吃了水餃、醉雞和昨晚剩下的蝦。
+今天也是刷了一天 USACO，覺得莫名的累，腦袋常常覺得脹脹的，於是變得很焦躁沒耐心。
+更新 ~/.bashrc 將 g++ 改成 g++-9 -std=c++17，把礙眼的 warning 減少了。
+Codeforces 更新了 User Profile Profile 多了類似 Github 的區塊，比起隊友我的題數真的好少 QAQ
+USACO 寫完了 Section 3.2。
+ 3.1 Stamps 3.2 Factorials 3.2 Stringsobits 3.2 Spinning Wheels 3.2 Feed Ratios 3.2 Magic Squares 3.2 Sweet Butter  3.1 Stamps  題意：給定 N ≤ 50 種價值的郵票，最大價值 M ≤ 10000，問最多只用 K ≤ 200 種郵票，能湊出的數為 1 ~ 多少？ 解法：DP。狀態 DP[i] 設為湊出 i 需要的最少數量，O(N) 轉移，複雜度為 O(MNK)。  1#include &amp;lt;bits/stdc++.</description>
+    </item>
+    
     <item>
       <title>Longest Common Increasing Subsequence(LCIS)</title>
       <link>https://Luke2336.github.io/p/lcis/</link>
