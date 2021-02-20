@@ -6,7 +6,19 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Feb 2021 08:09:48 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 10:23:09 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/19 日記</title>
+      <link>https://Luke2336.github.io/p/20210219/</link>
+      <pubDate>Fri, 19 Feb 2021 10:23:09 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210219/</guid>
+      <description>早上媽媽說大黃走了，他們把他埋在公園。
+今天過敏很嚴重，午餐後就吃了藥，睡到五點才醒來，之後就沒什麼流鼻水了，只是腦袋很昏。
+晚上很累，看了一集動畫就睡了。天地創造設計部還滿好看的。
+USACO  3.3 Shopping Offers  3.3 Shopping Offers  題意：給定 b ≤ 5 種東西及各自的單價和需要的數量 ≤ 5，以及 s ≤ 99 種組合，每種組合包含數種物品、數量及組合價，問能買到剛好所需物品的最低價格為何？ 解法：DP，i 為把 b 種物品的量 hash 起來，DP[i] 表示其最低所需價格。 寫得好醜 QAQ  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;int, int&amp;gt; pii; 4int num(int id, int state) { 5 for (int i = 0; i &amp;lt; id; i++) state /= 10; 6 return state %= 10; 7} 8int main() { 9 freopen(&amp;#34;shopping.</description>
+    </item>
+    
     <item>
       <title>2021/02/18 日記</title>
       <link>https://Luke2336.github.io/p/20210218/</link>
