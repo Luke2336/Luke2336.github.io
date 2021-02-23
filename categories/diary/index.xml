@@ -6,7 +6,17 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Feb 2021 14:28:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Feb 2021 09:49:40 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/02/22 日記</title>
+      <link>https://Luke2336.github.io/p/20210222/</link>
+      <pubDate>Mon, 22 Feb 2021 09:49:40 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210222/</guid>
+      <description>NYCU Portal 轟轟烈烈的爆炸了半天，淒慘的開學日。 上學期排名出來了，是平常的 2 倍，感覺好慘～但總排名還是沒受到太多影響。 Mn56的課還沒決定要不要留，感覺 Loading 有點重，很吃實作的樣子，6 個作業加 2 個 project，期中 project 要 1500 行左右。 晚上跟學長去建功一路吃飯。  USACO 寫完 Section 3.3。
+ 3.3 Home on the Range 3.3 A Game  3.3 Home on the Range  題意：給定一個邊長為 n ≤ 250 的 0/1 正方形，問邊長大於 2 的各種大小正方形數量？ 解法：Prefix sum，O(n^3)。  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 freopen(&amp;#34;range.in&amp;#34;, &amp;#34;r&amp;#34;, stdin); 5 freopen(&amp;#34;range.out&amp;#34;, &amp;#34;w&amp;#34;, stdout); 6 ios::sync_with_stdio(0), cin.tie(0); 7 int n; cin &amp;gt;&amp;gt; n; 8 vector&amp;lt;string&amp;gt; v(n); 9 for (int i = 0; i &amp;lt; n; i++) cin &amp;gt;&amp;gt; v[i]; 10 vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; cnt(n, vector&amp;lt;int&amp;gt;(n)); 11 for (int i = 0; i &amp;lt; n; i++) 12 for (int j = 0; j &amp;lt; n; j++) 13 if (v[i][j] == &amp;#39;1&amp;#39;) 14 cnt[i][j] = (j ?</description>
+    </item>
+    
     <item>
       <title>2021/02/21 日記</title>
       <link>https://Luke2336.github.io/p/20210221/</link>
