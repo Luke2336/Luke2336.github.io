@@ -6,7 +6,181 @@
         <description>Recent content on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 22 Feb 2021 09:49:40 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Feb 2021 10:11:36 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2021/02/25 日記</title>
+        <link>https://Luke2336.github.io/p/20210225/</link>
+        <pubDate>Thu, 25 Feb 2021 10:11:36 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210225/</guid>
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210225/0.jpg" alt="Featured image of post 2021/02/25 日記" /&gt;&lt;p&gt;早上的教育學概論十分無聊，應該是老師的語調太文謅謅了&lt;/p&gt;
+&lt;p&gt;下午的 TA Hour 都沒有人來，覺得有點尷尬。&lt;/p&gt;
+&lt;p&gt;晚上去打球，結果熱完身，拍線就斷了。大概半個鐘頭後，肚子就愈來愈痛，只好先回宿舍休息。&lt;/p&gt;
+&lt;p&gt;第一次打到斷線，剪線有點不知道從何下手，於是就很認真的 google 了一下，結論是先從對稱的位置剪開，讓受力均勻，接下來就從中心點開始向外剪。&lt;/p&gt;
+&lt;p&gt;打算週日在拿去清夜穿線，這個週末應該沒辦法打球了，只好等到下週末。在 FB 問了一下，學長是建議穿 BG65 的 22 磅。我想了很久，決定不要穿太高磅，畢竟我沒什麼打殺球，高遠球也沒辦法拉到底線。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210225/1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210225/2.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/02/24 日記</title>
+        <link>https://Luke2336.github.io/p/20210224/</link>
+        <pubDate>Thu, 25 Feb 2021 10:11:29 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210224/</guid>
+        <description>&lt;p&gt;過敏很嚴重的一天。&lt;/p&gt;
+&lt;p&gt;早上德文課一開始就直接複習上學期的內容，只好快速把記憶拉回來。&lt;/p&gt;
+&lt;p&gt;中午和學妹及她的男友吃了奶油廚房。&lt;/p&gt;
+&lt;p&gt;下午羽球課，做操做了很久，然後稍微拉了一下球，覺得球感掉了不少。&lt;/p&gt;
+&lt;p&gt;睡了一下，之後洗了澡。&lt;/p&gt;
+&lt;p&gt;晚上在 PCCA 吃了便當，然後練了五小時的個人題組，覺得今天很挫折，狀態不是很好。&lt;/p&gt;
+&lt;h2 id=&#34;練題紀錄httpsopenkattiscomcontestsyy3uej&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.kattis.com/contests/yy3uej&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;練題紀錄&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;ID&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Status&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Penalty&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Difficulty&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Keywords&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Date&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;A&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;B&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;C&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AC&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6.3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;BFS&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2021/02/24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;D&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;E&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AC&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;DP&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2021/02/24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;F&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;G&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;H&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;I&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;J&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;K&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;(AC)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3.3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;暴力&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2021/02/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;L&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;M&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;N&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;(AC)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+0&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4.8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Union-Find&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2021/02/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;O&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/02/23 日記</title>
+        <link>https://Luke2336.github.io/p/20210223/</link>
+        <pubDate>Tue, 23 Feb 2021 16:37:42 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210223/</guid>
+        <description>&lt;p&gt;很累的一天，早上、中午、傍晚都睡了一次。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>2021/02/22 日記</title>
         <link>https://Luke2336.github.io/p/20210222/</link>
         <pubDate>Mon, 22 Feb 2021 09:49:40 +0800</pubDate>
