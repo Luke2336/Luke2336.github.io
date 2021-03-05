@@ -6,7 +6,57 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Feb 2021 22:51:21 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 11:50:51 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210304/</link>
+      <pubDate>Fri, 05 Mar 2021 11:50:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210304/</guid>
+      <description>過敏很嚴重的一天，一直流鼻水，眼睛也很癢，於是就請了 TA office hour。
+早上就覺得很疲倦，上了無趣的教育學概論，已經有想要翹課的衝動了。
+下午去上了 EDA 和正規，覺得正規應該會是我這學期比較感興趣的課。開學第二周就在第二排趴著上課&amp;hellip;
+晚上吃了熟凍麵，覺得很棒，之後就吃了藥一直昏睡。</description>
+    </item>
+    
+    <item>
+      <title>2021/03/03 日記</title>
+      <link>https://Luke2336.github.io/p/20210303/</link>
+      <pubDate>Wed, 03 Mar 2021 15:47:20 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210303/</guid>
+      <description>頭痛很嚴重，好不容易起床上德語課，下週開始有口語圓桌。
+Google Intern 面試 體育課請假，在宿舍線上面試。
+連續兩場，慘慘的，HR 把兩場的連結搞錯，於是被 Delay，還直接被面試官 call !!
+兩場都面的不太好，但第一場比較慘，一開始有點沒聽懂問題。寫 code 的狀況也慘慘，很多初始值忘記設。第二場的題目水水的，就很 DP 水題。
+好慘好慘，每次一緊張就胡說八道了&amp;hellip;覺得去年面得比較好。
+PCCA 今天忘記訂餐了，於是就遲到了。曲線忘記要練習了，於是就忙微軟的事請假，只好跟路學弟練。
+2020-2021 ACM-ICPC, Asia Seoul Regional Contest 中段打得有點卡，讀題和解題速度偏慢。這場基本上 penalty 不高，但 pJ 太晚開出來了。
+   problem status coder type     A WA Emilian 實作   B AC LinLee 水題   C AC Kelly tree   D      E AC LinLee greedy   F      G AC LinLee, Emilian 三分搜   H AC Kelly FFT   I      J AC Emilian 高斯消   K      L       </description>
+    </item>
+    
+    <item>
+      <title>2021/03/02 日記</title>
+      <link>https://Luke2336.github.io/p/20210302/</link>
+      <pubDate>Tue, 02 Mar 2021 15:58:19 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210302/</guid>
+      <description>今天變得很冷，於是一直很想睡。
+早上上了正規語言，大概進度是講 NFA 可以被 DFA 取代。
+下午上難解問題，主題是 NPI，覺得證明滿有趣。另外還教了 Heap&amp;rsquo;s Algorithm，用 O(n!) 枚舉，打算放進 Codebook 裡。
+晚上吃了火雞肉飯，覺得沒胃口。
+1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3void heaps(int k, vector&amp;lt;int&amp;gt; &amp;amp;s, int n) { 4 if (k == 1) { 5 for (int i = 0; i &amp;lt; n; i++) 6 cout &amp;lt;&amp;lt; s[i] &amp;lt;&amp;lt; &amp;#34; \n&amp;#34;[i == n - 1]; 7 return; 8 } 9 for (int i = 0; i &amp;lt; k - 1; ++i) { 10 heaps(k - 1, s, n); 11 if (k &amp;amp; 1) swap(s[i], s[k - 1]); 12 else swap(s[0], s[k - 1]); 13 } 14 heaps(k - 1, s, n); 15} 16void permutation(int n) { 17 vector&amp;lt;int&amp;gt; v(n); 18 for (int i = 0; i &amp;lt; n; i++) v[i] = i; 19 heaps(n, v, n); 20} 21int main() { 22 int n; cin &amp;gt;&amp;gt; n; 23 permutation(n); 24 return 0; 25}  </description>
+    </item>
+    
+    <item>
+      <title>2021/03/01 日記</title>
+      <link>https://Luke2336.github.io/p/20210301/</link>
+      <pubDate>Tue, 02 Mar 2021 15:58:12 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210301/</guid>
+      <description>今天是 228 補假，因為昨天很累，所以幾乎都在睡覺。身體不太舒服，心情也不好。</description>
+    </item>
+    
     <item>
       <title>2021/02/28 日記</title>
       <link>https://Luke2336.github.io/p/20210228/</link>
@@ -63,7 +113,7 @@
 下午羽球課，做操做了很久，然後稍微拉了一下球，覺得球感掉了不少。
 睡了一下，之後洗了澡。
 晚上在 PCCA 吃了便當，然後練了五小時的個人題組，覺得今天很挫折，狀態不是很好。
-練題紀錄    ID Status Penalty Difficulty Keywords Date     A        B        C AC +1 6.3 BFS 2021/02/24   D        E AC +2 4.5 DP 2021/02/24   F        G        H        I        J        K (AC) +1 3.</description>
+練題紀錄    ID Status Penalty Difficulty Keywords Date     A        B        C AC +1 6.3 BFS 2021/02/24   D AC +1 7.9 逆序數對 2021/03/01   E AC +2 4.5 DP 2021/02/24   F        G        H        I        J        K (AC) +1 3.</description>
     </item>
     
     <item>
@@ -117,7 +167,7 @@ A. Star $$O(1)$$
 快開學了 學期目標：
  All Pass，不要有 W，成績都 85 up。 訓練自己規律作息，目標 11 點睡，8 點前起床。 夏天前，每天起床或洗澡前跳繩。 一週至少打一次系羽。3/13 有小梅竹！！ 5/8 英檢中高級初試：每天背一點單字。 參加德文圓桌，有空就用 dw.com 學點單字。 寫完 USACO 和 CSES 題單，讓自己能在賽場上有 coding 技能。  Google 收到 Google 的 SWE Interview 通知了，在 3/1 那週，貌似一週直接把兩場面完？
 原本以為不會收到通知了，看來今年申請的人數應該不少，當初好像是公告後的一個月內申請的。去年面完第一次，就因為疫情所以被取消了，希望今年會順利。
-USACO  3.3 Camelot  3.3 Camelot  寫的有點醜醜的，但其實不難寫，想的難度比較高。因為想不太到夠快的方法，所以就 Google 了一下。 題意：給定一個 R x C ≤ 30 x 26 的棋盤，棋盤上有一個 King 和多個 Knights，棋子可停留在同一格，當 King 和 Knights 在一起時，King 可帶著一個 Knight 照著 Knight 的走法走，問使得所有棋子都在同一格的最少步數？ 解法：如果沒有 King 的話，這題就是對每個點做一次 BFS，最小距離和就是答案。而多了 King 的做法，就是將每個棋做一次 SPFA，紀錄到每一格以遇到 King 或未遇到的最小步數。 複雜度：假設棋子數量為 K。$$O(KRC)$$  1/* 2ID: whitech1 3TASK: camelot 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.</description>
+USACO  3.3 Camelot  3.3 Camelot  寫的有點醜醜的，但其實不難寫，想的難度比較高。因為想不太到夠快的方法，所以就 Google 了一下。 題意：給定一個 R x C ≤ 30 x 26 的棋盤，棋盤上有一個 King 和多個 Knights，棋子可停留在同一格，當 King 和 Knights 在一起時，King 可帶著一個 Knight 照著 Knight 的走法走，問使得所有棋子都在同一格的最少步數？ 解法：如果沒有 King 的話，這題就是對每個點做一次 BFS，最小距離和就是答案。而多了 King 的做法，就是將每個棋做一次 SPFA，紀錄到每一格以遇到 King 或未遇到的最小步數。 複雜度：假設棋子數量為 K。$$O(KRC)$$  1#include &amp;lt;bits/stdc++.</description>
     </item>
     
     <item>
