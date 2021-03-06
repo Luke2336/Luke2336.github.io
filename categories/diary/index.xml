@@ -6,7 +6,20 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 11:50:51 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 11:50:57 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210305/</link>
+      <pubDate>Fri, 05 Mar 2021 11:50:57 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210305/</guid>
+      <description>早上去找導師簽了交換的文件後，在宿舍混了一下，就去清大吃下午茶和寫作業了。
+晚上跟學長去清夜拿羽球拍和吃義大利麵，然後因為戶外下雨，所以就在台達館聊了一下。
+空堂咖啡 去清大的空堂咖啡吃了下午的甜點，這週是提拉米蘇，加上一杯冰拿鐵。
+還被請了一杯檸檬水，但之後肚子不太舒服&amp;hellip;&amp;hellip;
+然後去台達館找了一個空桌寫正規語言作業，發現旁邊有白板，但筆都沒水了，下次會考慮帶自己的筆去。</description>
+    </item>
+    
     <item>
       <title>2021/03/04 日記</title>
       <link>https://Luke2336.github.io/p/20210304/</link>
@@ -16,7 +29,8 @@
       <description>過敏很嚴重的一天，一直流鼻水，眼睛也很癢，於是就請了 TA office hour。
 早上就覺得很疲倦，上了無趣的教育學概論，已經有想要翹課的衝動了。
 下午去上了 EDA 和正規，覺得正規應該會是我這學期比較感興趣的課。開學第二周就在第二排趴著上課&amp;hellip;
-晚上吃了熟凍麵，覺得很棒，之後就吃了藥一直昏睡。</description>
+晚上吃了熟凍麵，覺得很棒，之後就吃了藥一直昏睡。
+EDA 這次上課是在講 EDA 的產值，覺得有點無聊。怎麼感覺電機系的老師都覺得大家以後都會跑去當工程師呢？</description>
     </item>
     
     <item>
@@ -32,7 +46,7 @@ Google Intern 面試 體育課請假，在宿舍線上面試。
 好慘好慘，每次一緊張就胡說八道了&amp;hellip;覺得去年面得比較好。
 PCCA 今天忘記訂餐了，於是就遲到了。曲線忘記要練習了，於是就忙微軟的事請假，只好跟路學弟練。
 2020-2021 ACM-ICPC, Asia Seoul Regional Contest 中段打得有點卡，讀題和解題速度偏慢。這場基本上 penalty 不高，但 pJ 太晚開出來了。
-   problem status coder type     A WA Emilian 實作   B AC LinLee 水題   C AC Kelly tree   D      E AC LinLee greedy   F      G AC LinLee, Emilian 三分搜   H AC Kelly FFT   I      J AC Emilian 高斯消   K      L       </description>
+   problem status coder type     A WA Emilian 實作   B AC LinLee 水題   C AC Kelly tree   D      E AC LinLee greedy   F      G AC LinLee, Emilian 三分搜   H AC Kelly FFT   I      J AC Emilian 高斯消   K      L       pC 只要是在 k 個點中任意兩個的路徑上就可以選。</description>
     </item>
     
     <item>
