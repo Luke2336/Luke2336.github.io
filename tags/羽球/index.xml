@@ -6,7 +6,22 @@
     <description>Recent content in 羽球 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 10:11:36 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 15:27:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/07 日記</title>
+      <link>https://Luke2336.github.io/p/20210307/</link>
+      <pubDate>Sun, 07 Mar 2021 15:27:28 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210307/</guid>
+      <description>かくりよの宿飯，這部動畫很女性向，畫風很合我胃口，於是就入坑了 &amp;gt;&amp;lt;
+最近異常的疲累～下午刷了一點點 USACO。
+不知不覺就寫了快 100 篇日記了。
+羽球 晚上去打了系羽，發現 23 磅有點拉不動長球，感覺應該再好好調整姿勢和協調性。但 23 磅切球的感覺卻非常乾脆，切出來的質量不錯，需要比原本用更多力，卻得到不錯的球速。
+下週的小梅竹要上混雙，有點緊張。
+USACO 寫完 Chapter 3 了！
+ 3.4 American Heritage 3.4 Electric Fence 3.4 Raucous Rockers  3.4 American Heritage  題意：給定一棵二元樹的中序和前序，求輸出後序。 解法：用前序標出中間節點後遞迴。應該可以做到 O(n)，但因為懶，所以用了 O(n^2)。  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3string pre, in; 4void solve(int il, int ir, int pl, int pr) { 5 if (il &amp;gt; ir) return; 6 if (il == ir) { cout &amp;lt;&amp;lt; in[il]; return; } 7 int i; 8 for (i = il; in[i] !</description>
+    </item>
+    
     <item>
       <title>2021/02/25 日記</title>
       <link>https://Luke2336.github.io/p/20210225/</link>
