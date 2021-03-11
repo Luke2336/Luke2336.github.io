@@ -6,7 +6,123 @@
         <description>Recent content on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 09 Mar 2021 10:11:50 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Mar 2021 10:25:11 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2021/03/11 日記</title>
+        <link>https://Luke2336.github.io/p/20210311/</link>
+        <pubDate>Thu, 11 Mar 2021 10:25:11 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210311/</guid>
+        <description>&lt;p&gt;今天還滿累的，上五節課後，去系辦交資料，接著助教時間，然後吃個飯還要上英文課。覺得這陣子雜事有點多，耗費了不少精神。&lt;/p&gt;
+&lt;p&gt;這學期主要的事：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;修課&lt;/li&gt;
+&lt;li&gt;PCCA&lt;/li&gt;
+&lt;li&gt;ICCAD contest&lt;/li&gt;
+&lt;li&gt;專題研究&lt;/li&gt;
+&lt;li&gt;規劃暑假和大四&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;傍晚收到 Google 的來信，已經可以送到 Hiring Committee 了，但可能會在 queue 裡待一陣子&amp;hellip;&lt;/p&gt;
+&lt;p&gt;趁著傍晚有空就報名了電資週的羽球。&lt;/p&gt;
+&lt;h2 id=&#34;教育學概論&#34;&gt;教育學概論&lt;/h2&gt;
+&lt;p&gt;回答問題後，老師送了我一本書。&lt;/p&gt;
+&lt;h4 id=&#34;問題為什麼要用成績評定學生好壞&#34;&gt;問題：為什麼要用成績評定學生好壞？&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;以下是老師提到的一些想法。&lt;/li&gt;
+&lt;li&gt;評量是為了分配資源，以利於國家拔擢人才。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Evaluation is to improve.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;eda&#34;&gt;EDA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;technology-independent&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;這裡的 technology 是指 node&lt;/li&gt;
+&lt;li&gt;node 是 65nm, 32nm, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;教了 K-L Algorithm，用來找 balanced 2-partition，但非常的 heuristic。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;正規語言&#34;&gt;正規語言&lt;/h2&gt;
+&lt;p&gt;意外的上了一點點 pattern searching 的演算法。&lt;/p&gt;
+&lt;h3 id=&#34;pattern-searching---kmp&#34;&gt;Pattern Searching - KMP&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;做成一個 DFA accept Pattern。&lt;/li&gt;
+&lt;li&gt;Time Complexity = O(n + m)
+&lt;ul&gt;
+&lt;li&gt;O(n) build dfa&lt;/li&gt;
+&lt;li&gt;O(m) for string matching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;usaco&#34;&gt;USACO&lt;/h2&gt;
+&lt;p&gt;寫完了 Section 2.1。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 Beef McNuggets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;41-beef-mcnuggetshttpstrainusacoorgusacoprob2anxfqzrv6j5nsnuggets&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://train.usaco.org/usacoprob2?a=NxfQzrv6j5N&amp;amp;S=nuggets&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;4.1 Beef McNuggets&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;有點吃數論的題目～&lt;/li&gt;
+&lt;li&gt;題意：給定 N ≤ 10 個正整數 ≤ 256，求最大的正整數不能用這些數字組出來，若無限大則輸出 0。&lt;/li&gt;
+&lt;li&gt;解法：若 gcd 不為 1 則輸出 0，否則答案會在 256 x 256 以內，DP 解即可。
+&lt;ul&gt;
+&lt;li&gt;對於互質的正整數 a, b，最大不能得到的數為 ab - a - b。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;freopen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nuggets.in&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stdin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;freopen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nuggets.out&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;w&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stdout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;g&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nl&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;g&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;__gcd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;g&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;        &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;0&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;256&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;256&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;M&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ans&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;18&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;19&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;20&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nl&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;21&lt;/span&gt;                &lt;span class=&#34;n&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;22&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ans&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;23&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ans&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;24&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/03/10 日記</title>
+        <link>https://Luke2336.github.io/p/20210310/</link>
+        <pubDate>Thu, 11 Mar 2021 10:25:04 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210310/</guid>
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210310/Standing.png" alt="Featured image of post 2021/03/10 日記" /&gt;&lt;h2 id=&#34;羽球課&#34;&gt;羽球課&lt;/h2&gt;
+&lt;p&gt;複習了步伐和中場的平球，跑得有點累，右大腿有點拉傷，左腳踝也稍微拐到。感覺比較習慣球拍的手感了，但還是對星期六的小梅竹比賽有點緊張。&lt;/p&gt;
+&lt;h2 id=&#34;pcca&#34;&gt;PCCA&lt;/h2&gt;
+&lt;p&gt;今天訂的飯不太好吃。LinLee 因為很累，所以這次就跟路學弟練。雙曲線狀況不太好，今天一直卡題。&lt;/p&gt;
+&lt;h3 id=&#34;2013-2014-acm-icpc-central-european-regional-contest-cerc-13httpscodeforcescomgym100299&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/gym/100299&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2013-2014 ACM ICPC Central European Regional Contest (CERC 13)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210310/Standing.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/03/09 日記</title>
+        <link>https://Luke2336.github.io/p/20210309/</link>
+        <pubDate>Tue, 09 Mar 2021 10:11:56 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210309/</guid>
+        <description>&lt;p&gt;和老師聊了一下未來的事，晚上和老師們吃了一餐的 LaLa。&lt;/p&gt;
+&lt;p&gt;在臉書發了一篇文，講關於資奧女保名額的事。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>2021/03/08 日記</title>
         <link>https://Luke2336.github.io/p/20210308/</link>
         <pubDate>Tue, 09 Mar 2021 10:11:50 +0800</pubDate>
@@ -16,6 +132,18 @@
 &lt;p&gt;英文課沒有太多進度，大致上就是分好組了，組裡的男生略略積極，於是期中作業就變成運動介紹的部落格了&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;中午的課花了一小時複習演算法概論，覺得那段時間應該翹課才對。今天李一凡對我莫名親近，讓我有點嚇到。&lt;/p&gt;
 &lt;p&gt;晚上吃了烏龍麵和湯圓，很早就睡了。&lt;/p&gt;
+&lt;h2 id=&#34;英文寫作---formal-writing&#34;&gt;英文寫作 - Formal Writing&lt;/h2&gt;
+&lt;p&gt;我覺得自己在 Formal Writing 上需要加強的首先就是用字，除此之外就是拉長句子的結構，不行一直短短的很多句點。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Punctuation, proper grammar, and correct sentence structure&lt;/li&gt;
+&lt;li&gt;Longer / more complex sentences&lt;/li&gt;
+&lt;li&gt;Larger and less common words&lt;/li&gt;
+&lt;li&gt;Avoid phrasal verbs&lt;/li&gt;
+&lt;li&gt;Avoid contractions
+(I’m, you’re, can’t, don’t, hasn’t, wasn’t, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;No idioms, slang, text speaks&lt;/li&gt;
+&lt;li&gt;Avoid shortened words&lt;/li&gt;
+&lt;/ol&gt;
 </description>
         </item>
         <item>

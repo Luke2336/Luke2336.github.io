@@ -6,7 +6,43 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 10:11:50 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Mar 2021 10:25:11 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210311/</link>
+      <pubDate>Thu, 11 Mar 2021 10:25:11 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210311/</guid>
+      <description>今天還滿累的，上五節課後，去系辦交資料，接著助教時間，然後吃個飯還要上英文課。覺得這陣子雜事有點多，耗費了不少精神。
+這學期主要的事：
+ 修課 PCCA ICCAD contest 專題研究 規劃暑假和大四  傍晚收到 Google 的來信，已經可以送到 Hiring Committee 了，但可能會在 queue 裡待一陣子&amp;hellip;
+趁著傍晚有空就報名了電資週的羽球。
+教育學概論 回答問題後，老師送了我一本書。
+問題：為什麼要用成績評定學生好壞？  以下是老師提到的一些想法。 評量是為了分配資源，以利於國家拔擢人才。 &amp;ldquo;Evaluation is to improve.&amp;rdquo;  EDA  &amp;ldquo;technology-independent&amp;rdquo;  這裡的 technology 是指 node node 是 65nm, 32nm, &amp;hellip;   教了 K-L Algorithm，用來找 balanced 2-partition，但非常的 heuristic。  正規語言 意外的上了一點點 pattern searching 的演算法。
+Pattern Searching - KMP  做成一個 DFA accept Pattern。 Time Complexity = O(n + m)  O(n) build dfa O(m) for string matching    USACO 寫完了 Section 2.</description>
+    </item>
+    
+    <item>
+      <title>2021/03/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210310/</link>
+      <pubDate>Thu, 11 Mar 2021 10:25:04 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210310/</guid>
+      <description>羽球課 複習了步伐和中場的平球，跑得有點累，右大腿有點拉傷，左腳踝也稍微拐到。感覺比較習慣球拍的手感了，但還是對星期六的小梅竹比賽有點緊張。
+PCCA 今天訂的飯不太好吃。LinLee 因為很累，所以這次就跟路學弟練。雙曲線狀況不太好，今天一直卡題。
+2013-2014 ACM ICPC Central European Regional Contest (CERC 13) </description>
+    </item>
+    
+    <item>
+      <title>2021/03/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210309/</link>
+      <pubDate>Tue, 09 Mar 2021 10:11:56 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210309/</guid>
+      <description>和老師聊了一下未來的事，晚上和老師們吃了一餐的 LaLa。
+在臉書發了一篇文，講關於資奧女保名額的事。</description>
+    </item>
+    
     <item>
       <title>2021/03/08 日記</title>
       <link>https://Luke2336.github.io/p/20210308/</link>
@@ -16,7 +52,9 @@
       <description>做了一個關於殭屍和火災的惡夢，沒睡好。藥效持續了很久，到下午都昏昏沈沈的。
 英文課沒有太多進度，大致上就是分好組了，組裡的男生略略積極，於是期中作業就變成運動介紹的部落格了&amp;hellip;&amp;hellip;
 中午的課花了一小時複習演算法概論，覺得那段時間應該翹課才對。今天李一凡對我莫名親近，讓我有點嚇到。
-晚上吃了烏龍麵和湯圓，很早就睡了。</description>
+晚上吃了烏龍麵和湯圓，很早就睡了。
+英文寫作 - Formal Writing 我覺得自己在 Formal Writing 上需要加強的首先就是用字，除此之外就是拉長句子的結構，不行一直短短的很多句點。
+ Punctuation, proper grammar, and correct sentence structure Longer / more complex sentences Larger and less common words Avoid phrasal verbs Avoid contractions (I’m, you’re, can’t, don’t, hasn’t, wasn’t, &amp;hellip;) No idioms, slang, text speaks Avoid shortened words  </description>
     </item>
     
     <item>
