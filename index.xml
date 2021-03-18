@@ -6,7 +6,67 @@
         <description>Recent content on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 13 Mar 2021 18:36:09 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 17 Mar 2021 09:28:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2021/03/17 日記</title>
+        <link>https://Luke2336.github.io/p/20210317/</link>
+        <pubDate>Wed, 17 Mar 2021 09:28:38 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210317/</guid>
+        <description>&lt;img src="https://Luke2336.github.io/post/Diary/20210317/toggl.png" alt="Featured image of post 2021/03/17 日記" /&gt;&lt;p&gt;下午體育課停課，於是將 ICCAD 的 parser bug 修好了，還有把英文作文寫完了。&lt;/p&gt;
+&lt;h2 id=&#34;pcca&#34;&gt;PCCA&lt;/h2&gt;
+&lt;p&gt;今天練到 21:30 就因為教室要鎖門，所以就各自回去休息了。不然原本解得還算順利，一直有題目在寫。&lt;/p&gt;
+&lt;h3 id=&#34;2013-2014-acm-icpc-east-central-north-america-regional-contest-ecna-2013httpscodeforcescomgym100291&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/gym/100291&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2013-2014 ACM-ICPC East Central North America Regional Contest (ECNA 2013)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;D、E、I 應該都是有機會開得出來的，H 是插頭 DP，結果 hyperbola 一直用 Flow 亂搞，然後就一堆 penalty&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210317/Standing.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;toggl&#34;&gt;Toggl&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一到四都排了不少課，所以主要做事的時間就會集中在假日，其中星期五產能最高。&lt;/li&gt;
+&lt;li&gt;英文寫作速度有待加強，雖然包含了構思和找資料的時間，但還是比想像中多不少。&lt;/li&gt;
+&lt;li&gt;最近開始固定花時間在弄 ICCAD contest。&lt;/li&gt;
+&lt;li&gt;有空就有在複習正規語言。&lt;/li&gt;
+&lt;li&gt;USACO 的進度有些停擺。&lt;/li&gt;
+&lt;li&gt;MT 的課因為沒有修，一不小心就會忘記複習。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Diary/20210317/toggl.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/03/16 日記</title>
+        <link>https://Luke2336.github.io/p/20210316/</link>
+        <pubDate>Wed, 17 Mar 2021 09:28:31 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210316/</guid>
+        <description>&lt;p&gt;今天心情不好，早午餐都沒吃，把時間拿去睡覺。&lt;/p&gt;
+&lt;p&gt;正規課滿不專心的，但上難解問題課我精神就來了。今天是教排容原理和機率方法，機率方法的部分我有七成都聽韓老師講過了，但果然是 MT 上課比較快，雖然說是假設的學生先備知識不同就是了。&lt;/p&gt;
+&lt;p&gt;覺得自己機率忘了不少，畢竟上學期的課都沒什麼用到，覺得有些失落。&lt;/p&gt;
+&lt;p&gt;晚餐和 Maxwill 和卡車一起去吃豬排。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/03/15 日記</title>
+        <link>https://Luke2336.github.io/p/20210315/</link>
+        <pubDate>Mon, 15 Mar 2021 15:08:58 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210315/</guid>
+        <description>&lt;p&gt;因為英文寫作的組員們都不做事，早上洗完澡後，只好自己印 proposal，結果因為忘東忘西就遲到了 QAQ 分組討論了 Opinion Paragraph 的幾個 Issue（性別平等、梅竹賽、Covid 19、NYCU persona），練習寫了 Topic Sentence。&lt;/p&gt;
+&lt;p&gt;買了便利商店的麵包當午餐，恍恍惚惚的上完了中午的課。還是沒想到確切的辦法壓掉 K-L Algorithm 的複雜度。&lt;/p&gt;
+&lt;p&gt;下午上課時問了老師 K-L 的複雜度，結果他認為最快只做到 O(rN^3)，但後來我有想到 O(rN^2logN)，看了維基百科已經有人做過了 QAQ&lt;/p&gt;
+&lt;p&gt;晚上寫了一點點英文作文，作業是 Opinion Paragraph，我寫的主題是 Gender Equality 中關於 Transgender 的部分，覺得還算好發揮。因為累了，所以寫了一半就休息了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/03/14 日記</title>
+        <link>https://Luke2336.github.io/p/20210314/</link>
+        <pubDate>Mon, 15 Mar 2021 15:08:53 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210314/</guid>
+        <description>&lt;p&gt;中午賴床了一個半小時，吃了麥當勞，寫完教育學的學習單。然後就騎 Ubike 去清大找學長聊天，但他做完投影片後，就一起去動物園旁的市集買點心吃。&lt;/p&gt;
+&lt;p&gt;晚上等他們上完課，也一起買了麥當勞吃。他到這時候才告訴我，他女朋友對於我跟他距離過近，有些嫉妒。&lt;/p&gt;
+&lt;p&gt;等到十一點左右我就回去交大，因為心情悶悶的，就上去工四頂樓看星星，找了 LinLee 聊聊。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>2021/03/13 日記</title>
         <link>https://Luke2336.github.io/p/20210313/</link>
         <pubDate>Sat, 13 Mar 2021 18:36:09 +0800</pubDate>
