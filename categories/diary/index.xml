@@ -6,7 +6,41 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Mar 2021 10:17:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Mar 2021 17:08:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/21 日記</title>
+      <link>https://Luke2336.github.io/p/20210321/</link>
+      <pubDate>Sun, 21 Mar 2021 17:08:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210321/</guid>
+      <description>早上睡到有點晚才起床，玩了貓之後就中午了，之後就一直在研究 CUDA。晚上吃了熱炒，洗了澡，幫媽媽幫白頭髮之後就去睡了。
+CUDA 參考資料  CUDA C/C++ Basics 谭升的博客  GCC 版本問題 CUDA 只支援 GCC5 以前的版本，幸好工作站上有 GCC4.8，所以用 nvcc --compiler-binder /usr/bin/gcc4.8 就解決了編譯的問題了。
+Note  Host vs. Device  Host 是用 CPU 跑 serial 的部分。 Device 是用 GPU 跑 parallel 的部分。 兩者的 Memory 是分開的。   __global__ 要加在 device function code 前面。 cudaMalloc()、cudaMemcpy()、cudaFree()。  Simple Code 1#include&amp;lt;stdio.h&amp;gt;2using namespace std; 3__global__ void add(int *a, int *b, int *c) { 4 *c = *a + *b; 5} 6int main() { 7 int a, b, c; 8 int *d_a, *d_b, *d_c; 9 int size = sizeof(int); 10 cudaMalloc((void**)&amp;amp;d_a, size); 11 cudaMalloc((void**)&amp;amp;d_b, size); 12 cudaMalloc((void**)&amp;amp;d_c, size); 13 a = 2, b = 7; 14 cudaMemcpy(d_a, &amp;amp;a, size, cudaMemcpyHostToDevice); 15 cudaMemcpy(d_b, &amp;amp;b, size, cudaMemcpyHostToDevice); 16 printf(&amp;#34;a = %d\n&amp;#34;, a); 17 printf(&amp;#34;b = %d\n&amp;#34;, b); 18 add&amp;lt;&amp;lt;&amp;lt;1, 1&amp;gt;&amp;gt;&amp;gt;(d_a, d_b, d_c); 19 cudaMemcpy(&amp;amp;c, d_c, size, cudaMemcpyDeviceToHost); 20 cudaFree(d_a); 21 cudaFree(d_b); 22 cudaFree(d_c); 23 printf(&amp;#34;c = %d\n&amp;#34;, c); 24 return 0; 25}  Vector 加法  改成 add&amp;lt;&amp;lt;&amp;lt;1, N&amp;gt;&amp;gt;&amp;gt;(d_a, d_b, d_c); 即可用 threadIdx.</description>
+    </item>
+    
+    <item>
+      <title>2021/03/20 日記</title>
+      <link>https://Luke2336.github.io/p/20210320/</link>
+      <pubDate>Sat, 20 Mar 2021 15:47:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210320/</guid>
+      <description>這週都沒有打球，感覺有些難過。昨晚有夢到打球，但是一球都打不好，算是糟糕的夢。
+公館 早上就跟 T 一塊去台北，然後我去弟弟家睡到中午。
+我們去溫州街那區吃了 pizza，點了一個雞肉馬鈴薯口味 $260 和一個蘋果肉桂口味 $170，每人低消 $150，還需要一成服務費。
+去台大散了步，有看到一個農產市集「穗道」。然後到醉月湖看了鵝和鴨鴨，有幾隻番鴨很大隻。之後去了吃了「台大牛奶大王」的紅豆湯圓牛奶冰 $70，湯圓還滿棒的。
+回家 到基隆後就因為溫差一直過敏，回到家就吃顆藥睡到九點多，然後吃了鹽酥雞就去洗澡睡覺了。
+依依不捨的小乖。</description>
+    </item>
+    
+    <item>
+      <title>2021/03/19 日記</title>
+      <link>https://Luke2336.github.io/p/20210319/</link>
+      <pubDate>Fri, 19 Mar 2021 15:11:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210319/</guid>
+      <description> 寫完計算方法之實務應用 HW1，昨晚的 bug 是忘記每個 cell 只能放一種數字，加了這個條件之後就 ok 了。因為花了不少時間研究怎麼跑 MiniSAT 的執行檔，於是總共花了 4 個小時才搞定這份作業。因為要用 Linux，所以第一次用系計中的工作站。 去 NYCU Open House 聽了兩場演講，有拿到雞排和餐盒。 下午稍微測試了一下 EDA Lab 的工作站。 交了台清交程式競賽的報名費 $300，沒想到交大今年只有 3 隊。 晚上 17:30 - 19:10 吃了導聚，去了建功中學對面的芙歐，點了煙燻鮭魚義大利麵，加上套餐，覺得滿飽的，味道還行，但價位大概都 300 左右，平常應該不太會去吃。 稍微研究了一下 Makefile。 晚上才發現 EDA 的 Homework 是 Hypergraph，覺得有點麻煩。用 Hmatics 跑了一下，感覺還滿快的。計畫是用 FM 演算法寫，KL 複雜度太爛，而且還要處理 Hypergraph，不考慮。現在是在考慮用平行化去做，一開始多放幾個 randome partition 下去跑，再選幾個較好的 case。不過考慮了一下 casche miss，不確定效能夠不夠好。  </description>
+    </item>
+    
     <item>
       <title>2021/03/18 日記</title>
       <link>https://Luke2336.github.io/p/20210318/</link>

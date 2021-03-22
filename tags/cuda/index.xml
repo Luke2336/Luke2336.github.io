@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CUDA on Luke&#39;s Blog</title>
+    <link>https://Luke2336.github.io/tags/cuda/</link>
+    <description>Recent content in CUDA on Luke&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Mar 2021 17:08:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/21 日記</title>
+      <link>https://Luke2336.github.io/p/20210321/</link>
+      <pubDate>Sun, 21 Mar 2021 17:08:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210321/</guid>
+      <description>早上睡到有點晚才起床，玩了貓之後就中午了，之後就一直在研究 CUDA。晚上吃了熱炒，洗了澡，幫媽媽幫白頭髮之後就去睡了。
+CUDA 參考資料  CUDA C/C++ Basics 谭升的博客  GCC 版本問題 CUDA 只支援 GCC5 以前的版本，幸好工作站上有 GCC4.8，所以用 nvcc --compiler-binder /usr/bin/gcc4.8 就解決了編譯的問題了。
+Note  Host vs. Device  Host 是用 CPU 跑 serial 的部分。 Device 是用 GPU 跑 parallel 的部分。 兩者的 Memory 是分開的。   __global__ 要加在 device function code 前面。 cudaMalloc()、cudaMemcpy()、cudaFree()。  Simple Code 1#include&amp;lt;stdio.h&amp;gt;2using namespace std; 3__global__ void add(int *a, int *b, int *c) { 4 *c = *a + *b; 5} 6int main() { 7 int a, b, c; 8 int *d_a, *d_b, *d_c; 9 int size = sizeof(int); 10 cudaMalloc((void**)&amp;amp;d_a, size); 11 cudaMalloc((void**)&amp;amp;d_b, size); 12 cudaMalloc((void**)&amp;amp;d_c, size); 13 a = 2, b = 7; 14 cudaMemcpy(d_a, &amp;amp;a, size, cudaMemcpyHostToDevice); 15 cudaMemcpy(d_b, &amp;amp;b, size, cudaMemcpyHostToDevice); 16 printf(&amp;#34;a = %d\n&amp;#34;, a); 17 printf(&amp;#34;b = %d\n&amp;#34;, b); 18 add&amp;lt;&amp;lt;&amp;lt;1, 1&amp;gt;&amp;gt;&amp;gt;(d_a, d_b, d_c); 19 cudaMemcpy(&amp;amp;c, d_c, size, cudaMemcpyDeviceToHost); 20 cudaFree(d_a); 21 cudaFree(d_b); 22 cudaFree(d_c); 23 printf(&amp;#34;c = %d\n&amp;#34;, c); 24 return 0; 25}  Vector 加法  改成 add&amp;lt;&amp;lt;&amp;lt;1, N&amp;gt;&amp;gt;&amp;gt;(d_a, d_b, d_c); 即可用 threadIdx.</description>
+    </item>
+    
+  </channel>
+</rss>
