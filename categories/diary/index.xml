@@ -6,7 +6,20 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Mar 2021 17:08:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 14:37:32 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/22 日記</title>
+      <link>https://Luke2336.github.io/p/20210322/</link>
+      <pubDate>Mon, 22 Mar 2021 14:37:32 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210322/</guid>
+      <description>今天又濕又冷。
+早上五點半就起床，在國光號就都在睡覺，在清大下車後，去吃了永和豆漿，然後才回學校睡覺。
+早上的英文作文課是互相看別人的作文為主，沒有新的作業。中午的課難得我有稍微認真一點聽，下午的 EDA 把 partition 上完了。
+之後我就一直在寫 EDA 的作業，打算用 F-M alogirithm，可能加上 Multithreading 去做。沒有有 GPU 的原因是擔心記憶體的問題，所以可能放到有空再作嘗試。看了一下最大的測資，degree 和大概才 3e5，只有幾條邊非常肥。
+晚餐吃了牛肉麵，然後聊到了一些妥協的話題，心情就有點糟。之後就只寫了一點點作業，然後就去睡了。</description>
+    </item>
+    
     <item>
       <title>2021/03/21 日記</title>
       <link>https://Luke2336.github.io/p/20210321/</link>
