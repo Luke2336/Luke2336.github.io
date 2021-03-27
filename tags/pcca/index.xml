@@ -6,7 +6,21 @@
     <description>Recent content in PCCA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Mar 2021 09:28:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 17:50:02 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/24 日記</title>
+      <link>https://Luke2336.github.io/p/20210324/</link>
+      <pubDate>Wed, 24 Mar 2021 17:50:02 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210324/</guid>
+      <description>原本以為今天要考德文，但後來說下週才要考動詞變化。
+體育課練了高遠球，覺得練習有點沒效率，因為同學餵的球質量不好。
+收到 Google HR 的通知了，接下來就等 Team Matching。
+傍晚跟我媽講了找室友的事，結果聽到對方是越南人，我媽就不開心，一直覺得東南亞國家的人會偷東西&amp;hellip;超煩的，台灣人最好是有比較好相處！
+PCCA 今天晚餐吃八方雲集，來的人比平常少很多。 Hyperbola 在忙公司的事，就請假了。
+Kattis     Time Status Tag     A 22 AC DP、BFS   B 13     C 36 AC Shortest Path   D 10     E 8  Trie   F 50 AC(3) DP   G 2     H 22 WA Math    A 1#include&amp;lt;bits/stdc++.</description>
+    </item>
+    
     <item>
       <title>2021/03/17 日記</title>
       <link>https://Luke2336.github.io/p/20210317/</link>

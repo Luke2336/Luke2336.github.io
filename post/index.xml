@@ -6,7 +6,54 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Mar 2021 14:37:32 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Mar 2021 12:19:16 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/26 日記</title>
+      <link>https://Luke2336.github.io/p/20210326/</link>
+      <pubDate>Sat, 27 Mar 2021 12:19:16 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210326/</guid>
+      <description>早上稍微做了點家事之後，就去清大。因為女二的 Ubike 沒了，於是就去研三，但剛好有個男生跟我同時走到最後一台前面，一不小心就被搶走了 QAQ 之後跟ㄠㄨ在小吃部買了冰炫風，然後去拿空堂的蛋糕跟奶茶，覺得伯爵奶茶很好喝，雖然貴貴的。
+下午他教了我 Makefile 的原理和基礎寫法，然後我們就研究了一下 ICCAD contest 的報名，之後就繼續寫 Code，主要是將原始的 Input 轉成關聯性較強的 Data，像是用 Map 處理字串，還有加上一些指標指回原本的資料。
+晚上吃了清夜的山口的鍋燒烏龍麵和生魚片，之後把下午的 code 處理完，他幫我按摩了一下背，然後我就搭小紅巴回交大。</description>
+    </item>
+    
+    <item>
+      <title>2021/03/25 日記</title>
+      <link>https://Luke2336.github.io/p/20210325/</link>
+      <pubDate>Thu, 25 Mar 2021 10:42:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210325/</guid>
+      <description>上教育學概論時才知道 HW1 不是只有第一組需要交，覺得作業說明不清楚，很煩躁不舒服。
+中午買了壽司到教室吃。
+下午上了幾節課，都覺得很疲勞，沒辦法專心。
+TA Office Hour 還是沒有人去，於是就利用時間，把教育學的 HW1 補寄給老師。
+傍晚吃了一餐的自助餐之後，順便買了兩個 35 的蛋塔，之後去上了英文課，心情有變好。</description>
+    </item>
+    
+    <item>
+      <title>2021/03/24 日記</title>
+      <link>https://Luke2336.github.io/p/20210324/</link>
+      <pubDate>Wed, 24 Mar 2021 17:50:02 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210324/</guid>
+      <description>原本以為今天要考德文，但後來說下週才要考動詞變化。
+體育課練了高遠球，覺得練習有點沒效率，因為同學餵的球質量不好。
+收到 Google HR 的通知了，接下來就等 Team Matching。
+傍晚跟我媽講了找室友的事，結果聽到對方是越南人，我媽就不開心，一直覺得東南亞國家的人會偷東西&amp;hellip;超煩的，台灣人最好是有比較好相處！
+PCCA 今天晚餐吃八方雲集，來的人比平常少很多。 Hyperbola 在忙公司的事，就請假了。
+Kattis     Time Status Tag     A 22 AC DP、BFS   B 13     C 36 AC Shortest Path   D 10     E 8  Trie   F 50 AC(3) DP   G 2     H 22 WA Math    A 1#include&amp;lt;bits/stdc++.</description>
+    </item>
+    
+    <item>
+      <title>2021/03/23 日記</title>
+      <link>https://Luke2336.github.io/p/20210323/</link>
+      <pubDate>Tue, 23 Mar 2021 11:15:36 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210323/</guid>
+      <description>超級濕冷的一天，很懶得出門上課，晚上去竹東，然後稍微寫了 EDA 作業。</description>
+    </item>
+    
     <item>
       <title>2021/03/22 日記</title>
       <link>https://Luke2336.github.io/p/20210322/</link>
