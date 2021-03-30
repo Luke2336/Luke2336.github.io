@@ -6,7 +6,20 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Mar 2021 12:19:16 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Mar 2021 12:19:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/27 日記</title>
+      <link>https://Luke2336.github.io/p/20210327/</link>
+      <pubDate>Sat, 27 Mar 2021 12:19:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210327/</guid>
+      <description>早上在宿舍打了 2021 Google Code Jam 的 Qualification，讀了一下正規語言，然後就去打電資週的羽球賽了，總共來了 3 男 4 女，於是組了混雙賽，我跟昱廷一組，我覺得自己有時候會搶球，但最後還是幾乎都有贏，可能是球的關係，今天切球狀況很差，殺球也老是敲框。
+晚上跟學長從竹中站搭火車去竹東逛夜市，還滿快樂的，買了炸牛奶、白糖粿、燒仙草吃。回到清大後，因為自己心情的因素，就決定和他斷絕來往了。我不想要再和去年一樣，一直給別人添麻煩了，在我能確保自己不對別人情緒勒索前，我可能不敢再和他接觸。
+回宿舍後很難過，吃了藥後就去躺了，睡眠斷斷續續的。我想這大概是我這輩子做過最暴力的事了。
+2021 Google Code Jam - Qualification Round 只想把需要的 30 分拿滿，就去忙別的事了。第一題是簡單的模擬題，第二題則是 DP，兩題都是 15 分鐘內能解的。
+Problem - Reversort 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 ios::sync_with_stdio(0), cin.tie(0); 5 int T; cin &amp;gt;&amp;gt; T; 6 for (int ti = 1; ti &amp;lt;= T; ti++) { 7 int n; cin &amp;gt;&amp;gt; n; 8 vector&amp;lt;int&amp;gt; v(n); 9 for (int i = 0; i &amp;lt; n; i++) cin &amp;gt;&amp;gt; v[i]; 10 int cost = 0; 11 for (int i = 0, j; i &amp;lt; n - 1; i++) { 12 for (j = i; j &amp;lt; n; j++) 13 if (v[j] == i + 1) break; 14 cost += j - i + 1; 15 for (int k = i, r = j; k &amp;lt; r; k++, r--) { 16 int tmp = v[k]; v[k] = v[r]; v[r] = tmp; 17 } 18 } 19 cout &amp;lt;&amp;lt; &amp;#34;Case #&amp;#34; &amp;lt;&amp;lt; ti &amp;lt;&amp;lt; &amp;#34;: &amp;#34; &amp;lt;&amp;lt; cost &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 20 } 21 return 0; 22}  Problem - Moons and Umbrellas 1#include&amp;lt;bits/stdc++.</description>
+    </item>
+    
     <item>
       <title>2021/03/26 日記</title>
       <link>https://Luke2336.github.io/p/20210326/</link>
