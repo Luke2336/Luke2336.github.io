@@ -6,7 +6,20 @@
     <description>Recent content in 羽球 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Mar 2021 12:19:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 09:46:44 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/03/31 日記</title>
+      <link>https://Luke2336.github.io/p/20210331/</link>
+      <pubDate>Wed, 31 Mar 2021 09:46:44 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210331/</guid>
+      <description>早上的德文課考了動詞，有一個沒背到 QQ
+下午羽球課用發球機練高遠球，覺得很有趣。
+今天隊友都要忙讀書寫作業，於是就停練了一週。
+之後利用時間寫完正規作業，準備了一下教育學概論的報告。
+然後簡單的重寫了 EDA HW1，把 FM alog 用到的 Linked-List 獨立出來成一個 class 去做操作，因為之前寫的時候，發現很多 code 都是相似的。</description>
+    </item>
+    
     <item>
       <title>2021/03/27 日記</title>
       <link>https://Luke2336.github.io/p/20210327/</link>
