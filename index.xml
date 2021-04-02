@@ -6,7 +6,33 @@
         <description>Recent content on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 31 Mar 2021 09:46:44 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 02 Apr 2021 11:43:34 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>正規語言 Lec 5 筆記</title>
+        <link>https://Luke2336.github.io/p/fl5/</link>
+        <pubDate>Fri, 02 Apr 2021 11:43:34 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/fl5/</guid>
+        <description>&lt;img src="https://Luke2336.github.io/post/Other/FL5/Note_ch5_1.jpg" alt="Featured image of post 正規語言 Lec 5 筆記" /&gt;&lt;p&gt;&lt;img src=&#34;https://Luke2336.github.io/post/Other/FL5/Note_ch5_1.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/FL5/Note_ch5_2.jpg&#34; alt=&#34;&#34;  /&gt;
+&lt;img src=&#34;https://Luke2336.github.io/post/Other/FL5/Note_ch5_3.jpg&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2021/04/01 日記</title>
+        <link>https://Luke2336.github.io/p/20210401/</link>
+        <pubDate>Thu, 01 Apr 2021 12:37:54 +0800</pubDate>
+        
+        <guid>https://Luke2336.github.io/p/20210401/</guid>
+        <description>&lt;p&gt;一早就因為報告感到異常緊張，於是很不想去上課，覺得自己報告時講出來的東西比準備的少很多，無法達到預期。&lt;/p&gt;
+&lt;p&gt;昨天體育課練完球後，全身肌肉都超酸的，尤其是肩膀和腰。主要是因為中後期體力不濟，所以動作變慢，姿勢就容易跑掉。&lt;/p&gt;
+&lt;p&gt;中午吃了午餐，然後連續上了三堂課後，感覺超級累。去資工系辦問了轉系的事項，發現有些基礎科目得申請免修，覺得有些麻煩。然後去了 TA hour，晚上上英文課，很沒精神。&lt;/p&gt;
+&lt;p&gt;之後把 EDA HW1 寫到可以動，但不太清楚 90 秒該怎麼算，跑出來的結果滿爛的，大概都是商用程式的 100 倍。洗完澡後，去樓下買了冰棒吃，結果摸到三點才睡。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;eda&#34;&gt;EDA&lt;/h2&gt;
+&lt;p&gt;上課說了 B* Tree packing 的做法，但還是沒仔細說要怎麼分析 amortized O(1)，問了之後要我們去看 O-Tree 的 Paper。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>2021/03/31 日記</title>
         <link>https://Luke2336.github.io/p/20210331/</link>
         <pubDate>Wed, 31 Mar 2021 09:46:44 +0800</pubDate>
