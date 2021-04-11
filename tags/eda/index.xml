@@ -6,7 +6,16 @@
     <description>Recent content in EDA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Apr 2021 11:34:42 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Apr 2021 09:27:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/04/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210409/</link>
+      <pubDate>Fri, 09 Apr 2021 09:27:28 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210409/</guid>
+      <description>早上寫了難解的題目，結果只過了 60% 的測資，可能要再剪枝。中午打扮了一下，之後就去清大和ㄠㄨ寫 SAT solver，然後中間去咖啡社吃了抹茶生乳酪塔和奶茶。之後去找王教授聊了 ICCAD 的事，獲得了一些有用的資訊，也意外知道他和交大的陳教授很熟。晚上因為六扇門人很多，於是就去吃了牛肉麵，然後到 124 繼續寫 SAT solver。</description>
+    </item>
+    
     <item>
       <title>2021/04/02 日記</title>
       <link>https://Luke2336.github.io/p/20210402/</link>

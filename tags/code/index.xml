@@ -6,7 +6,38 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 09:31:15 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Apr 2021 22:58:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/04/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210411/</link>
+      <pubDate>Sun, 11 Apr 2021 22:58:14 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210411/</guid>
+      <description>中午吃了鬆餅，然後就開始寫 SAT solver，算是把大部分都做完了，整體花了 11 小時 500 行左右。可以跑大部分的測資，有些 100 多個 Variable 的測資還是跑不出來。今天主要是加了 Luby Restart 和 Heuristic 選 literal，等整個做完應該會寫一篇文章。
+晚上吃完麥當勞後，就把 report 寫完，洗了澡，打了電話，然後就為昨天的頹廢感到難受，於是正規就沒開始讀，只打掃了一下，順便收了衣服。真心覺得最近狀況很糟，自信心備受打擊，無法調整好狀態。
+Toggl 這兩週其實有很認真寫作業，但仍然覺得很緊張，有太多事堆積著，讓我喘不過氣。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210410/</link>
+      <pubDate>Sat, 10 Apr 2021 12:06:29 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210410/</guid>
+      <description>早上起床打了 Code Jam 1A，中午吃了烤雞，之後就因為心情不好，所以幾乎都在床上度過。
+Google Code Jam 2021 1A 把小測資完成後，就放棄了，最後打到 1376 名，成功晉級 Round 2。
+Append Sort 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4typedef long long ll; 5string int_to_string(int i) { 6 string s = &amp;#34;&amp;#34;; 7 while (i) { 8 s += char(&amp;#39;0&amp;#39; + i % 10); 9 i /= 10; 10 } 11 reverse(s.begin(), s.end()); 12 return s; 13} 14int main() { 15 ios::sync_with_stdio(0), cin.tie(0); 16 int T; cin &amp;gt;&amp;gt; T; 17 for (int ti = 1; ti &amp;lt;= T; ti++) { 18 int n; cin &amp;gt;&amp;gt; n; 19 vector&amp;lt;int&amp;gt; a(n); 20 for (int i = 0; i &amp;lt; n; i++) cin &amp;gt;&amp;gt; a[i]; 21 vector&amp;lt;string&amp;gt; s(n); 22 for (int i = 0; i &amp;lt; n; i++) 23 s[i] = int_to_string(a[i]); 24 int ans = 0; 25 for (int i = 1; i &amp;lt; n; i++) { 26 if (s[i - 1].</description>
+    </item>
+    
+    <item>
+      <title>2021/04/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210409/</link>
+      <pubDate>Fri, 09 Apr 2021 09:27:28 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210409/</guid>
+      <description>早上寫了難解的題目，結果只過了 60% 的測資，可能要再剪枝。中午打扮了一下，之後就去清大和ㄠㄨ寫 SAT solver，然後中間去咖啡社吃了抹茶生乳酪塔和奶茶。之後去找王教授聊了 ICCAD 的事，獲得了一些有用的資訊，也意外知道他和交大的陳教授很熟。晚上因為六扇門人很多，於是就去吃了牛肉麵，然後到 124 繼續寫 SAT solver。</description>
+    </item>
+    
     <item>
       <title>2021/04/05 日記</title>
       <link>https://Luke2336.github.io/p/20210405/</link>
