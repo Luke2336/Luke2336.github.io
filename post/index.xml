@@ -6,14 +6,81 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Apr 2021 22:36:10 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 11:01:49 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/04/26 日記</title>
+      <link>https://Luke2336.github.io/p/20210426/</link>
+      <pubDate>Tue, 27 Apr 2021 11:01:49 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210426/</guid>
+      <description>早上的英文作文課，HW3 因為架構寫得好，於是被叫上去發表，HW5 的 Product Review 也被稱讚架構好看，因此心情還不錯。中午凱強的課是上 Google&amp;rsquo;s PageRank，算是簡單的線性代數，用 Adjacent Matrix 表示網頁之間的連結，之後算出每一個的相對分數。在系 K 把影片的心得寫完，然後去 EDA 拿練習卷，之後就回宿舍洗衣服，還有和學妹練習德文。
+晚餐吃了日式料理，覺得滿有趣的。之後就懶懶散散的，稍微寫了一點點 PACA HW2 的 input / output，還有讀了英文作文下次要寫 summary 的文章的前幾段。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/25 日記</title>
+      <link>https://Luke2336.github.io/p/20210425/</link>
+      <pubDate>Tue, 27 Apr 2021 11:01:43 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210425/</guid>
+      <description>中午心情還是有些崩潰，只隨便買了鬆餅吃。然後就讓ㄠㄨ陪我把 EDA Lab2 重新寫完，但因為助教給的測資太小，所以測不太出效能。
+晚上去舊館打球，但人超多的，所以打得不太開心，胃也有些痛。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/24 日記</title>
+      <link>https://Luke2336.github.io/p/20210424/</link>
+      <pubDate>Tue, 27 Apr 2021 11:01:35 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210424/</guid>
+      <description>中午吃了好吃的薄皮 Pizza，然後就到工四地下室去寫英文作文，但遇到管院 50 週年活動，超級吵雜的，心情很糟。約了某學長一起寫作業，但他姍姍來遲，且一直不自己 Google 他不會的東西，一直問東問西打擾我，讓我做事效率有些低，於是晚餐就藉機解散了。
+晚上自己把英文作文寫完了，然後發上去給 Partner 寫剩餘的部分。
+看到 EDA Lab1 的成績公佈了，我有一筆跑超時，於是分數變超低，心情很不好，就直接去床上躺了。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/23 日記</title>
+      <link>https://Luke2336.github.io/p/20210423/</link>
+      <pubDate>Fri, 23 Apr 2021 12:03:01 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210423/</guid>
+      <description>早上和學妹討論德文口試的草稿，順便見識了 Typora，買了水餃吃時，順便裝來玩玩。
+下午在清大寫作業，買了咖啡社的起司蛋糕，還有自己泡了伯爵茶，試著把 EDA Lab2 寫完，但不知道為什麼 Reroute 寫壞了，每次都拔同一個點。
+走到二招，但不知道為什麼沒有營業，到水源街也沒什麼胃口。於是買了校慶擺攤的燒賣來吃，9 個 100 元，略略有些貴。心情因為寫不出來 Lab2，所以很糟糕，WY 給我看了賽馬娘的動畫後，心情有變好一點點。晚上大致完成德文期中考對話的草稿。
+Typora 覺得還滿好用的，但 tab 的問題有些小麻煩就是了，還有程式碼 highlight 的樣式不能自己設定，這幾點就不如 MacDown 方便。但還是決定跳槽一陣子看看，畢竟圖片可調大小是個很棒的誘因。之後有空應該會探索一下有什麼 Theme 是更好看的，目前是用預設的 Github 模式。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/22 日記</title>
+      <link>https://Luke2336.github.io/p/20210422/</link>
+      <pubDate>Thu, 22 Apr 2021 11:46:16 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210422/</guid>
+      <description>今天早上睡得不好，於是心情也很糟糕。
+早上的教育學概論很無趣，但還是盡量問問題拿分。下午的 EDA 講了一些 routing 的 timing 問題，但 RC-delay 我真的沒辦法直觀的理解。正規則是講完了 NPDA 和 CFG 的等價轉換，可能之後需要一些時間讀懂。TA Hour 一樣沒有人來，於是就把時間拿來寫 EDA Lab2。晚上的英文口說課進入倦怠期了，讓週四疲倦感很高。
+睡前花了些時間想 reroute 用的 Dijkstra 的 cost function 該怎麼設計，應該會試著用路徑上的 max overflow 和 Distance 的線性組合。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/21 日記</title>
+      <link>https://Luke2336.github.io/p/20210421/</link>
+      <pubDate>Thu, 22 Apr 2021 11:46:10 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210421/</guid>
+      <description>晚上因為隊友不想練習，我就在宿舍寫作業，把 EDA Lab2 的架構重寫，但最後有些耍廢，開始改起手機桌布和 Terminal。
+德文期中考 早上因為德文期中考沒睡好，做了一個德文的夢。原本以為會是中間組別，結果因為前面幾組空缺，第三組就換我們報告了，算是很順利的結束。
+這個報告是要報告一個食譜，我們選了夏威夷披薩，很多人都報告義大利麵。
+羽球 今天教了切球，用塑膠球切球不太習慣，結果被老師發現握拍不太對。星期日好像真的有些受傷，手很痠很痛。</description>
+    </item>
+    
     <item>
       <title>2021/04/20 日記</title>
       <link>https://Luke2336.github.io/p/20210420/</link>
       <pubDate>Tue, 20 Apr 2021 22:36:10 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20210420/</guid>
-      <description>正規期中考成績 早上正規發了考卷，考了 69，要了分數後變成 72，粗心錯了很多基本題。班平均是 58，標準差 22。上了 Nondeterministic Pushdown Automata，覺得很有趣。
+      <description>晚上去竹東，之後就都在準備德文期中口頭報告。
+正規期中考成績 早上正規發了考卷，考了 69，要了分數後變成 72，粗心錯了很多基本題。班平均是 58，標準差 22。上了 Nondeterministic Pushdown Automata，覺得很有趣。
    Score People     0 - 9 1   10 - 19 2   20 - 29 3   40 - 49 7   50 - 59 7   60 - 69 9   70 - 79 9   80 - 89 2   90-99 2   100 - 109 2    難解問題 上了 λ-expander 用來判斷 connectivity，覺得很有趣，總算體會到線性代數的強大了。</description>
     </item>
     

@@ -6,7 +6,18 @@
     <description>Recent content in EDA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Apr 2021 09:27:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Apr 2021 11:46:16 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/04/22 日記</title>
+      <link>https://Luke2336.github.io/p/20210422/</link>
+      <pubDate>Thu, 22 Apr 2021 11:46:16 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210422/</guid>
+      <description>今天早上睡得不好，於是心情也很糟糕。
+早上的教育學概論很無趣，但還是盡量問問題拿分。下午的 EDA 講了一些 routing 的 timing 問題，但 RC-delay 我真的沒辦法直觀的理解。正規則是講完了 NPDA 和 CFG 的等價轉換，可能之後需要一些時間讀懂。TA Hour 一樣沒有人來，於是就把時間拿來寫 EDA Lab2。晚上的英文口說課進入倦怠期了，讓週四疲倦感很高。
+睡前花了些時間想 reroute 用的 Dijkstra 的 cost function 該怎麼設計，應該會試著用路徑上的 max overflow 和 Distance 的線性組合。</description>
+    </item>
+    
     <item>
       <title>2021/04/09 日記</title>
       <link>https://Luke2336.github.io/p/20210409/</link>
