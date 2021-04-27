@@ -6,7 +6,17 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 11:01:49 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 11:01:54 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/04/27 日記</title>
+      <link>https://Luke2336.github.io/p/20210427/</link>
+      <pubDate>Tue, 27 Apr 2021 11:01:54 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210427/</guid>
+      <description>早上正規因為印作業有些遲到，講了 CFL 的 Pumping Lemma，覺得有些難度。中午喝了過期的牛奶配穀片，補了一陣子沒寫的日記。測了 EDA 討論區別人提供的測資，有順利跑出來，reroute 的 cost function 看起來是能 work 的。
+    2 2 2 2 2      1 2 3 3 3 3 3   1 2 3  4 4 3   1 2    4 3   1 2 2  1 4 3   1 1 1 1 1 4 3    4 4 4 4 4     下午上 MT 的課不小心下課時睡著，結果就到結束才醒來，有些可惜。之後心情不太好，就在床上混了一下，然後背了一下德文。晚餐吃了 Pizza，然後把 PACA 的 HW2 寫完，發現用 pyEDA 寫，其實大概不到 100 行。作業的 Queue 這兩天減少許多，覺得很開心。</description>
+    </item>
+    
     <item>
       <title>2021/04/26 日記</title>
       <link>https://Luke2336.github.io/p/20210426/</link>
