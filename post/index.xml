@@ -6,7 +6,84 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 11:01:54 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 23:37:25 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/05/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210504/</link>
+      <pubDate>Tue, 04 May 2021 23:37:25 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210504/</guid>
+      <description>早上正規教了 Turing Machine，下午 MT 上的東西比較難懂，是有關於用 PCP 估計 approximation 的 bound。下午將正規 HW4 寫完了。晚上去竹東看了牙醫和家醫科，排了超音波的時間，智齒的部分已經長出來三顆，預計暑假處理。
+測了 SAT solver 的 milestone 2 benchmark，發現有兩筆無法在幾分鐘內跑出來，看來還有必要加強，發現偶爾會出現 runtime error 或 abort trap: 6。看到 Github 上這篇的結果就明顯比我的好。</description>
+    </item>
+    
+    <item>
+      <title>2021/05/03 日記</title>
+      <link>https://Luke2336.github.io/p/20210503/</link>
+      <pubDate>Mon, 03 May 2021 09:50:26 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210503/</guid>
+      <description>英文寫作課，主要是在講引用跟改寫的方法，又多了一樣團體作業，覺得有些煩躁。中午的課不明原因突然停課，於是多了些時間吃午餐和洗衣服。下午的 EDA 還是繼續講 ROBDD 的部分，但因為之前對 BDD 已經有所了解，所以覺得有些無趣。
+晚上有些爆炸，不知道為什麼就是覺得很累很不舒服，可能是前一天過敏藥的影響。</description>
+    </item>
+    
+    <item>
+      <title>2021/05/02 日記</title>
+      <link>https://Luke2336.github.io/p/20210502/</link>
+      <pubDate>Mon, 03 May 2021 09:50:18 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210502/</guid>
+      <description>幾乎一整天都在過敏，早上去了駁二，太陽很大，看了一些設計相關科系的畢業展，覺得素質普遍不高。下午去逛了夢時代，因為身體不舒服，加上腿很痠痛，所以就提早回新竹了。晚上早早就睡了，但還是覺得全身痠痛，頭也因為吃了抗組織胺有些悶。</description>
+    </item>
+    
+    <item>
+      <title>2021/05/01 日記</title>
+      <link>https://Luke2336.github.io/p/20210501/</link>
+      <pubDate>Mon, 03 May 2021 09:50:05 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210501/</guid>
+      <description>去了橋頭糖廠和西子灣。晚上買了起司配蘋果酒，覺得很棒。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/30 日記</title>
+      <link>https://Luke2336.github.io/p/20210430/</link>
+      <pubDate>Mon, 03 May 2021 09:49:50 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210430/</guid>
+      <description>早上去竹東，中午一樣吃了天婦羅。下午在宿舍躺了一下後，走路去清大，處理了 ICCAD 的報名。然後開始寫 Grid Manager 的部分。晚上買了個飯捲吃，因為又想起大一大二的事，所以沒什麼胃口，心情很糟。
+Toggl 大部分的時間都花在寫 EDA 作業和寫 SAT solver 上，在英文寫作上也花了不少時間。整個月花在課業上的時間比以前多了不少，希望能繼續維持下去。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/29 日記</title>
+      <link>https://Luke2336.github.io/p/20210429/</link>
+      <pubDate>Thu, 29 Apr 2021 15:03:17 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210429/</guid>
+      <description>早上的教育學概論仍然無法專心上課，可能就是興趣問題而已。下午的 EDA 開始在講 Equivalance Checking。晚上的英文會話課覺得有些疲累。</description>
+    </item>
+    
+    <item>
+      <title>2021/04/28 日記</title>
+      <link>https://Luke2336.github.io/p/20210428/</link>
+      <pubDate>Wed, 28 Apr 2021 10:16:34 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210428/</guid>
+      <description>早上上了德文，因為準備不太夠，所以短劇演得有些卡。下午羽球課，教切球上網，但因為我的 partner 挑球質量不夠好，所以有點沒練到步伐。下課後留下來幫一個學妹練了切球，我順便練了挑球。因為嘴巴痛去看了醫生，但是只拿到了止痛藥。晚上覺得累到爆，所以去了 PCCA，但只打了一題就放棄了。在床上躺時， 左下腹突然超痛，於是花了一點時間才睡著。
+德文   Spiel 短劇
+  die Durchsage
+  &amp;ldquo;Bitte nicht einsteigen! Dieser Zug endet hier.&amp;rdquo;
+  telefonieren mit 人
+  Der Mann telefoniert mit der Lehrerin.
+= Der Mann ruft die Legreirin an . (anrufen)
+    zu Hause = at home
+  U-Bahn 捷運
+  S-Bahn 區間車
+  ankommen = arrive
+  </description>
+    </item>
+    
     <item>
       <title>2021/04/27 日記</title>
       <link>https://Luke2336.github.io/p/20210427/</link>
