@@ -6,7 +6,18 @@
     <description>Recent content in 羽球 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Apr 2021 10:16:34 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 17:13:25 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/05/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210505/</link>
+      <pubDate>Wed, 05 May 2021 17:13:25 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210505/</guid>
+      <description>今天羽球課扭傷右腳，打了三場單打，輸了兩場，覺得心情很糟。
+晚上因為 LinLee 想睡覺，Hyperbola 就不想練了，於是我就在宿舍幫我的 SAT solver debug，順便學了一下怎麼寫 shell script，但似乎對於輸出是 SAT 的部分很多是有 bug 的，不知道是不是我把他優化時弄壞了 QAQ 因為沒有時間，可能就拿這份隨便交出去了。
+晚上想到隔天 EDA 還要出作業，就覺得壓力很大。</description>
+    </item>
+    
     <item>
       <title>2021/04/28 日記</title>
       <link>https://Luke2336.github.io/p/20210428/</link>
