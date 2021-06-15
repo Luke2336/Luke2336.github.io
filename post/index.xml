@@ -6,7 +6,52 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jun 2021 12:20:11 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 21:15:34 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/06/13 日記</title>
+      <link>https://Luke2336.github.io/p/20210613/</link>
+      <pubDate>Sun, 13 Jun 2021 21:15:34 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210613/</guid>
+      <description> 今天都在複習正規，明天會寫一回考古題。 還是有點燒，大概到 37.5 而已，有些噁心感，頭還是很暈。  正規語言概論 - 期末筆記 </description>
+    </item>
+    
+    <item>
+      <title>2021/06/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210612/</link>
+      <pubDate>Sat, 12 Jun 2021 22:02:12 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210612/</guid>
+      <description> 上午一直在昏睡。 下午也沒做太多事，想改離散作業，但只改了一份就覺得很累，繼續昏睡。 讀了正規的 Lec 9. 10。 最近做事效率下降，連帶的也懶得寫日記。 最近玩了「貓咪大戰爭」，開始卡關了，轉蛋的運氣也都不太好。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210611/</link>
+      <pubDate>Sat, 12 Jun 2021 22:02:08 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210611/</guid>
+      <description> 早上去了趟竹東。 將這週教育學學習單寫完。 繼續讀了一點《受壓迫者教育學》。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210610/</link>
+      <pubDate>Sat, 12 Jun 2021 22:02:02 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210610/</guid>
+      <description> 考 EDA 期中考，因為考了些名詞解釋，還有第七章的一些東西，沒有認真讀到，最後就提早交卷了。發燒的狀況下，不太想動腦。 讀了一點點教育學概論期末報告的書《受壓迫者教育學》。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210609/</link>
+      <pubDate>Wed, 09 Jun 2021 12:20:17 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210609/</guid>
+      <description> 錄了德文期末考的影片。 讀了一點點 EDA。 ICCAD 的 alpha test 延到 6/22。  </description>
+    </item>
+    
     <item>
       <title>2021/06/08 日記</title>
       <link>https://Luke2336.github.io/p/20210608/</link>
@@ -114,7 +159,10 @@
       <pubDate>Mon, 31 May 2021 00:26:23 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20210528/</guid>
-      <description>整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。</description>
+      <description>整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
+隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
+C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
+1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;double, double&amp;gt; point; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define x first 6#define y second 7inline double distance(point a, point b) { 8 return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y)); 9} 10struct UF { 11 vector&amp;lt;int&amp;gt; par, sz; 12 UF(int n) { 13 par.</description>
     </item>
     
     <item>
@@ -560,11 +608,7 @@ Typora 覺得還滿好用的，但 tab 的問題有些小麻煩就是了，還�
       <pubDate>Thu, 15 Apr 2021 16:15:02 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20210415/</guid>
-      <description>早上的教育學概論對我來說很無趣，於是覺得有些憂鬱。
-下午的 EDA 出了 Lab 2，我不喜歡作業的測資大小都不限制，都只是口頭說「沒有很大」，這其實根本是沒有用的資訊，因為他沒有定義怎樣算大。
-正規教了 CYK algorithm，基本上就是 bottom-up DP，然後 backtrack 建 parsing tree。
-晚上上了英文會話，覺得有些累。
-檢討 - 關於粗心 每次我寫完作業後，都不太想檢查，導致都是錯一些簡單的題目。對我來說，我可能覺得我覺得我會算就好了，但看到分數後，還是會覺得不開心。不知道為什麼從小就無法培養檢查的習慣，最近的身心狀態也讓自己不斷壓力很大，所有事情都只想快點做完，從 TODO 清單中刪掉。</description>
+      <description>早上的教育學概論對我來說很無趣，於是覺得有些憂鬱。 下午的 EDA 出了 Lab 2，我不喜歡作業的測資大小都不限制，都只是口頭說「沒有很大」，這其實根本是沒有用的資訊，因為他沒有定義怎樣算大。 正規教了 CYK algorithm，基本上就是 bottom-up DP，然後 backtrack 建 parsing tree。 晚上上了英文會話，覺得有些累。  檢討 - 粗心 每次我寫完作業後，都不太想檢查，導致都是錯一些簡單的題目。對我來說，我可能覺得我覺得我會算就好了，但看到分數後，還是會覺得不開心。不知道為什麼從小就無法培養檢查的習慣，最近的身心狀態也讓自己不斷壓力很大，所有事情都只想快點做完，從 TODO 清單中刪掉。</description>
     </item>
     
     <item>

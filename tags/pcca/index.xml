@@ -6,7 +6,19 @@
     <description>Recent content in PCCA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Mar 2021 17:50:02 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 May 2021 00:26:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/05/28 日記</title>
+      <link>https://Luke2336.github.io/p/20210528/</link>
+      <pubDate>Mon, 31 May 2021 00:26:23 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210528/</guid>
+      <description>整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
+隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
+C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
+1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;double, double&amp;gt; point; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define x first 6#define y second 7inline double distance(point a, point b) { 8 return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y)); 9} 10struct UF { 11 vector&amp;lt;int&amp;gt; par, sz; 12 UF(int n) { 13 par.</description>
+    </item>
+    
     <item>
       <title>2021/03/24 日記</title>
       <link>https://Luke2336.github.io/p/20210324/</link>
