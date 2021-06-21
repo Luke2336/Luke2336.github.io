@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 May 2021 00:26:23 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 09:17:21 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/06/19 日記</title>
+      <link>https://Luke2336.github.io/p/20210619/</link>
+      <pubDate>Sat, 19 Jun 2021 09:17:21 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210619/</guid>
+      <description> 將離散考卷重新評分。 用 Simulated Annealing 做 PACA 的 Final Project。 寫完 PACA 的 HW4，卡了很久的 WA，後來才發現它定義的 pos 和 neg 跟我相反。 開始吃了頭暈藥 Diphenidol，覺得有改善。 晚上將 Router 的 bug 解決了！ 很開心今天精神很好，把很多東西解決了！！  </description>
+    </item>
+    
     <item>
       <title>2021/05/28 日記</title>
       <link>https://Luke2336.github.io/p/20210528/</link>

@@ -6,13 +6,31 @@
     <description>Recent content in Categories on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 17:27:05 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 23:51:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary</title>
       <link>https://Luke2336.github.io/categories/diary/</link>
-      <pubDate>Thu, 17 Jun 2021 17:27:05 +0800</pubDate>
+      <pubDate>Mon, 21 Jun 2021 23:51:28 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/categories/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course</title>
+      <link>https://Luke2336.github.io/categories/course/</link>
+      <pubDate>Mon, 21 Jun 2021 11:00:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/categories/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>German</title>
+      <link>https://Luke2336.github.io/categories/german/</link>
+      <pubDate>Sun, 20 Jun 2021 13:29:40 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/categories/german/</guid>
       <description></description>
     </item>
     
@@ -35,15 +53,6 @@
     </item>
     
     <item>
-      <title>Course</title>
-      <link>https://Luke2336.github.io/categories/course/</link>
-      <pubDate>Wed, 14 Apr 2021 19:25:34 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/categories/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Code</title>
       <link>https://Luke2336.github.io/categories/code/</link>
       <pubDate>Sat, 20 Feb 2021 21:11:32 +0800</pubDate>
@@ -58,15 +67,6 @@
       <pubDate>Wed, 10 Feb 2021 19:01:18 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/categories/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>German</title>
-      <link>https://Luke2336.github.io/categories/german/</link>
-      <pubDate>Thu, 14 Jan 2021 14:25:28 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/categories/german/</guid>
       <description></description>
     </item>
     
