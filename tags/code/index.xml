@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jun 2021 09:17:21 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 19:58:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/02 日記</title>
+      <link>https://Luke2336.github.io/p/20210702/</link>
+      <pubDate>Fri, 02 Jul 2021 19:58:53 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210702/</guid>
+      <description>早上心情不好，覺得異常疲倦，工作也因此不太順利。 晚上看到轉系上機考的資訊公佈，7/14 下午要考試，於是就開始練手感。  Code ZJ. f698: 後序運算式 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4int main() { 5 ios::sync_with_stdio(0); 6 cin.tie(0); 7 string s; 8 stringstream ss; 9 getline(cin, s); 10 ss.str(s); 11 vector&amp;lt;ll&amp;gt; v; 12 while (ss &amp;gt;&amp;gt; s) { 13 if (isdigit(s.back())) { 14 v.push_back(stoi(s)); 15 } else { 16 ll r = v.back(); v.pop_back(); 17 ll l = v.back(); v.pop_back(); 18 if (s[0] == &amp;#39;+&amp;#39;) { 19 v.</description>
+    </item>
+    
     <item>
       <title>2021/06/19 日記</title>
       <link>https://Luke2336.github.io/p/20210619/</link>

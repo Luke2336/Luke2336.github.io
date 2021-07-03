@@ -6,7 +6,80 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jun 2021 21:10:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 19:58:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/02 日記</title>
+      <link>https://Luke2336.github.io/p/20210702/</link>
+      <pubDate>Fri, 02 Jul 2021 19:58:53 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210702/</guid>
+      <description>早上心情不好，覺得異常疲倦，工作也因此不太順利。 晚上看到轉系上機考的資訊公佈，7/14 下午要考試，於是就開始練手感。  Code ZJ. f698: 後序運算式 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4int main() { 5 ios::sync_with_stdio(0); 6 cin.tie(0); 7 string s; 8 stringstream ss; 9 getline(cin, s); 10 ss.str(s); 11 vector&amp;lt;ll&amp;gt; v; 12 while (ss &amp;gt;&amp;gt; s) { 13 if (isdigit(s.back())) { 14 v.push_back(stoi(s)); 15 } else { 16 ll r = v.back(); v.pop_back(); 17 ll l = v.back(); v.pop_back(); 18 if (s[0] == &amp;#39;+&amp;#39;) { 19 v.</description>
+    </item>
+    
+    <item>
+      <title>2021/07/01 日記</title>
+      <link>https://Luke2336.github.io/p/20210701/</link>
+      <pubDate>Thu, 01 Jul 2021 21:18:14 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210701/</guid>
+      <description> 一下子半年就過去了，已經七月了。 今天滿有趣的，下午跟 Team 裡面的人玩 gartic.io。 晚上花了些時間想 ICCAD 的東西，原本考慮 LP，但時間可能太慢不適合。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/30 日記</title>
+      <link>https://Luke2336.github.io/p/20210630/</link>
+      <pubDate>Wed, 30 Jun 2021 23:40:36 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210630/</guid>
+      <description> 晚上還是醒了很多次，但入睡速度變快了，早上醒來頭很昏。 下午去做了 MRI。 晚上看了 Erik 的影片，Advanced Data Structure Session 3: Geometric Structures I。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/29 日記</title>
+      <link>https://Luke2336.github.io/p/20210629/</link>
+      <pubDate>Tue, 29 Jun 2021 08:21:42 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210629/</guid>
+      <description> 晚上醒來了三四次，每兩小時就醒來一次。最後睡不著，只好五點先吃了早餐再睡。 早上去看醫生，醫生猜測可能是 moyamoya disease，有待排除。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/28 日記</title>
+      <link>https://Luke2336.github.io/p/20210628/</link>
+      <pubDate>Mon, 28 Jun 2021 12:27:09 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210628/</guid>
+      <description> 主要的時間都在實習。 晚餐吃了咖哩烏龍麵。 早上起來有些累。 ICCAD 決定用 FastDP 做 optimal region。  </description>
+    </item>
+    
+    <item>
+      <title>2021/06/27 日記</title>
+      <link>https://Luke2336.github.io/p/20210627/</link>
+      <pubDate>Sun, 27 Jun 2021 18:53:25 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210627/</guid>
+      <description> 因為頭痛加失眠，心情很不好。 有試著認識一下 machine learning 和 deep learning 的一些名詞。 完成了修課心得的更新，成績還沒全部出來就是了。  </description>
+    </item>
+    
+    <item>
+      <title>交大修課心得</title>
+      <link>https://Luke2336.github.io/p/course_nctu/</link>
+      <pubDate>Sun, 27 Jun 2021 11:00:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/course_nctu/</guid>
+      <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
+ 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論   計算理論  基礎圖論 演算法概論 隨機演算法 高等演算法 正規語言概論   其他選修  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論 計算方法之實務應用     電機、電子  電子學（一） 電子實驗（一） 電路學 電子設計自動化演算法與實作   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學 教育學概論     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    修課建議  微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</description>
+    </item>
+    
+    <item>
+      <title>2021/06/26 日記</title>
+      <link>https://Luke2336.github.io/p/20210626/</link>
+      <pubDate>Sat, 26 Jun 2021 20:39:33 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210626/</guid>
+      <description> 這週負擔過重，所以今天算是都在還睡眠債。 有試著找一些機器學習相關的 youtube 來看。  </description>
+    </item>
+    
     <item>
       <title>2021/06/25 日記</title>
       <link>https://Luke2336.github.io/p/20210625/</link>
@@ -51,16 +124,6 @@ Toggl 期末主要的時間都花在 ICCAD 和寫 PACA 的 Final project，期�
       
       <guid>https://Luke2336.github.io/p/20210621/</guid>
       <description> 今天是第一天遠端上班，只能說自己的英文有待加強。 晚上將 EDA final report 交出去了，登出大三！ 研究了一下轉系的相關規定及修業規定，沒轉成功，也就是多修個電子學一二、電子實驗，再加上一門選修。降轉成功的話，就可以多修一下資工的碩班課，覺得是自己比較喜歡的，希望能轉成功。  </description>
-    </item>
-    
-    <item>
-      <title>交大修課心得</title>
-      <link>https://Luke2336.github.io/p/course_nctu/</link>
-      <pubDate>Mon, 21 Jun 2021 11:00:15 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/p/course_nctu/</guid>
-      <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
- 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論   計算理論  基礎圖論 演算法概論 隨機演算法 高等演算法 正規語言概論   其他選修  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論     電機、電子  電子學（一） 電子實驗（一） 電路學   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    修課建議  微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</description>
     </item>
     
     <item>
