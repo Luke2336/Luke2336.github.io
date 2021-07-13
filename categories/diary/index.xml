@@ -6,7 +6,109 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jul 2021 19:58:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 14:27:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/13 日記</title>
+      <link>https://Luke2336.github.io/p/20210713/</link>
+      <pubDate>Tue, 13 Jul 2021 14:27:38 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210713/</guid>
+      <description>今天腦袋都很昏，不太能做事，僅僅開了會。 為隔天下午的上機考刷題，練練手感。  Code SPOJ - SAMER08F 1#include &amp;lt;iostream&amp;gt;2using namespace std; 3int main() { 4 int n; 5 while (cin &amp;gt;&amp;gt; n) { 6 if (!n) break; 7 cout &amp;lt;&amp;lt; n * (n + 1) * (2 * n + 1) / 6 &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; 8 } 9 return 0; 10}  SPOJ - ACPC10A 1while True: 2 a, b, c = map(int, input().split()) 3 if a == 0 and b == 0 and c == 0: 4 break 5 if a * c == b * b: 6 print(&amp;#34;GP &amp;#34; + str(c * c // b)) 7 elif a + c == b + b: 8 print(&amp;#34;AP &amp;#34; + str(c + c - b)) SPOJ - AGGRCOW 1#include &amp;lt;bits/stdc++.</description>
+    </item>
+    
+    <item>
+      <title>2021/07/12 日記</title>
+      <link>https://Luke2336.github.io/p/20210712/</link>
+      <pubDate>Mon, 12 Jul 2021 19:49:41 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210712/</guid>
+      <description>早上和 Host 討論過後，壓力有比較小一點，也比較有方向，下午有了些嘗試。 台大通識課感覺還算滿涼的，每週只需要看影片跟寫 600 字作業。第一份作業拿了 92 分，覺得滿開心的。 晚上自己試著寫 ICCAD 的 placement。  Code SPOJ - FCTRL 1for T in range(int(input())): 2 cnt2 = cnt5 = 0 3 n = int(input()) 4 j = 2 5 while j &amp;lt;= n: 6 cnt2 += n // j 7 j *= 2 8 j = 5 9 while j &amp;lt;= n: 10 cnt5 += n // j 11 j *= 5 12 print(min(cnt2, cnt5)) SPOJ - NSTEPS 1for t in range(int(input())): 2 x, y = map(int, input().</description>
+    </item>
+    
+    <item>
+      <title>2021/07/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210711/</link>
+      <pubDate>Mon, 12 Jul 2021 19:49:35 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210711/</guid>
+      <description> 沒做什麼事的一天，整個下午幾乎都在睡。 和 Host 約了隔天早上討論。 晚上和ㄠㄨ討論了一下 ICCAD，發現我們上個版本寫壞了，繞出來 overflows。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210710/</link>
+      <pubDate>Sat, 10 Jul 2021 21:49:35 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210710/</guid>
+      <description> 晚上跟 MT 聊天。 被隊友放鴿子。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210709/</link>
+      <pubDate>Fri, 09 Jul 2021 17:16:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210709/</guid>
+      <description>花了些時間複習 python。  Code TIOJ 1004. 猶太人敢死隊問題 1n = int(input()) 2L = [True] * n 3i = 0 4last = 0 5while True in L: 6 while not L[i]: 7 i = (i + 1) % n 8 i = (i + 1) % n 9 while not L[i]: 10 i = (i + 1) % n 11 L[i] = False 12 last = i 13 i = (i + 1) % n 14print(last + 1) TIOJ 1005.</description>
+    </item>
+    
+    <item>
+      <title>2021/07/08 日記</title>
+      <link>https://Luke2336.github.io/p/20210708/</link>
+      <pubDate>Thu, 08 Jul 2021 23:00:19 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210708/</guid>
+      <description> 整天都昏昏沈沈的。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/07 日記</title>
+      <link>https://Luke2336.github.io/p/20210707/</link>
+      <pubDate>Thu, 08 Jul 2021 22:51:43 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210707/</guid>
+      <description> 都在過敏，所以很早睡。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/06 日記</title>
+      <link>https://Luke2336.github.io/p/20210706/</link>
+      <pubDate>Thu, 08 Jul 2021 22:51:35 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210706/</guid>
+      <description>心情不太好，覺得自己能力很糟糕。</description>
+    </item>
+    
+    <item>
+      <title>2021/07/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210705/</link>
+      <pubDate>Mon, 05 Jul 2021 22:37:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210705/</guid>
+      <description> 白天因為壓力大的緣故，什麼都沒做。 男朋友又一次提了休學的建議，但我覺得自己上學期有努力做到很好，下學期應該也做得到吧。 專題的事讓我壓力很大，星期三傍晚要跟老師當面談。 傍晚大概把 FastDP 實作出來，用來找 optimal region。後來發現忘記考慮 layer 的 weight 了，可能要自己實作 quick select。 晚上有弄實習的工作了，發現自己 document 有少讀，所以才會卡住。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210704/</link>
+      <pubDate>Sun, 04 Jul 2021 09:54:24 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210704/</guid>
+      <description>稍微讀了一下專題的進度。 晚飯前練習寫 code。 晚上和ㄠㄨ開會討論 ICCAD 的 cell movement。  Code CSES 2183. Missing Coin Sum 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 ios::sync_with_stdio(0), cin.tie(0); 5 int n; 6 cin &amp;gt;&amp;gt; n; 7 vector&amp;lt;int&amp;gt; v(n); 8 for (int i = 0; i &amp;lt; n; ++i) 9 cin &amp;gt;&amp;gt; v[i]; 10 sort(v.begin(), v.end()); 11 if (v[0] &amp;gt; 1) { 12 cout &amp;lt;&amp;lt; &amp;#34;1\n&amp;#34;; 13 return 0; 14 } 15 long long sum = v[0]; 16 for (int i = 1; i &amp;lt; n; i++) { 17 if (sum &amp;lt; v[i] - 1) { 18 cout &amp;lt;&amp;lt; sum + 1 &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 19 return 0; 20 } 21 sum += v[i]; 22 } 23 cout &amp;lt;&amp;lt; sum + 1 &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 24 return 0; 25}  CSES 2216.</description>
+    </item>
+    
+    <item>
+      <title>2021/07/03 日記</title>
+      <link>https://Luke2336.github.io/p/20210703/</link>
+      <pubDate>Sat, 03 Jul 2021 08:43:09 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210703/</guid>
+      <description>沒睡好的一天，幾乎什麼事都沒做。
+隊練 因為心情不好和頭痛，所以大概練到三小時，我就提早收工了。
+2015 ACM Syrian Collegiate Programming Contest 簡單題滿多的一套題，前面開得很順，鍵盤幾乎沒有空下來。
+J. Smooth Developer 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main() { 4 ios::sync_with_stdio(0), cin.tie(0); 5 int T; cin &amp;gt;&amp;gt; T; 6 while (T--) { 7 int n, k; 8 cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; k; 9 vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; G(n + 1); 10 map&amp;lt;string, int&amp;gt; mp; 11 vector&amp;lt;string&amp;gt; Name; 12 int sz = 0; 13 for (int i = 0; i &amp;lt; n; i++) { 14 string name; 15 cin &amp;gt;&amp;gt; name; 16 if (mp[name] == 0) { 17 mp[name] = ++sz; 18 Name.</description>
+    </item>
+    
     <item>
       <title>2021/07/02 日記</title>
       <link>https://Luke2336.github.io/p/20210702/</link>
@@ -298,6 +400,15 @@ COVID 篩檢 因為頭暈和發燒去看了一般內科，今天剛好是感染�
       
       <guid>https://Luke2336.github.io/p/20210601/</guid>
       <description>大致上還是昏昏的，沒辦法做什麼事，於是就只把英文寫作的 Portfolio 排版了一下。</description>
+    </item>
+    
+    <item>
+      <title>2021/05/31 日記</title>
+      <link>https://Luke2336.github.io/p/20210531/</link>
+      <pubDate>Tue, 01 Jun 2021 00:01:07 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210531/</guid>
+      <description>一整天都在昏睡，只簡單地改了一下幾篇英文作文，我想這學期可能就會這樣被混過，滿難過的。近期起身時，總是頭昏目眩，眼前黑黑的，腦袋也覺得很昏很累，好難受。</description>
     </item>
     
     <item>

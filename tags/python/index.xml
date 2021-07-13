@@ -6,7 +6,16 @@
     <description>Recent content in Python on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 14:34:01 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 17:16:06 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210709/</link>
+      <pubDate>Fri, 09 Jul 2021 17:16:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210709/</guid>
+      <description>花了些時間複習 python。  Code TIOJ 1004. 猶太人敢死隊問題 1n = int(input()) 2L = [True] * n 3i = 0 4last = 0 5while True in L: 6 while not L[i]: 7 i = (i + 1) % n 8 i = (i + 1) % n 9 while not L[i]: 10 i = (i + 1) % n 11 L[i] = False 12 last = i 13 i = (i + 1) % n 14print(last + 1) TIOJ 1005.</description>
+    </item>
+    
     <item>
       <title>2021/01/24 日記</title>
       <link>https://Luke2336.github.io/p/20210124/</link>
