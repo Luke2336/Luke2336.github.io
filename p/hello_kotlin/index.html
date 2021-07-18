@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x &#43; y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret &#43; x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x &#43; v) 6} null  用 ?'><title>Hello, Kotlin!</title>
 
 <link rel='canonical' href='https://Luke2336.github.io/p/hello_kotlin/'>
@@ -505,6 +508,21 @@
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">

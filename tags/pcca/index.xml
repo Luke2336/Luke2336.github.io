@@ -6,7 +6,16 @@
     <description>Recent content in PCCA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 08:43:09 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 17:37:48 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/17 日記</title>
+      <link>https://Luke2336.github.io/p/20210717/</link>
+      <pubDate>Sat, 17 Jul 2021 17:37:48 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210717/</guid>
+      <description> 上午去診所看醫生。 傍晚很無聊，就去交大課程助理發了修課心得。 晚上和隊友練習。  隊練 2020, XIII Samara Regional Intercollegiate Programming Contest  隊友表示不喜歡我挑的這套題，太多水題了。 比較喜歡的題有 C, D, F, G。     ID Solver Type     A Hyperbola 水題   B Hyperbola 暴力, 二分搜   C     D Hyperbola BFS   E LinLee 水題   F LinLee Tree, Greedy   G Hyperbola 互動題   H LinLee 水題   I LinLee 水題, Sort   J Hyperbola 手推   K Hyperbola 幾何   L Hyperbola DP   M Kelly 水題, Sort    </description>
+    </item>
+    
     <item>
       <title>2021/07/03 日記</title>
       <link>https://Luke2336.github.io/p/20210703/</link>

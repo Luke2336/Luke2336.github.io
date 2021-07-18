@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
 隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
 C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
@@ -15,7 +18,7 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;double, double&amp;gt; point; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define x first 6#define y second 7inline double distance(point a, point b) { 8 return sqrt((a.x - b.x) * (a.x - b.x) &#43; (a.y - b.y) * (a.y - b.y)); 9} 10struct UF { 11 vector&amp;lt;int&amp;gt; par, sz; 12 UF(int n) { 13 par.'>
 <meta property='og:url' content='https://Luke2336.github.io/p/20210528/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='PCCA' /><meta property='article:tag' content='Code' /><meta property='article:published_time' content='2021-05-31T00:26:23&#43;08:00'/><meta property='article:modified_time' content='2021-05-31T00:26:23&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='PCCA' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Codeforces' /><meta property='article:published_time' content='2021-05-31T00:26:23&#43;08:00'/><meta property='article:modified_time' content='2021-05-31T00:26:23&#43;08:00'/>
 <meta name="twitter:title" content="2021/05/28 日記">
 <meta name="twitter:description" content="整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
 隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
@@ -287,6 +290,8 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
         
             <a href="/tags/code/">Code</a>
         
+            <a href="/tags/codeforces/">Codeforces</a>
+        
     </section>
 
 
@@ -313,6 +318,24 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
                 
                     
 <article class="has-image">
+    <a href="/p/20210717/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/Diary/20210717/course.png" loading="lazy" data-key="20210717" data-hash="/post/Diary/20210717/course.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2021/07/17 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
     <a href="/p/20210703/">
         
         
@@ -325,24 +348,6 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
 
         <div class="article-details">
             <h2 class="article-title">2021/07/03 日記</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="has-image">
-    <a href="/p/20210324/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post/Diary/20210324/Standing.png" loading="lazy" data-key="20210324" data-hash="/post/Diary/20210324/Standing.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2021/03/24 日記</h2>
         </div>
     </a>
 </article>
@@ -385,18 +390,18 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
                 
                     
 <article class="has-image">
-    <a href="/p/20210303/">
+    <a href="/p/20210324/">
         
         
             <div class="article-image">
                 
-                    <img src="/post/Diary/20210303/Standing.png" loading="lazy" data-key="20210303" data-hash="/post/Diary/20210303/Standing.png"/>
+                    <img src="/post/Diary/20210324/Standing.png" loading="lazy" data-key="20210324" data-hash="/post/Diary/20210324/Standing.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">2021/03/03 日記</h2>
+            <h2 class="article-title">2021/03/24 日記</h2>
         </div>
     </a>
 </article>
@@ -409,6 +414,21 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">

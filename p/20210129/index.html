@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' 弄了寒訓的題單，研究了 LCIS。 研究轉系，發現歷年轉入資工大三的人極少。推測可能是因為需要修完必修，而必修不好加簽？ 晚上跟導師和師母去靠近東門那區吃飯。 飯後洗了衣服，又收拾了東西。 看完了甄嬛傳，順便補了一下夜叉姬的進度。  Codeforces 180 C. Letter 寫這題才發現 isupper() 不是回傳 0 或 1。
 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;3using namespace std; 4inline bool up(char c) {return isupper(c);} 5inline bool low(char c) {return islower(c);} 6int main() { 7 ios::sync_with_stdio(0), cin.tie(0); 8 string s; cin &amp;gt;&amp;gt; s; 9 int len = s.length(); 10 vector&amp;lt;int&amp;gt; dp[2]; 11 dp[0].resize(len), dp[1].resize(len); 12 dp[0][0] = low(s[0]), dp[1][0] = up(s[0]); 13 for (int i = 1; s[i]; i&#43;&#43;) { 14 dp[0][i] = dp[0][i - 1] &#43; low(s[i]); 15 dp[1][i] = min(dp[0][i - 1], dp[1][i - 1]) &#43; up(s[i]); 16 } 17 cout &amp;lt;&amp;lt; min(dp[0][len - 1], dp[1][len - 1]) &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; 18 return 0; 19}  筆記 - 近世代數 '><title>2021/01/29 日記</title>
 
@@ -278,67 +281,85 @@
             <div class="flex article-list--tile">
                 
                     
-<article class="">
-    <a href="/p/20210217/">
+<article class="has-image">
+    <a href="/p/20210717/">
         
+        
+            <div class="article-image">
+                
+                    <img src="/post/Diary/20210717/course.png" loading="lazy" data-key="20210717" data-hash="/post/Diary/20210717/course.png"/>
+                
+            </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">2021/02/17 日記</h2>
+            <h2 class="article-title">2021/07/17 日記</h2>
         </div>
     </a>
 </article>
                 
                     
 <article class="has-image">
-    <a href="/p/20210128/">
+    <a href="/p/20210703/">
         
         
             <div class="article-image">
                 
-                    <img src="/post/Diary/20210128/Dashboard.png" loading="lazy" data-key="20210128" data-hash="/post/Diary/20210128/Dashboard.png"/>
+                    <img src="/post/Diary/20210703/Standing.png" loading="lazy" data-key="20210703" data-hash="/post/Diary/20210703/Standing.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">2021/01/28 日記</h2>
+            <h2 class="article-title">2021/07/03 日記</h2>
         </div>
     </a>
 </article>
                 
                     
 <article class="">
-    <a href="/p/20210126/">
+    <a href="/p/20210528/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">2021/01/26 日記</h2>
+            <h2 class="article-title">2021/05/28 日記</h2>
         </div>
     </a>
 </article>
                 
                     
-<article class="">
-    <a href="/p/20210714/">
+<article class="has-image">
+    <a href="/p/20210317/">
         
+        
+            <div class="article-image">
+                
+                    <img src="/post/Diary/20210317/toggl.png" loading="lazy" data-key="20210317" data-hash="/post/Diary/20210317/toggl.png"/>
+                
+            </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">2021/07/14 日記</h2>
+            <h2 class="article-title">2021/03/17 日記</h2>
         </div>
     </a>
 </article>
                 
                     
-<article class="">
-    <a href="/p/20210713/">
+<article class="has-image">
+    <a href="/p/20210310/">
         
+        
+            <div class="article-image">
+                
+                    <img src="/post/Diary/20210310/Standing.png" loading="lazy" data-key="20210310" data-hash="/post/Diary/20210310/Standing.png"/>
+                
+            </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">2021/07/13 日記</h2>
+            <h2 class="article-title">2021/03/10 日記</h2>
         </div>
     </a>
 </article>
@@ -351,6 +372,21 @@
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">

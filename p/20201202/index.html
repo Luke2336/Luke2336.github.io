@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='OS HW1 (Python) 中午研究了一下 OS 的作業一，因為對 Python 還不熟，所以先研究了一些模組和函式的用法。之後再慢慢研究 Multithread、Multiprocessing 和 Coroutine。因為期中考表現的很糟，希望能在作業拚一下，把總成績拉到 A。
 Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  1import requests 2from bs4 import BeautifulSoup 3url = input() 4r = requests.get(url) 5while r.status_code != requests.codes.ok : # 200 6	r = requests.get(url) 7soup = BeautifulSoup(r.text, &amp;#39;html.parser&amp;#39;) 8print(soup.find(&amp;#39;title&amp;#39;).text) SHA 記得要先 encode(&#39;utf-8&#39;)
 1import hashlib # 內建的 2 3def SHA256(s): 4 sha = hashlib.sha256() 5 sha.update(s.encode(&amp;#39;utf-8&amp;#39;)) 6 return sha.'><title>2020/12/02 日記</title>
@@ -380,6 +383,24 @@ Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  
             <div class="flex article-list--tile">
                 
                     
+<article class="has-image">
+    <a href="/p/20210717/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/Diary/20210717/course.png" loading="lazy" data-key="20210717" data-hash="/post/Diary/20210717/course.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2021/07/17 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
 <article class="">
     <a href="/p/20210709/">
         
@@ -439,24 +460,6 @@ Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  
     </a>
 </article>
                 
-                    
-<article class="has-image">
-    <a href="/p/20210317/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post/Diary/20210317/toggl.png" loading="lazy" data-key="20210317" data-hash="/post/Diary/20210317/toggl.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2021/03/17 日記</h2>
-        </div>
-    </a>
-</article>
-                
             </div>
         </div>
     
@@ -465,6 +468,21 @@ Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">

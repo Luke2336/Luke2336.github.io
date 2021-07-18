@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='早上搭車回新竹，雨很大，上車後到台北就沒雨了。從馬偕下車，然後搭小紅巴回學校。之後剪了香蜂草的枯枝病葉，還除了蟲，然後洗了衣服，吃了昨晚買的巧克力拿破崙配伯爵茶。
 pJ. Inverse Factorial  給定一個長度不超過 1e6 的字串，代表 n!，求 n 是多少？ 答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數  1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3#define mod 1000000007 4typedef long long ll; 5int main () { 6 ios_base::sync_with_stdio(0); cin.tie(0); 7 string s; cin &amp;gt;&amp;gt; s; 8 ll sum = 0; 9 for (int i = 0; s[i]; i&#43;&#43;) 10 sum = (sum * 10 &#43; s[i] - &amp;#39;0&amp;#39;) % mod; 11 for (ll i = 1, frac = 1; ; i&#43;&#43;) { 12 frac = (frac * i) % mod; 13 if (frac == sum) { 14 cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; break; 15 } 16 } 17 return 0; 18}  CSES - 1202 - Investigation  最短路徑水題 Dijkstra  1#include&amp;lt;bits/stdc&#43;&#43;.'><title>2020/12/14 日記</title>
 
@@ -324,6 +327,18 @@ pJ. Inverse Factorial  給定一個長度不超過 1e6 的字串，代表 n!，�
                 
                     
 <article class="">
+    <a href="/p/20210704/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2021/07/04 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
     <a href="/p/20210208/">
         
         
@@ -382,18 +397,6 @@ pJ. Inverse Factorial  給定一個長度不超過 1e6 的字串，代表 n!，�
     </a>
 </article>
                 
-                    
-<article class="">
-    <a href="/p/20210714/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2021/07/14 日記</h2>
-        </div>
-    </a>
-</article>
-                
             </div>
         </div>
     
@@ -402,6 +405,21 @@ pJ. Inverse Factorial  給定一個長度不超過 1e6 的字串，代表 n!，�
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">

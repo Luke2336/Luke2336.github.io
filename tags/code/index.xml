@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jul 2021 17:49:47 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 17:37:48 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/17 日記</title>
+      <link>https://Luke2336.github.io/p/20210717/</link>
+      <pubDate>Sat, 17 Jul 2021 17:37:48 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210717/</guid>
+      <description> 上午去診所看醫生。 傍晚很無聊，就去交大課程助理發了修課心得。 晚上和隊友練習。  隊練 2020, XIII Samara Regional Intercollegiate Programming Contest  隊友表示不喜歡我挑的這套題，太多水題了。 比較喜歡的題有 C, D, F, G。     ID Solver Type     A Hyperbola 水題   B Hyperbola 暴力, 二分搜   C     D Hyperbola BFS   E LinLee 水題   F LinLee Tree, Greedy   G Hyperbola 互動題   H LinLee 水題   I LinLee 水題, Sort   J Hyperbola 手推   K Hyperbola 幾何   L Hyperbola DP   M Kelly 水題, Sort    </description>
+    </item>
+    
     <item>
       <title>2021/07/14 日記</title>
       <link>https://Luke2336.github.io/p/20210714/</link>
@@ -297,7 +306,7 @@ PCCA 今天忘記訂餐了，於是就遲到了。曲線忘記要練習了，於
 早上上了正規語言，大概進度是講 NFA 可以被 DFA 取代。
 下午上難解問題，主題是 NPI，覺得證明滿有趣。另外還教了 Heap&amp;rsquo;s Algorithm，用 O(n!) 枚舉，打算放進 Codebook 裡。
 晚上吃了火雞肉飯，覺得沒胃口。
-1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3void heaps(int k, vector&amp;lt;int&amp;gt; &amp;amp;s, int n) { 4 if (k == 1) { 5 for (int i = 0; i &amp;lt; n; i++) 6 cout &amp;lt;&amp;lt; s[i] &amp;lt;&amp;lt; &amp;#34; \n&amp;#34;[i == n - 1]; 7 return; 8 } 9 for (int i = 0; i &amp;lt; k - 1; ++i) { 10 heaps(k - 1, s, n); 11 if (k &amp;amp; 1) swap(s[i], s[k - 1]); 12 else swap(s[0], s[k - 1]); 13 } 14 heaps(k - 1, s, n); 15} 16void permutation(int n) { 17 vector&amp;lt;int&amp;gt; v(n); 18 for (int i = 0; i &amp;lt; n; i++) v[i] = i; 19 heaps(n, v, n); 20} 21int main() { 22 int n; cin &amp;gt;&amp;gt; n; 23 permutation(n); 24 return 0; 25}  </description>
+Heap&amp;rsquo;s Algorithm 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3void heaps(int k, vector&amp;lt;int&amp;gt; &amp;amp;s, int n) { 4 if (k == 1) { 5 for (int i = 0; i &amp;lt; n; i++) 6 cout &amp;lt;&amp;lt; s[i] &amp;lt;&amp;lt; &amp;#34; \n&amp;#34;[i == n - 1]; 7 return; 8 } 9 for (int i = 0; i &amp;lt; k - 1; ++i) { 10 heaps(k - 1, s, n); 11 if (k &amp;amp; 1) swap(s[i], s[k - 1]); 12 else swap(s[0], s[k - 1]); 13 } 14 heaps(k - 1, s, n); 15} 16void permutation(int n) { 17 vector&amp;lt;int&amp;gt; v(n); 18 for (int i = 0; i &amp;lt; n; i++) v[i] = i; 19 heaps(n, v, n); 20} 21int main() { 22 int n; cin &amp;gt;&amp;gt; n; 23 permutation(n); 24 return 0; 25}  </description>
     </item>
     
     <item>

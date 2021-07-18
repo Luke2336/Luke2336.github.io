@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='心情不太好，懶懶散散的不想做任何事。
 Code zerojudge:
  c303 c304  CSES 2195 - Convex Hull  這題是要求在凸包上的所有點，所以 cross() &amp;lt; 0 才需要拔掉。 cross 的部分要記得開 long long，不然會溢位。  1// monotone chain 2#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;3using namespace std; 4struct point { 5 long long x, y; 6 point() {} 7 point(long long _x, long long _y) { x = _x, y = _y;} 8 point operator-(const point p) { 9 return point(x - p.x, y - p.y); 10 } 11 long long cross(const point &amp;amp;p) { 12 return x * p.'><title>2021/02/03 日記</title>
@@ -305,6 +308,18 @@ Code zerojudge:
                 
                     
 <article class="">
+    <a href="/p/20210704/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2021/07/04 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
     <a href="/p/20210208/">
         
         
@@ -369,18 +384,6 @@ Code zerojudge:
     </a>
 </article>
                 
-                    
-<article class="">
-    <a href="/p/20210714/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2021/07/14 日記</h2>
-        </div>
-    </a>
-</article>
-                
             </div>
         </div>
     
@@ -389,6 +392,21 @@ Code zerojudge:
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">

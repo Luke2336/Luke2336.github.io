@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='下午吃了草莓加煉乳，晚餐去博愛吃了牛肉麵，然後耍廢看了一部電影。
 Kattis - Alphabet 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3int main () { 4 string s; cin &amp;gt;&amp;gt; s; 5 int dp[30][55] = {}; 6 for (int i = 0; i &amp;lt; 26; i&#43;&#43;) 7 for (int j = 0; s[j]; j&#43;&#43;) 8 if (s[j] == i &#43; &amp;#39;a&amp;#39;) 9 dp[i &#43; 1][j &#43; 1] = dp[i][j] &#43; 1; 10 else 11 dp[i &#43; 1][j &#43; 1] = max(dp[i][j &#43; 1], dp[i &#43; 1][j]); 12 cout &amp;lt;&amp;lt; 26 - dp[26][s.'><title>2021/02/05 日記</title>
 
@@ -265,6 +268,24 @@ Kattis - Alphabet 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace
                 
                     
 <article class="has-image">
+    <a href="/p/20210324/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/Diary/20210324/Standing.png" loading="lazy" data-key="20210324" data-hash="/post/Diary/20210324/Standing.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2021/03/24 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
     <a href="/p/20210207/">
         
         
@@ -323,18 +344,6 @@ Kattis - Alphabet 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace
     </a>
 </article>
                 
-                    
-<article class="">
-    <a href="/p/20210124/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2021/01/24 日記</h2>
-        </div>
-    </a>
-</article>
-                
             </div>
         </div>
     
@@ -343,6 +352,21 @@ Kattis - Alphabet 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace
 
     
         
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        theme="preferred-color-scheme" 
+        
+        crossorigin="anonymous" 
+        async>
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
     
 
     <footer class="site-footer">
