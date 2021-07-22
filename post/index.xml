@@ -6,7 +6,43 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jul 2021 10:15:47 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 16:12:43 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/07/22 日記</title>
+      <link>https://Luke2336.github.io/p/20210722/</link>
+      <pubDate>Thu, 22 Jul 2021 16:12:43 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210722/</guid>
+      <description> 颱風靠近了，開始間歇性大雨。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/21 日記</title>
+      <link>https://Luke2336.github.io/p/20210721/</link>
+      <pubDate>Wed, 21 Jul 2021 10:14:47 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210721/</guid>
+      <description> 一早就被註冊組的人打電話催成績，不是啊，不是應該打給老師叫他送成績嗎，我已經寫信催過了啊！晚上終於看到老師送成績了！！ 這學期成績平均高於總平均，開心～ 今天算是稍有進度的一天。 晚上看了 Netflix 的 Great Pretender。 晚上左下腹劇痛。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/20 日記</title>
+      <link>https://Luke2336.github.io/p/20210720/</link>
+      <pubDate>Wed, 21 Jul 2021 10:14:40 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210720/</guid>
+      <description> 因為跟台大的朋友聊了他的實習狀況，發現自己落後很多，有點恐慌。  </description>
+    </item>
+    
+    <item>
+      <title>2021/07/19 日記</title>
+      <link>https://Luke2336.github.io/p/20210719/</link>
+      <pubDate>Tue, 20 Jul 2021 00:49:35 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210719/</guid>
+      <description> 下午和 Host 聊了一下 project。 晚上去看醫生，然後吃了麥當勞。 睡前更新了 Blog 的 theme，改用 git submodule 去管理，之後更新比較方便。  </description>
+    </item>
+    
     <item>
       <title>2021/07/18 日記</title>
       <link>https://Luke2336.github.io/p/20210718/</link>
