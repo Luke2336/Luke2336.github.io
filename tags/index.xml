@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jul 2021 11:08:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 10:23:07 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://Luke2336.github.io/tags/python/</link>
+      <pubDate>Sat, 07 Aug 2021 10:23:07 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>羽球</title>
       <link>https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/</link>
@@ -67,15 +76,6 @@
       <pubDate>Wed, 14 Jul 2021 17:49:47 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/tags/spoj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://Luke2336.github.io/tags/python/</link>
-      <pubDate>Fri, 09 Jul 2021 17:16:06 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/tags/python/</guid>
       <description></description>
     </item>
     

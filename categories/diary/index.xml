@@ -6,7 +6,70 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Aug 2021 17:41:15 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 18:54:45 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/08/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210811/</link>
+      <pubDate>Wed, 11 Aug 2021 18:54:45 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210811/</guid>
+      <description> 開始寫 Design Doc.，很開心 Irene 把她寫的借我參考。 晚上吃了韓式炸雞，工作到很晚。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/10 日記</title>
+      <link>https://Luke2336.github.io/p/20210810/</link>
+      <pubDate>Wed, 11 Aug 2021 18:54:37 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210810/</guid>
+      <description> 嗜睡的一天。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/09 日記</title>
+      <link>https://Luke2336.github.io/p/20210809/</link>
+      <pubDate>Wed, 11 Aug 2021 18:54:29 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210809/</guid>
+      <description> 因為工作進度很焦慮。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/08 日記</title>
+      <link>https://Luke2336.github.io/p/20210808/</link>
+      <pubDate>Sun, 08 Aug 2021 13:17:52 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210808/</guid>
+      <description> 今天是父親節，爸媽開車來新竹找我，於是順便去食品路修了腳踏車。  修腳踏車  捷安特 新竹 羿成單車生活館。 前後輪的內外胎、煞車線、鏈條，總共 $3300。  拆箱 - Google 包裹  等了很久終於從美國寄來了，有一件 T-shirt、一個 Intern 帽帽、一個後背包。 前兩次的 SWAG，分別是 Google 的水壺、高級水壺、Google 的無線快充盤。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/07 日記</title>
+      <link>https://Luke2336.github.io/p/20210807/</link>
+      <pubDate>Sat, 07 Aug 2021 10:23:07 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210807/</guid>
+      <description>Chrome 的恐龍小遊戲有東奧版。 下午和隊友練習，覺得自己的狀態不甚好。 晚上用 Uber Eat 叫了清夜的鹹酥雞吃。  隊練 2016, IX Samara Regional Intercollegiate Programming Contest Python  讀從圖書館借的決心打底！Python 深度學習基礎養成。  Plot 1import numpy as np 2import matplotlib.pyplot as plt 3 4x = np.linspace(0, 2 * np.pi) 5y_sin= np.sin(x) 6y_cos= np.cos(x) 7 8plt.xlabel(&amp;#34;x value&amp;#34;) 9plt.ylabel(&amp;#34;y value&amp;#34;) 10plt.title(&amp;#34;sin/cos&amp;#34;) 11plt.plot(x, y_sin, label=&amp;#34;sin&amp;#34;) 12plt.plot(x, y_cos, label=&amp;#34;cos&amp;#34;, linestyle=&amp;#34;dashed&amp;#34;) 13plt.legend() 14plt.show() 1import numpy as np 2import matplotlib.pyplot as plt 3 4x1 = np.random.rand(100) - 1.</description>
+    </item>
+    
+    <item>
+      <title>2021/08/06 日記</title>
+      <link>https://Luke2336.github.io/p/20210806/</link>
+      <pubDate>Sat, 07 Aug 2021 10:23:01 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210806/</guid>
+      <description> 台灣的 Intern 們創了個群組，發現很多 Intern 都是熟人。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210805/</link>
+      <pubDate>Thu, 05 Aug 2021 20:04:11 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210805/</guid>
+      <description> 因為工作的進度感到有些焦慮。  </description>
+    </item>
+    
     <item>
       <title>2021/08/04 日記</title>
       <link>https://Luke2336.github.io/p/20210804/</link>

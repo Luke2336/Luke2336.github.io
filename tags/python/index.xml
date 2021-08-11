@@ -6,7 +6,16 @@
     <description>Recent content in Python on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jul 2021 17:16:06 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 10:23:07 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/08/07 日記</title>
+      <link>https://Luke2336.github.io/p/20210807/</link>
+      <pubDate>Sat, 07 Aug 2021 10:23:07 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210807/</guid>
+      <description>Chrome 的恐龍小遊戲有東奧版。 下午和隊友練習，覺得自己的狀態不甚好。 晚上用 Uber Eat 叫了清夜的鹹酥雞吃。  隊練 2016, IX Samara Regional Intercollegiate Programming Contest Python  讀從圖書館借的決心打底！Python 深度學習基礎養成。  Plot 1import numpy as np 2import matplotlib.pyplot as plt 3 4x = np.linspace(0, 2 * np.pi) 5y_sin= np.sin(x) 6y_cos= np.cos(x) 7 8plt.xlabel(&amp;#34;x value&amp;#34;) 9plt.ylabel(&amp;#34;y value&amp;#34;) 10plt.title(&amp;#34;sin/cos&amp;#34;) 11plt.plot(x, y_sin, label=&amp;#34;sin&amp;#34;) 12plt.plot(x, y_cos, label=&amp;#34;cos&amp;#34;, linestyle=&amp;#34;dashed&amp;#34;) 13plt.legend() 14plt.show() 1import numpy as np 2import matplotlib.pyplot as plt 3 4x1 = np.random.rand(100) - 1.</description>
+    </item>
+    
     <item>
       <title>2021/07/09 日記</title>
       <link>https://Luke2336.github.io/p/20210709/</link>
