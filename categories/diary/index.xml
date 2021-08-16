@@ -6,7 +6,44 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Aug 2021 05:29:22 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2021 17:12:30 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/08/16 日記</title>
+      <link>https://Luke2336.github.io/p/20210816/</link>
+      <pubDate>Mon, 16 Aug 2021 17:12:30 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210816/</guid>
+      <description> 昨晚嚴重失眠，中間躺了四個小時左右。 第一天在家工作，覺得干擾很多。 把免修申請表寫完，要免修的科目有機率、線代、導師時間、資訊工程研討。希望明天轉系結果早點出來。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/15 日記</title>
+      <link>https://Luke2336.github.io/p/20210815/</link>
+      <pubDate>Sun, 15 Aug 2021 10:32:11 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210815/</guid>
+      <description> 回基隆，準備下週二進辦公室。 發現電子學和電子實驗的英文班都停開了，轉系沒過，可能畢業困難。突然覺得被 chungsheng 烏鴉嘴中了。  課表  排好了轉系沒過的課表。 基本上是要把隨機演算法和賽局理論退掉，加選電子學。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/14 日記</title>
+      <link>https://Luke2336.github.io/p/20210814/</link>
+      <pubDate>Sun, 15 Aug 2021 10:31:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210814/</guid>
+      <description> 過敏日。 早上有推了一些工作進度。 晚上去找學長聊天，吃了清夜的廣東粥和酪梨牛奶。  聊了一些關於伴侶的話題，還有一些自我肯定的事。    </description>
+    </item>
+    
+    <item>
+      <title>2021/08/13 日記</title>
+      <link>https://Luke2336.github.io/p/20210813/</link>
+      <pubDate>Fri, 13 Aug 2021 21:23:10 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210813/</guid>
+      <description> 今天比較焦慮，覺得工作進度有些落後，Host 有問我要不要把工作的時間延長到開學後一週，我認為值得考慮。 晚上跟 LinLee 去清夜吃牛肉麵。  實習倒數四週 我在 Google Taiwan ChromeOS Team 實習的日子將要倒數四週。
+ 第一個月主要是在熟悉 ChromeOS 內部的工具，還有熟悉用 Chromebook 開發。公司內部提供了很多影片，可以提供 remote onboard 的實習生們進入狀況。 第二個月則是開始我的 project 的撰寫，主要時間都花在熟悉看 code，因為我以前對 python 的實作量很少，所以花了些時間研究 python 的 OOP 還有一些 Library。 今天早上和學妹 Nina 一起訪問我的 Host，他有給了我們一些職涯上的建議，也有對於轉正有些提醒。另外，提到了實習生的專案多是實驗性的。滿特別的是提到 SWE 大部分的工作時間是處理 bug，還有提到 Google Taiwan 的工作多少會碰到一些硬體的部分，建議修交大的 OSDI、高等 UNIX 和微處理機。 意識到自己平常是走資訊科學的路線，而非資訊工程。  </description>
+    </item>
+    
     <item>
       <title>2021/08/12 日記</title>
       <link>https://Luke2336.github.io/p/20210812/</link>
