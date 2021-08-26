@@ -6,14 +6,59 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Aug 2021 07:47:59 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Aug 2021 17:59:42 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/08/26 日記</title>
+      <link>https://Luke2336.github.io/p/20210826/</link>
+      <pubDate>Thu, 26 Aug 2021 17:59:42 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210826/</guid>
+      <description>工作  Host 把 Design Doc. 給更多人 Review 了，感覺很多地方要改。 下午進到 Code Review，很多東西要改，讓我有點憂鬱。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/25 日記</title>
+      <link>https://Luke2336.github.io/p/20210825/</link>
+      <pubDate>Wed, 25 Aug 2021 21:27:41 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210825/</guid>
+      <description> 去資工系辦想要交免修申請，結果未開放收件。 請系辦問了註冊組，降轉的人最快三下加退選完一週才能申請提早畢業。 但我到時候修零學分，還得繳三分之一的學雜費，覺得超級嘔。 下午約了電機系的朋友去舊館打球，覺得精疲力盡。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/24 日記</title>
+      <link>https://Luke2336.github.io/p/20210824/</link>
+      <pubDate>Tue, 24 Aug 2021 22:04:22 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210824/</guid>
+      <description> 開會時 Design Doc. 被點出不少地方要改，示意圖被稱讚畫的不錯。 CL 被說切的不好，之後要重新整理，下午花了點時間研究。  git reabase -i git add -p    </description>
+    </item>
+    
+    <item>
+      <title>2021/08/23 日記</title>
+      <link>https://Luke2336.github.io/p/20210823/</link>
+      <pubDate>Tue, 24 Aug 2021 22:04:16 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210823/</guid>
+      <description> 大部分的時間都在弄 Design Doc.，畫了一些流程圖。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/22 日記</title>
+      <link>https://Luke2336.github.io/p/20210822/</link>
+      <pubDate>Sun, 22 Aug 2021 12:08:41 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210822/</guid>
+      <description>準備中高級英檢  臺灣測驗中心 - 單字表  </description>
+    </item>
+    
     <item>
       <title>2021/08/21 日記</title>
       <link>https://Luke2336.github.io/p/20210821/</link>
       <pubDate>Sat, 21 Aug 2021 07:47:59 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20210821/</guid>
-      <description> 媽媽說今天帶小乖去獸醫院，是蜂窩性組織炎，所以有腫塊。  隊練 2005-2006 ACM-ICPC, NEERC, Southern Subregional Contest </description>
+      <description> 媽媽說今天帶小乖去獸醫院，是蜂窩性組織炎，所以有腫塊。 參考這篇改了 Github 的認證方式。  隊練 2005-2006 ACM-ICPC, NEERC, Southern Subregional Contest </description>
     </item>
     
     <item>
