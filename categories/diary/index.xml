@@ -6,7 +6,72 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Aug 2021 17:06:02 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 20:51:21 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/09/07 日記</title>
+      <link>https://Luke2336.github.io/p/20210907/</link>
+      <pubDate>Tue, 07 Sep 2021 20:51:21 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210907/</guid>
+      <description> 請了一天的假打年度賽。 今天一整天都不太舒服，先是腹痛和胸痛，晚餐前又覺得快要暈倒，一直冒冷汗。  年度賽  拿了第三名，但其實感覺沒有打得特別好，只是其他隊爛掉了而已，風向歪歪的。 題解：https://github.com/mzshieh/2021-ycpc  </description>
+    </item>
+    
+    <item>
+      <title>2021/09/06 日記</title>
+      <link>https://Luke2336.github.io/p/20210906/</link>
+      <pubDate>Mon, 06 Sep 2021 17:40:10 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210906/</guid>
+      <description>今天試著先讓 host 聽我的 presentation。</description>
+    </item>
+    
+    <item>
+      <title>2021/09/05 日記</title>
+      <link>https://Luke2336.github.io/p/20210905/</link>
+      <pubDate>Sun, 05 Sep 2021 18:10:07 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210905/</guid>
+      <description>覺得以前做得到的事或想做的事，現在都做不到了，為此感覺很憂鬱。
+書法 </description>
+    </item>
+    
+    <item>
+      <title>2021/09/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210904/</link>
+      <pubDate>Sat, 04 Sep 2021 19:07:56 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210904/</guid>
+      <description>今天去苗栗走走，但遇到大雨。  Tarjan 寫了找割點和橋的模板，但不知道哪裡壞了。
+1void dfs(int i, int par, int &amp;amp;t, const vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;G, 2	vector&amp;lt;int&amp;gt; &amp;amp;visit, vector&amp;lt;int&amp;gt; &amp;amp;low, vector&amp;lt;bool&amp;gt; &amp;amp;ap, vector&amp;lt;pii&amp;gt; &amp;amp;bridge) { 3	visit[i] = low[i] = ++t; 4	int chd = 0; 5	for (int j : G[i]) { 6	if (j == par) continue; 7	if (!visit[j]) { 8	dfs(j, i, t, G, visit, low, ap, bridge); 9	chd++; 10	low[i] = min(low[i], low[j]); 11	if (low[j] &amp;gt;= visit[i]) 12	ap[i] = true; 13	if (low[j] &amp;gt; visit[i]) 14	bridge.</description>
+    </item>
+    
+    <item>
+      <title>2021/09/03 日記</title>
+      <link>https://Luke2336.github.io/p/20210903/</link>
+      <pubDate>Sat, 04 Sep 2021 19:07:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210903/</guid>
+      <description> 大部分的時間都用來擬稿。  </description>
+    </item>
+    
+    <item>
+      <title>2021/09/01 日記</title>
+      <link>https://Luke2336.github.io/p/20210901/</link>
+      <pubDate>Thu, 02 Sep 2021 08:18:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210901/</guid>
+      <description> 只有修掉一些小 bug，沒有太多進度。 晚上在思考自己跟男友的價值觀、家庭背景、政治傾向是否都太不同。  </description>
+    </item>
+    
+    <item>
+      <title>2021/08/31 日記</title>
+      <link>https://Luke2336.github.io/p/20210831/</link>
+      <pubDate>Tue, 31 Aug 2021 02:46:18 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210831/</guid>
+      <description> 工作到很晚的一天。 網購了寫書法的用具。  </description>
+    </item>
+    
     <item>
       <title>2021/08/30 日記</title>
       <link>https://Luke2336.github.io/p/20210830/</link>

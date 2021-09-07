@@ -6,7 +6,17 @@
     <description>Recent content in 旅遊 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 09:50:18 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Sep 2021 19:07:56 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/09/04 日記</title>
+      <link>https://Luke2336.github.io/p/20210904/</link>
+      <pubDate>Sat, 04 Sep 2021 19:07:56 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210904/</guid>
+      <description>今天去苗栗走走，但遇到大雨。  Tarjan 寫了找割點和橋的模板，但不知道哪裡壞了。
+1void dfs(int i, int par, int &amp;amp;t, const vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;G, 2	vector&amp;lt;int&amp;gt; &amp;amp;visit, vector&amp;lt;int&amp;gt; &amp;amp;low, vector&amp;lt;bool&amp;gt; &amp;amp;ap, vector&amp;lt;pii&amp;gt; &amp;amp;bridge) { 3	visit[i] = low[i] = ++t; 4	int chd = 0; 5	for (int j : G[i]) { 6	if (j == par) continue; 7	if (!visit[j]) { 8	dfs(j, i, t, G, visit, low, ap, bridge); 9	chd++; 10	low[i] = min(low[i], low[j]); 11	if (low[j] &amp;gt;= visit[i]) 12	ap[i] = true; 13	if (low[j] &amp;gt; visit[i]) 14	bridge.</description>
+    </item>
+    
     <item>
       <title>2021/05/02 日記</title>
       <link>https://Luke2336.github.io/p/20210502/</link>
