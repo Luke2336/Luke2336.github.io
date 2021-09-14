@@ -6,7 +6,16 @@
     <description>Recent content in ZeroJudge on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jul 2021 19:58:53 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/zerojudge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 08:48:10 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/zerojudge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/09/11 日記</title>
+      <link>https://Luke2336.github.io/p/20210911/</link>
+      <pubDate>Sat, 11 Sep 2021 08:48:10 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210911/</guid>
+      <description>去系辦處理抵免相關事務。  資工系羽暑訓  覺得今天外面的人很少，於是有比較多的場地練習。 跟電機系相比，比較多的時間是在練球，所以練到比較累。  Code ZJ a017: 五則運算 1while True: 2 try: 3 print(eval(input().replace(&amp;#39;/&amp;#39;, &amp;#39;//&amp;#39;))) 4 except: 5 break ZJ b557: 直角三角形 1#include &amp;lt;bits/stdc++.h&amp;gt; 2using namespace std; 3vector&amp;lt;tuple&amp;lt;int, int, int&amp;gt;&amp;gt; v; 4void init() { 5 for (int i = 1; i &amp;lt;= 100; i++) { 6 for (int j = i; j &amp;lt;= 100; j++) { 7 for (int k = j; k &amp;lt;= 100; k++) { 8 if (i * i + j * j == k * k) { 9 v.</description>
+    </item>
+    
     <item>
       <title>2021/07/02 日記</title>
       <link>https://Luke2336.github.io/p/20210702/</link>
