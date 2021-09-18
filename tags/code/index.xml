@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Sep 2021 13:07:38 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 11:59:06 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/09/16 日記</title>
+      <link>https://Luke2336.github.io/p/20210916/</link>
+      <pubDate>Thu, 16 Sep 2021 11:59:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20210916/</guid>
+      <description>隨機演算法複習了星期一教的東西，新的進度不多，只多了 Min-Cut 的 Contraction Approach。 體育課線上，大概半小時多就下課了。  Code CSES1688 - Company Queries II  LCA 模板題。  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3#pragma GCC optimization (&amp;#34;O3&amp;#34;) 4#include&amp;lt;bits/stdc++.h&amp;gt;5using namespace std; 6typedef long long ll; 7typedef pair&amp;lt;int, int&amp;gt; pii; 8#define pb push_back 9 10class SparseTableTarjan { 11 private: 12 int maxlg; 13 vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; anc; 14 vector&amp;lt;int&amp;gt; dep; 15 void dfs(int u, vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; edge, int d) { 16 dep[u] = d; 17 for (int i = 1; i &amp;lt; maxlg; i++) 18 if (anc[u][i - 1] == -1) break; 19 else anc[u][i] = anc[anc[u][i - 1]][i - 1]; 20 for (int a : edge[u]) { 21 if (dep[a] !</description>
+    </item>
+    
     <item>
       <title>2021/09/10 日記</title>
       <link>https://Luke2336.github.io/p/20210910/</link>
