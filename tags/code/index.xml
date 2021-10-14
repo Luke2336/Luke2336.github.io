@@ -6,14 +6,23 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Oct 2021 09:39:12 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Oct 2021 10:39:02 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/10/12 日記</title>
+      <link>https://Luke2336.github.io/p/20211012/</link>
+      <pubDate>Tue, 12 Oct 2021 10:39:02 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211012/</guid>
+      <description>今天的賽局理論上了 Maximal Independent Set 和 Minimal Multi-dominating Set。 晚上專題的 meeting，拿回了一本平行計算相關的書要讀，覺得這禮拜有點忙。  Code CSES - Josephus Problem I 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4typedef long long ll; 5typedef pair&amp;lt;int, int&amp;gt; pii; 6#define pb push_back 7 8int main() { 9 ios::sync_with_stdio(0), cin.tie(0); 10 int n; 11 cin &amp;gt;&amp;gt; n; 12 if (n == 1) { 13 cout &amp;lt;&amp;lt; &amp;#34;1\n&amp;#34;; 14 return 0; 15 } 16 vector&amp;lt;bool&amp;gt; die(n); 17 cout &amp;lt;&amp;lt; 2; 18 for (int i = 1, p = 0; i &amp;lt; n; i++) { 19 die[p] = true; 20 while(die[p]) { 21 p = (p + 1) % n; 22 } 23 p = (p + 1) % n; 24 while(die[p]) { 25 p = (p + 1) % n; 26 } 27 cout &amp;lt;&amp;lt; &amp;#39; &amp;#39; &amp;lt;&amp;lt; (p + 1) % n + 1; 28 } 29 cout &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; 30 return 0; 31}  SPOJ - SMPDIV 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.</description>
+    </item>
+    
     <item>
       <title>2021/10/10 日記</title>
       <link>https://Luke2336.github.io/p/20211010/</link>
       <pubDate>Sun, 10 Oct 2021 09:39:12 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20211010/</guid>
-      <description>看了新聞的國慶表演。 下午搭國光回新竹，準備連假最後一天趕一下專題的進度。  Code SPOJ - HIGHWAYS 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;int, int&amp;gt; pii; 4#define INF 1000000000 5 6void Dijkstra(const vector&amp;lt;vector&amp;lt;pii&amp;gt;&amp;gt; &amp;amp;G, vector&amp;lt;int&amp;gt; &amp;amp;dis, int s) { 7 dis.assign(G.size(), INF); 8 dis[s] = 0; 9 priority_queue&amp;lt;pii, vector&amp;lt;pii&amp;gt;, greater&amp;lt;pii&amp;gt;&amp;gt; pq; 10 pq.emplace(dis[s], s); 11 while (!pq.empty()) { 12 int u = pq.top().second; 13 pq.pop(); 14 for (auto e : G[u]) { 15 if (dis[e.first] &amp;gt; dis[u] + e.second) { 16 dis[e.</description>
+      <description>看了新聞的國慶表演。 下午搭國光回新竹，準備連假最後一天趕一下專題的進度。 回到新竹後洗了衣服。  Code SPOJ - HIGHWAYS 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;int, int&amp;gt; pii; 4#define INF 1000000000 5 6void Dijkstra(const vector&amp;lt;vector&amp;lt;pii&amp;gt;&amp;gt; &amp;amp;G, vector&amp;lt;int&amp;gt; &amp;amp;dis, int s) { 7 dis.assign(G.size(), INF); 8 dis[s] = 0; 9 priority_queue&amp;lt;pii, vector&amp;lt;pii&amp;gt;, greater&amp;lt;pii&amp;gt;&amp;gt; pq; 10 pq.emplace(dis[s], s); 11 while (!pq.empty()) { 12 int u = pq.top().second; 13 pq.pop(); 14 for (auto e : G[u]) { 15 if (dis[e.first] &amp;gt; dis[u] + e.second) { 16 dis[e.</description>
     </item>
     
     <item>
