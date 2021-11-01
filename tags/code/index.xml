@@ -6,7 +6,25 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Oct 2021 17:13:25 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Oct 2021 16:52:58 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/10/23 日記</title>
+      <link>https://Luke2336.github.io/p/20211023/</link>
+      <pubDate>Sat, 23 Oct 2021 16:52:58 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211023/</guid>
+      <description>TOPC  Scoreboard 最後 pF 來不及寫完。  </description>
+    </item>
+    
+    <item>
+      <title>2021/10/22 日記</title>
+      <link>https://Luke2336.github.io/p/20211022/</link>
+      <pubDate>Fri, 22 Oct 2021 14:00:52 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211022/</guid>
+      <description>早上將賽局理論的影片看完。 之後開始研究 NSD 的 project 要怎麼寫。 晚上複習了英檢的片語。  NSD Proposal  目前是計畫將 simple undirected graph 畫到平面上。 預計用 c++ 寫 force-directed 的 layout，把點的平面座標算出來。 用 Python 將點和邊畫出來。  Python  今天嘗試用 matplotlib 將 python 的部分做個小實驗。 目前卡在座標只能吃 int，不能吃浮點數，這使得我要確保點夠分散，幸好我設定點的數量最多到 1000。  # input.txt 0 3 0 1 1 2 1 3 # output.txt 0 0 10 10 50 15 50 5 1from matplotlib import collections 2import matplotlib.pyplot as plt 3 4coordinate_file = open(&amp;#39;output.txt&amp;#39;, &amp;#39;r&amp;#39;) 5lines = coordinate_file.</description>
+    </item>
+    
     <item>
       <title>2021/10/16 日記</title>
       <link>https://Luke2336.github.io/p/20211016/</link>

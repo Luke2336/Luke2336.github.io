@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Oct 2021 17:13:25 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Oct 2021 13:42:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>羽球</title>
+      <link>https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/</link>
+      <pubDate>Sat, 30 Oct 2021 13:42:14 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Code</title>
       <link>https://Luke2336.github.io/tags/code/</link>
-      <pubDate>Mon, 18 Oct 2021 17:13:25 +0800</pubDate>
+      <pubDate>Sat, 23 Oct 2021 16:52:58 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/tags/code/</guid>
       <description></description>
@@ -19,18 +28,18 @@
     <item>
       <title>PCCA</title>
       <link>https://Luke2336.github.io/tags/pcca/</link>
-      <pubDate>Mon, 18 Oct 2021 17:13:25 +0800</pubDate>
+      <pubDate>Sat, 23 Oct 2021 16:52:58 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/tags/pcca/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>羽球</title>
-      <link>https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/</link>
-      <pubDate>Thu, 14 Oct 2021 18:35:44 +0800</pubDate>
+      <title>Python</title>
+      <link>https://Luke2336.github.io/tags/python/</link>
+      <pubDate>Fri, 22 Oct 2021 14:00:52 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/</guid>
+      <guid>https://Luke2336.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -139,15 +148,6 @@
       <pubDate>Sun, 15 Aug 2021 10:32:11 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://Luke2336.github.io/tags/python/</link>
-      <pubDate>Sat, 07 Aug 2021 10:23:07 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/tags/python/</guid>
       <description></description>
     </item>
     
