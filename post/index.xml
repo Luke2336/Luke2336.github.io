@@ -6,14 +6,41 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 12:35:54 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 20:20:51 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/11/04 日記</title>
+      <link>https://Luke2336.github.io/p/20211104/</link>
+      <pubDate>Thu, 04 Nov 2021 20:20:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211104/</guid>
+      <description>羽球課  今天羽球課打了一堆高遠球，跑到後來很沒力，頭也很痛。 終於可以不用戴口罩打球了 &amp;gt;&amp;lt;  專題  早上重看了 CSB 的論文，發現要實作 Z-Morton 的遞迴結構，打算明天重寫一遍。 想了一下，目前只能先把 CSB 的格式寫完，SpMV 的部分不確定該怎麼寫平行化的部分。  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/03 日記</title>
+      <link>https://Luke2336.github.io/p/20211103/</link>
+      <pubDate>Thu, 04 Nov 2021 20:20:46 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211103/</guid>
+      <description> 因為頭痛睡了一整天，也沒什麼胃口。 手指頭的傷口差不多好了。  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/02 日記</title>
+      <link>https://Luke2336.github.io/p/20211102/</link>
+      <pubDate>Tue, 02 Nov 2021 16:26:44 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211102/</guid>
+      <description> 賽局理論因為自己有點眼殘，所以就考爆了 QAQ 早上的時間都在實作 CSB，但寫到後面就直接砍掉重練，有點難抓要存的東西。平行運算的部分也想不到要怎麼寫，不確定可不可以直接用 openMP 就好。  </description>
+    </item>
+    
     <item>
       <title>2021/11/01 日記</title>
       <link>https://Luke2336.github.io/p/20211101/</link>
       <pubDate>Mon, 01 Nov 2021 12:35:54 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20211101/</guid>
-      <description> 晚上沒睡好，半夜一直醒來。 專題一整週都沒什麼進度，不知道晚上該報什麼。  </description>
+      <description> 晚上沒睡好，半夜一直醒來。 專題一整週都沒什麼進度，不知道晚上該報什麼。 下午去看衛保組的醫生，把左手發炎的膿擠掉，然後手就不能碰水了。 晚上吃不下飯，因此只吃了四個一餐的十元壽司。  </description>
     </item>
     
     <item>

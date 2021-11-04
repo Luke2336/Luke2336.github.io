@@ -6,7 +6,16 @@
     <description>Recent content in 羽球 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Oct 2021 13:42:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 20:20:51 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E7%BE%BD%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/11/04 日記</title>
+      <link>https://Luke2336.github.io/p/20211104/</link>
+      <pubDate>Thu, 04 Nov 2021 20:20:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211104/</guid>
+      <description>羽球課  今天羽球課打了一堆高遠球，跑到後來很沒力，頭也很痛。 終於可以不用戴口罩打球了 &amp;gt;&amp;lt;  專題  早上重看了 CSB 的論文，發現要實作 Z-Morton 的遞迴結構，打算明天重寫一遍。 想了一下，目前只能先把 CSB 的格式寫完，SpMV 的部分不確定該怎麼寫平行化的部分。  </description>
+    </item>
+    
     <item>
       <title>2021/10/28 日記</title>
       <link>https://Luke2336.github.io/p/20211028/</link>
