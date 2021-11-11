@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Luke2336.github.io/p/20211111/</loc>
+    <lastmod>2021-11-11T19:43:40+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://Luke2336.github.io/categories/</loc>
+    <lastmod>2021-11-11T19:43:40+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://Luke2336.github.io/categories/diary/</loc>
+    <lastmod>2021-11-11T19:43:40+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://Luke2336.github.io/</loc>
+    <lastmod>2021-11-11T19:43:40+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://Luke2336.github.io/post/</loc>
+    <lastmod>2021-11-11T19:43:40+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://Luke2336.github.io/p/20211110/</loc>
     <lastmod>2021-11-10T15:55:50+08:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,28 +45,14 @@
   </url>
   
   <url>
-    <loc>https://Luke2336.github.io/categories/</loc>
+    <loc>https://Luke2336.github.io/tags/pcca/</loc>
     <lastmod>2021-11-10T15:55:50+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://Luke2336.github.io/categories/diary/</loc>
-    <lastmod>2021-11-10T15:55:50+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Luke2336.github.io/</loc>
-    <lastmod>2021-11-10T15:55:50+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Luke2336.github.io/post/</loc>
+    <loc>https://Luke2336.github.io/tags/</loc>
     <lastmod>2021-11-10T15:55:50+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -74,13 +95,6 @@
   
   <url>
     <loc>https://Luke2336.github.io/p/20211104/</loc>
-    <lastmod>2021-11-04T20:20:51+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Luke2336.github.io/tags/</loc>
     <lastmod>2021-11-04T20:20:51+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -179,13 +193,6 @@
   
   <url>
     <loc>https://Luke2336.github.io/tags/code/</loc>
-    <lastmod>2021-10-23T16:52:58+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Luke2336.github.io/tags/pcca/</loc>
     <lastmod>2021-10-23T16:52:58+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
