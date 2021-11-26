@@ -6,7 +6,16 @@
     <description>Recent content in PCCA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Nov 2021 15:55:50 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Nov 2021 18:43:54 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/11/17 日記</title>
+      <link>https://Luke2336.github.io/p/20211117/</link>
+      <pubDate>Thu, 18 Nov 2021 18:43:54 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211117/</guid>
+      <description> 算是把 NSD final project 做到一個段落了，發現選的題目好像有點太簡單了，Fruchterman-Reingold 大概兩百行左右就可以寫完了。因為用 pybind11 轉成 .so 檔有點失敗，所以就偷懶直接把結果拿去跑 python，而不是 call c++ 寫好的 function。Debug 完之後還是有些結果很糟糕，主要是算引力跟斥力用的常數很難調。  https://github.com/Luke2336/graph-visualization   晚上和隊友練習，曲線在忙沒有來，但我跟 LinLee 兩個人也開得還算順，但我們只練到 21:30 就收工了，因為 LinLee 離散化用 map 太慢，所以被 TLE。  </description>
+    </item>
+    
     <item>
       <title>2021/11/10 日記</title>
       <link>https://Luke2336.github.io/p/20211110/</link>
