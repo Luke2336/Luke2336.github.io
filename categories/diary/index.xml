@@ -6,14 +6,86 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Nov 2021 16:35:36 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Dec 2021 20:55:15 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/12/04 日記</title>
+      <link>https://Luke2336.github.io/p/20211204/</link>
+      <pubDate>Sat, 04 Dec 2021 20:55:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211204/</guid>
+      <description> 中午在市區的大遠百吃飯。 下午去造橋爬口山步道。 回去後累到直接睡死，然後七點半才爬起來吃拉麵。  口山步道  從造橋國中旁的登山口上山，全長大約 40 分鐘，人不多的一條路線。 中間有一些小岔路，所以最好還是看著 OpenSteetMap 比較保險。 其他人都跟我走反方向，可能是我這個方向有不少下坡，覺得很陡，需要小心走。 可以看得到海邊和竹南市區，還有高速公路。  造橋車站  只有停區間車的無人車站。 有一些日治時代留下的宿舍。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/03 日記</title>
+      <link>https://Luke2336.github.io/p/20211203/</link>
+      <pubDate>Sat, 04 Dec 2021 20:55:10 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211203/</guid>
+      <description> 原本想出去玩，但上公車後，發現導師寫 email 問中午有沒有空去導聚，於是就在清大下了車。在圖書館待到了中午，掃了一些閒書，發現中文書還是缺乏自己想要找的內容。 導聚去吃了一餐的 La La Kitchen，和兩個大一學弟交換了 FB。 下午在交大圖書館 3F 的語言中心寫多益的模擬題，只寫了一回閱讀題，對了 88/100，算起來大概四百初頭，也就是我聽力得考到三百五比較保險，覺得有些困難。又借了一本單字和一本閱讀模擬題，打算最後衝刺一下。 晚上去逛了慈雲路夜市，買了可麗餅、燒仙草和炸雞翅。 突然發現自己 NSD 的 HW4 和 HW5 都忘記傳連結到 E3，覺得有些憂鬱。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/02 日記</title>
+      <link>https://Luke2336.github.io/p/20211202/</link>
+      <pubDate>Sat, 04 Dec 2021 20:55:06 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211202/</guid>
+      <description> 隨機演算法期中考，覺得有些難，感覺在及格邊緣。 下午羽球課打單打比賽，有試著把球往後場拉，但還是覺得自己處於相對被動的狀態。 今天一直忘東忘西在球場，來回去拿了兩次。順便把腳踏車的輪胎打氣，因為不會用，所以就拉了路人問。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/01 日記</title>
+      <link>https://Luke2336.github.io/p/20211201/</link>
+      <pubDate>Wed, 01 Dec 2021 12:24:13 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211201/</guid>
+      <description> 寫完 NSD HW5，但其實不知道在寫什麼 &amp;gt;&amp;lt; 沒什麼心情準備隨機的期中考，所以下午就在試著用 pybind 把 nsd project 的 c++ code 包成 python 可以呼叫的 function。 最近開始比較有心情打扮自己，試著穿了白色的麻花毛外套。 晚上很冷，PCCA 報帳完後，去吃了火鍋。  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/30 日記</title>
+      <link>https://Luke2336.github.io/p/20211130/</link>
+      <pubDate>Wed, 01 Dec 2021 12:24:02 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211130/</guid>
+      <description>專題 Code  簡單來說，CSB 原本論文的作者省略的部分我實作爛掉不少，印了一堆東西才找完 bug。 平常二分搜時，會預設範圍內一定找得到值，但這個習慣讓我 D&amp;amp;C 的邊界壞光光。 因為只紀錄 log ß 個位元，所以乘法時無法還原 col_idx，最後是在 Blk_Ptr 做二分搜，看是在第幾個 Block，才有辦法和正確的位子相乘。 傍晚花了些時間，嘗試將 Code 改為用 pybind11 讓 python 呼叫，很幸運的是居然還支援 OpenMP，省了不少事。  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/29 日記</title>
+      <link>https://Luke2336.github.io/p/20211129/</link>
+      <pubDate>Mon, 29 Nov 2021 13:53:19 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211129/</guid>
+      <description> 這禮拜壓力很大，有兩個考試和一份作業。 晚上專題 meeting 時，才發現之前寫的 code 有 bug，立即心態炸裂，覺得累到爆，不知道要花多久修 bug，覺得很崩潰。  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/28 日記</title>
+      <link>https://Luke2336.github.io/p/20211128/</link>
+      <pubDate>Mon, 29 Nov 2021 13:53:12 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211128/</guid>
+      <description>ICPC Asia Taipei 2021  是 NYCU_Pusheen 的最後一場比賽，覺得超級難過。 打爛了，有一題位元 DP 複雜度爛掉，於是就把時間燒光了 QAQ Standing  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/27 日記</title>
+      <link>https://Luke2336.github.io/p/20211127/</link>
+      <pubDate>Mon, 29 Nov 2021 13:53:04 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211127/</guid>
+      <description> ICPC 第一天報到，太早到台北了，只好坐在摩斯打發時間。 活動結束後，跟隊友去吃藏壽司。  </description>
+    </item>
+    
     <item>
       <title>2021/11/26 日記</title>
       <link>https://Luke2336.github.io/p/20211126/</link>
       <pubDate>Fri, 26 Nov 2021 16:35:36 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20211126/</guid>
-      <description> 早上去醫院。 中午吃了烏龍麵。 午覺後，看完了賽局理論的影片。  </description>
+      <description> 早上去醫院。 中午吃了烏龍麵。 午覺後，看完了賽局理論的影片。 晚上第一次去逛慈雲路夜市，買了地瓜球、烤肉串、燒仙草。  </description>
     </item>
     
     <item>

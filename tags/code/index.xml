@@ -6,7 +6,25 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Nov 2021 18:43:54 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 12:24:02 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/11/30 日記</title>
+      <link>https://Luke2336.github.io/p/20211130/</link>
+      <pubDate>Wed, 01 Dec 2021 12:24:02 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211130/</guid>
+      <description>專題 Code  簡單來說，CSB 原本論文的作者省略的部分我實作爛掉不少，印了一堆東西才找完 bug。 平常二分搜時，會預設範圍內一定找得到值，但這個習慣讓我 D&amp;amp;C 的邊界壞光光。 因為只紀錄 log ß 個位元，所以乘法時無法還原 col_idx，最後是在 Blk_Ptr 做二分搜，看是在第幾個 Block，才有辦法和正確的位子相乘。 傍晚花了些時間，嘗試將 Code 改為用 pybind11 讓 python 呼叫，很幸運的是居然還支援 OpenMP，省了不少事。  </description>
+    </item>
+    
+    <item>
+      <title>2021/11/28 日記</title>
+      <link>https://Luke2336.github.io/p/20211128/</link>
+      <pubDate>Mon, 29 Nov 2021 13:53:12 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211128/</guid>
+      <description>ICPC Asia Taipei 2021  是 NYCU_Pusheen 的最後一場比賽，覺得超級難過。 打爛了，有一題位元 DP 複雜度爛掉，於是就把時間燒光了 QAQ Standing  </description>
+    </item>
+    
     <item>
       <title>2021/11/17 日記</title>
       <link>https://Luke2336.github.io/p/20211117/</link>
