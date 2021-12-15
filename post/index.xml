@@ -6,7 +6,34 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 17:47:20 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 17:34:26 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/12/15 日記</title>
+      <link>https://Luke2336.github.io/p/20211215/</link>
+      <pubDate>Wed, 15 Dec 2021 17:34:26 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211215/</guid>
+      <description>早上去看牙醫。 中午收到 Google HR 的信，說是下禮拜的面試都是英文的，於是我回信問能不能改成排中文的面試。不敢面英文的是因為怕聽不懂題目，耗掉太多時間在水題，之前聽中文都可以搞錯題意，題目不怕不會寫，就怕聽不懂 QQ 感謝 HR 願意幫我重新排看看。 下午都在背多益單字，覺得不會的單字多到爆。 最近體溫常常超過 37.5，不知道該不該去看個感染科，或著只是我有慮病症罷了。  看牙醫 去竹榮看牙醫，想問看看能不能拔智齒，但醫生看了 X 光片後，說應該要去台大的口腔外科拔，最後就順便洗個牙。</description>
+    </item>
+    
+    <item>
+      <title>2021/12/14 日記</title>
+      <link>https://Luke2336.github.io/p/20211214/</link>
+      <pubDate>Tue, 14 Dec 2021 10:01:17 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211214/</guid>
+      <description> 早上嘗試將 VScode 用 ssh，參考了這篇，總算成功了。 checkout remote branch 的方法。 下午翹課去看皮膚科。 晚上跟學姊在竹北吃飯，覺得很開心。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/13 日記</title>
+      <link>https://Luke2336.github.io/p/20211213/</link>
+      <pubDate>Tue, 14 Dec 2021 10:01:12 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211213/</guid>
+      <description> 今天資工研討是請新進教授演講，比之前有意思多了。 晚上 meeting 時，學長提了 pytorch 的 fft 會 memory leak 的問題，於是我就把 c++ 的 fft 包成 python 給他。  </description>
+    </item>
+    
     <item>
       <title>2021/12/12 日記</title>
       <link>https://Luke2336.github.io/p/20211212/</link>
