@@ -6,7 +6,52 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 20:25:59 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Dec 2021 17:41:55 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/12/24 日記</title>
+      <link>https://Luke2336.github.io/p/20211224/</link>
+      <pubDate>Fri, 24 Dec 2021 17:41:55 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211224/</guid>
+      <description> 中午又是 Google 的面試，今天遇到的是台灣人，出了一題 Greedy，但我卻跟他扯 Linear Programming，雖然最後有得到他想要的解，但我覺得我花太多時間了，有點爆炸，幸好 coding 的過程還算順利。 下午睡了一下，然後開始複習賽局理論，發現很多東西都沒弄懂，覺得壓力很大。 星期一隨性的投了一家叫 Siemons 的 EDA 工程師，結果今天就收到感謝函了 QQ 但後來查了一下，發現那家外商公司已台商化，可能拿到 offer 也不會想去。  Review Game Theory </description>
+    </item>
+    
+    <item>
+      <title>2021/12/23 日記</title>
+      <link>https://Luke2336.github.io/p/20211223/</link>
+      <pubDate>Fri, 24 Dec 2021 17:41:51 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211223/</guid>
+      <description> 中午面試 Google，面試官是大陸人，出的題目滿簡單就得到最佳複雜度，但卻被要求再繼續優化。總共只被問了一題，讓我覺得不太理想。 中午買飯遇到隊友。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/22 日記</title>
+      <link>https://Luke2336.github.io/p/20211222/</link>
+      <pubDate>Fri, 24 Dec 2021 17:41:46 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211222/</guid>
+      <description> 本來中午要面試 Google，但臨時被移到星期五。 一整天幾乎都在睡，什麼事都沒做。 晚上和葉老師聊了一下。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/21 日記</title>
+      <link>https://Luke2336.github.io/p/20211221/</link>
+      <pubDate>Fri, 24 Dec 2021 17:41:42 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211221/</guid>
+      <description> 吃了湯圓。 下午覺得很不舒服，賽局理論只上一堂就先回宿舍休息了。  </description>
+    </item>
+    
+    <item>
+      <title>2021/12/20 日記</title>
+      <link>https://Luke2336.github.io/p/20211220/</link>
+      <pubDate>Fri, 24 Dec 2021 17:41:37 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20211220/</guid>
+      <description> 今天是最後一堂資訊工程研討，終於結束了！ 晚上 meeting 被要求回去多試幾個 model，看各個 threshold 的 loss。  </description>
+    </item>
+    
     <item>
       <title>2021/12/19 日記</title>
       <link>https://Luke2336.github.io/p/20211219/</link>
