@@ -6,7 +6,16 @@
     <description>Recent content in Course on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jul 2021 11:00:15 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 17:10:00 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/01/12 日記</title>
+      <link>https://Luke2336.github.io/p/20220112/</link>
+      <pubDate>Wed, 12 Jan 2022 17:10:00 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220112/</guid>
+      <description> 看到 NSD 只拿 77 分，有點小難過，但也只能怪自己報告得太糟糕。 改了 config.yaml 的設定，讓他可以 render html。 寫了一篇 facebook 貼文整理畢業學分的各種坑。   </description>
+    </item>
+    
     <item>
       <title>交大修課心得</title>
       <link>https://Luke2336.github.io/p/course_nctu/</link>
