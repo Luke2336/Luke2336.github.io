@@ -6,7 +6,44 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jan 2022 17:20:45 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 12:55:21 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/01/23 日記</title>
+      <link>https://Luke2336.github.io/p/20220123/</link>
+      <pubDate>Sun, 23 Jan 2022 12:55:21 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220123/</guid>
+      <description> 一早起來就把昨天的衣服洗掉味道。  </description>
+    </item>
+    
+    <item>
+      <title>2022/01/22 日記</title>
+      <link>https://Luke2336.github.io/p/20220122/</link>
+      <pubDate>Sun, 23 Jan 2022 12:55:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220122/</guid>
+      <description> 一早自己一個人就搭高鐵到北車，然後換復興號到雙溪。 一直弄到晚上七點才結束今天所有的儀式。 晚上自己搭客運回新竹。  </description>
+    </item>
+    
+    <item>
+      <title>交大修課心得</title>
+      <link>https://Luke2336.github.io/p/course_nctu/</link>
+      <pubDate>Sun, 23 Jan 2022 11:00:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/course_nctu/</guid>
+      <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
+ 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論   計算理論  基礎圖論 演算法概論 [清大] 隨機演算法 高等演算法 正規語言概論 隨機演算法 賽局理論及應用   其他  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論 計算方法之實務應用 數值軟體開發 資訊工程研討     電機、電子  電子學（一） 電子實驗（一） 電路學 電子設計自動化演算法與實作   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學 教育學概論 [台大] 東亞儒家：人文精神     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    修課建議  微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</description>
+    </item>
+    
+    <item>
+      <title>2022/01/21 日記</title>
+      <link>https://Luke2336.github.io/p/20220121/</link>
+      <pubDate>Fri, 21 Jan 2022 17:19:15 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220121/</guid>
+      <description> 下雨天還得出門有點討厭。 接到爸爸的電話，於是明天得回雙溪一趟。 收到 Google 的 email，下禮拜又有被安排新的 Team Match，希望這次能順利。 體育課的成績出來了，真的是照出席率給分，於是拿到 A+。 晚上接到電話說阿公走了。  </description>
+    </item>
+    
     <item>
       <title>2022/01/20 日記</title>
       <link>https://Luke2336.github.io/p/20220120/</link>
@@ -1838,16 +1875,6 @@ aligned_alloc()
       
       <guid>https://Luke2336.github.io/p/20210716/</guid>
       <description> 下午和學姊 meeting，得到了一些小啟發，能找個人聊聊很棒。 看了神內，MRI 的檢查結果正常。 晚餐吃了麥當勞的「都是腿」套餐。  </description>
-    </item>
-    
-    <item>
-      <title>交大修課心得</title>
-      <link>https://Luke2336.github.io/p/course_nctu/</link>
-      <pubDate>Fri, 16 Jul 2021 11:00:15 +0800</pubDate>
-      
-      <guid>https://Luke2336.github.io/p/course_nctu/</guid>
-      <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
- 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論   計算理論  基礎圖論 演算法概論 [清大] 隨機演算法 高等演算法 正規語言概論   其他選修  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論 計算方法之實務應用     電機、電子  電子學（一） 電子實驗（一） 電路學 電子設計自動化演算法與實作   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學 教育學概論 [台大] 東亞儒家：人文精神     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    修課建議  微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</description>
     </item>
     
     <item>
