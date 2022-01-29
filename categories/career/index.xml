@@ -6,7 +6,17 @@
     <description>Recent content in Career on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Sep 2021 13:18:58 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/career/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jan 2022 21:26:20 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/categories/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Taiwan 實習轉正</title>
+      <link>https://Luke2336.github.io/p/google-return/</link>
+      <pubDate>Fri, 28 Jan 2022 21:26:20 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/google-return/</guid>
+      <description>主要是分享一下折騰三個月的轉正過程。
+ 在提供 Resume 的階段，會要求提供認識的 Googler 名字（有點作為推薦人的概念）（要是 Host 和 Co-Host 以外的人）。 Recruiter 整個流程都安排得很有效率且會提醒一些注意事項，算是體驗良好。 因為暑假的 Code 量有點少，於是被加了兩場面試。 面試 Recruiter 提醒我是英文的之後，向他詢問可不可以換成中文的，於是就換成跟上海和新店辦公室的人面試。 雖然 Recruiter 建議刷一下 Leetcode，但我這半年刷不到 20 題。 通過 Hiring Committee 後，被通知之前成功的 Team Match 被取消。 原本到第四場都是 ChromeOS 的 Team，但一直失敗，於是最後就請 Recruiter 也幫忙找看看新店或板橋的 Team，所以最後就到新店的 Pixel Team。 Team Match 主要是和 Manager 聊半個小時後，雙方再向 Recruiter 確認喜不喜歡對方。 滿多場 Team Match 都被問到「對 Linux 熟不熟悉」「對 Kernel 熟不熟悉」。 因為沒有 Competing Offer，所以 Offer 就沒有討論空間了。 有聽到一些朋友是先簽 Offer 才 Team Match。 如果不是 Intern 轉正的話，聽說是至少要面試 6 回合。 Recruiter 會要求 Onboard 的日期是星期一，而且是要拿到畢業證書。  日程    Date Status     2021/09/28 收到 email 要求提供 Resume 和 Transcript   2021/10/19 Team Match 1   2021/10/20 Team Match 2   2021/10/28 Team Match 3   2021/12/08 被要求加面試 2 場   2021/12/23 Interview 1   2021/12/24 Interview 2   2022/01/18 通過 Hiring Committee   2022/01/19 Team Match 4   2022/01/25 Team Match 5   2022/01/27 Team Match 6   2022/01/28 Verbal Offer    Offer 會討論到一下幾種東西。</description>
+    </item>
+    
     <item>
       <title>Google Intern Experience</title>
       <link>https://Luke2336.github.io/p/google-intern/</link>

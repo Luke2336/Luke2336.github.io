@@ -6,14 +6,69 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 12:55:21 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jan 2022 21:26:20 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Taiwan 實習轉正</title>
+      <link>https://Luke2336.github.io/p/google-return/</link>
+      <pubDate>Fri, 28 Jan 2022 21:26:20 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/google-return/</guid>
+      <description>主要是分享一下折騰三個月的轉正過程。
+ 在提供 Resume 的階段，會要求提供認識的 Googler 名字（有點作為推薦人的概念）（要是 Host 和 Co-Host 以外的人）。 Recruiter 整個流程都安排得很有效率且會提醒一些注意事項，算是體驗良好。 因為暑假的 Code 量有點少，於是被加了兩場面試。 面試 Recruiter 提醒我是英文的之後，向他詢問可不可以換成中文的，於是就換成跟上海和新店辦公室的人面試。 雖然 Recruiter 建議刷一下 Leetcode，但我這半年刷不到 20 題。 通過 Hiring Committee 後，被通知之前成功的 Team Match 被取消。 原本到第四場都是 ChromeOS 的 Team，但一直失敗，於是最後就請 Recruiter 也幫忙找看看新店或板橋的 Team，所以最後就到新店的 Pixel Team。 Team Match 主要是和 Manager 聊半個小時後，雙方再向 Recruiter 確認喜不喜歡對方。 滿多場 Team Match 都被問到「對 Linux 熟不熟悉」「對 Kernel 熟不熟悉」。 因為沒有 Competing Offer，所以 Offer 就沒有討論空間了。 有聽到一些朋友是先簽 Offer 才 Team Match。 如果不是 Intern 轉正的話，聽說是至少要面試 6 回合。 Recruiter 會要求 Onboard 的日期是星期一，而且是要拿到畢業證書。  日程    Date Status     2021/09/28 收到 email 要求提供 Resume 和 Transcript   2021/10/19 Team Match 1   2021/10/20 Team Match 2   2021/10/28 Team Match 3   2021/12/08 被要求加面試 2 場   2021/12/23 Interview 1   2021/12/24 Interview 2   2022/01/18 通過 Hiring Committee   2022/01/19 Team Match 4   2022/01/25 Team Match 5   2022/01/27 Team Match 6   2022/01/28 Verbal Offer    Offer 會討論到一下幾種東西。</description>
+    </item>
+    
+    <item>
+      <title>2022/01/28 日記</title>
+      <link>https://Luke2336.github.io/p/20220128/</link>
+      <pubDate>Fri, 28 Jan 2022 14:04:26 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220128/</guid>
+      <description> 傍晚和 Google 的 Recruiter 談 offer，因為沒有 competing offer，所以其實也沒有商量的餘地，主要就只有拿到 base, bonus, stack，還有一些交通津貼，不像網路上流傳的有簽約金。Onboard 的日期我挑了 7/11，不知道到時候是否已經順利畢業了？ 晚上吃了 pizza。 作業系統看到第 13 集。  </description>
+    </item>
+    
+    <item>
+      <title>2022/01/27 日記</title>
+      <link>https://Luke2336.github.io/p/20220127/</link>
+      <pubDate>Thu, 27 Jan 2022 13:05:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220127/</guid>
+      <description> 下午是 Google 的 Team Match，這次總算成功了。  </description>
+    </item>
+    
+    <item>
+      <title>2022/01/26 日記</title>
+      <link>https://Luke2336.github.io/p/20220126/</link>
+      <pubDate>Wed, 26 Jan 2022 11:18:52 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220126/</guid>
+      <description> 看到隨機演算法的成績拿了 A，看來被調了很多分。 今天作業系統看到第 10 集。 晚上買了雞排吃。  </description>
+    </item>
+    
+    <item>
+      <title>2022/01/25 日記</title>
+      <link>https://Luke2336.github.io/p/20220125/</link>
+      <pubDate>Wed, 26 Jan 2022 11:18:42 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220125/</guid>
+      <description> 下午是和 Pixel Team 的 Team match talk。 把作業系統看到第 7 集。 晚上突然想吃剉冰，就去吃了雪花冰。  </description>
+    </item>
+    
+    <item>
+      <title>2022/01/24 日記</title>
+      <link>https://Luke2336.github.io/p/20220124/</link>
+      <pubDate>Mon, 24 Jan 2022 13:45:14 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220124/</guid>
+      <description> 整理了清大的隨機演算法筆記放到 Github 上。 看了清大 OCW 的作業系統概論，希望過年期間能看完。覺得他們出的作業比交大的有內容。  目前看到第 5 集。   和媽媽說要留在新竹，不回去過年和參加喪事。  </description>
+    </item>
+    
     <item>
       <title>2022/01/23 日記</title>
       <link>https://Luke2336.github.io/p/20220123/</link>
       <pubDate>Sun, 23 Jan 2022 12:55:21 +0800</pubDate>
       
       <guid>https://Luke2336.github.io/p/20220123/</guid>
-      <description> 一早起來就把昨天的衣服洗掉味道。  </description>
+      <description> 一早起來就把昨天的衣服洗掉味道。 寫修課心得。  </description>
     </item>
     
     <item>
@@ -32,7 +87,7 @@
       
       <guid>https://Luke2336.github.io/p/course_nctu/</guid>
       <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
- 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論   計算理論  基礎圖論 演算法概論 [清大] 隨機演算法 高等演算法 正規語言概論 隨機演算法 賽局理論及應用   其他  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論 計算方法之實務應用 數值軟體開發 資訊工程研討     電機、電子  電子學（一） 電子實驗（一） 電路學 電子設計自動化演算法與實作   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學 教育學概論 [台大] 東亞儒家：人文精神     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    修課建議  微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</description>
+ 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論   計算理論  基礎圖論 演算法概論 [清大] 隨機演算法 高等演算法 正規語言概論 隨機演算法 賽局理論及應用   其他  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論 計算方法之實務應用 數值軟體開發 資訊工程研討     電機、電子  電子學（一） 電子實驗（一） 電路學 電子設計自動化演算法與實作   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學 教育學概論 [台大] 東亞儒家：人文精神     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    筆記 Github</description>
     </item>
     
     <item>
