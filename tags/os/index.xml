@@ -6,7 +6,18 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Feb 2021 14:08:22 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 18:00:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/01/29 日記</title>
+      <link>https://Luke2336.github.io/p/20220129/</link>
+      <pubDate>Sat, 29 Jan 2022 18:00:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220129/</guid>
+      <description>下午將 shell 從 bash 改成 zsh。 作業系統看到第 18 集。  設定 zsh 把 shell 換成 zsh chsh -s /bin/zsh
+安裝 Oh-My-Zsh sh -c &amp;quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;quot;
+Terminal 顏色  改成 sublime 的底色，字型改成白色。  設定 ~/.zshrc  為了讓之前的 .bashrc 可以運作，於是要加上 source ~/.bashrc。 主題選用 gozilla。 選用了一些有趣的 plugins，例如 colored-man-pages、sublime、sudo、web-search、copydir、copyfile。 改完後記得跑 source ~/.zshrc。  source ~/.bashrc source ~/.bash_profile # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation.</description>
+    </item>
+    
     <item>
       <title>MacOS Command Line Note</title>
       <link>https://Luke2336.github.io/p/mac_cmd/</link>

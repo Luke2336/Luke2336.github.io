@@ -6,7 +6,36 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jan 2022 21:26:20 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jan 2022 20:51:14 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder Beginning Contest 237</title>
+      <link>https://Luke2336.github.io/p/atcoder_abc237/</link>
+      <pubDate>Sun, 30 Jan 2022 20:51:14 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/atcoder_abc237/</guid>
+      <description>https://atcoder.jp/contests/abc237/tasks。 很早就放棄掙扎的一場。 很久沒打 ABC 了，難度似乎提升很多。  A. Not Overflow 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4typedef long long ll; 5typedef pair&amp;lt;int, int&amp;gt; pii; 6#define pb push_back 7 8int main() { 9 ios::sync_with_stdio(0), cin.tie(0); 10 ll N; 11 cin &amp;gt;&amp;gt; N; 12 ll min = -(1ll &amp;lt;&amp;lt; 31); 13 ll max = (1ll &amp;lt;&amp;lt; 31) - 1; 14 if (min &amp;lt;= N &amp;amp;&amp;amp; N &amp;lt;= max) { 15 cout &amp;lt;&amp;lt; &amp;#34;Yes\n&amp;#34;; 16 } else { 17 cout &amp;lt;&amp;lt; &amp;#34;No\n&amp;#34;; 18 } 19 return 0; 20}  B.</description>
+    </item>
+    
+    <item>
+      <title>2022/01/30 日記</title>
+      <link>https://Luke2336.github.io/p/20220130/</link>
+      <pubDate>Sun, 30 Jan 2022 05:51:56 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220130/</guid>
+      <description> 睡不著，3:30 就醒來了，然後躺到 5 點多起來吃早餐。 作業系統看到第 23 集。 用這篇文章配置了 GDB。 打了一場 AtCoder ABC237。  </description>
+    </item>
+    
+    <item>
+      <title>2022/01/29 日記</title>
+      <link>https://Luke2336.github.io/p/20220129/</link>
+      <pubDate>Sat, 29 Jan 2022 18:00:31 +0800</pubDate>
+      
+      <guid>https://Luke2336.github.io/p/20220129/</guid>
+      <description>下午將 shell 從 bash 改成 zsh。 作業系統看到第 18 集。  設定 zsh 把 shell 換成 zsh chsh -s /bin/zsh
+安裝 Oh-My-Zsh sh -c &amp;quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;quot;
+Terminal 顏色  改成 sublime 的底色，字型改成白色。  設定 ~/.zshrc  為了讓之前的 .bashrc 可以運作，於是要加上 source ~/.bashrc。 主題選用 gozilla。 選用了一些有趣的 plugins，例如 colored-man-pages、sublime、sudo、web-search、copydir、copyfile。 改完後記得跑 source ~/.zshrc。  source ~/.bashrc source ~/.bash_profile # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation.</description>
+    </item>
+    
     <item>
       <title>Google Taiwan 實習轉正</title>
       <link>https://Luke2336.github.io/p/google-return/</link>
