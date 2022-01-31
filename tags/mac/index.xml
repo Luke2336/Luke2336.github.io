@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/mac/</link>
+    <link>https://luke2336.github.io/tags/mac/</link>
     <description>Recent content in Mac on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jan 2022 18:00:31 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 18:00:31 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2022/01/29 日記</title>
-      <link>https://Luke2336.github.io/p/20220129/</link>
+      <link>https://luke2336.github.io/p/20220129/</link>
       <pubDate>Sat, 29 Jan 2022 18:00:31 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20220129/</guid>
+      <guid>https://luke2336.github.io/p/20220129/</guid>
       <description>下午將 shell 從 bash 改成 zsh。 作業系統看到第 18 集。  設定 zsh 把 shell 換成 zsh chsh -s /bin/zsh
 安裝 Oh-My-Zsh sh -c &amp;quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;quot;
 Terminal 顏色  改成 sublime 的底色，字型改成白色。  設定 ~/.zshrc  為了讓之前的 .bashrc 可以運作，於是要加上 source ~/.bashrc。 主題選用 gozilla。 選用了一些有趣的 plugins，例如 colored-man-pages、sublime、sudo、web-search、copydir、copyfile。 改完後記得跑 source ~/.zshrc。  source ~/.bashrc source ~/.bash_profile # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation.</description>
@@ -20,10 +20,10 @@ Terminal 顏色  改成 sublime 的底色，字型改成白色。  設定 ~/.zsh
     
     <item>
       <title>MacOS Command Line Note</title>
-      <link>https://Luke2336.github.io/p/mac_cmd/</link>
+      <link>https://luke2336.github.io/p/mac_cmd/</link>
       <pubDate>Sun, 07 Feb 2021 14:08:22 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/mac_cmd/</guid>
+      <guid>https://luke2336.github.io/p/mac_cmd/</guid>
       <description>常用指令    command 用途     clear clear terminal window   ls list directory content   ls -a 將隱藏檔案也列出   cd change directory to home   cd .. change directory to parent   cd - change directory to last working directory   cd / change directory to root   pwd print working directory   rm file_name remove file   mkdir dir_name make directory   rmdir dir_name remove directory   rm -R dir_name remove the directory and all files in the directory   cp -R A B 將 A 資料夾的東西全部複製到 B   mv A dir_name 將 A 搬到資料夾   cat file_name 查看內容   grep text file_name 抓取內容    </description>
     </item>
     

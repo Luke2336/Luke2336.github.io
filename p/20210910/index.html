@@ -6,16 +6,16 @@
 
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='預約疫苗  總算預約到疫苗了，打算把中秋連假用來消耗副作用。  結束實習  今天是實習最後一天，和 Host 討論了 Conversion 相關的話題。 總體來說，這次實習算是有及格吧。  Code CSES1680 - Longest Flight Route  找點 1 到點 n 的最長路徑。 拓樸排序＋DP。  1// DP on DAG 2// Topological Sort 3#pragma GCC optimization (&amp;#34;O3&amp;#34;) 4#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;5using namespace std; 6typedef long long ll; 7typedef pair&amp;lt;int, int&amp;gt; pii; 8#define pb push_back 9 10int main() { 11 ios::sync_with_stdio(0), cin.tie(0); 12 int n, m; 13 cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m; 14 vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; G(n &#43; 1); 15 vector&amp;lt;int&amp;gt; par(n &#43; 1); 16 vector&amp;lt;int&amp;gt; deg(n &#43; 1); 17 vector&amp;lt;int&amp;gt; dis(n &#43; 1, -1e9); 18 dis[1] = 0; 19 for (int i = 0; i &amp;lt; m; i&#43;&#43;) { 20 int a, b; 21 cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b; 22 G[a].'><title>2021/09/10 日記</title>
 
-<link rel='canonical' href='https://Luke2336.github.io/p/20210910/'>
+<link rel='canonical' href='https://luke2336.github.io/p/20210910/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='2021/09/10 日記'>
 <meta property='og:description' content='預約疫苗  總算預約到疫苗了，打算把中秋連假用來消耗副作用。  結束實習  今天是實習最後一天，和 Host 討論了 Conversion 相關的話題。 總體來說，這次實習算是有及格吧。  Code CSES1680 - Longest Flight Route  找點 1 到點 n 的最長路徑。 拓樸排序＋DP。  1// DP on DAG 2// Topological Sort 3#pragma GCC optimization (&amp;#34;O3&amp;#34;) 4#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;5using namespace std; 6typedef long long ll; 7typedef pair&amp;lt;int, int&amp;gt; pii; 8#define pb push_back 9 10int main() { 11 ios::sync_with_stdio(0), cin.tie(0); 12 int n, m; 13 cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m; 14 vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; G(n &#43; 1); 15 vector&amp;lt;int&amp;gt; par(n &#43; 1); 16 vector&amp;lt;int&amp;gt; deg(n &#43; 1); 17 vector&amp;lt;int&amp;gt; dis(n &#43; 1, -1e9); 18 dis[1] = 0; 19 for (int i = 0; i &amp;lt; m; i&#43;&#43;) { 20 int a, b; 21 cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b; 22 G[a].'>
-<meta property='og:url' content='https://Luke2336.github.io/p/20210910/'>
+<meta property='og:url' content='https://luke2336.github.io/p/20210910/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='CSES' /><meta property='article:published_time' content='2021-09-10T13:07:38&#43;08:00'/><meta property='article:modified_time' content='2021-09-10T13:07:38&#43;08:00'/><meta property='og:image' content='https://Luke2336.github.io/post/Diary/20210910/vaccine.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='CSES' /><meta property='article:published_time' content='2021-09-10T13:07:38&#43;08:00'/><meta property='article:modified_time' content='2021-09-10T13:07:38&#43;08:00'/><meta property='og:image' content='https://luke2336.github.io/post/Diary/20210910/vaccine.png' />
 <meta name="twitter:title" content="2021/09/10 日記">
 <meta name="twitter:description" content="預約疫苗  總算預約到疫苗了，打算把中秋連假用來消耗副作用。  結束實習  今天是實習最後一天，和 Host 討論了 Conversion 相關的話題。 總體來說，這次實習算是有及格吧。  Code CSES1680 - Longest Flight Route  找點 1 到點 n 的最長路徑。 拓樸排序＋DP。  1// DP on DAG 2// Topological Sort 3#pragma GCC optimization (&amp;#34;O3&amp;#34;) 4#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;5using namespace std; 6typedef long long ll; 7typedef pair&amp;lt;int, int&amp;gt; pii; 8#define pb push_back 9 10int main() { 11 ios::sync_with_stdio(0), cin.tie(0); 12 int n, m; 13 cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m; 14 vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; G(n &#43; 1); 15 vector&amp;lt;int&amp;gt; par(n &#43; 1); 16 vector&amp;lt;int&amp;gt; deg(n &#43; 1); 17 vector&amp;lt;int&amp;gt; dis(n &#43; 1, -1e9); 18 dis[1] = 0; 19 for (int i = 0; i &amp;lt; m; i&#43;&#43;) { 20 int a, b; 21 cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b; 22 G[a]."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://Luke2336.github.io/post/Diary/20210910/vaccine.png' />
+    <meta name="twitter:image" content='https://luke2336.github.io/post/Diary/20210910/vaccine.png' />
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -62,7 +62,7 @@ if (!doNotTrack) {
 ">
     
         <div id="article-toolbar">
-            <a href="https://Luke2336.github.io" class="back-home">
+            <a href="https://luke2336.github.io" class="back-home">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <polyline points="15 6 9 12 15 18" />

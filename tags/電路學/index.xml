@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>電路學 on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%AD%B8/</link>
+    <link>https://luke2336.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%AD%B8/</link>
     <description>Recent content in 電路學 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Dec 2020 15:29:08 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 15:29:08 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>電路學第 14 章</title>
-      <link>https://Luke2336.github.io/p/circuit_ch14/</link>
+      <link>https://luke2336.github.io/p/circuit_ch14/</link>
       <pubDate>Wed, 30 Dec 2020 15:29:08 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/circuit_ch14/</guid>
+      <guid>https://luke2336.github.io/p/circuit_ch14/</guid>
       <description>CH14 這章用 Frequency Domain 來討論電路學，主要的重點有以下幾個：
  Frequency &amp;amp; Magnitude Responce Bode Plots Resonance, Half-Power Freq., Quality Factor Filter: Lowpass, Highpass, Bandpass, Bandstop Magnitude &amp;amp; Frequency Scaling  </description>
     </item>
     
     <item>
       <title>2020/12/17 日記</title>
-      <link>https://Luke2336.github.io/p/20201217/</link>
+      <link>https://luke2336.github.io/p/20201217/</link>
       <pubDate>Thu, 17 Dec 2020 10:16:18 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201217/</guid>
+      <guid>https://luke2336.github.io/p/20201217/</guid>
       <description>晚餐吃了烤雞。
 資工系停修事件 學校某些重要的條文或會議記錄沒有被公開清楚，（畢竟學生會的貼文本身不具任何效益），產生各種模糊地帶，再加上行政人員不見得全在狀況內。
 自己期中退選時，被課務組拿他們的價值觀來跟我說教，也覺得超不合理的。
@@ -38,10 +38,10 @@ Coupling Coefficient $$k = \frac{M}{\sqrt{L_1 L_2}} = \frac{\phi_{12}}{\phi_{11}
     
     <item>
       <title>2020/12/16 日記</title>
-      <link>https://Luke2336.github.io/p/20201216/</link>
+      <link>https://luke2336.github.io/p/20201216/</link>
       <pubDate>Wed, 16 Dec 2020 10:20:38 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201216/</guid>
+      <guid>https://luke2336.github.io/p/20201216/</guid>
       <description>早上上完德文課，又翹了 OS，吃完了蛋糕，讀了電路學，然後上了羽球課，洗個澡就去練習了。中午參考這篇文章，把 Google Analytics 加到 Blog。
 羽球課 下週要考期末考，但練了一下腳步，覺得很不熟練，甚至還是不會後場的換腳，前場左邊比較跑不到點，然後回中時換另一個方向略略不順。
 之後分組打單打比賽，打了 3 場 7 分，輸了一場，其他幾場都以不錯的比數取勝，普遍看到大家發球不夠高或遠，很容易就變成平球戰。我則是後場接球能力不好，沒辦法很快跑位打回到後場。結束後和學姊單挑了一場 21 分，後面體力不支，就沒有贏了。
@@ -50,10 +50,10 @@ CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, 
     
     <item>
       <title>2020/12/10 日記</title>
-      <link>https://Luke2336.github.io/p/20201210/</link>
+      <link>https://luke2336.github.io/p/20201210/</link>
       <pubDate>Thu, 10 Dec 2020 20:09:00 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201210/</guid>
+      <guid>https://luke2336.github.io/p/20201210/</guid>
       <description>早上先去還書，之後去處理報帳，把剩下的人的電話交給助理，之後買了麥當勞吃。接下來開始動工交換要繳交的備審資料，今天下午完成了自傳中想放的簡歷表，刪刪減減後，用不到三十行就把高中大學比較重點的成績呈現出來，比當初申請大學時的簡潔。
 之後去上電路學，今天是教電路間的磁場交互作用，提到了一些竊取晶片信用卡密碼的觀念。下課時，跟老師提了想明晚提早補考，以在週六回去參加期待多年的北一大校慶。
 下課後去圖書館領預約了三個月的電路學課本，剛開學時就推薦採購，幸好在學期末前拿到手了，以後寫電路學功課就方便了。順便借了一本中文的作業系統，希望能把之前的觀念補起來。
@@ -63,10 +63,10 @@ CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, 
     
     <item>
       <title>2020/12/07 日記</title>
-      <link>https://Luke2336.github.io/p/20201207/</link>
+      <link>https://luke2336.github.io/p/20201207/</link>
       <pubDate>Mon, 07 Dec 2020 12:30:04 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201207/</guid>
+      <guid>https://luke2336.github.io/p/20201207/</guid>
       <description>起床後洗了澡，然後就買了個丼飯吃，邊看「夜叉姬 E8」。之後去上認識語言，今天主要是在講雙語嬰兒的認知能力，然後也講了 Executive Function (EF) 的概念，我認為用它去描述一個人是否聰明是合理的。老師也談了應該在 6 歲前，給予小孩足夠的陪伴，在前額葉發展的黃金期，陪他一起讀外語繪本。下課後，在宿舍泡了杯紅茶，然後讀電路學 Ch11 的投影片。之後寫了兩題電路學，花了 45 分鐘。
 電路學 CH11   Instantaneous Power $$\displaystyle\begin{aligned} i(t) &amp;amp;= I_m \cos (\omega t + \theta_i)\\ v(t) &amp;amp;= V_m \cos (\omega t + \theta_v)\\ p(t) &amp;amp;= \frac{1}{2} I_m V_m (\cos(\theta_v - \theta_i) + \cos(2\omega t + \theta_v + \theta_i)) \end{aligned}$$
   Average Power $$\displaystyle\begin{aligned} P &amp;amp;= \frac{1}{T} \int_0^T p(t) dt \\ &amp;amp;= \frac{1}{2} I_m V_m \cos(\theta_v - \theta_i) \\ &amp;amp;= \frac{1}{2} Re[\mathbb{VI}^*] \end{aligned}$$</description>
@@ -74,20 +74,20 @@ CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, 
     
     <item>
       <title>2020/11/30 日記</title>
-      <link>https://Luke2336.github.io/p/20201130/</link>
+      <link>https://luke2336.github.io/p/20201130/</link>
       <pubDate>Mon, 30 Nov 2020 11:59:23 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201130/</guid>
+      <guid>https://luke2336.github.io/p/20201130/</guid>
       <description>今天精神較好，可能是因為前一晚吃了 B 群，雖然為了報帳早起沒睡飽，但晚上的效率還不錯。下午上完課肚子餓，就先買了麥當勞吃。傍晚洗澡前練了一下揮拍，又跳了繩。晚上原本想吃燒餅蛋，但豆漿店又沒有燒餅了。
 ICPC 報帳  因為雙曲線早上要值班，所以就跟他約在系計中，想說要幫他送報帳的報表。但沒想到他收的時候都不檢查，他說是因為他擔心他檢查了，有問題他就要負責。心好累，跟他耗了一小時。我覺得他很不負責任，然後整個過程一直兇我，LinLee 聯絡不到，他也一副不在意。我真的很不開心。 去校計中找謝小姐時，看著東缺西缺的東西，覺得好丟臉，但她還是很有耐心的一份份找 bug。 回去找他時，因為我盯著計中櫃檯的螢幕，又被他兇了。我發現每次他態度愈是堅定時，我對他的話愈是無法接受，就算他是合理的，我覺得他對人的態度還是會讓他沒辦法達到目的。 他每一句感謝，聽在我耳裡，我都覺得好累，大概理解媽媽對外婆的想法了。 一直到下午上課時才整理完資料。  電路學 Midterm 2 複習    Chapter Time (min) #Problem     8 55 6   10 55 7    Ch8  Source-Free Series RLC Circuit  $$\displaystyle i&#39;&#39; + \frac{R}{L} i&#39; + \frac{1}{LC} i = 0$$   Source-Free Parallel RLC Circuit  $$\displaystyle v&#39;&#39; + \frac{1}{RC} v&#39; + \frac{1}{LC} v = 0$$   Solutions of Second Order Differential Equations  Overdamped: $$y(t) = A_1 e^{s_1 t} + A_2 e^{s_2 t}$$ Critically Damped: $$y(t) = (A_1 t + A_2) e^{-\alpha t}$$ Underdamped: $$y(t) = e^{-\alpha t} (A_1 \cos \omega_\alpha t + A_2 \sin \omega_\alpha t)$$    Ch9     $$R$$ $$L$$ $$C$$     $$Z$$ $$R$$ $$j \omega L$$ $$\frac{1}{j\omega C}$$    </description>
     </item>
     
     <item>
       <title>2020/11/29 日記</title>
-      <link>https://Luke2336.github.io/p/20201129/</link>
+      <link>https://luke2336.github.io/p/20201129/</link>
       <pubDate>Sun, 29 Nov 2020 02:06:51 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201129/</guid>
+      <guid>https://luke2336.github.io/p/20201129/</guid>
       <description>早上起床洗了衣服，然後洗了澡，之後架好了部落格，然後就去讀書。
 Date 和 Jacky 吃了買一送一的冰炫風，然後一起去圖書館讀書，晚餐去研三吃漢堡王。從圖書館出來時，看到了漂亮的雲。
 部落格 從星期四努力到現在，終於搞定了。

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Movie on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/movie/</link>
+    <link>https://luke2336.github.io/tags/movie/</link>
     <description>Recent content in Movie on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Jan 2021 14:39:43 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/movie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 14:39:43 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/movie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/01/08 日記</title>
-      <link>https://Luke2336.github.io/p/20210108/</link>
+      <link>https://luke2336.github.io/p/20210108/</link>
       <pubDate>Fri, 08 Jan 2021 14:39:43 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210108/</guid>
+      <guid>https://luke2336.github.io/p/20210108/</guid>
       <description>早上難得的吃了早餐，去提款機提錢，順便在旁邊買三明治吃，泡了柚子茶喝。
 用 Virtualbox 的設定，多掛載了 1GB 的記憶體給 Ubuntu VM，於是多出了一個 /dev/sdb 可以切。然後早上就順利把 HW3 做完了。
 中午吃了麥當勞，點了玉米湯，在宿舍泡伯爵茶一直冷掉。

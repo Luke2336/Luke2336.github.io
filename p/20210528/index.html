@@ -9,14 +9,14 @@
 C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;double, double&amp;gt; point; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define x first 6#define y second 7inline double distance(point a, point b) { 8 return sqrt((a.x - b.x) * (a.x - b.x) &#43; (a.y - b.y) * (a.y - b.y)); 9} 10struct UF { 11 vector&amp;lt;int&amp;gt; par, sz; 12 UF(int n) { 13 par.'><title>2021/05/28 日記</title>
 
-<link rel='canonical' href='https://Luke2336.github.io/p/20210528/'>
+<link rel='canonical' href='https://luke2336.github.io/p/20210528/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='2021/05/28 日記'>
 <meta property='og:description' content='整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
 隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
 C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
 1#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;2using namespace std; 3typedef pair&amp;lt;double, double&amp;gt; point; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define x first 6#define y second 7inline double distance(point a, point b) { 8 return sqrt((a.x - b.x) * (a.x - b.x) &#43; (a.y - b.y) * (a.y - b.y)); 9} 10struct UF { 11 vector&amp;lt;int&amp;gt; par, sz; 12 UF(int n) { 13 par.'>
-<meta property='og:url' content='https://Luke2336.github.io/p/20210528/'>
+<meta property='og:url' content='https://luke2336.github.io/p/20210528/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='PCCA' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Codeforces' /><meta property='article:published_time' content='2021-05-31T00:26:23&#43;08:00'/><meta property='article:modified_time' content='2021-05-31T00:26:23&#43;08:00'/>
 <meta name="twitter:title" content="2021/05/28 日記">
@@ -70,7 +70,7 @@ if (!doNotTrack) {
 ">
     
         <div id="article-toolbar">
-            <a href="https://Luke2336.github.io" class="back-home">
+            <a href="https://luke2336.github.io" class="back-home">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <polyline points="15 6 9 12 15 18" />

@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>選課 on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/</link>
+    <link>https://luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/</link>
     <description>Recent content in 選課 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jan 2022 15:25:50 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jan 2022 15:25:50 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2022/01/13 日記</title>
-      <link>https://Luke2336.github.io/p/20220113/</link>
+      <link>https://luke2336.github.io/p/20220113/</link>
       <pubDate>Thu, 13 Jan 2022 15:25:50 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20220113/</guid>
+      <guid>https://luke2336.github.io/p/20220113/</guid>
       <description>中午去剪頭髮，結果瀏海原本要斜的，被剪成平的了。 下午去資工系辦問了微學分和基礎圖論的事，我把結果更新在 FB。總之，用 8 小時換 3 學分應該還算划算，但還是很令人不爽。 賣掉了我的第一本程式工具書 - 明解 C++。 晚上約隊友們去清夜吃 KFC。  選課 很幸運有選到 UNIX，但有點猶豫要不要修編譯器。</description>
     </item>
     
     <item>
       <title>2021/12/06 日記</title>
-      <link>https://Luke2336.github.io/p/20211206/</link>
+      <link>https://luke2336.github.io/p/20211206/</link>
       <pubDate>Tue, 07 Dec 2021 12:45:01 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20211206/</guid>
+      <guid>https://luke2336.github.io/p/20211206/</guid>
       <description> 寫信給系主任，請他協助畢業學分認定的問題。 晚上 meeting，覺得專題會有些失敗。FFT 轉完後，並不是做矩陣相乘，所以沒辦法用 CSB 做。覺得壓力好大～ 課程時間表出來了，初選大概就是選英文課，再加上高等 Unix、嵌入式系統總整與實作、數值方法、德文三。  </description>
     </item>
     
     <item>
       <title>2021/08/15 日記</title>
-      <link>https://Luke2336.github.io/p/20210815/</link>
+      <link>https://luke2336.github.io/p/20210815/</link>
       <pubDate>Sun, 15 Aug 2021 10:32:11 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210815/</guid>
+      <guid>https://luke2336.github.io/p/20210815/</guid>
       <description> 回基隆，準備下週二進辦公室。 發現電子學和電子實驗的英文班都停開了，轉系沒過，可能畢業困難。突然覺得被 chungsheng 烏鴉嘴中了。  課表  排好了轉系沒過的課表。 基本上是要把隨機演算法和賽局理論退掉，加選電子學。  </description>
     </item>
     
     <item>
       <title>2021/06/18 日記</title>
-      <link>https://Luke2336.github.io/p/20210618/</link>
+      <link>https://luke2336.github.io/p/20210618/</link>
       <pubDate>Sat, 19 Jun 2021 09:17:14 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210618/</guid>
+      <guid>https://luke2336.github.io/p/20210618/</guid>
       <description>早上把 Router 寫了一個進度，但還是有 bug。 下午去看醫生。 晚上改完了離散考卷。  選課結果 選課最後從九點延到兩點截止，選課結果在四點公佈。除了資料探勘外都有選上。
 之後預計將課表選成下面這樣，19 學分，比預計多不少，但我覺得時間上不會太密，中午幾乎都有空檔休息，這樣還滿好的。週五下午也空出來，可以考慮去清大玩。明明覺得這學期 15 學分很累，但還是比預計多選了兩門課。
 COVID 篩檢 因為頭暈和發燒去看了一般內科，今天剛好是感染科，因為燒了 10 天，現場也量到 37.6，於是就被丟去急診的隔離室，待了兩小時，被戳了兩下採檢，做了 X 光，然後等了一個鐘頭才被放走，花了 2014 元。雖然晚上 PCR 出來是陽性，但還是要自主隔離三天。外套留在男友手裡，於是快冷死了&amp;hellip;&amp;hellip;</description>
@@ -47,10 +47,10 @@ COVID 篩檢 因為頭暈和發燒去看了一般內科，今天剛好是感染�
     
     <item>
       <title>2020/12/24 日記</title>
-      <link>https://Luke2336.github.io/p/20201224/</link>
+      <link>https://luke2336.github.io/p/20201224/</link>
       <pubDate>Thu, 24 Dec 2020 14:10:19 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201224/</guid>
+      <guid>https://luke2336.github.io/p/20201224/</guid>
       <description>早上維持了昨夜的疲倦感，很不想做事。
 上完電路學後，複習了德文。今天電路學教 Laplace Transform。晚上跑去市區吃飯，吃了前幾天吃湯圓時看到的肉。
 109-2 課表 今天早上看了選課結果，不甚滿意，沒選上密碼學，也沒選上素描課，考慮再選一門 EDA 湊 15 學分。</description>
@@ -58,10 +58,10 @@ COVID 篩檢 因為頭暈和發燒去看了一般內科，今天剛好是感染�
     
     <item>
       <title>2020/12/23 日記</title>
-      <link>https://Luke2336.github.io/p/20201223/</link>
+      <link>https://luke2336.github.io/p/20201223/</link>
       <pubDate>Wed, 23 Dec 2020 10:18:18 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201223/</guid>
+      <guid>https://luke2336.github.io/p/20201223/</guid>
       <description>儀式感 身邊很多男性友人的生活都充滿儀式感，從日常生活到過節都是。例如睡前一定要打電動，或是早上一定要喝一杯咖啡。
 之前會覺得這種生活很僵硬，有時候男友就算出去約會，也不願放棄他的儀式。但現在的我，對於儀式會有種不同的想法，就是生活中的「錨點」，讓生活不至於太過散亂。
 從每週的運動習慣，吃飯睡覺的時間，或是喝杯茶，洗澡，這些固定的動作都有助於維持生活。雖然會是一種制約，但卻可以訓練成做某些事的時候，心裡能特別興奮，有助於維持健康。
@@ -73,10 +73,10 @@ PCCA 準備了巧克力和卡片送給隊友。
     
     <item>
       <title>2020/12/03 日記</title>
-      <link>https://Luke2336.github.io/p/20201203/</link>
+      <link>https://luke2336.github.io/p/20201203/</link>
       <pubDate>Thu, 03 Dec 2020 12:08:51 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201203/</guid>
+      <guid>https://luke2336.github.io/p/20201203/</guid>
       <description>研究大三下課表 昨晚 Hyperbola 告訴我課表已經出來了，於是早上就先研究了一下。系統看起來跟陽明有一些整合，所以時間表示的方式變得比較像清大。
 學分數 預計體育以外總共 6 ~ 7 門課，或許可以把星期一空出來。也想留點時間做研究和打 ICPC。
    Type Unit     主科 9 - 12   外文 2 - 4   通識 2   Total 15 - 18    時間表     M T W R F     1        2  密碼學      3  正規語言      4  正規語言      n        5  難解問題 羽球  密碼學   6  難解問題 羽球  密碼學   7  難解問題  正規語言    8         資工課程 還在考慮要幾門主科，預計下限三門，上限四門，要看要帶多少學分上去研究所。</description>

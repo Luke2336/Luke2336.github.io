@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>USACO on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/usaco/</link>
+    <link>https://luke2336.github.io/tags/usaco/</link>
     <description>Recent content in USACO on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 15:27:28 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 15:27:28 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/usaco/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/03/07 日記</title>
-      <link>https://Luke2336.github.io/p/20210307/</link>
+      <link>https://luke2336.github.io/p/20210307/</link>
       <pubDate>Sun, 07 Mar 2021 15:27:28 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210307/</guid>
+      <guid>https://luke2336.github.io/p/20210307/</guid>
       <description>かくりよの宿飯，這部動畫很女性向，畫風很合我胃口，於是就入坑了 &amp;gt;&amp;lt;
 最近異常的疲累～下午刷了一點點 USACO。
 不知不覺就寫了快 100 篇日記了。
@@ -24,10 +24,10 @@ USACO 寫完 Chapter 3 了！
     
     <item>
       <title>2021/02/20 日記</title>
-      <link>https://Luke2336.github.io/p/20210220/</link>
+      <link>https://luke2336.github.io/p/20210220/</link>
       <pubDate>Sat, 20 Feb 2021 10:12:03 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210220/</guid>
+      <guid>https://luke2336.github.io/p/20210220/</guid>
       <description>在科三頂樓看了夕陽。
 晚上打了 AtCoder ABC 192，結果又掉分了～
 快開學了 學期目標：
@@ -38,10 +38,10 @@ USACO  3.3 Camelot  3.3 Camelot  寫的有點醜醜的，但其實不難寫，�
     
     <item>
       <title>2021/02/19 日記</title>
-      <link>https://Luke2336.github.io/p/20210219/</link>
+      <link>https://luke2336.github.io/p/20210219/</link>
       <pubDate>Fri, 19 Feb 2021 10:23:09 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210219/</guid>
+      <guid>https://luke2336.github.io/p/20210219/</guid>
       <description>早上媽媽說大黃走了，他們把他埋在公園。
 今天過敏很嚴重，午餐後就吃了藥，睡到五點才醒來，之後就沒什麼流鼻水了，只是腦袋很昏。
 晚上很累，看了一集動畫就睡了。天地創造設計部還滿好看的。
@@ -50,10 +50,10 @@ USACO  3.3 Shopping Offers  3.3 Shopping Offers  題意：給定 b ≤ 5 種東�
     
     <item>
       <title>2021/02/18 日記</title>
-      <link>https://Luke2336.github.io/p/20210218/</link>
+      <link>https://luke2336.github.io/p/20210218/</link>
       <pubDate>Fri, 19 Feb 2021 08:09:48 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210218/</guid>
+      <guid>https://luke2336.github.io/p/20210218/</guid>
       <description>早上都在陪小白目玩，他舔了我的腳。
 中午搭車國光回新竹，本來小紅巴跑了，但剛好來了 2 路，就花點小錢早點回學校。到宿舍後，整理了一下書桌和冰箱。
 晚上吃了草莓蛋糕，很開心～
@@ -62,10 +62,10 @@ Google Drive 100TB  新聞：Google無限空間雲端掰了！明年起校園免
     
     <item>
       <title>2021/02/17 日記</title>
-      <link>https://Luke2336.github.io/p/20210217/</link>
+      <link>https://luke2336.github.io/p/20210217/</link>
       <pubDate>Wed, 17 Feb 2021 09:59:41 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210217/</guid>
+      <guid>https://luke2336.github.io/p/20210217/</guid>
       <description>雨很大又很冷。晚餐吃了水餃、醉雞和昨晚剩下的蝦。
 今天也是刷了一天 USACO，覺得莫名的累，腦袋常常覺得脹脹的，於是變得很焦躁沒耐心。
 更新 ~/.bashrc 將 g++ 改成 g++-9 -std=c++17，把礙眼的 warning 減少了。
@@ -76,10 +76,10 @@ USACO 寫完了 Section 3.2。
     
     <item>
       <title>2021/02/16 日記</title>
-      <link>https://Luke2336.github.io/p/20210216/</link>
+      <link>https://luke2336.github.io/p/20210216/</link>
       <pubDate>Tue, 16 Feb 2021 13:46:37 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210216/</guid>
+      <guid>https://luke2336.github.io/p/20210216/</guid>
       <description>今天又變冷了，睡到 11 點半才起床，弟弟已經回台北了。今天一整天都在刷 USACO，傍晚又睡了午覺，晚餐吃了醉雞和蝦。
 USACO 寫完 Section 2.4 了，完成了 Chapter 2，希望這週能將 Chapter 3 刷完。
  2.4 Cow Tours 2.4 Bessie Come Home 2.4 Fractions to Decimals 3.1 Agri-Net 3.1 Score Inflation 3.1 Humble Numbers 3.1 Contact  2.4 Cow Tours  題意：給定一個大小為 N ≤ 150 的圖，這個圖為加上一條邊可聯通的非聯通圖。問加上一條邊後的最小直徑（diameter）為多少。 解法：先做一次 Floyd-Warshall 算出枚舉加入 (i, j)，i、j 兩聯通塊和 i、j 最遠的點距和 i、j 的距離相加，再和未聯通前的最大直徑比較。  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3const double INF = 40000000; 4inline double dst(int x, int y, int xx, int yy) { 5 double dx = x - xx, dy = y - yy; 6 return sqrt(dx * dx + dy * dy); 7} 8int main() { 9 freopen(&amp;#34;cowtour.</description>
@@ -87,20 +87,20 @@ USACO 寫完 Section 2.4 了，完成了 Chapter 2，希望這週能將 Chapter 
     
     <item>
       <title>2021/02/15 日記</title>
-      <link>https://Luke2336.github.io/p/20210215/</link>
+      <link>https://luke2336.github.io/p/20210215/</link>
       <pubDate>Mon, 15 Feb 2021 11:00:39 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210215/</guid>
+      <guid>https://luke2336.github.io/p/20210215/</guid>
       <description>大湖公園、南港車站 下午搭火車去南港，搭捷運去大湖公園散步，野餐的人很多。之後去南港車站吃飯，去 2F 的蔦屋書店看書，然後搭火車回家。
 USACO  2.4 The Tamworth Two 2.4 Overfencing  2.4 The Tamworth Two  題意：給定一個 10 x 10 的地圖，Farmer 和 Cow 以同樣的方式行走，他們一開始皆面向北，每分鐘可行走一步，當遇到障礙物時，則花一分鐘順時鐘轉 90 度，請問要多久兩者才會相遇在同一格？若不相遇則輸出 0。 解法：模擬。最多有 10 x 10 x 4 = 400 種狀態，兩者則有 400 x 400 = 160000 種狀態，若他們並未相遇，則不可能會相遇。  1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3char board[12][12]; 4const int dx[4] = {-1, 0, 1, 0}, dy[4] = {0, 1, 0, -1}; 5struct state { 6 int x, y, d; 7 state() {d = 0;} 8 state(int _x, int _y, int _d) { 9 x = _x, y = _y, d = _d; 10 } 11}; 12inline bool same(state A, state B) { 13 return A.</description>
     </item>
     
     <item>
       <title>2021/02/13 日記</title>
-      <link>https://Luke2336.github.io/p/20210213/</link>
+      <link>https://luke2336.github.io/p/20210213/</link>
       <pubDate>Sat, 13 Feb 2021 09:00:08 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210213/</guid>
+      <guid>https://luke2336.github.io/p/20210213/</guid>
       <description>貓咪 早上去餵小乖和小咪。
 七堵友蚋、石公潭、萬崁路 石公潭、附近的礦坑
 萬崁路上的一心宮門口的櫻花樹。
@@ -112,19 +112,19 @@ USACO 寫完 Section 2.3。
     
     <item>
       <title>2021/02/12 日記</title>
-      <link>https://Luke2336.github.io/p/20210212/</link>
+      <link>https://luke2336.github.io/p/20210212/</link>
       <pubDate>Fri, 12 Feb 2021 11:50:19 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210212/</guid>
+      <guid>https://luke2336.github.io/p/20210212/</guid>
       <description>早餐吃了稀飯。 將 Blogger 的幾篇文章搬到這個新的 Blog 上。 將 USACO Section 2.2 完成。 去金山泡溫泉。  金山  去金山鴨肉，發現要戴口罩才能端菜，幸好我有帶一個口罩在身上。 吃了糖葫蘆和冰淇淋，泡了溫泉。 買了 3 張 200 元刮刮樂，刮中 1000 + 1500。 去了水尾漁港看風景，看到有人在停車場放煙火，這大概是這輩子看過最近距離的煙火。走過了觀景橋，到提防散步。  USACO  2.2 Runaround Numbers 2.2 Party Lamps  2.2 Runaround Numbers  題意：給定 M ≤ 2^32，找出一個大於 M 的循環數。循環數的定義為，沒用到 0，且每個位元不重複，從第一個位元 d 開始向右走 d 位，走到最右邊則從最左邊繼續，然後在從此位繼續，走完全部回到第一位且不重複。 解法：DFS 暴搜所有解，不斷更新最小值剪枝。  1/* 2ID: whitech1 3TASK: runround 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8typedef long long ll; 9ll m; 10vector&amp;lt;int&amp;gt; v; 11bool used[10]; 12bool check(ll num, int len) { 13 if (num &amp;lt;= m) return false; 14 vector&amp;lt;int&amp;gt; cnt(len); 15 for (int i = 0, r = 0; i &amp;lt; len; i++) { 16 r = (r + v[r]) % len; 17 cnt[r]++; 18 } 19 for (int i = 0; i &amp;lt; len; i++) 20 if (!</description>
     </item>
     
     <item>
       <title>2021/02/11 日記</title>
-      <link>https://Luke2336.github.io/p/20210211/</link>
+      <link>https://luke2336.github.io/p/20210211/</link>
       <pubDate>Thu, 11 Feb 2021 09:57:18 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210211/</guid>
+      <guid>https://luke2336.github.io/p/20210211/</guid>
       <description>過年好痛苦。昨晚做了惡夢，夢到 Alice 跟我絕交，覺得很難過。晚上醒來好幾次。好討厭除夕，跟一群一直刺探隱私的人吃飯。
 自己過生日好孤單。
 USACO  2.2 Preface Numbering 2.2 Subset Sums  2.2 Preface Numbering  題意：給定 N ≤ 3500，計算 1 ~ N 的羅馬字母表示法共用了每種字母個幾個。  1/* 2ID: whitech1 3TASK: preface 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8int d[13] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1}; 9string s[13] = {&amp;#34;M&amp;#34;, &amp;#34;CM&amp;#34;, &amp;#34;D&amp;#34;, &amp;#34;CD&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;XC&amp;#34;, &amp;#34;L&amp;#34;, &amp;#34;XL&amp;#34;, &amp;#34;X&amp;#34;, &amp;#34;IX&amp;#34;, &amp;#34;V&amp;#34;, &amp;#34;IV&amp;#34;, &amp;#34;I&amp;#34;}; 10int cnt[13]; 11void solve(int x) { 12 for (int i = 0; i &amp;lt; 13; i++) { 13 cnt[i] += x / d[i]; 14 x %= d[i]; 15 } 16} 17int main() { 18 freopen(&amp;#34;preface.</description>
@@ -132,10 +132,10 @@ USACO  2.2 Preface Numbering 2.2 Subset Sums  2.2 Preface Numbering  題意：�
     
     <item>
       <title>2021/02/10 日記</title>
-      <link>https://Luke2336.github.io/p/20210210/</link>
+      <link>https://luke2336.github.io/p/20210210/</link>
       <pubDate>Wed, 10 Feb 2021 11:36:51 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210210/</guid>
+      <guid>https://luke2336.github.io/p/20210210/</guid>
       <description>今天是 20 歲的最後一天！
 晚上吃小火鍋，看到了弟弟的摩托車。
 USACO 寫完了 Section 2.1。
@@ -144,10 +144,10 @@ USACO 寫完了 Section 2.1。
     
     <item>
       <title>2021/02/09 日記</title>
-      <link>https://Luke2336.github.io/p/20210209/</link>
+      <link>https://luke2336.github.io/p/20210209/</link>
       <pubDate>Tue, 09 Feb 2021 11:30:39 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210209/</guid>
+      <guid>https://luke2336.github.io/p/20210209/</guid>
       <description>今天左下腹還是悶悶的。
 USACO  重新開始刷 USACO，USACO 最早是 2018 年就有看到的網站，以前因為是英文題面所以沒認真刷。覺得不能亂刷題，應該有系統的刷題，所以就想寒假把這邊刷到 chapter 3，練基礎能力。 今天刷完 Chapter 1 了～  1.4 Wormholes 1.4 Ski Course Design 1.5 Arithmetic Progressions 1.5 Mother’s Milk 1.6 Number Triangles 1.6 Prime Palindromes 1.6 Superprime Rib    1.4 Wormholes  題意：有 12 個蟲洞，要配對成兩兩一組，一旦碰到蟲洞就會被傳送到另一端，且一直往 +X 方向移動，問有多少種組合能形成環？ 這題是很好的題目，能練習實作暴搜。首先要會 DFS 枚舉組合，方法是每次找到第一個沒被用到的點，然後枚舉能和他匹配的點。之後再檢查每個組合是否有環，採取 BFS，每次走兩步，先一步蟲洞，再走到下一個點。  1/* 2ID: whitech1 3TASK: wormhole 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8typedef pair&amp;lt;int, int&amp;gt; pii; 9#define x first 10#define y second 11int n, ans = 0; 12vector&amp;lt;pii&amp;gt; p; 13vector&amp;lt;vector&amp;lt;bool&amp;gt; &amp;gt; G; 14vector&amp;lt;int&amp;gt; pr; 15bool check() { 16 vector&amp;lt;int&amp;gt; visit(n); 17 queue&amp;lt;int&amp;gt; q; 18 for (int i = 0; i &amp;lt; n; i++) q.</description>
     </item>

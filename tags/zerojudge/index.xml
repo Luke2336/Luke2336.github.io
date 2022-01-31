@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ZeroJudge on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/zerojudge/</link>
+    <link>https://luke2336.github.io/tags/zerojudge/</link>
     <description>Recent content in ZeroJudge on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Sep 2021 08:48:10 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/zerojudge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 08:48:10 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/zerojudge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/09/11 日記</title>
-      <link>https://Luke2336.github.io/p/20210911/</link>
+      <link>https://luke2336.github.io/p/20210911/</link>
       <pubDate>Sat, 11 Sep 2021 08:48:10 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210911/</guid>
+      <guid>https://luke2336.github.io/p/20210911/</guid>
       <description>去系辦處理抵免相關事務。  資工系羽暑訓  覺得今天外面的人很少，於是有比較多的場地練習。 跟電機系相比，比較多的時間是在練球，所以練到比較累。  Code ZJ a017: 五則運算 1while True: 2 try: 3 print(eval(input().replace(&amp;#39;/&amp;#39;, &amp;#39;//&amp;#39;))) 4 except: 5 break ZJ b557: 直角三角形 1#include &amp;lt;bits/stdc++.h&amp;gt; 2using namespace std; 3vector&amp;lt;tuple&amp;lt;int, int, int&amp;gt;&amp;gt; v; 4void init() { 5 for (int i = 1; i &amp;lt;= 100; i++) { 6 for (int j = i; j &amp;lt;= 100; j++) { 7 for (int k = j; k &amp;lt;= 100; k++) { 8 if (i * i + j * j == k * k) { 9 v.</description>
     </item>
     
     <item>
       <title>2021/07/02 日記</title>
-      <link>https://Luke2336.github.io/p/20210702/</link>
+      <link>https://luke2336.github.io/p/20210702/</link>
       <pubDate>Fri, 02 Jul 2021 19:58:53 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210702/</guid>
+      <guid>https://luke2336.github.io/p/20210702/</guid>
       <description>早上心情不好，覺得異常疲倦，工作也因此不太順利。 晚上看到轉系上機考的資訊公佈，7/14 下午要考試，於是就開始練手感。  Code ZJ. f698: 後序運算式 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4int main() { 5 ios::sync_with_stdio(0); 6 cin.tie(0); 7 string s; 8 stringstream ss; 9 getline(cin, s); 10 ss.str(s); 11 vector&amp;lt;ll&amp;gt; v; 12 while (ss &amp;gt;&amp;gt; s) { 13 if (isdigit(s.back())) { 14 v.push_back(stoi(s)); 15 } else { 16 ll r = v.back(); v.pop_back(); 17 ll l = v.back(); v.pop_back(); 18 if (s[0] == &amp;#39;+&amp;#39;) { 19 v.</description>
     </item>
     
     <item>
       <title>Zerojudge a813 - 城市觀測</title>
-      <link>https://Luke2336.github.io/p/zj_a813/</link>
+      <link>https://luke2336.github.io/p/zj_a813/</link>
       <pubDate>Tue, 07 Aug 2018 09:52:33 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/zj_a813/</guid>
+      <guid>https://luke2336.github.io/p/zj_a813/</guid>
       <description>此篇是從舊 Blog 搬過來。
 Zerojudge a813 - 4. 城市觀測 題目敘述 有 N 棟房子。對於任意 AB 兩棟房子，只要 AB 中間沒有房子的高度超過 A 或 B，則 A 可看見 B。求 1 ~ N 每棟房子可看見的房子總數。
  測資一，0 &amp;lt; N ≤ 300，0 &amp;lt; H[i] ≤ 1e5，3/17分 測資二，0 &amp;lt; N ≤ 5000，0 &amp;lt; H[i] ≤ 1e5，3/17分 測資三，0 &amp;lt; N ≤ 1e6，0 &amp;lt; H[i] ≤ 1e9，11/17分  範例測資  N = 2，H = {1,1}，ans = 1+1 = 2 N = 3，H = {1,2,3}，ans = 1+2+1 = 4 N = 5，H = {5,2,3,4,4}，ans = 4+2+3+3+2 = 14  參考解法 「A 可看見 B」和「B 可看見 A」等價，因此只要計算一半就好了，也就是可以將問題簡化成，計算每棟房子往左看的sum x 2。</description>

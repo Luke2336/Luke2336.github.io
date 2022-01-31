@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PCCA on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/pcca/</link>
+    <link>https://luke2336.github.io/tags/pcca/</link>
     <description>Recent content in PCCA on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Nov 2021 13:53:12 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Nov 2021 13:53:12 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/pcca/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/11/28 日記</title>
-      <link>https://Luke2336.github.io/p/20211128/</link>
+      <link>https://luke2336.github.io/p/20211128/</link>
       <pubDate>Mon, 29 Nov 2021 13:53:12 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20211128/</guid>
+      <guid>https://luke2336.github.io/p/20211128/</guid>
       <description>ICPC Asia Taipei 2021  是 NYCU_Pusheen 的最後一場比賽，覺得超級難過。 打爛了，有一題位元 DP 複雜度爛掉，於是就把時間燒光了 QAQ Standing  </description>
     </item>
     
     <item>
       <title>2021/11/17 日記</title>
-      <link>https://Luke2336.github.io/p/20211117/</link>
+      <link>https://luke2336.github.io/p/20211117/</link>
       <pubDate>Thu, 18 Nov 2021 18:43:54 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20211117/</guid>
+      <guid>https://luke2336.github.io/p/20211117/</guid>
       <description> 算是把 NSD final project 做到一個段落了，發現選的題目好像有點太簡單了，Fruchterman-Reingold 大概兩百行左右就可以寫完了。因為用 pybind11 轉成 .so 檔有點失敗，所以就偷懶直接把結果拿去跑 python，而不是 call c++ 寫好的 function。Debug 完之後還是有些結果很糟糕，主要是算引力跟斥力用的常數很難調。  https://github.com/Luke2336/graph-visualization   晚上和隊友練習，曲線在忙沒有來，但我跟 LinLee 兩個人也開得還算順，但我們只練到 21:30 就收工了，因為 LinLee 離散化用 map 太慢，所以被 TLE。  </description>
     </item>
     
     <item>
       <title>2021/11/10 日記</title>
-      <link>https://Luke2336.github.io/p/20211110/</link>
+      <link>https://luke2336.github.io/p/20211110/</link>
       <pubDate>Wed, 10 Nov 2021 15:55:50 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20211110/</guid>
+      <guid>https://luke2336.github.io/p/20211110/</guid>
       <description> 考完試後有點閒閒沒事做。 寫了一點隨機演算法的作業，但真的難度太高了，只寫了一半左右。 晚上和隊友練習。  North American Southeast Regional 2019 (Div 1)    </description>
     </item>
     
     <item>
       <title>2021/10/23 日記</title>
-      <link>https://Luke2336.github.io/p/20211023/</link>
+      <link>https://luke2336.github.io/p/20211023/</link>
       <pubDate>Sat, 23 Oct 2021 16:52:58 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20211023/</guid>
+      <guid>https://luke2336.github.io/p/20211023/</guid>
       <description>TOPC  Scoreboard 最後 pF 來不及寫完。  </description>
     </item>
     
     <item>
       <title>2021/10/16 日記</title>
-      <link>https://Luke2336.github.io/p/20211016/</link>
+      <link>https://luke2336.github.io/p/20211016/</link>
       <pubDate>Mon, 18 Oct 2021 17:13:25 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20211016/</guid>
+      <guid>https://luke2336.github.io/p/20211016/</guid>
       <description>NCPC 2021  拿了第 14 名，Lin Lee 有過競程二，真是太好了。 要是前場能順一點，後面或許有時間可以解 K。 比完賽之後，Jasmine 學姊請我們吃晚餐。  </description>
     </item>
     
     <item>
       <title>2021/08/21 日記</title>
-      <link>https://Luke2336.github.io/p/20210821/</link>
+      <link>https://luke2336.github.io/p/20210821/</link>
       <pubDate>Sat, 21 Aug 2021 07:47:59 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210821/</guid>
+      <guid>https://luke2336.github.io/p/20210821/</guid>
       <description> 媽媽說今天帶小乖去獸醫院，是蜂窩性組織炎，所以有腫塊。 參考這篇改了 Github 的認證方式。  隊練 2005-2006 ACM-ICPC, NEERC, Southern Subregional Contest </description>
     </item>
     
     <item>
       <title>2021/08/07 日記</title>
-      <link>https://Luke2336.github.io/p/20210807/</link>
+      <link>https://luke2336.github.io/p/20210807/</link>
       <pubDate>Sat, 07 Aug 2021 10:23:07 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210807/</guid>
+      <guid>https://luke2336.github.io/p/20210807/</guid>
       <description>Chrome 的恐龍小遊戲有東奧版。 下午和隊友練習，覺得自己的狀態不甚好。 晚上用 Uber Eat 叫了清夜的鹹酥雞吃。  隊練 2016, IX Samara Regional Intercollegiate Programming Contest Python  讀從圖書館借的決心打底！Python 深度學習基礎養成。  Plot 1import numpy as np 2import matplotlib.pyplot as plt 3 4x = np.linspace(0, 2 * np.pi) 5y_sin= np.sin(x) 6y_cos= np.cos(x) 7 8plt.xlabel(&amp;#34;x value&amp;#34;) 9plt.ylabel(&amp;#34;y value&amp;#34;) 10plt.title(&amp;#34;sin/cos&amp;#34;) 11plt.plot(x, y_sin, label=&amp;#34;sin&amp;#34;) 12plt.plot(x, y_cos, label=&amp;#34;cos&amp;#34;, linestyle=&amp;#34;dashed&amp;#34;) 13plt.legend() 14plt.show() 1import numpy as np 2import matplotlib.pyplot as plt 3 4x1 = np.random.rand(100) - 1.</description>
     </item>
     
     <item>
       <title>2021/07/24 日記</title>
-      <link>https://Luke2336.github.io/p/20210724/</link>
+      <link>https://luke2336.github.io/p/20210724/</link>
       <pubDate>Sun, 25 Jul 2021 10:22:54 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210724/</guid>
+      <guid>https://luke2336.github.io/p/20210724/</guid>
       <description> 晚上和隊友隊練，但到一半我就因為過敏不想練了。 之後跟隊友說要退出 Pusheen。  </description>
     </item>
     
     <item>
       <title>2021/07/17 日記</title>
-      <link>https://Luke2336.github.io/p/20210717/</link>
+      <link>https://luke2336.github.io/p/20210717/</link>
       <pubDate>Sat, 17 Jul 2021 17:37:48 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210717/</guid>
+      <guid>https://luke2336.github.io/p/20210717/</guid>
       <description> 上午去診所看醫生。 傍晚很無聊，就去交大課程助理發了修課心得。 晚上和隊友練習。  隊練 2020, XIII Samara Regional Intercollegiate Programming Contest  隊友表示不喜歡我挑的這套題，太多水題了。 比較喜歡的題有 C, D, F, G。     ID Solver Type     A Hyperbola 水題   B Hyperbola 暴力, 二分搜   C     D Hyperbola BFS   E LinLee 水題   F LinLee Tree, Greedy   G Hyperbola 互動題   H LinLee 水題   I LinLee 水題, Sort   J Hyperbola 手推   K Hyperbola 幾何   L Hyperbola DP   M Kelly 水題, Sort    </description>
     </item>
     
     <item>
       <title>2021/07/03 日記</title>
-      <link>https://Luke2336.github.io/p/20210703/</link>
+      <link>https://luke2336.github.io/p/20210703/</link>
       <pubDate>Sat, 03 Jul 2021 08:43:09 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210703/</guid>
+      <guid>https://luke2336.github.io/p/20210703/</guid>
       <description>沒睡好的一天，幾乎什麼事都沒做。
 隊練 因為心情不好和頭痛，所以大概練到三小時，我就提早收工了。
 2015 ACM Syrian Collegiate Programming Contest 簡單題滿多的一套題，前面開得很順，鍵盤幾乎沒有空下來。
@@ -102,10 +102,10 @@ J. Smooth Developer 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std;
     
     <item>
       <title>2021/05/28 日記</title>
-      <link>https://Luke2336.github.io/p/20210528/</link>
+      <link>https://luke2336.github.io/p/20210528/</link>
       <pubDate>Mon, 31 May 2021 00:26:23 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210528/</guid>
+      <guid>https://luke2336.github.io/p/20210528/</guid>
       <description>整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
 隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
 C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
@@ -114,10 +114,10 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
     
     <item>
       <title>2021/03/24 日記</title>
-      <link>https://Luke2336.github.io/p/20210324/</link>
+      <link>https://luke2336.github.io/p/20210324/</link>
       <pubDate>Wed, 24 Mar 2021 17:50:02 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210324/</guid>
+      <guid>https://luke2336.github.io/p/20210324/</guid>
       <description>原本以為今天要考德文，但後來說下週才要考動詞變化。
 體育課練了高遠球，覺得練習有點沒效率，因為同學餵的球質量不好。
 收到 Google HR 的通知了，接下來就等 Team Matching。
@@ -128,10 +128,10 @@ Kattis     Time Status Tag     A 22 AC DP、BFS   B 13     C 36 AC Shortest Path
     
     <item>
       <title>2021/03/17 日記</title>
-      <link>https://Luke2336.github.io/p/20210317/</link>
+      <link>https://luke2336.github.io/p/20210317/</link>
       <pubDate>Wed, 17 Mar 2021 09:28:38 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210317/</guid>
+      <guid>https://luke2336.github.io/p/20210317/</guid>
       <description>下午體育課停課，於是將 ICCAD 的 parser bug 修好了，還有把英文作文寫完了。
 PCCA 今天練到 21:30 就因為教室要鎖門，所以就各自回去休息了。不然原本解得還算順利，一直有題目在寫。
 2013-2014 ACM-ICPC East Central North America Regional Contest (ECNA 2013) D、E、I 應該都是有機會開得出來的，H 是插頭 DP，結果 hyperbola 一直用 Flow 亂搞，然後就一堆 penalty&amp;hellip;
@@ -140,10 +140,10 @@ Toggl  一到四都排了不少課，所以主要做事的時間就會集中在�
     
     <item>
       <title>2021/03/10 日記</title>
-      <link>https://Luke2336.github.io/p/20210310/</link>
+      <link>https://luke2336.github.io/p/20210310/</link>
       <pubDate>Thu, 11 Mar 2021 10:25:04 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210310/</guid>
+      <guid>https://luke2336.github.io/p/20210310/</guid>
       <description>羽球課 複習了步伐和中場的平球，跑得有點累，右大腿有點拉傷，左腳踝也稍微拐到。感覺比較習慣球拍的手感了，但還是對星期六的小梅竹比賽有點緊張。
 PCCA 今天訂的飯不太好吃。LinLee 因為很累，所以這次就跟路學弟練。雙曲線狀況不太好，今天一直卡題。
 2013-2014 ACM ICPC Central European Regional Contest (CERC 13) </description>
@@ -151,10 +151,10 @@ PCCA 今天訂的飯不太好吃。LinLee 因為很累，所以這次就跟路�
     
     <item>
       <title>2021/03/03 日記</title>
-      <link>https://Luke2336.github.io/p/20210303/</link>
+      <link>https://luke2336.github.io/p/20210303/</link>
       <pubDate>Wed, 03 Mar 2021 15:47:20 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210303/</guid>
+      <guid>https://luke2336.github.io/p/20210303/</guid>
       <description>頭痛很嚴重，好不容易起床上德語課，下週開始有口語圓桌。
 Google Intern 面試 體育課請假，在宿舍線上面試。
 連續兩場，慘慘的，HR 把兩場的連結搞錯，於是被 Delay，還直接被面試官 call !!
@@ -167,10 +167,10 @@ PCCA 今天忘記訂餐了，於是就遲到了。曲線忘記要練習了，於
     
     <item>
       <title>2021/02/24 日記</title>
-      <link>https://Luke2336.github.io/p/20210224/</link>
+      <link>https://luke2336.github.io/p/20210224/</link>
       <pubDate>Thu, 25 Feb 2021 10:11:29 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210224/</guid>
+      <guid>https://luke2336.github.io/p/20210224/</guid>
       <description>過敏很嚴重的一天。
 早上德文課一開始就直接複習上學期的內容，只好快速把記憶拉回來。
 中午和學妹及她的男友吃了奶油廚房。
@@ -182,10 +182,10 @@ PCCA 今天忘記訂餐了，於是就遲到了。曲線忘記要練習了，於
     
     <item>
       <title>2021/01/13 日記</title>
-      <link>https://Luke2336.github.io/p/20210113/</link>
+      <link>https://luke2336.github.io/p/20210113/</link>
       <pubDate>Wed, 13 Jan 2021 10:36:23 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210113/</guid>
+      <guid>https://luke2336.github.io/p/20210113/</guid>
       <description>早上被某學長約出去圖書館教他演算法，結果因為他說頭暈想吐就被放鴿子了。之後就在圖書館，寫 OS HW4，但還是卡住做不出來，問了彥彤，結果他還沒開始做。
 中午吃了水餃，心情悶悶的，就在宿舍寫 Blog，把修課心得搬到這邊。
 晚上去了 PCCA 聚餐，吃忠孝路的「海水屋」，隊友非常喜歡吃金沙豆腐，大部分的菜我覺得吃起來都不好吃，份量也有點少。隊友的作業好像也還剩不少。
@@ -194,10 +194,10 @@ OS HW4 - Meltdown  Meltdown: Reading Kernel Memory from User Space，網路上�
     
     <item>
       <title>2020/12/16 日記</title>
-      <link>https://Luke2336.github.io/p/20201216/</link>
+      <link>https://luke2336.github.io/p/20201216/</link>
       <pubDate>Wed, 16 Dec 2020 10:20:38 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201216/</guid>
+      <guid>https://luke2336.github.io/p/20201216/</guid>
       <description>早上上完德文課，又翹了 OS，吃完了蛋糕，讀了電路學，然後上了羽球課，洗個澡就去練習了。中午參考這篇文章，把 Google Analytics 加到 Blog。
 羽球課 下週要考期末考，但練了一下腳步，覺得很不熟練，甚至還是不會後場的換腳，前場左邊比較跑不到點，然後回中時換另一個方向略略不順。
 之後分組打單打比賽，打了 3 場 7 分，輸了一場，其他幾場都以不錯的比數取勝，普遍看到大家發球不夠高或遠，很容易就變成平球戰。我則是後場接球能力不好，沒辦法很快跑位打回到後場。結束後和學姊單挑了一場 21 分，後面體力不支，就沒有贏了。
@@ -206,10 +206,10 @@ CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, 
     
     <item>
       <title>2020/12/09 日記</title>
-      <link>https://Luke2336.github.io/p/20201209/</link>
+      <link>https://luke2336.github.io/p/20201209/</link>
       <pubDate>Wed, 09 Dec 2020 12:34:03 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201209/</guid>
+      <guid>https://luke2336.github.io/p/20201209/</guid>
       <description>早上心情很不好，所以上完德文後，又把 OS 睡掉了。中午買了個牛腩丼飯，然後去上了羽球課。和卡車吃了蛋捲冰淇淋，剛好店員不小心裝太大隻，所以吃得很滿足。洗完澡後就去練習，有點遲到。點了牛肉燴飯，但料很少，讓我很失望。
 羽球課 今天是教後場步伐和揮拍，然後讓我們練習兩週後要考的米字步。首先是側身架拍，然後右腳蹲，然後單腳跳腰轉隱拍，之後在揮拍，左腳往前恢復準備姿勢。羽球鞋穿的還不太習慣，畢竟跟慢跑鞋比很有重量，希望能早點習慣。
 PCCA  Kattis 題單  今天是拆成 30 分鐘為單位，交換隊友練習，今天有觀察到的有 LandyLu、CTFang 那對，還有 LinLee 找的吳柏橙，只有 CTFang 我比較喜歡。最近對隊友們的感情也有點冷淡，慢慢觀察到不少他們的缺點，而 CTFang 卻比較像 Ud 一樣沈穩，雖然他的隊友卻沒什麼表現，但我還是傾向於換隊友。
@@ -218,19 +218,19 @@ D. Kattis - ivana  賽局 DP 把環狀的東西，直接複製兩份去建表。
     
     <item>
       <title>CF GYM 100274</title>
-      <link>https://Luke2336.github.io/p/cf_gym_100274/</link>
+      <link>https://luke2336.github.io/p/cf_gym_100274/</link>
       <pubDate>Thu, 03 Dec 2020 23:56:03 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/cf_gym_100274/</guid>
+      <guid>https://luke2336.github.io/p/cf_gym_100274/</guid>
       <description>CF-GYM100274 pA  問題：2 &amp;lt;= n &amp;lt;= 1e18，2 &amp;lt;= k &amp;lt;= 1e12，求 n! 是 k 的幾次方。 作法：將 k 做質因數分解，然後各自算出次方數後，再取最小值。 時間：$$O(\log n \sqrt k)$$  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, int&amp;gt; pli; 5vector&amp;lt;pli&amp;gt; prime_factor (ll k) { 6 vector&amp;lt;pli&amp;gt; ret; 7 for (ll i = 2; i * i &amp;lt;= k; i++) { 8 if (k % i) continue; 9 pli p = pli(i, 0); 10 while (k % i == 0) k /= i, p.</description>
     </item>
     
     <item>
       <title>2020/12/02 日記</title>
-      <link>https://Luke2336.github.io/p/20201202/</link>
+      <link>https://luke2336.github.io/p/20201202/</link>
       <pubDate>Wed, 02 Dec 2020 10:58:23 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20201202/</guid>
+      <guid>https://luke2336.github.io/p/20201202/</guid>
       <description>OS HW1 (Python) 中午研究了一下 OS 的作業一，因為對 Python 還不熟，所以先研究了一些模組和函式的用法。之後再慢慢研究 Multithread、Multiprocessing 和 Coroutine。因為期中考表現的很糟，希望能在作業拚一下，把總成績拉到 A。
 Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  1import requests 2from bs4 import BeautifulSoup 3url = input() 4r = requests.get(url) 5while r.status_code != requests.codes.ok : # 200 6	r = requests.get(url) 7soup = BeautifulSoup(r.text, &amp;#39;html.parser&amp;#39;) 8print(soup.find(&amp;#39;title&amp;#39;).text) SHA 記得要先 encode(&#39;utf-8&#39;)
 1import hashlib # 內建的 2 3def SHA256(s): 4 sha = hashlib.sha256() 5 sha.update(s.encode(&amp;#39;utf-8&amp;#39;)) 6 return sha.</description>

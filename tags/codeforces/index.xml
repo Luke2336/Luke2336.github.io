@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codeforces on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/codeforces/</link>
+    <link>https://luke2336.github.io/tags/codeforces/</link>
     <description>Recent content in Codeforces on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Aug 2021 07:47:59 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 07:47:59 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/08/21 日記</title>
-      <link>https://Luke2336.github.io/p/20210821/</link>
+      <link>https://luke2336.github.io/p/20210821/</link>
       <pubDate>Sat, 21 Aug 2021 07:47:59 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210821/</guid>
+      <guid>https://luke2336.github.io/p/20210821/</guid>
       <description> 媽媽說今天帶小乖去獸醫院，是蜂窩性組織炎，所以有腫塊。 參考這篇改了 Github 的認證方式。  隊練 2005-2006 ACM-ICPC, NEERC, Southern Subregional Contest </description>
     </item>
     
     <item>
       <title>2021/08/07 日記</title>
-      <link>https://Luke2336.github.io/p/20210807/</link>
+      <link>https://luke2336.github.io/p/20210807/</link>
       <pubDate>Sat, 07 Aug 2021 10:23:07 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210807/</guid>
+      <guid>https://luke2336.github.io/p/20210807/</guid>
       <description>Chrome 的恐龍小遊戲有東奧版。 下午和隊友練習，覺得自己的狀態不甚好。 晚上用 Uber Eat 叫了清夜的鹹酥雞吃。  隊練 2016, IX Samara Regional Intercollegiate Programming Contest Python  讀從圖書館借的決心打底！Python 深度學習基礎養成。  Plot 1import numpy as np 2import matplotlib.pyplot as plt 3 4x = np.linspace(0, 2 * np.pi) 5y_sin= np.sin(x) 6y_cos= np.cos(x) 7 8plt.xlabel(&amp;#34;x value&amp;#34;) 9plt.ylabel(&amp;#34;y value&amp;#34;) 10plt.title(&amp;#34;sin/cos&amp;#34;) 11plt.plot(x, y_sin, label=&amp;#34;sin&amp;#34;) 12plt.plot(x, y_cos, label=&amp;#34;cos&amp;#34;, linestyle=&amp;#34;dashed&amp;#34;) 13plt.legend() 14plt.show() 1import numpy as np 2import matplotlib.pyplot as plt 3 4x1 = np.random.rand(100) - 1.</description>
     </item>
     
     <item>
       <title>2021/07/17 日記</title>
-      <link>https://Luke2336.github.io/p/20210717/</link>
+      <link>https://luke2336.github.io/p/20210717/</link>
       <pubDate>Sat, 17 Jul 2021 17:37:48 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210717/</guid>
+      <guid>https://luke2336.github.io/p/20210717/</guid>
       <description> 上午去診所看醫生。 傍晚很無聊，就去交大課程助理發了修課心得。 晚上和隊友練習。  隊練 2020, XIII Samara Regional Intercollegiate Programming Contest  隊友表示不喜歡我挑的這套題，太多水題了。 比較喜歡的題有 C, D, F, G。     ID Solver Type     A Hyperbola 水題   B Hyperbola 暴力, 二分搜   C     D Hyperbola BFS   E LinLee 水題   F LinLee Tree, Greedy   G Hyperbola 互動題   H LinLee 水題   I LinLee 水題, Sort   J Hyperbola 手推   K Hyperbola 幾何   L Hyperbola DP   M Kelly 水題, Sort    </description>
     </item>
     
     <item>
       <title>2021/07/03 日記</title>
-      <link>https://Luke2336.github.io/p/20210703/</link>
+      <link>https://luke2336.github.io/p/20210703/</link>
       <pubDate>Sat, 03 Jul 2021 08:43:09 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210703/</guid>
+      <guid>https://luke2336.github.io/p/20210703/</guid>
       <description>沒睡好的一天，幾乎什麼事都沒做。
 隊練 因為心情不好和頭痛，所以大概練到三小時，我就提早收工了。
 2015 ACM Syrian Collegiate Programming Contest 簡單題滿多的一套題，前面開得很順，鍵盤幾乎沒有空下來。
@@ -48,10 +48,10 @@ J. Smooth Developer 1#include &amp;lt;bits/stdc++.h&amp;gt;2using namespace std;
     
     <item>
       <title>2021/05/28 日記</title>
-      <link>https://Luke2336.github.io/p/20210528/</link>
+      <link>https://luke2336.github.io/p/20210528/</link>
       <pubDate>Mon, 31 May 2021 00:26:23 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210528/</guid>
+      <guid>https://luke2336.github.io/p/20210528/</guid>
       <description>整體上昏睡了滿久的，寫了教育學概論的學習單，還有一些正規 HW5。晚上和隊友補了前一週的題組。
 隊練 2020-2021 ICPC Southwestern European Regional Contest (SWERC 2020) Penalty 有點高的一場，但還是有把能做的都做完，後面很多時間都在搞 pF 模運算的問題。我只有寫了 pC，算是滿巧妙的一題。pK 算是隊友實作一直出事，不然其實就只是 rolling hash 加二分搜而已。pD 算是滿水的，但一開始不在風向上。
 C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建成點，維護聯通性。然後我想到把邊排序後做，就不需要二分搜之類的操作。
@@ -60,10 +60,10 @@ C. Safe Distance 滿有趣的是隊友想到建圖時要把上界跟下界都建
     
     <item>
       <title>2021/03/17 日記</title>
-      <link>https://Luke2336.github.io/p/20210317/</link>
+      <link>https://luke2336.github.io/p/20210317/</link>
       <pubDate>Wed, 17 Mar 2021 09:28:38 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210317/</guid>
+      <guid>https://luke2336.github.io/p/20210317/</guid>
       <description>下午體育課停課，於是將 ICCAD 的 parser bug 修好了，還有把英文作文寫完了。
 PCCA 今天練到 21:30 就因為教室要鎖門，所以就各自回去休息了。不然原本解得還算順利，一直有題目在寫。
 2013-2014 ACM-ICPC East Central North America Regional Contest (ECNA 2013) D、E、I 應該都是有機會開得出來的，H 是插頭 DP，結果 hyperbola 一直用 Flow 亂搞，然後就一堆 penalty&amp;hellip;
@@ -72,10 +72,10 @@ Toggl  一到四都排了不少課，所以主要做事的時間就會集中在�
     
     <item>
       <title>2021/03/10 日記</title>
-      <link>https://Luke2336.github.io/p/20210310/</link>
+      <link>https://luke2336.github.io/p/20210310/</link>
       <pubDate>Thu, 11 Mar 2021 10:25:04 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210310/</guid>
+      <guid>https://luke2336.github.io/p/20210310/</guid>
       <description>羽球課 複習了步伐和中場的平球，跑得有點累，右大腿有點拉傷，左腳踝也稍微拐到。感覺比較習慣球拍的手感了，但還是對星期六的小梅竹比賽有點緊張。
 PCCA 今天訂的飯不太好吃。LinLee 因為很累，所以這次就跟路學弟練。雙曲線狀況不太好，今天一直卡題。
 2013-2014 ACM ICPC Central European Regional Contest (CERC 13) </description>
@@ -83,10 +83,10 @@ PCCA 今天訂的飯不太好吃。LinLee 因為很累，所以這次就跟路�
     
     <item>
       <title>2021/02/17 日記</title>
-      <link>https://Luke2336.github.io/p/20210217/</link>
+      <link>https://luke2336.github.io/p/20210217/</link>
       <pubDate>Wed, 17 Feb 2021 09:59:41 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210217/</guid>
+      <guid>https://luke2336.github.io/p/20210217/</guid>
       <description>雨很大又很冷。晚餐吃了水餃、醉雞和昨晚剩下的蝦。
 今天也是刷了一天 USACO，覺得莫名的累，腦袋常常覺得脹脹的，於是變得很焦躁沒耐心。
 更新 ~/.bashrc 將 g++ 改成 g++-9 -std=c++17，把礙眼的 warning 減少了。
@@ -97,10 +97,10 @@ USACO 寫完了 Section 3.2。
     
     <item>
       <title>Longest Common Increasing Subsequence(LCIS)</title>
-      <link>https://Luke2336.github.io/p/lcis/</link>
+      <link>https://luke2336.github.io/p/lcis/</link>
       <pubDate>Fri, 29 Jan 2021 12:05:24 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/lcis/</guid>
+      <guid>https://luke2336.github.io/p/lcis/</guid>
       <description>Codeforces 10 D. LCIS dp[i][j] 為 a[1&amp;hellip;i], b[1&amp;hellip;j] 結尾為 b[j] 的 LCIS 的長度。
 $$dp_{i, j} := \begin{cases} \max_{p &amp;lt; j, b_{p} &amp;lt; b_{j}} dp_{i - 1, p} + 1 &amp;amp;, a_{i} = b_{j} \\ dp_{i - 1, j} &amp;amp;, \text{otherwise}. \end{cases}$$
 複雜度：O(nm)，n, m 為兩序列長度。
@@ -109,20 +109,20 @@ $$dp_{i, j} := \begin{cases} \max_{p &amp;lt; j, b_{p} &amp;lt; b_{j}} dp_{i - 1
     
     <item>
       <title>2021/01/29 日記</title>
-      <link>https://Luke2336.github.io/p/20210129/</link>
+      <link>https://luke2336.github.io/p/20210129/</link>
       <pubDate>Fri, 29 Jan 2021 12:03:58 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210129/</guid>
+      <guid>https://luke2336.github.io/p/20210129/</guid>
       <description> 弄了寒訓的題單，研究了 LCIS。 研究轉系，發現歷年轉入資工大三的人極少。推測可能是因為需要修完必修，而必修不好加簽？ 晚上跟導師和師母去靠近東門那區吃飯。 飯後洗了衣服，又收拾了東西。 看完了甄嬛傳，順便補了一下夜叉姬的進度。  Codeforces 180 C. Letter 寫這題才發現 isupper() 不是回傳 0 或 1。
 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4inline bool up(char c) {return isupper(c);} 5inline bool low(char c) {return islower(c);} 6int main() { 7 ios::sync_with_stdio(0), cin.tie(0); 8 string s; cin &amp;gt;&amp;gt; s; 9 int len = s.length(); 10 vector&amp;lt;int&amp;gt; dp[2]; 11 dp[0].resize(len), dp[1].resize(len); 12 dp[0][0] = low(s[0]), dp[1][0] = up(s[0]); 13 for (int i = 1; s[i]; i++) { 14 dp[0][i] = dp[0][i - 1] + low(s[i]); 15 dp[1][i] = min(dp[0][i - 1], dp[1][i - 1]) + up(s[i]); 16 } 17 cout &amp;lt;&amp;lt; min(dp[0][len - 1], dp[1][len - 1]) &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; 18 return 0; 19}  筆記 - 近世代數 </description>
     </item>
     
     <item>
       <title>2021/01/28 日記</title>
-      <link>https://Luke2336.github.io/p/20210128/</link>
+      <link>https://luke2336.github.io/p/20210128/</link>
       <pubDate>Fri, 29 Jan 2021 10:06:55 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210128/</guid>
+      <guid>https://luke2336.github.io/p/20210128/</guid>
       <description>早上洗個澡後，中午去隊練，結果 LinLee 又遲到一小時，真是的！
 晚餐吃了烤雞和冰淇淋，覺得很開心。 之後因為練習很累就早睡了。
 隊練 今天和 LinLee 和 LnadyLu 進行對練，打了 CF GYM 102785 - ICPC Central Russia Regional Contest (CRRC 18)。
@@ -133,29 +133,29 @@ LandyLu 自己解了不少偏向找規律的題目。
     
     <item>
       <title>Codeforces Round 691 Div. 2</title>
-      <link>https://Luke2336.github.io/p/cf_contest_1459/</link>
+      <link>https://luke2336.github.io/p/cf_contest_1459/</link>
       <pubDate>Sat, 19 Dec 2020 19:07:58 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/cf_contest_1459/</guid>
+      <guid>https://luke2336.github.io/p/cf_contest_1459/</guid>
       <description>Codeforces Round #691 (Div. 2) 因為 pC 找不到 bug，就一直亂丟，於是打得超爛。Rating 加了 43 到 1695。
 pA. Red-Blue Shuffle 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define pb push_back 6int main() { 7 ios_base::sync_with_stdio(0); cin.tie(0); 8 int T; cin &amp;gt;&amp;gt; T; 9 while (T--) { 10 int n; cin &amp;gt;&amp;gt; n; 11 string R, B; 12 cin &amp;gt;&amp;gt; R &amp;gt;&amp;gt; B; 13 int r = 0, b = 0; 14 for (int i = 0; i &amp;lt; n; i++) 15 if (R[i] &amp;gt; B[i]) r++; 16 else if (R[i] &amp;lt; B[i]) b++; 17 if (r &amp;gt; b) cout &amp;lt;&amp;lt; &amp;#34;RED\n&amp;#34;; 18 else if (r &amp;lt; b) cout &amp;lt;&amp;lt; &amp;#34;BLUE\n&amp;#34;; 19 else cout &amp;lt;&amp;lt; &amp;#34;EQUAL\n&amp;#34;; 20 } 21 return 0; 22}  pB.</description>
     </item>
     
     <item>
       <title>CF GYM 100274</title>
-      <link>https://Luke2336.github.io/p/cf_gym_100274/</link>
+      <link>https://luke2336.github.io/p/cf_gym_100274/</link>
       <pubDate>Thu, 03 Dec 2020 23:56:03 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/cf_gym_100274/</guid>
+      <guid>https://luke2336.github.io/p/cf_gym_100274/</guid>
       <description>CF-GYM100274 pA  問題：2 &amp;lt;= n &amp;lt;= 1e18，2 &amp;lt;= k &amp;lt;= 1e12，求 n! 是 k 的幾次方。 作法：將 k 做質因數分解，然後各自算出次方數後，再取最小值。 時間：$$O(\log n \sqrt k)$$  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;ll, int&amp;gt; pli; 5vector&amp;lt;pli&amp;gt; prime_factor (ll k) { 6 vector&amp;lt;pli&amp;gt; ret; 7 for (ll i = 2; i * i &amp;lt;= k; i++) { 8 if (k % i) continue; 9 pli p = pli(i, 0); 10 while (k % i == 0) k /= i, p.</description>
     </item>
     
     <item>
       <title>Codeforces Round #615 (Div. 3)</title>
-      <link>https://Luke2336.github.io/p/cf_contest_1294/</link>
+      <link>https://luke2336.github.io/p/cf_contest_1294/</link>
       <pubDate>Fri, 24 Jan 2020 11:26:38 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/cf_contest_1294/</guid>
+      <guid>https://luke2336.github.io/p/cf_contest_1294/</guid>
       <description>Codeforces Round #615 (Div. 3) 第一次 CF 賽中破台，排名 +178，總算 1700 了。 pD 稍微想了一下子，pE 實作上卡了很久，有些邊界問題沒考慮清楚。pF 想了一下子才發現很好寫，但忘了考慮一直鏈的情況，所以 WA 了一次。
 A. Collecting Coins 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long LL; 4int main() { 5 ios::sync_with_stdio(0), cin.tie(0); 6 int t; cin &amp;gt;&amp;gt; t; 7 while (t--) { 8 LL a, b, c, n; 9 cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b &amp;gt;&amp;gt; c &amp;gt;&amp;gt; n; 10 LL sum = n + a + b + c; 11 if (sum % 3) { 12 cout &amp;lt;&amp;lt; &amp;#34;NO\n&amp;#34;; 13 continue; 14 } 15 sum /= 3; 16 if (sum &amp;lt; a || sum &amp;lt; b || sum &amp;lt; c) { 17 cout &amp;lt;&amp;lt; &amp;#34;NO\n&amp;#34;; 18 continue; 19 } 20 cout &amp;lt;&amp;lt; &amp;#34;YES\n&amp;#34;; 21 } 22 return 0; 23}  B.</description>
     </item>

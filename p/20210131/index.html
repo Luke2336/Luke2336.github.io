@@ -12,7 +12,7 @@
 有點進入放假倦怠期&amp;hellip;
 Kattis - Firefly 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;3using namespace std; 4int main() { 5 ios::sync_with_stdio(0), cin.tie(0); 6 int n, h; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; h; 7 vector&amp;lt;int&amp;gt; a(n); 8 for (int i = 0; i &amp;lt; n; i&#43;&#43;) cin &amp;gt;&amp;gt; a[i]; 9 vector&amp;lt;int&amp;gt; even(h &#43; 1), odd(h &#43; 1); 10 for (int i = 0; i &amp;lt; n; i &#43;= 2) 11 even[a[i]]&#43;&#43;, odd[a[i &#43; 1]]&#43;&#43;; 12 for (int i = h - 2; i &amp;gt;= 1; i--) 13 even[i] &#43;= even[i &#43; 1], odd[i] &#43;= odd[i &#43; 1]; 14 int ans = n, cnt = 0; 15 for (int i = 1; i &amp;lt;= h; i&#43;&#43;) { 16 int sum = odd[h - i &#43; 1] &#43; even[i]; 17 if (sum &amp;lt; ans) ans = sum, cnt = 1; 18 else if (sum == ans) cnt&#43;&#43;; 19 } 20 cout &amp;lt;&amp;lt; ans &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; cnt &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 21 return 0; 22}  '><title>2021/01/31 日記</title>
 
-<link rel='canonical' href='https://Luke2336.github.io/p/20210131/'>
+<link rel='canonical' href='https://luke2336.github.io/p/20210131/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='2021/01/31 日記'>
 <meta property='og:description' content='早上去吃早餐，順便摸了小黑白。
@@ -22,7 +22,7 @@ Kattis - Firefly 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;
 晚餐吃了魚，還有卦菜雞。
 有點進入放假倦怠期&amp;hellip;
 Kattis - Firefly 1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;3using namespace std; 4int main() { 5 ios::sync_with_stdio(0), cin.tie(0); 6 int n, h; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; h; 7 vector&amp;lt;int&amp;gt; a(n); 8 for (int i = 0; i &amp;lt; n; i&#43;&#43;) cin &amp;gt;&amp;gt; a[i]; 9 vector&amp;lt;int&amp;gt; even(h &#43; 1), odd(h &#43; 1); 10 for (int i = 0; i &amp;lt; n; i &#43;= 2) 11 even[a[i]]&#43;&#43;, odd[a[i &#43; 1]]&#43;&#43;; 12 for (int i = h - 2; i &amp;gt;= 1; i--) 13 even[i] &#43;= even[i &#43; 1], odd[i] &#43;= odd[i &#43; 1]; 14 int ans = n, cnt = 0; 15 for (int i = 1; i &amp;lt;= h; i&#43;&#43;) { 16 int sum = odd[h - i &#43; 1] &#43; even[i]; 17 if (sum &amp;lt; ans) ans = sum, cnt = 1; 18 else if (sum == ans) cnt&#43;&#43;; 19 } 20 cout &amp;lt;&amp;lt; ans &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; cnt &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 21 return 0; 22}  '>
-<meta property='og:url' content='https://Luke2336.github.io/p/20210131/'>
+<meta property='og:url' content='https://luke2336.github.io/p/20210131/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Kattis' /><meta property='article:published_time' content='2021-01-31T10:17:31&#43;08:00'/><meta property='article:modified_time' content='2021-01-31T10:17:31&#43;08:00'/>
 <meta name="twitter:title" content="2021/01/31 日記">
@@ -79,7 +79,7 @@ if (!doNotTrack) {
 ">
     
         <div id="article-toolbar">
-            <a href="https://Luke2336.github.io" class="back-home">
+            <a href="https://luke2336.github.io" class="back-home">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <polyline points="15 6 9 12 15 18" />

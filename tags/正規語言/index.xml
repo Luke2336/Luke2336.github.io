@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>正規語言 on Luke&#39;s Blog</title>
-    <link>https://Luke2336.github.io/tags/%E6%AD%A3%E8%A6%8F%E8%AA%9E%E8%A8%80/</link>
+    <link>https://luke2336.github.io/tags/%E6%AD%A3%E8%A6%8F%E8%AA%9E%E8%A8%80/</link>
     <description>Recent content in 正規語言 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 21:15:34 +0800</lastBuildDate><atom:link href="https://Luke2336.github.io/tags/%E6%AD%A3%E8%A6%8F%E8%AA%9E%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 21:15:34 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E6%AD%A3%E8%A6%8F%E8%AA%9E%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/06/13 日記</title>
-      <link>https://Luke2336.github.io/p/20210613/</link>
+      <link>https://luke2336.github.io/p/20210613/</link>
       <pubDate>Sun, 13 Jun 2021 21:15:34 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210613/</guid>
+      <guid>https://luke2336.github.io/p/20210613/</guid>
       <description> 今天都在複習正規，明天會寫一回考古題。 還是有點燒，大概到 37.5 而已，有些噁心感，頭還是很暈。  正規語言概論 - 期末筆記 </description>
     </item>
     
     <item>
       <title>2021/04/15 日記</title>
-      <link>https://Luke2336.github.io/p/20210415/</link>
+      <link>https://luke2336.github.io/p/20210415/</link>
       <pubDate>Thu, 15 Apr 2021 16:15:02 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/20210415/</guid>
+      <guid>https://luke2336.github.io/p/20210415/</guid>
       <description>早上的教育學概論對我來說很無趣，於是覺得有些憂鬱。 下午的 EDA 出了 Lab 2，我不喜歡作業的測資大小都不限制，都只是口頭說「沒有很大」，這其實根本是沒有用的資訊，因為他沒有定義怎樣算大。 正規教了 CYK algorithm，基本上就是 bottom-up DP，然後 backtrack 建 parsing tree。 晚上上了英文會話，覺得有些累。  檢討 - 粗心 每次我寫完作業後，都不太想檢查，導致都是錯一些簡單的題目。對我來說，我可能覺得我覺得我會算就好了，但看到分數後，還是會覺得不開心。不知道為什麼從小就無法培養檢查的習慣，最近的身心狀態也讓自己不斷壓力很大，所有事情都只想快點做完，從 TODO 清單中刪掉。</description>
     </item>
     
     <item>
       <title>正規語言 Lec 5 筆記</title>
-      <link>https://Luke2336.github.io/p/fl5/</link>
+      <link>https://luke2336.github.io/p/fl5/</link>
       <pubDate>Fri, 02 Apr 2021 11:43:34 +0800</pubDate>
       
-      <guid>https://Luke2336.github.io/p/fl5/</guid>
+      <guid>https://luke2336.github.io/p/fl5/</guid>
       <description></description>
     </item>
     
