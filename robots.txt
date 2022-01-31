@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://luke2336.github.io/sitemap.xml
