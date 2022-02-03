@@ -6,14 +6,41 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Jan 2022 11:42:20 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Feb 2022 10:40:03 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/02/03 日記</title>
+      <link>https://luke2336.github.io/p/20220203/</link>
+      <pubDate>Thu, 03 Feb 2022 10:40:03 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220203/</guid>
+      <description> 把兩篇 2018 還有一篇 2020 的心得文搬到 Blog 上。 作業系統看到第 33 集。 晚上和學長在愛買一樓的港式飲茶吃飯，聊了滿久的，被推坑了郵輪旅遊。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/02 日記</title>
+      <link>https://luke2336.github.io/p/20220202/</link>
+      <pubDate>Wed, 02 Feb 2022 10:49:50 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220202/</guid>
+      <description> 作業系統看到第 31 集。 看了幾集進擊的巨人 OAD。 認證了 PTT 的帳號，在 NCTU-TEACHER 和 NTHU-COURSE 發了幾篇文。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/01 日記</title>
+      <link>https://luke2336.github.io/p/20220201/</link>
+      <pubDate>Tue, 01 Feb 2022 12:26:02 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220201/</guid>
+      <description> 玩了很久貓咪大戰爭。 作業系統看到第 30 集。  </description>
+    </item>
+    
     <item>
       <title>2022/01/31 日記</title>
       <link>https://luke2336.github.io/p/20220131/</link>
       <pubDate>Mon, 31 Jan 2022 11:42:20 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/20220131/</guid>
-      <description> 作業系統看到第 25 集。 中午跟隊友去吃壽司郎。 下午去清大梅園散步，但只剩一棵還有花。  </description>
+      <description> 作業系統看到第 25 集。 中午跟隊友去吃壽司郎。 下午去清大梅園散步，但只剩一棵還有花。 發現要建立 .../layout/robots.txt 才能讓 Google 截取到 sitemap.xml。  </description>
     </item>
     
     <item>
