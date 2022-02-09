@@ -6,7 +6,16 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Feb 2022 11:48:42 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 13:36:54 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/02/09 日記</title>
+      <link>https://luke2336.github.io/p/20220209/</link>
+      <pubDate>Wed, 09 Feb 2022 13:36:54 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220209/</guid>
+      <description> 早上開始發燒，但大約燒到 38.1 而已，手臂痠痛。 繼續玩 HackerRank。 答應爸爸 2/18, 2/19 會回去。  常用的 Linux 指令  echo：輸出 cat：concatenate，輸出多個檔案 grep：查找字串 find：查找檔案 cut：截取部分字元、欄位 head：顯示前幾行 tail：顯示末幾行 tr：字元取代、刪除 sort uniq：刪除重複行 paste：合併行 awk sed：文字取代、編輯  </description>
+    </item>
+    
     <item>
       <title>2022/02/08 日記</title>
       <link>https://luke2336.github.io/p/20220208/</link>

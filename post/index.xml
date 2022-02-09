@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Feb 2022 11:48:42 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 16:35:46 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交大交換申請</title>
+      <link>https://luke2336.github.io/p/exchange/</link>
+      <pubDate>Wed, 09 Feb 2022 16:35:46 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/exchange/</guid>
+      <description> 給大家參考一下交大的申請交換經驗。 官網。  申請過程及結果  於 109 上學期末申請交換，預計 110 下學期。 申請的志願排序為：  北京大學 復旦大學 上海交大   計分比例：  成績 60% 自傳 15% 讀書計畫 20% 其他有利審查資料 5%   獎學金  於 109 下學期申請。 獲得 13 萬元。   自傳：  製作簡歷，展示大學期間競賽成績。 說明自己能妥善地利用資源，舉例來說充分利用了交大和清大的資源。   研修計畫：  說明自己的選課計畫。 簡單帶過文化交流的部分。   成績單：  只需要到二下的資料，平均成績約為 87.7。   因為是大陸地區，所以不需要英檢證明。 需繳交 1 萬元保證金，但只要是因疫情放棄即可全退。 放棄：  考量到疫情及無法完整接種兩劑疫苗到生效，決定放棄資格。    </description>
+    </item>
+    
+    <item>
+      <title>2022/02/09 日記</title>
+      <link>https://luke2336.github.io/p/20220209/</link>
+      <pubDate>Wed, 09 Feb 2022 13:36:54 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220209/</guid>
+      <description> 早上開始發燒，但大約燒到 38.1 而已，手臂痠痛。 繼續玩 HackerRank。 答應爸爸 2/18, 2/19 會回去。  常用的 Linux 指令  echo：輸出 cat：concatenate，輸出多個檔案 grep：查找字串 find：查找檔案 cut：截取部分字元、欄位 head：顯示前幾行 tail：顯示末幾行 tr：字元取代、刪除 sort uniq：刪除重複行 paste：合併行 awk sed：文字取代、編輯  </description>
+    </item>
+    
     <item>
       <title>2022/02/08 日記</title>
       <link>https://luke2336.github.io/p/20220208/</link>
