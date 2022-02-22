@@ -6,7 +6,124 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Feb 2022 13:36:54 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 19:44:28 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/02/22 日記</title>
+      <link>https://luke2336.github.io/p/20220222/</link>
+      <pubDate>Tue, 22 Feb 2022 19:44:28 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220222/</guid>
+      <description> 早上等 5608 等了 45 分鐘，超怕來不及做篩檢的～ 回去後吃了藥，上了課（有點快睡著），冰敷了一陣子，然後就去睡午覺了。 晚上肚子超餓的，但只能吃一些布丁和茶凍之類的東西。  新竹台大醫院 - 拔智齒  8:30 到中醫門診前的採檢站做快篩。 10:40 在口腔外科門診做手術。  麻醉過後，上排的智齒沒多久就被拔起來了。 下排的可能因為長得有點彎，所以拔了很久。 只有縫下面的傷口，上面的沒有縫，下週三下午要去拆線。 11:30 結束。   原本約診的是女醫師，但實際拔牙的是一個男醫生？ 回去後一個小時把紗布拿掉還繼續在流血。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/21 日記</title>
+      <link>https://luke2336.github.io/p/20220221/</link>
+      <pubDate>Mon, 21 Feb 2022 10:45:09 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220221/</guid>
+      <description> 早上的 UNIX 連續上 150 分鐘，覺得超累。  UNIX programming  GCC &amp;amp; g++  g++ 和 gcc compile 出來的 function name 不同，可用 nm 查看 .o 檔。  因為要支援同名的 function，所以會在 function name 加前綴。 可用 extern &amp;quot;C&amp;quot;{} 讓 function 照 gcc 的方式 compile。   c++filt   Makefile  同時 match 兩個 rule，才會有順序問題。   GDB  compile 要加 -g strip hello nm -D hello    </description>
+    </item>
+    
+    <item>
+      <title>2022/02/20 日記</title>
+      <link>https://luke2336.github.io/p/20220220/</link>
+      <pubDate>Mon, 21 Feb 2022 10:45:05 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220220/</guid>
+      <description> 去金山泡溫泉和吃飯，然後才回新竹。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/19 日記</title>
+      <link>https://luke2336.github.io/p/20220219/</link>
+      <pubDate>Mon, 21 Feb 2022 10:44:59 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220219/</guid>
+      <description> 很累的一天。 早上家祭時差點暈倒。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/18 日記</title>
+      <link>https://luke2336.github.io/p/20220218/</link>
+      <pubDate>Mon, 21 Feb 2022 10:44:53 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220218/</guid>
+      <description> 早上滿憂鬱嗜睡的，於是編譯器好像有聽沒懂。 午餐吃了咖喱飯，晚餐吃了水餃。 晚上搭車回台北時很塞。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/17 日記</title>
+      <link>https://luke2336.github.io/p/20220217/</link>
+      <pubDate>Thu, 17 Feb 2022 10:25:40 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220217/</guid>
+      <description> 早上幫冰箱除霜。 作業系統看到第 45 集。 learnshell.org。 晚上跟隊友去吃拿坡里。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/16 日記</title>
+      <link>https://luke2336.github.io/p/20220216/</link>
+      <pubDate>Wed, 16 Feb 2022 16:46:57 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220216/</guid>
+      <description> 早上去看醫生，中午吃了水餃後，下午都在睡午覺。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/15 日記</title>
+      <link>https://luke2336.github.io/p/20220215/</link>
+      <pubDate>Tue, 15 Feb 2022 11:37:55 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220215/</guid>
+      <description> 今天 Chrome 很反常，一直把 http://localhost: 1313 導到 https，透過這篇解決了。 下午上 Compiler，覺得連續兩節課有點累。  想到一個問題，第一個 Compiler 是怎麼被 Compile 的。得到的回答是，第一個 Compile 是用 Assembly 寫的。   寫完 Compiler 的 hw0。 晚餐吃烤雞。  參考資源 Git  為你自己學 Git Pro Git  Make  官方文件 Make 命令列教學  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/14 日記</title>
+      <link>https://luke2336.github.io/p/20220214/</link>
+      <pubDate>Mon, 14 Feb 2022 09:47:07 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220214/</guid>
+      <description> 學校前兩週的課全都強制轉線上授課。 完成了換修的申請，今天才發現標準是 785 分，差一點就沒過了 &amp;gt;&amp;lt; 去圖書館借了參考書，超級重的。 去資工系辦繳交免修申請表，預約了下週四和下下週四下午做勞動服務，據說是掃地之類的～  課表  最後決定只選兩門課，畢竟這樣 Loading 就滿重的了～  在 Mac 安裝 Docker  下載 Docker Desktop 創一個資料夾，下載 Dockerfile 和 docker-compose.yml docker-compose up -d 用 ssh kylu@localhost -p20022 連線 在 /.data/home 下創建使用者，讓資料可以跟本機相通 用 passwd 設定密碼  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/13 日記</title>
+      <link>https://luke2336.github.io/p/20220213/</link>
+      <pubDate>Sun, 13 Feb 2022 11:47:06 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220213/</guid>
+      <description> 一起床就有點憂鬱的一天，可能是覺得要面對下週很煩。 作業系統看到第 43 集。 Basic Linux Commands 玩 picoCTF。 晚餐吃了湯圓。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/12 日記</title>
+      <link>https://luke2336.github.io/p/20220212/</link>
+      <pubDate>Sat, 12 Feb 2022 15:52:01 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220212/</guid>
+      <description> 白天主要是洗衣服跟睡覺。 晚上跟學長去清夜吃飯。 作業系統看到第 42 集。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/11 日記</title>
+      <link>https://luke2336.github.io/p/20220211/</link>
+      <pubDate>Fri, 11 Feb 2022 11:29:04 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220211/</guid>
+      <description> 作業系統看到第 41 集。 晚上和 Lin Lee 和卡車出去吃飯。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/10 日記</title>
+      <link>https://luke2336.github.io/p/20220210/</link>
+      <pubDate>Thu, 10 Feb 2022 12:09:56 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220210/</guid>
+      <description> 作業系統看到第 40 集。  Chat with Jump Trading  因為 LinkedIn 上的檔案被看到，於是就被聯絡了。 介紹中提到是一間 Software + Hardware + Financial 的公司。 主要是對於台灣 CS 學生的調查。 感覺短期內不會在台灣設 Office。 在亞洲的徵才感覺很挑血統，在台灣主要看 NTU 和 NCTU，在大陸則是北京、清華、上海交大。  </description>
+    </item>
+    
     <item>
       <title>2022/02/09 日記</title>
       <link>https://luke2336.github.io/p/20220209/</link>

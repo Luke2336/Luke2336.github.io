@@ -6,7 +6,16 @@
     <description>Recent content in 選課 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jan 2022 15:25:50 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 09:47:07 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E9%81%B8%E8%AA%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/02/14 日記</title>
+      <link>https://luke2336.github.io/p/20220214/</link>
+      <pubDate>Mon, 14 Feb 2022 09:47:07 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220214/</guid>
+      <description> 學校前兩週的課全都強制轉線上授課。 完成了換修的申請，今天才發現標準是 785 分，差一點就沒過了 &amp;gt;&amp;lt; 去圖書館借了參考書，超級重的。 去資工系辦繳交免修申請表，預約了下週四和下下週四下午做勞動服務，據說是掃地之類的～  課表  最後決定只選兩門課，畢竟這樣 Loading 就滿重的了～  在 Mac 安裝 Docker  下載 Docker Desktop 創一個資料夾，下載 Dockerfile 和 docker-compose.yml docker-compose up -d 用 ssh kylu@localhost -p20022 連線 在 /.data/home 下創建使用者，讓資料可以跟本機相通 用 passwd 設定密碼  </description>
+    </item>
+    
     <item>
       <title>2022/01/13 日記</title>
       <link>https://luke2336.github.io/p/20220113/</link>
