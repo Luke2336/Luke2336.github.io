@@ -6,7 +6,34 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Feb 2022 19:44:28 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Feb 2022 08:44:10 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/02/25 日記</title>
+      <link>https://luke2336.github.io/p/20220225/</link>
+      <pubDate>Fri, 25 Feb 2022 08:44:10 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220225/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2022/02/24 日記</title>
+      <link>https://luke2336.github.io/p/20220224/</link>
+      <pubDate>Thu, 24 Feb 2022 08:15:48 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220224/</guid>
+      <description> 今天基礎圖論的免修申請終於通過了～ 下午去系辦做勞動服務，掃了三間會議室。 加選了 F56 的羽球課，把影像處理概論退掉。 晚餐吃了壽司。 更新了 MacOs。 因為天氣很冷，九點前就去睡了。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/23 日記</title>
+      <link>https://luke2336.github.io/p/20220223/</link>
+      <pubDate>Wed, 23 Feb 2022 14:20:48 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220223/</guid>
+      <description> 今天整個左下巴都腫起來了！ 下午分別複習了兩門課教的東西。 發現了一個有趣的網站 Exercism。 中午吃了壽司，晚上吃了 pizza。  </description>
+    </item>
+    
     <item>
       <title>2022/02/22 日記</title>
       <link>https://luke2336.github.io/p/20220222/</link>
@@ -22,7 +49,7 @@
       <pubDate>Mon, 21 Feb 2022 10:45:09 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/20220221/</guid>
-      <description> 早上的 UNIX 連續上 150 分鐘，覺得超累。  UNIX programming  GCC &amp;amp; g++  g++ 和 gcc compile 出來的 function name 不同，可用 nm 查看 .o 檔。  因為要支援同名的 function，所以會在 function name 加前綴。 可用 extern &amp;quot;C&amp;quot;{} 讓 function 照 gcc 的方式 compile。   c++filt   Makefile  同時 match 兩個 rule，才會有順序問題。   GDB  compile 要加 -g strip hello nm -D hello    </description>
+      <description>早上的 UNIX 連續上 150 分鐘，覺得超累。  UNIX programming  GCC &amp;amp; g++  gcc -S hello.c -masm=intel：顯示 assembly code g++ 和 gcc compile 出來的 function name 不同，可用 nm 查看 .o 檔。  因為要支援同名的 function，所以會在 function name 加前綴。 可用 extern &amp;quot;C&amp;quot;{} 讓 function 照 gcc 的方式 compile。   c++filt: 把 symbol 翻譯出來。   Makefile  同時 match 兩個 rule，才會有順序問題。   GDB  compile 要加 -g strip hello: 拿掉不需要的 symbol  nm -D hello   可以裝 libc6-dbg:amd64 ulimit -c unlimited：使程式執行後生成 core file。 cat /proc/sys/kernel/core_pattern cat /etc/security/limits.</description>
     </item>
     
     <item>

@@ -6,11 +6,20 @@
     <description>Recent content in Categories on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Feb 2022 19:44:28 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Feb 2022 09:54:10 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News</title>
+      <link>https://luke2336.github.io/categories/news/</link>
+      <pubDate>Fri, 25 Feb 2022 09:54:10 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/categories/news/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Diary</title>
       <link>https://luke2336.github.io/categories/diary/</link>
-      <pubDate>Tue, 22 Feb 2022 19:44:28 +0800</pubDate>
+      <pubDate>Fri, 25 Feb 2022 08:44:10 +0800</pubDate>
       
       <guid>https://luke2336.github.io/categories/diary/</guid>
       <description></description>
@@ -58,15 +67,6 @@
       <pubDate>Sun, 29 Aug 2021 11:02:52 +0800</pubDate>
       
       <guid>https://luke2336.github.io/categories/german/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://luke2336.github.io/categories/news/</link>
-      <pubDate>Wed, 10 Feb 2021 19:01:18 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/news/</guid>
       <description></description>
     </item>
     

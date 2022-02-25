@@ -13,7 +13,7 @@
       <pubDate>Mon, 21 Feb 2022 10:45:09 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/20220221/</guid>
-      <description> 早上的 UNIX 連續上 150 分鐘，覺得超累。  UNIX programming  GCC &amp;amp; g++  g++ 和 gcc compile 出來的 function name 不同，可用 nm 查看 .o 檔。  因為要支援同名的 function，所以會在 function name 加前綴。 可用 extern &amp;quot;C&amp;quot;{} 讓 function 照 gcc 的方式 compile。   c++filt   Makefile  同時 match 兩個 rule，才會有順序問題。   GDB  compile 要加 -g strip hello nm -D hello    </description>
+      <description>早上的 UNIX 連續上 150 分鐘，覺得超累。  UNIX programming  GCC &amp;amp; g++  gcc -S hello.c -masm=intel：顯示 assembly code g++ 和 gcc compile 出來的 function name 不同，可用 nm 查看 .o 檔。  因為要支援同名的 function，所以會在 function name 加前綴。 可用 extern &amp;quot;C&amp;quot;{} 讓 function 照 gcc 的方式 compile。   c++filt: 把 symbol 翻譯出來。   Makefile  同時 match 兩個 rule，才會有順序問題。   GDB  compile 要加 -g strip hello: 拿掉不需要的 symbol  nm -D hello   可以裝 libc6-dbg:amd64 ulimit -c unlimited：使程式執行後生成 core file。 cat /proc/sys/kernel/core_pattern cat /etc/security/limits.</description>
     </item>
     
     <item>
