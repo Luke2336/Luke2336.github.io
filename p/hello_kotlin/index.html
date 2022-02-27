@@ -12,7 +12,7 @@
 <meta property='og:description' content='Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x &#43; y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret &#43; x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x &#43; v) 6} null  用 ?'>
 <meta property='og:url' content='https://luke2336.github.io/p/hello_kotlin/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:tag' content='Kotlin' /><meta property='article:published_time' content='2021-02-14T17:14:36&#43;08:00'/><meta property='article:modified_time' content='2021-02-14T17:14:36&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Kotlin' /><meta property='article:published_time' content='2022-02-27T10:14:36&#43;08:00'/><meta property='article:modified_time' content='2022-02-27T10:14:36&#43;08:00'/>
 <meta name="twitter:title" content="Hello, Kotlin!">
 <meta name="twitter:description" content="Learn Kotlin by Example (kotlinlang.org)  Output println() 1fun main() { 2 println(&amp;#34;Hello, World!&amp;#34;) 3} Function fun 1fun sum(x: Int, y: Int): Int { 2 return x &#43; y 3} 4 5// Single-Expression 6fun mul(x: Int, y: Int) = x * y 7 8// Default Arguments 9fun printMSG (msg1: String = &amp;#34;Hello&amp;#34;, msg2: String) { 10 println(&amp;#34;$msg1, $msg2!&amp;#34;) 11} 12 13fun main() { 14 println(sum(1, 2)) 15 println(mul(2, 5)) 16 printMSG(&amp;#34;Hi&amp;#34;, &amp;#34;Jack&amp;#34;) 17 printMSG(msg2 = &amp;#34;Kelly&amp;#34;) 18} vararg 1fun sum(vararg a: Int): Int { 2 var ret = 0 3 for (x in a) ret = ret &#43; x 4 return ret 5} 6 7fun main() { 8 println(sum(1, 0, -1, 2)) 9} Variable val var  val 一定要初始化  1fun main() { 2 val v = 1 // immutalbe 3 var x: Int // mutable 4 x = 1 5 println(x &#43; v) 6} null  用 ?">
 <script type="application/javascript">
@@ -101,7 +101,7 @@ if (!doNotTrack) {
 
 
 
-        <time class="article-time--published">Feb 14, 2021</time>
+        <time class="article-time--published">Feb 27, 2022</time>
     </footer></div>
 </header>
 
@@ -297,6 +297,13 @@ if (!doNotTrack) {
 <span class="ln">12</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${S4.add(0)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// true
 </span><span class="ln">13</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${S4.add(1)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// false
 </span><span class="ln">14</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<h3 id="map">Map</h3>
+<div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="ln">1</span><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">2</span>    <span class="k">val</span> <span class="py">map</span> <span class="p">=</span> <span class="n">mapOf</span><span class="p">(</span><span class="s2">&#34;key&#34;</span> <span class="n">to</span> <span class="m">42</span><span class="p">);</span>
+<span class="ln">3</span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${map[&#34;key&#34;]}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// 42
+</span><span class="ln">4</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${map[&#34;key2&#34;]}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// null
+</span><span class="ln">5</span><span class="c1"></span>    <span class="n">println</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">${map.getValue(&#34;key&#34;)}</span><span class="s2">&#34;</span><span class="p">)</span> <span class="c1">// 42
+</span><span class="ln">6</span><span class="c1"></span><span class="p">}</span></code></pre></div>
 
 </section>
 
@@ -304,8 +311,6 @@ if (!doNotTrack) {
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/code/">Code</a>
         
             <a href="/tags/kotlin/">Kotlin</a>
         
@@ -622,6 +627,7 @@ if (!doNotTrack) {
           </ol>
         </li>
         <li><a href="#set">Set</a></li>
+        <li><a href="#map">Map</a></li>
       </ol>
     </li>
   </ol>
