@@ -6,7 +6,16 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Feb 2022 11:48:42 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 18:54:22 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/03/05 日記</title>
+      <link>https://luke2336.github.io/p/20220305/</link>
+      <pubDate>Sat, 05 Mar 2022 18:54:22 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220305/</guid>
+      <description> 中午吃了牛肉咖喱飯。 下午去竹北晃晃。 傍晚寫了編譯器 hw1，大概完成了最基本的部分。 把 iphone 6s 從 ios 13.8 更新到 15.3。  編譯器 HW1  string 的部分，因為 &amp;quot; 在字串裡的關係，有點難處理。 comment 的部分感覺非常難寫，因為還得印出行號。  ---	Case	Points +++ TESTING basic case 1_keywords1: ---	1_keywords1	5/5 +++ TESTING basic case 2_keywords2: ---	2_keywords2	5/5 +++ TESTING basic case 3_delimiters: ---	3_delimiters	5/5 +++ TESTING basic case 4_arithmetic: ---	4_arithmetic	5/5 +++ TESTING basic case 5_logical: ---	5_logical	5/5 +++ TESTING basic case 6_relational: ---	6_relational	5/5 +++ TESTING basic case 7_identifier: ---	7_identifier	5/5 +++ TESTING basic case 8_constant: ---	8_constant	5/5 +++ TESTING basic case 9_scientific_string: ---	9_scientific_string	0/5 +++ TESTING basic case 10_comment: ---	10_comment	0/5 +++ TESTING basic case 11_pseudocomment: ---	11_pseudocomment	0/5 +++ TESTING advance case 1_pseudo_optS_1: ---	1_pseudo_optS_1	0/3 +++ TESTING advance case 2_pseudo_optS_2: ---	2_pseudo_optS_2	0/3 +++ TESTING advance case 3_pseudo_optT_1: ---	3_pseudo_optT_1	0/3 +++ TESTING advance case 4_pseudo_optT_2: ---	4_pseudo_optT_2	0/3 +++ TESTING advance case 5_comment_1: ---	5_comment_1	0/3 +++ TESTING advance case 6_comment_2: ---	6_comment_2	0/3 +++ TESTING advance case 7_operator: ---	7_operator	2/2 +++ TESTING advance case 8_zero: ---	8_zero	2/2 +++ TESTING advance case 9_float: ---	9_float	2/2 +++ TESTING advance case 10_scientific: ---	10_scientific	2/2 +++ TESTING advance case 11_string_1: ---	11_string_1	0/3 +++ TESTING advance case 12_string_2: ---	12_string_2	0/3 +++ TESTING advance case 13_string_3: ---	13_string_3	0/3 +++ TESTING advance case 14_error_1: ---	14_error_1	2/2 +++ TESTING advance case 15_error_2: ---	15_error_2	2/2 +++ TESTING advance case 16_error_3: ---	16_error_3	2/2 +++ TESTING advance case 17_error_4: ---	17_error_4	2/2 +++ TESTING advance case 18_error_5: ---	18_error_5	0/2 ---	TOTAL	56/100 </description>
+    </item>
+    
     <item>
       <title>2022/02/08 日記</title>
       <link>https://luke2336.github.io/p/20220208/</link>

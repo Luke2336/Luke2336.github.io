@@ -6,7 +6,98 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Feb 2022 10:14:36 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Mar 2022 05:34:26 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/03/09 日記</title>
+      <link>https://luke2336.github.io/p/20220309/</link>
+      <pubDate>Wed, 09 Mar 2022 05:34:26 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220309/</guid>
+      <description> 貓咪大戰爭打完春宵苦短和大狂亂戰鬥貓。 晚上 PCCA 去吃夜排檔。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/08 日記</title>
+      <link>https://luke2336.github.io/p/20220308/</link>
+      <pubDate>Tue, 08 Mar 2022 12:11:59 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220308/</guid>
+      <description> 早上在巴哈上看了 K-ON！輕音部。 貓咪大戰爭拿到了颶風貓。 寫完了 compiler hw1 的 code。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/07 日記</title>
+      <link>https://luke2336.github.io/p/20220307/</link>
+      <pubDate>Mon, 07 Mar 2022 10:10:12 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220307/</guid>
+      <description>早上的課上到 11:30 就忍不住跑去睡覺了 QQ  筆記 - 高等 UNIX Filename  不可以用 / 和 \0 最多 255 characters  Directory  pwd home path 存在 /etc/password  stat, fstat, lstat  file  data metadata: file information（屬於目錄的 data）   stat：將指定的路徑的 metadata 撈出來存到 buffer fstat：給開好的檔案 lstat：does not follow a symbolic link OK: return 0, error: return -1  man 2 stat
+1struct stat { 2 dev_t st_dev; /* ID of device containing file */ 3 ino_t st_ino; /* Inode number */ 4 mode_t st_mode; /* File type and mode */ 5 nlink_t st_nlink; /* Number of hard links */ 6 uid_t st_uid; /* User ID of owner */ 7 gid_t st_gid; /* Group ID of owner */ 8 dev_t st_rdev; /* Device ID (if special file) */ 9 off_t st_size; /* Total size, in bytes */ 10 blksize_t st_blksize; /* Block size for filesystem I/O */ 11 blkcnt_t st_blocks; /* Number of 512B blocks allocated */ 12 13 /* Since Linux 2.</description>
+    </item>
+    
+    <item>
+      <title>2022/03/06 日記</title>
+      <link>https://luke2336.github.io/p/20220306/</link>
+      <pubDate>Sun, 06 Mar 2022 09:34:13 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220306/</guid>
+      <description>貓咪大戰爭  拿到坦克貓的第三進化了！  談文車站、鄭漢步道 16:01 談文車站 16:28 登山步道口 16:40 紀念碑、觀景台 17:51 區間車 晚餐 - 晶品城 B2 水月 豬排飯 </description>
+    </item>
+    
+    <item>
+      <title>2022/03/05 日記</title>
+      <link>https://luke2336.github.io/p/20220305/</link>
+      <pubDate>Sat, 05 Mar 2022 18:54:22 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220305/</guid>
+      <description> 中午吃了牛肉咖喱飯。 下午去竹北晃晃。 傍晚寫了編譯器 hw1，大概完成了最基本的部分。 把 iphone 6s 從 ios 13.8 更新到 15.3。  編譯器 HW1  string 的部分，因為 &amp;quot; 在字串裡的關係，有點難處理。 comment 的部分感覺非常難寫，因為還得印出行號。  ---	Case	Points +++ TESTING basic case 1_keywords1: ---	1_keywords1	5/5 +++ TESTING basic case 2_keywords2: ---	2_keywords2	5/5 +++ TESTING basic case 3_delimiters: ---	3_delimiters	5/5 +++ TESTING basic case 4_arithmetic: ---	4_arithmetic	5/5 +++ TESTING basic case 5_logical: ---	5_logical	5/5 +++ TESTING basic case 6_relational: ---	6_relational	5/5 +++ TESTING basic case 7_identifier: ---	7_identifier	5/5 +++ TESTING basic case 8_constant: ---	8_constant	5/5 +++ TESTING basic case 9_scientific_string: ---	9_scientific_string	0/5 +++ TESTING basic case 10_comment: ---	10_comment	0/5 +++ TESTING basic case 11_pseudocomment: ---	11_pseudocomment	0/5 +++ TESTING advance case 1_pseudo_optS_1: ---	1_pseudo_optS_1	0/3 +++ TESTING advance case 2_pseudo_optS_2: ---	2_pseudo_optS_2	0/3 +++ TESTING advance case 3_pseudo_optT_1: ---	3_pseudo_optT_1	0/3 +++ TESTING advance case 4_pseudo_optT_2: ---	4_pseudo_optT_2	0/3 +++ TESTING advance case 5_comment_1: ---	5_comment_1	0/3 +++ TESTING advance case 6_comment_2: ---	6_comment_2	0/3 +++ TESTING advance case 7_operator: ---	7_operator	2/2 +++ TESTING advance case 8_zero: ---	8_zero	2/2 +++ TESTING advance case 9_float: ---	9_float	2/2 +++ TESTING advance case 10_scientific: ---	10_scientific	2/2 +++ TESTING advance case 11_string_1: ---	11_string_1	0/3 +++ TESTING advance case 12_string_2: ---	12_string_2	0/3 +++ TESTING advance case 13_string_3: ---	13_string_3	0/3 +++ TESTING advance case 14_error_1: ---	14_error_1	2/2 +++ TESTING advance case 15_error_2: ---	15_error_2	2/2 +++ TESTING advance case 16_error_3: ---	16_error_3	2/2 +++ TESTING advance case 17_error_4: ---	17_error_4	2/2 +++ TESTING advance case 18_error_5: ---	18_error_5	0/2 ---	TOTAL	56/100 </description>
+    </item>
+    
+    <item>
+      <title>2022/03/04 日記</title>
+      <link>https://luke2336.github.io/p/20220304/</link>
+      <pubDate>Fri, 04 Mar 2022 08:06:35 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220304/</guid>
+      <description> 中午和傍晚跟隊友在 CC 研究找工作的事。 體育課在練高遠球，覺得太久沒打球了，有點吃力。同組的幾個人感覺有些幼稚，讓我覺得不甚開心。 午餐跟隊友吃了二餐，晚餐則吃了麥當勞。午餐吃二樓的素食，結果沒多久就肚子痛 QQ 編譯器出 HW1 了，感覺要花些時間看懂 spec。  TA 分享了一個好用的工具 grip，用來看 README.md 在 Github 上顯示的樣子。 研究了一下 Stringizing operator (#)。    </description>
+    </item>
+    
+    <item>
+      <title>2022/03/03 日記</title>
+      <link>https://luke2336.github.io/p/20220303/</link>
+      <pubDate>Thu, 03 Mar 2022 11:44:00 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220303/</guid>
+      <description> 早上研究了一下 IKEA 衣櫃的規格和設計。 學 Kotlin。 下午去系辦做勞動服務，掃地和拖地，花了一個小時。 回宿舍後規劃了一些出遊的行程，有彰化和台北。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/02 日記</title>
+      <link>https://luke2336.github.io/p/20220302/</link>
+      <pubDate>Wed, 02 Mar 2022 09:00:58 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220302/</guid>
+      <description> 下午去台大醫院拆線，又是住院醫生負責，有點痛，但五分鐘就弄完了。 今天學到，沒有用的評價就不要放在心上。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/01 日記</title>
+      <link>https://luke2336.github.io/p/20220301/</link>
+      <pubDate>Tue, 01 Mar 2022 08:53:54 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220301/</guid>
+      <description> 繼續學 Kotlin。 玩了 OverTheWire。 下午 compiler 上 DFA 和 NFA。 晚餐吃了麥當勞。 九點半就去睡了。  </description>
+    </item>
+    
+    <item>
+      <title>2022/02/28 日記</title>
+      <link>https://luke2336.github.io/p/20220228/</link>
+      <pubDate>Mon, 28 Feb 2022 19:46:47 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220228/</guid>
+      <description> 整夜都沒睡好。 早上去南門醫院看醫生，然後終於發現 5608 要到哪裡搭車了。 晚上吃了水餃。 玩了 Jetbrains Academy 的 Basic Kotlin。  </description>
+    </item>
+    
     <item>
       <title>Hello, Kotlin!</title>
       <link>https://luke2336.github.io/p/hello_kotlin/</link>

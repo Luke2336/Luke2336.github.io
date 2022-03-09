@@ -6,7 +6,17 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Feb 2022 10:45:09 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Mar 2022 10:10:12 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/03/07 日記</title>
+      <link>https://luke2336.github.io/p/20220307/</link>
+      <pubDate>Mon, 07 Mar 2022 10:10:12 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220307/</guid>
+      <description>早上的課上到 11:30 就忍不住跑去睡覺了 QQ  筆記 - 高等 UNIX Filename  不可以用 / 和 \0 最多 255 characters  Directory  pwd home path 存在 /etc/password  stat, fstat, lstat  file  data metadata: file information（屬於目錄的 data）   stat：將指定的路徑的 metadata 撈出來存到 buffer fstat：給開好的檔案 lstat：does not follow a symbolic link OK: return 0, error: return -1  man 2 stat
+1struct stat { 2 dev_t st_dev; /* ID of device containing file */ 3 ino_t st_ino; /* Inode number */ 4 mode_t st_mode; /* File type and mode */ 5 nlink_t st_nlink; /* Number of hard links */ 6 uid_t st_uid; /* User ID of owner */ 7 gid_t st_gid; /* Group ID of owner */ 8 dev_t st_rdev; /* Device ID (if special file) */ 9 off_t st_size; /* Total size, in bytes */ 10 blksize_t st_blksize; /* Block size for filesystem I/O */ 11 blkcnt_t st_blocks; /* Number of 512B blocks allocated */ 12 13 /* Since Linux 2.</description>
+    </item>
+    
     <item>
       <title>2022/02/21 日記</title>
       <link>https://luke2336.github.io/p/20220221/</link>
