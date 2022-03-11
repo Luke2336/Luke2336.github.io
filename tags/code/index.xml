@@ -6,7 +6,18 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Mar 2022 18:54:22 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 10:18:20 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lex 筆記</title>
+      <link>https://luke2336.github.io/p/lex/</link>
+      <pubDate>Fri, 11 Mar 2022 10:18:20 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/lex/</guid>
+      <description>什麼是 lex lex 是幫我們做 lexical analysis 的工具，它負責將 source code 切成一些 token。
+Compile 方法 1lex rule.l 2gcc lex.yy.c -ll 3./a.out &amp;lt; input lex 的格式 利用 %% 將 code 切成三個區段，第一個和第二個是必須的。
+1definition section 2%% 3rule section 4%% 5user subroutine 最簡單的 lex 程式 1%% Definition Section  寫在此區的 Ｃ 程式碼需要加上 %{ 和 %}，例如放 header 和全域變數等等。 可以給於一些定義。  1digit [0-9] 2letter [a-zA-Z] 3space [ \t]+ 4identifier {letter}({digit}|{letter})* 5integer 0|([1-9]{digit}*)  可以定義一些 State，用 %s 或 %x，預設的 State 稱為 INITIAL。  1%s state1 state2 state3 Rule Section  前面那一項是要寫正規表示法。 比對的規則是先找最長的 rule，遇到一樣長的時候，找最前面的 rule。  1/* 以下這份 code 可以將程式的空白和換行移除。 */ 2{space} { ; } 3\n { ; } 4.</description>
+    </item>
+    
     <item>
       <title>2022/03/05 日記</title>
       <link>https://luke2336.github.io/p/20220305/</link>
