@@ -6,7 +6,27 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Mar 2022 10:10:12 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 18:49:31 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>實作 lsof</title>
+      <link>https://luke2336.github.io/p/lsof/</link>
+      <pubDate>Fri, 18 Mar 2022 18:49:31 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/lsof/</guid>
+      <description>這篇是用來記錄 UNIX hw1 的實作坑。 實作時可能會因為不是 root 權限，而需要輸出 permission denied。 這份功課有點吃字串處理技巧。  Goal COMMAND PID USER FD TYPE NODE NAME
+PID  先從 /proc 裡面撈出所有的 pid，然後再針對每個 pid 去撈剩下的資訊。  Command  從 /proc/[pid]/comm 讀寫。  User、UID  每個 pid 資料夾中的 user 都相同，於是只要用 stat() 去找 /proc/[pid] 的 st_uid 就行了，然後從 /etc/passwd 撈出對應的 username。  FD 分成以下幾種：
+cwd  從 proc/[pid]/cwd 裡找，因為是 symbolic link，所以用 readlink() 讀出連接的檔名。  rtd  從 proc/[pid]/root 裡找，然後一樣用 readlink()。  txt  從 /proc/[pid]/exe 裡找，然後一樣用 readlink()。  mem  讀 /proc/[pid]/maps。  [0-9]+[rwu] 從 /proc/[pid]/fdinfo/[fd] 裡讀取 flag，然後用 &amp;amp; O_O_ACCMODE 去區分是讀或寫。</description>
+    </item>
+    
+    <item>
+      <title>2022/03/14 日記</title>
+      <link>https://luke2336.github.io/p/20220314/</link>
+      <pubDate>Mon, 14 Mar 2022 10:11:29 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220314/</guid>
+      <description>高等 UNIX  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  </description>
+    </item>
+    
     <item>
       <title>2022/03/07 日記</title>
       <link>https://luke2336.github.io/p/20220307/</link>
