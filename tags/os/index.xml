@@ -6,7 +6,16 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Mar 2022 18:49:31 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Mar 2022 10:05:51 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/03/21 日記</title>
+      <link>https://luke2336.github.io/p/20220321/</link>
+      <pubDate>Mon, 21 Mar 2022 10:05:51 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220321/</guid>
+      <description>高等 UNIX  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.conf  &amp;lt;netb.</description>
+    </item>
+    
     <item>
       <title>實作 lsof</title>
       <link>https://luke2336.github.io/p/lsof/</link>

@@ -6,7 +6,61 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Mar 2022 18:49:31 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 11:49:33 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/03/24 日記</title>
+      <link>https://luke2336.github.io/p/20220324/</link>
+      <pubDate>Thu, 24 Mar 2022 11:49:33 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220324/</guid>
+      <description> 複習了星期二上的 compiler，主要是在講 Top-down Parser。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/23 日記</title>
+      <link>https://luke2336.github.io/p/20220323/</link>
+      <pubDate>Wed, 23 Mar 2022 11:27:21 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220323/</guid>
+      <description> 今天貓咪大戰爭抽到阿激拉，打完了開眼短裙貓，現在的遊戲時數已經到 281 小時了。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/22 日記</title>
+      <link>https://luke2336.github.io/p/20220322/</link>
+      <pubDate>Tue, 22 Mar 2022 10:34:44 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220322/</guid>
+      <description> 覺得很難受，UNIX 的功課就差一點點，但就是通靈不出來。 Compiler 上到一半就因為聽不懂而睡著了。 晚餐吃了咖喱飯。  Notion  最近開始用 Notion 記一些小筆記，像是每週代辦事項、貓咪大戰爭的攻略影片等等。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/21 日記</title>
+      <link>https://luke2336.github.io/p/20220321/</link>
+      <pubDate>Mon, 21 Mar 2022 10:05:51 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220321/</guid>
+      <description>高等 UNIX  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.conf  &amp;lt;netb.</description>
+    </item>
+    
+    <item>
+      <title>2022/03/20 日記</title>
+      <link>https://luke2336.github.io/p/20220320/</link>
+      <pubDate>Mon, 21 Mar 2022 10:05:44 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220320/</guid>
+      <description> 晚餐在公館吃了初牛的牛橫膈丼。 坐客運回新竹後，跟學長去吃了麥當勞。  紀州庵 仙跡岩  景美站爬到海巡署。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/19 日記</title>
+      <link>https://luke2336.github.io/p/20220319/</link>
+      <pubDate>Sat, 19 Mar 2022 23:49:32 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220319/</guid>
+      <description> 今天下午去台中玩，中午吃了火鍋。 晚上玩貓咪大戰爭，總算打完宇宙篇第二章了～  </description>
+    </item>
+    
     <item>
       <title>實作 lsof</title>
       <link>https://luke2336.github.io/p/lsof/</link>
