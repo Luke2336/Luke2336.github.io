@@ -6,14 +6,114 @@
     <description>Recent content in Diary on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Mar 2022 11:49:33 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 10:09:44 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/04/04 日記</title>
+      <link>https://luke2336.github.io/p/20220404/</link>
+      <pubDate>Mon, 04 Apr 2022 10:09:44 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220404/</guid>
+      <description> 今天是兒童節，有感覺到這件事是因為貓咪大戰爭有送二十個罐罐。 晚上跟學長吃飯。  </description>
+    </item>
+    
+    <item>
+      <title>2022/04/03 日記</title>
+      <link>https://luke2336.github.io/p/20220403/</link>
+      <pubDate>Sun, 03 Apr 2022 14:58:38 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220403/</guid>
+      <description> 醒來時意外沒下雨，但摸一摸也中午了，就不想出門了。 讀了一點點 Compiler，覺得真的很難記起來。 抽了超級貓咪季，結果得到兩隻極稀有和一堆稀有，好漚。 這幾天把 markdown 筆記放到 Github 上，發現了 Chrome 一個方便的擴充 GitHub Math Display，讓 Github 的預覽能顯示數學式。  </description>
+    </item>
+    
+    <item>
+      <title>2022/04/02 日記</title>
+      <link>https://luke2336.github.io/p/20220402/</link>
+      <pubDate>Sat, 02 Apr 2022 11:54:40 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220402/</guid>
+      <description> 今天是連假第一天，但因為下雨，所以只好乖乖在室內讀書和打手遊。 打了 Google Code Jam 2022 Qualification，這次需要 30 分，解完兩題就有了。 疫情又更加嚴重了，政府宣布輕症只送防疫旅館，我想這會讓大家的篩檢意願降低。 追了一些動畫的進度。  </description>
+    </item>
+    
+    <item>
+      <title>2022/04/01 日記</title>
+      <link>https://luke2336.github.io/p/20220401/</link>
+      <pubDate>Fri, 01 Apr 2022 08:49:07 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220401/</guid>
+      <description>不知不覺就已經四月了～
+羽球課  今天又練了高遠球，下週要期中考。今天還教了切球，但我的 partner 挑球有點不穩，所以有點沒練到。 下課前的打 play 只拿到塑膠球，心情有點差。  貓咪大戰爭  拿到了少女貓的第三進化。 拿到了兩個惡魔種子，進化了湖中女神貓，但三階的數值似乎沒變，只多了偶爾打飛惡魔敵人的能力。  疫情  疾管署新聞稿連結     Date 本土 境外     04/01 104 132   03/31 87 152   03/30 56 107   03/29 33 63   03/28 34 93   03/27 83 120   03/26 21 82   03/25 14 122   03/24 15 124   03/23 2 95   03/22 10 79   03/21 5 93   03/20 3 118   03/19 6 120   03/18 1 74    </description>
+    </item>
+    
+    <item>
+      <title>2022/03/31 日記</title>
+      <link>https://luke2336.github.io/p/20220331/</link>
+      <pubDate>Thu, 31 Mar 2022 08:27:40 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220331/</guid>
+      <description> 複習了編譯器。 UNIX hw2 出來了，但我看不太懂 QQ  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/30 日記</title>
+      <link>https://luke2336.github.io/p/20220330/</link>
+      <pubDate>Thu, 31 Mar 2022 08:27:33 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220330/</guid>
+      <description> 一整天都在弄 Compiler HW2，到晚上終於弄完了，白天崩潰了很久。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/29 日記</title>
+      <link>https://luke2336.github.io/p/20220329/</link>
+      <pubDate>Tue, 29 Mar 2022 17:12:46 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220329/</guid>
+      <description> Compiler 出 HW2 了，今天都在上 Yacc。 下午和 Google 的 Recruiter 聊天。 晚上在寫 HW2，寫到 36 分了。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/28 日記</title>
+      <link>https://luke2336.github.io/p/20220328/</link>
+      <pubDate>Mon, 28 Mar 2022 09:59:09 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220328/</guid>
+      <description> 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    </description>
+    </item>
+    
+    <item>
+      <title>2022/03/27 日記</title>
+      <link>https://luke2336.github.io/p/20220327/</link>
+      <pubDate>Mon, 28 Mar 2022 09:59:01 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220327/</guid>
+      <description> 準備五月要在茶會上報告的投影片。 晚上風雨交加，於是爸爸開車載我回新竹。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/26 日記</title>
+      <link>https://luke2336.github.io/p/20220326/</link>
+      <pubDate>Sat, 26 Mar 2022 20:18:39 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220326/</guid>
+      <description> 今天回家，順便去金山泡溫泉。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/25 日記</title>
+      <link>https://luke2336.github.io/p/20220325/</link>
+      <pubDate>Fri, 25 Mar 2022 15:51:03 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220325/</guid>
+      <description>貓咪大戰爭  拿到了貓咪特急和惡魔研究家。  Compiler  上到了 Bottom-up Parser。 下禮拜會教 Yacc，然後應該會出 HW2。  羽球課  今天羽球課練高遠球，但我 partner 的球品質不太穩，我有點沒練到的感覺。還練了放小球，覺得自己力道掌握的沒有以前好了。快下課時，打了半場的比賽，我在裡面有打到第三名。但我覺得我後場的步伐不太行，平球和殺球也都不一定接得到。  </description>
+    </item>
+    
     <item>
       <title>2022/03/24 日記</title>
       <link>https://luke2336.github.io/p/20220324/</link>
       <pubDate>Thu, 24 Mar 2022 11:49:33 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/20220324/</guid>
-      <description> 複習了星期二上的 compiler，主要是在講 Top-down Parser。  </description>
+      <description> 複習了星期二上的 compiler，主要是在講 Top-down Parser。 下午去竹東。  </description>
     </item>
     
     <item>
@@ -40,7 +140,7 @@
       <pubDate>Mon, 21 Mar 2022 10:05:51 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/20220321/</guid>
-      <description>高等 UNIX  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.conf  &amp;lt;netb.</description>
+      <description>上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.</description>
     </item>
     
     <item>
@@ -103,7 +203,7 @@
       <pubDate>Mon, 14 Mar 2022 10:11:29 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/20220314/</guid>
-      <description>高等 UNIX  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  </description>
+      <description>高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  </description>
     </item>
     
     <item>

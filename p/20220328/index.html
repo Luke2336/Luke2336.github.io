@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+
+<meta content="" name="keywords">
+
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    '><title>2022/03/28 日記</title>
+
+<link rel='canonical' href='https://luke2336.github.io/p/20220328/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='2022/03/28 日記'>
+<meta property='og:description' content=' 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    '>
+<meta property='og:url' content='https://luke2336.github.io/p/20220328/'>
+<meta property='og:site_name' content='Luke&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OS' /><meta property='article:tag' content='note' /><meta property='article:published_time' content='2022-03-28T09:59:09&#43;08:00'/><meta property='article:modified_time' content='2022-03-28T09:59:09&#43;08:00'/>
+<meta name="twitter:title" content="2022/03/28 日記">
+<meta name="twitter:description" content=" 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    ">
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-W1C6W63ELX', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="https://luke2336.github.io" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/diary/" >
+                Diary
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/20220328/">2022/03/28 日記</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Mar 28, 2022</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <ul>
+<li>清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。</li>
+<li>午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。</li>
+<li>晚上去看醫生，然後吃了三商巧福。</li>
+</ul>
+<h2 id="高等-unix-筆記">高等 UNIX 筆記</h2>
+<h3 id="setjmp-and-longjmp-function">setjmp and longjmp function</h3>
+<ul>
+<li><code>goto</code>，只能在同個 function 裡使用。
+<ul>
+<li>在系統程式很常使用，例如錯誤處理。</li>
+</ul>
+</li>
+<li>跨 function 時，用 <code>setjmp</code> 和 <code>longjmp</code>。</li>
+</ul>
+<h4 id="用法">用法</h4>
+<ul>
+<li><code>int setjmp(jmp_buf env);</code>
+<ul>
+<li>第一次 call 時，return 0</li>
+</ul>
+</li>
+<li><code>void longjmp(jmp_buf env, int val);</code>
+<ul>
+<li><code>val</code> will be returned from <code>setjmp</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="stack-frame">Stack Frame</h4>
+<ul>
+<li>args, ret, local var</li>
+</ul>
+<h4 id="restoration">Restoration</h4>
+<ul>
+<li>變數放在 register 會被還原，但放在 memory 不會。</li>
+<li><code>register int a;</code></li>
+<li><code>violatile int b;</code></li>
+</ul>
+<h3 id="process-control">Process Control</h3>
+<h4 id="process-identifiers">Process Identifiers</h4>
+<ul>
+<li>pid (positive)</li>
+</ul>
+<h4 id="ps-htop"><code>ps</code>, <code>htop</code></h4>
+<h4 id="process-relationship">Process Relationship</h4>
+<ul>
+<li><code>pstree</code></li>
+</ul>
+<h3 id="process-creation">Process Creation</h3>
+<h4 id="fork"><code>fork</code></h4>
+<ul>
+<li><code>pid_t fork(void)</code></li>
+<li>returns: 0 child, pid of child in parent, -1 on error</li>
+<li><code>exec</code></li>
+<li><code>vfork</code>, <code>clone</code></li>
+</ul>
+<h3 id="process-termination">Process Termination</h3>
+<ul>
+<li>SIGCHLD</li>
+<li><code>wait</code>, <code>waitpid</code></li>
+<li>zombie process
+<ul>
+<li>avoid zombies by calling fork twice</li>
+</ul>
+</li>
+</ul>
+<h3 id="race-condition">Race Condition</h3>
+<ul>
+<li>不知道 child, parent 哪個會先跑</li>
+<li>解法：
+<ul>
+<li>等 child 全部結束才讓 parent 跑</li>
+<li>inprocess communication</li>
+</ul>
+</li>
+</ul>
+<h3 id="process-execution">Process Execution</h3>
+<ul>
+<li><code>exec</code></li>
+</ul>
+<h3 id="binaries">Binaries</h3>
+<ul>
+<li>ELF binary</li>
+<li>interpreter files</li>
+<li>binfmt_misc
+<ul>
+<li><code> mount -t binfmt_misc none /proc/sys/fs/binfmt_misc</code></li>
+</ul>
+</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/os/">OS</a>
+        
+            <a href="/tags/note/">Note</a>
+        
+    </section>
+
+
+    </footer>
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/p/20220321/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/03/21 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/20220314/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/03/14 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/20220307/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/03/07 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/20220221/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/02/21 日記</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/p/20220206/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/02/06 日記</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+     
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Luke2336/comment_myblog"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 Luke&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.5.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#高等-unix-筆記">高等 UNIX 筆記</a>
+      <ol>
+        <li><a href="#setjmp-and-longjmp-function">setjmp and longjmp function</a>
+          <ol>
+            <li><a href="#用法">用法</a></li>
+            <li><a href="#stack-frame">Stack Frame</a></li>
+            <li><a href="#restoration">Restoration</a></li>
+          </ol>
+        </li>
+        <li><a href="#process-control">Process Control</a>
+          <ol>
+            <li><a href="#process-identifiers">Process Identifiers</a></li>
+            <li><a href="#ps-htop"><code>ps</code>, <code>htop</code></a></li>
+            <li><a href="#process-relationship">Process Relationship</a></li>
+          </ol>
+        </li>
+        <li><a href="#process-creation">Process Creation</a>
+          <ol>
+            <li><a href="#fork"><code>fork</code></a></li>
+          </ol>
+        </li>
+        <li><a href="#process-termination">Process Termination</a></li>
+        <li><a href="#race-condition">Race Condition</a></li>
+        <li><a href="#process-execution">Process Execution</a></li>
+        <li><a href="#binaries">Binaries</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

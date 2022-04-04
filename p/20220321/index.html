@@ -4,17 +4,17 @@
 
 <meta content="" name="keywords">
 
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='高等 UNIX  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt &#43; encrypted password（DES, 2 &#43; 11 bytes） New: Algorithm id &#43; slat &#43; encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt&#43;pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.conf  &amp;lt;netb.'><title>2022/03/21 日記</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt &#43; encrypted password（DES, 2 &#43; 11 bytes） New: Algorithm id &#43; slat &#43; encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt&#43;pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.'><title>2022/03/21 日記</title>
 
 <link rel='canonical' href='https://luke2336.github.io/p/20220321/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='2022/03/21 日記'>
-<meta property='og:description' content='高等 UNIX  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt &#43; encrypted password（DES, 2 &#43; 11 bytes） New: Algorithm id &#43; slat &#43; encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt&#43;pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.conf  &amp;lt;netb.'>
+<meta property='og:description' content='上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt &#43; encrypted password（DES, 2 &#43; 11 bytes） New: Algorithm id &#43; slat &#43; encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt&#43;pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.'>
 <meta property='og:url' content='https://luke2336.github.io/p/20220321/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OS' /><meta property='article:published_time' content='2022-03-21T10:05:51&#43;08:00'/><meta property='article:modified_time' content='2022-03-21T10:05:51&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OS' /><meta property='article:tag' content='note' /><meta property='article:published_time' content='2022-03-21T10:05:51&#43;08:00'/><meta property='article:modified_time' content='2022-03-21T10:05:51&#43;08:00'/>
 <meta name="twitter:title" content="2022/03/21 日記">
-<meta name="twitter:description" content="高等 UNIX  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt &#43; encrypted password（DES, 2 &#43; 11 bytes） New: Algorithm id &#43; slat &#43; encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt&#43;pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.conf  &amp;lt;netb.">
+<meta name="twitter:description" content="上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt &#43; encrypted password（DES, 2 &#43; 11 bytes） New: Algorithm id &#43; slat &#43; encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt&#43;pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.">
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -106,7 +106,10 @@ if (!doNotTrack) {
 </header>
 
     <section class="article-content">
-    <h2 id="高等-unix">高等 UNIX</h2>
+    <ul>
+<li>上課上到一半又跑去睡了 QAQ</li>
+</ul>
+<h2 id="高等-unix-筆記">高等 UNIX 筆記</h2>
 <ul>
 <li><code>id</code></li>
 <li><code>/etc/passwd</code>、<code>/etc/shadow</code> 存放使用者資訊，密碼可以暴力破解</li>
@@ -159,7 +162,164 @@ if (!doNotTrack) {
 </ul>
 <h3 id="process-start">Process Start</h3>
 <ul>
+<li><code>int main(int argc, char* argv[], char *envp[]);</code></li>
 <li><code>start()</code> -&gt; <code>main()</code></li>
+</ul>
+<h3 id="process-termination">Process Termination</h3>
+<ul>
+<li>
+<p><code>exit</code> 會從 <code>start()</code> 結束。</p>
+</li>
+<li>
+<p><code>_exit</code> 不會</p>
+</li>
+<li>
+<p>Normal process termination in five Ways:</p>
+<ul>
+<li>Return from <code>main()</code></li>
+<li>Calling <code>exit</code></li>
+<li>Calling <code>_exit</code> or <code>_Exit</code></li>
+<li>Return of the last thread from its start routine</li>
+<li>Calling <code>pthread_exit</code> from the last thread</li>
+</ul>
+</li>
+<li>
+<p>Abnormal process terminaion in three ways</p>
+<ul>
+<li>Calling <code>abort</code></li>
+<li>Receipt of a signal</li>
+<li>Response of the last thread to a cancellation request</li>
+</ul>
+</li>
+</ul>
+<h4 id="atexitvoid-functionvoid"><code>atexit(void (*function)(void))</code></h4>
+<ul>
+<li>先註冊的會後執行 (stack)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="ln"> 1</span><span class="kt">char</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+<span class="ln"> 2</span>
+<span class="ln"> 3</span><span class="kt">void</span> <span class="nf">cleanup</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln"> 4</span>    <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">)</span> <span class="p">{</span>
+<span class="ln"> 5</span>        <span class="n">p</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+<span class="ln"> 6</span>    <span class="p">}</span>
+<span class="ln"> 7</span><span class="p">}</span>
+<span class="ln"> 8</span>
+<span class="ln"> 9</span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<span class="ln">10</span>    <span class="n">atexit</span><span class="p">(</span><span class="n">cleanup</span><span class="p">);</span>
+<span class="ln">11</span>    <span class="n">p</span> <span class="o">=</span> <span class="p">(</span><span class="kt">char</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="ln">12</span>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="ln">13</span><span class="p">}</span></code></pre></div>
+<h4 id="exit"><code>exit()</code></h4>
+<ul>
+<li>Call <code>atexit</code> registered functions</li>
+<li>Performed a clean shutdown of the standard I/O library</li>
+<li><code>fclose()</code> all streams, remove <code>tmpfile()</code></li>
+<li>都做完事後，會呼叫 <code>_exit</code></li>
+</ul>
+<h4 id="_exit-_exit"><code>_exit()</code>, <code>_Exit()</code></h4>
+<ul>
+<li>Terminate immediately</li>
+</ul>
+<h3 id="environment-variables">Environment Variables</h3>
+<ul>
+<li><code>env</code>
+<ul>
+<li>變數名稱＝變數的值</li>
+<li>用 <code>$</code> 取得變數的值。</li>
+<li><code>getenv()</code>（每個平台都有）, <code>putenv()</code>, <code>setenv()</code>, <code>unsetenv()</code>, <code>clearenv()</code>。</li>
+</ul>
+</li>
+</ul>
+<h4 id="environment-list">Environment List</h4>
+<ul>
+<li>用 C 字串紀錄。
+<ol>
+<li><code>int main(int argc, char *argv[], char *envp[]);</code></li>
+<li><code>extern char **environ;</code></li>
+</ol>
+</li>
+<li>記憶體不是唯讀。</li>
+</ul>
+<h4 id="environment-functions">Environment Functions</h4>
+<ul>
+<li><code>#include &lt;stdlib.h&gt;</code></li>
+<li><code>char *getenv(const char *name);</code></li>
+<li><code>int putenv(char *string);</code></li>
+<li><code>int setenv(const char *name, const char *value, int overwrite);</code></li>
+<li><code>int unsetenv(const char *name);</code></li>
+<li><code>int clearenv(void);</code></li>
+</ul>
+<h4 id="operations">Operations</h4>
+<ul>
+<li>Delete</li>
+<li>Modify</li>
+<li>Add</li>
+</ul>
+<h3 id="memory-layout-of-a-program">Memory Layout of a Program</h3>
+<ul>
+<li><strong>Text segment</strong> (low addr.)
+<ul>
+<li>Code</li>
+</ul>
+</li>
+<li><strong>Initialized data segment</strong>
+<ul>
+<li>static</li>
+</ul>
+</li>
+<li><strong>Uninitialized data segment(bss)</strong>
+<ul>
+<li>未賦值的陣列</li>
+</ul>
+</li>
+<li><strong>Heap</strong>
+<ul>
+<li>Dynamic allocated memory</li>
+<li><code>mmap</code>：真正配置動態記憶體（限制小）</li>
+<li><code>sbrk</code>：改 upperbound，控制 heap 大小</li>
+</ul>
+</li>
+<li><strong>Stack</strong> (high addr.)
+<ul>
+<li>Local variables, function call states</li>
+</ul>
+</li>
+</ul>
+<h4 id="保護記憶體的機制">保護記憶體的機制</h4>
+<ul>
+<li>compile with <code>-fno-stack-protector</code></li>
+<li>canary</li>
+<li><code>size</code></li>
+</ul>
+<h3 id="shared-libraries">Shared Libraries</h3>
+<h4 id="library-injection">Library Injection</h4>
+<ul>
+<li>LD_PRELOAD environment variable</li>
+<li>does not work for suid/sgid executables</li>
+</ul>
+<hr>
+<ul>
+<li><code>#include &lt;dlfcn.h&gt;</code></li>
+<li><code>void *dlopen(const char *filename, int flag);</code></li>
+<li><code>char *dlerror(void);</code></li>
+<li><code>void dlsym(void *handle, const char *symbol);</code></li>
+<li><code>int dlclose(void *handle);</code></li>
+<li>have to link with <code>-ldl</code> option</li>
+</ul>
+<h4 id="lazy-binding">Lazy Binding</h4>
+<ul>
+<li>GOT, PLT, RESOLVER</li>
+</ul>
+<h3 id="memory-allocation">Memory Allocation</h3>
+<ul>
+<li><code>void *malloc(size_t size);</code></li>
+<li><code>void calloc(size_t nobj, size_t size);</code></li>
+<li><code>void realloc(void *ptr, size_t newsize);</code></li>
+</ul>
+<h4 id="alloca"><code>alloca</code></h4>
+<ul>
+<li><code>#include &lt;alloca.h&gt;</code></li>
+<li><code>void *alloca(size_t size);</code></li>
 </ul>
 
 </section>
@@ -170,6 +330,8 @@ if (!doNotTrack) {
     <section class="article-tags">
         
             <a href="/tags/os/">OS</a>
+        
+            <a href="/tags/note/">Note</a>
         
     </section>
 
@@ -208,6 +370,18 @@ if (!doNotTrack) {
         <h2 class="section-title">Related contents</h2>
         <div class="related-contents">
             <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/p/20220328/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/03/28 日記</h2>
+        </div>
+    </a>
+</article>
                 
                     
 <article class="">
@@ -253,24 +427,6 @@ if (!doNotTrack) {
 
         <div class="article-details">
             <h2 class="article-title">2022/02/06 日記</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="has-image">
-    <a href="/p/20220129/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post/Diary/20220129/zsh.png" loading="lazy" data-key="20220129" data-hash="/post/Diary/20220129/zsh.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2022/01/29 日記</h2>
         </div>
     </a>
 </article>
@@ -439,7 +595,7 @@ if (!doNotTrack) {
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#高等-unix">高等 UNIX</a>
+    <li><a href="#高等-unix-筆記">高等 UNIX 筆記</a>
       <ol>
         <li><a href="#pwdh"><code>&lt;pwd.h&gt;</code></a></li>
         <li><a href="#shadowh"><code>&lt;shadow.h&gt;</code></a></li>
@@ -448,6 +604,36 @@ if (!doNotTrack) {
         <li><a href="#login-accounting">Login Accounting</a></li>
         <li><a href="#timeh"><code>&lt;time.h&gt;</code></a></li>
         <li><a href="#process-start">Process Start</a></li>
+        <li><a href="#process-termination">Process Termination</a>
+          <ol>
+            <li><a href="#atexitvoid-functionvoid"><code>atexit(void (*function)(void))</code></a></li>
+            <li><a href="#exit"><code>exit()</code></a></li>
+            <li><a href="#_exit-_exit"><code>_exit()</code>, <code>_Exit()</code></a></li>
+          </ol>
+        </li>
+        <li><a href="#environment-variables">Environment Variables</a>
+          <ol>
+            <li><a href="#environment-list">Environment List</a></li>
+            <li><a href="#environment-functions">Environment Functions</a></li>
+            <li><a href="#operations">Operations</a></li>
+          </ol>
+        </li>
+        <li><a href="#memory-layout-of-a-program">Memory Layout of a Program</a>
+          <ol>
+            <li><a href="#保護記憶體的機制">保護記憶體的機制</a></li>
+          </ol>
+        </li>
+        <li><a href="#shared-libraries">Shared Libraries</a>
+          <ol>
+            <li><a href="#library-injection">Library Injection</a></li>
+            <li><a href="#lazy-binding">Lazy Binding</a></li>
+          </ol>
+        </li>
+        <li><a href="#memory-allocation">Memory Allocation</a>
+          <ol>
+            <li><a href="#alloca"><code>alloca</code></a></li>
+          </ol>
+        </li>
       </ol>
     </li>
   </ol>

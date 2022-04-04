@@ -4,17 +4,17 @@
 
 <meta content="" name="keywords">
 
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='高等 UNIX  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  '><title>2022/03/14 日記</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  '><title>2022/03/14 日記</title>
 
 <link rel='canonical' href='https://luke2336.github.io/p/20220314/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='2022/03/14 日記'>
-<meta property='og:description' content='高等 UNIX  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  '>
+<meta property='og:description' content='高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  '>
 <meta property='og:url' content='https://luke2336.github.io/p/20220314/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OS' /><meta property='article:published_time' content='2022-03-14T10:11:29&#43;08:00'/><meta property='article:modified_time' content='2022-03-14T10:11:29&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OS' /><meta property='article:tag' content='note' /><meta property='article:published_time' content='2022-03-14T10:11:29&#43;08:00'/><meta property='article:modified_time' content='2022-03-14T10:11:29&#43;08:00'/>
 <meta name="twitter:title" content="2022/03/14 日記">
-<meta name="twitter:description" content="高等 UNIX  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  ">
+<meta name="twitter:description" content="高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  ">
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -106,7 +106,7 @@ if (!doNotTrack) {
 </header>
 
     <section class="article-content">
-    <h2 id="高等-unix">高等 UNIX</h2>
+    <h2 id="高等-unix-筆記">高等 UNIX 筆記</h2>
 <ul>
 <li><code>sudo su -</code></li>
 </ul>
@@ -220,6 +220,8 @@ if (!doNotTrack) {
         
             <a href="/tags/os/">OS</a>
         
+            <a href="/tags/note/">Note</a>
+        
     </section>
 
 
@@ -257,6 +259,18 @@ if (!doNotTrack) {
         <h2 class="section-title">Related contents</h2>
         <div class="related-contents">
             <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/p/20220328/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2022/03/28 日記</h2>
+        </div>
+    </a>
+</article>
                 
                     
 <article class="">
@@ -302,24 +316,6 @@ if (!doNotTrack) {
 
         <div class="article-details">
             <h2 class="article-title">2022/02/06 日記</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="has-image">
-    <a href="/p/20220129/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post/Diary/20220129/zsh.png" loading="lazy" data-key="20220129" data-hash="/post/Diary/20220129/zsh.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2022/01/29 日記</h2>
         </div>
     </a>
 </article>
@@ -488,7 +484,7 @@ if (!doNotTrack) {
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#高等-unix">高等 UNIX</a>
+    <li><a href="#高等-unix-筆記">高等 UNIX 筆記</a>
       <ol>
         <li><a href="#file-descripter">File Descripter</a></li>
         <li><a href="#file-io-vs-standard-io">File I/O vs. Standard I/O</a>

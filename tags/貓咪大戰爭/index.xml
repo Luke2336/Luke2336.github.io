@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>貓咪大戰爭 on Luke&#39;s Blog</title>
+    <link>https://luke2336.github.io/tags/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/</link>
+    <description>Recent content in 貓咪大戰爭 on Luke&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Apr 2022 08:49:07 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/04/01 日記</title>
+      <link>https://luke2336.github.io/p/20220401/</link>
+      <pubDate>Fri, 01 Apr 2022 08:49:07 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220401/</guid>
+      <description>不知不覺就已經四月了～
+羽球課  今天又練了高遠球，下週要期中考。今天還教了切球，但我的 partner 挑球有點不穩，所以有點沒練到。 下課前的打 play 只拿到塑膠球，心情有點差。  貓咪大戰爭  拿到了少女貓的第三進化。 拿到了兩個惡魔種子，進化了湖中女神貓，但三階的數值似乎沒變，只多了偶爾打飛惡魔敵人的能力。  疫情  疾管署新聞稿連結     Date 本土 境外     04/01 104 132   03/31 87 152   03/30 56 107   03/29 33 63   03/28 34 93   03/27 83 120   03/26 21 82   03/25 14 122   03/24 15 124   03/23 2 95   03/22 10 79   03/21 5 93   03/20 3 118   03/19 6 120   03/18 1 74    </description>
+    </item>
+    
+    <item>
+      <title>2022/03/25 日記</title>
+      <link>https://luke2336.github.io/p/20220325/</link>
+      <pubDate>Fri, 25 Mar 2022 15:51:03 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220325/</guid>
+      <description>貓咪大戰爭  拿到了貓咪特急和惡魔研究家。  Compiler  上到了 Bottom-up Parser。 下禮拜會教 Yacc，然後應該會出 HW2。  羽球課  今天羽球課練高遠球，但我 partner 的球品質不太穩，我有點沒練到的感覺。還練了放小球，覺得自己力道掌握的沒有以前好了。快下課時，打了半場的比賽，我在裡面有打到第三名。但我覺得我後場的步伐不太行，平球和殺球也都不一定接得到。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/23 日記</title>
+      <link>https://luke2336.github.io/p/20220323/</link>
+      <pubDate>Wed, 23 Mar 2022 11:27:21 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220323/</guid>
+      <description> 今天貓咪大戰爭抽到阿激拉，打完了開眼短裙貓，現在的遊戲時數已經到 281 小時了。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/19 日記</title>
+      <link>https://luke2336.github.io/p/20220319/</link>
+      <pubDate>Sat, 19 Mar 2022 23:49:32 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220319/</guid>
+      <description> 今天下午去台中玩，中午吃了火鍋。 晚上玩貓咪大戰爭，總算打完宇宙篇第二章了～  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/18 日記</title>
+      <link>https://luke2336.github.io/p/20220318/</link>
+      <pubDate>Fri, 18 Mar 2022 18:32:38 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220318/</guid>
+      <description> 有點沒事做的一天，於是就把貓咪大戰爭的大狂亂鳥貓和貓咪風雲塔的30層打完了！ 約了人週日去景美爬仙跡岩。  </description>
+    </item>
+    
+    <item>
+      <title>2022/03/11 日記</title>
+      <link>https://luke2336.github.io/p/20220311/</link>
+      <pubDate>Fri, 11 Mar 2022 10:17:56 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220311/</guid>
+      <description> UNIX 出作業了，於是就在 Github 上放了一個 private repository。 上編譯器，今天是教 CFG。 去圖書館借 lex &amp;amp; yacc 的中譯本。 貓咪大戰爭得到小小噁心貓的第三進化，打完開眼狂歡貓。 體育課是助教代課，結果跟上週上的一樣。 下課後突然收到系辦的信，原來我忘了免修離散跟數電了，因為是資工系老師開課，於是就沒注意到開課單位是電資班。 沒吃午餐，於是四點就跑去吃麥當勞了。 晚上在研究 UNIX hw1，是要實作 lsof，覺得很難寫。  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,34 @@
     <description>Recent content in Note on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Mar 2022 10:18:20 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Mar 2022 09:59:09 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/03/28 日記</title>
+      <link>https://luke2336.github.io/p/20220328/</link>
+      <pubDate>Mon, 28 Mar 2022 09:59:09 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220328/</guid>
+      <description> 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    </description>
+    </item>
+    
+    <item>
+      <title>2022/03/21 日記</title>
+      <link>https://luke2336.github.io/p/20220321/</link>
+      <pubDate>Mon, 21 Mar 2022 10:05:51 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220321/</guid>
+      <description>上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.</description>
+    </item>
+    
+    <item>
+      <title>2022/03/14 日記</title>
+      <link>https://luke2336.github.io/p/20220314/</link>
+      <pubDate>Mon, 14 Mar 2022 10:11:29 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220314/</guid>
+      <description>高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  </description>
+    </item>
+    
     <item>
       <title>lex 筆記</title>
       <link>https://luke2336.github.io/p/lex/</link>
