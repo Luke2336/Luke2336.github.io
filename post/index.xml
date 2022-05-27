@@ -6,7 +6,160 @@
     <description>Recent content in Posts on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 May 2022 14:40:50 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 May 2022 15:39:50 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022/05/27 日記</title>
+      <link>https://luke2336.github.io/p/20220527/</link>
+      <pubDate>Fri, 27 May 2022 15:39:50 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220527/</guid>
+      <description> 今天本土確診人數創新高。 今天在宿舍打包東西，大概又多出了十箱。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/26 日記</title>
+      <link>https://luke2336.github.io/p/20220526/</link>
+      <pubDate>Thu, 26 May 2022 17:25:31 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220526/</guid>
+      <description> 去系辦拿了畢業審查的資料，確定可以畢業了！ 中午和導師還有他電機的導生吃 pizza。 晚上和學弟在女二吃晚餐。 久違的去系羽打個球，打到十點半時，隊友們傳訊息來說他們絕交了，我覺得超級焦慮的！！  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/25 日記</title>
+      <link>https://luke2336.github.io/p/20220525/</link>
+      <pubDate>Thu, 26 May 2022 17:25:26 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220525/</guid>
+      <description> Compiler 作業有些卡住，於是就開始想要放棄，白天大概就寫了報告而已。 有些擔心兩個隊友之間的關係。 約了曲線吃 KFC，然後搭小紅巴回學校。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/24 日記</title>
+      <link>https://luke2336.github.io/p/20220524/</link>
+      <pubDate>Tue, 24 May 2022 10:56:56 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220524/</guid>
+      <description> 白天都在寫 code。 心情有些低落，於是就找學弟吃午餐。 去看醫生。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/23 日記</title>
+      <link>https://luke2336.github.io/p/20220523/</link>
+      <pubDate>Mon, 23 May 2022 12:32:00 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220523/</guid>
+      <description> 寫了編譯器作業的第二筆測資，判斷變數宣告是否重複，比較麻煩的是他限制 for loop 裡的 scope 都不能有重複的宣告，只好開一個 multiset 去維護。 跟學弟打羽球。 去清夜換握把布，還去國光號退回數票，16 張票得到了 1700 左右，老實說有點虧，但能換成現金還是比較好。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/22 日記</title>
+      <link>https://luke2336.github.io/p/20220522/</link>
+      <pubDate>Sun, 22 May 2022 13:11:10 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220522/</guid>
+      <description> 早上去 7-11 領包裹，買了鞋用橡皮擦和三件衣服。 寫了編譯器作業的第一筆測資，兩天加起來花了六小時。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/21 日記</title>
+      <link>https://luke2336.github.io/p/20220521/</link>
+      <pubDate>Sat, 21 May 2022 11:31:44 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220521/</guid>
+      <description> 開始寫編譯器 HW4。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/19 日記</title>
+      <link>https://luke2336.github.io/p/20220519/</link>
+      <pubDate>Thu, 19 May 2022 10:56:22 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220519/</guid>
+      <description> 看完一集 Compiler。 去郵局補摺。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/18 日記</title>
+      <link>https://luke2336.github.io/p/20220518/</link>
+      <pubDate>Thu, 19 May 2022 10:56:12 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220518/</guid>
+      <description> 收到了在蝦皮買的氣泡紙袋，超大一包的 OAO 去博愛校區散步。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/17 日記</title>
+      <link>https://luke2336.github.io/p/20220517/</link>
+      <pubDate>Thu, 19 May 2022 10:56:05 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220517/</guid>
+      <description> 和學長吃了早午餐。 心情變好後，進度有稍微提升。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/16 日記</title>
+      <link>https://luke2336.github.io/p/20220516/</link>
+      <pubDate>Thu, 19 May 2022 10:55:59 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220516/</guid>
+      <description> 沒進度的一天。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/15 日記</title>
+      <link>https://luke2336.github.io/p/20220515/</link>
+      <pubDate>Sun, 15 May 2022 14:20:48 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220515/</guid>
+      <description> 今天玩了 Wordle，2/6，不知道我的 twitter 會不會變 Wordle 帳。 大約剩下九週就要開始工作了，覺得有些焦慮，想在那之前多熟悉一下 c++ 和 Design Pattern。 用蝦皮買了一些氣泡袋，打算搬家時用來包玻璃瓶和書。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/14 日記</title>
+      <link>https://luke2336.github.io/p/20220514/</link>
+      <pubDate>Sat, 14 May 2022 21:19:02 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220514/</guid>
+      <description> 為搬家的事感到很焦慮。 編譯器的影片都看不懂，而且進度落後超多，壓力好大。 第一次玩了 Wordle，4/6。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/13 日記</title>
+      <link>https://luke2336.github.io/p/20220513/</link>
+      <pubDate>Fri, 13 May 2022 13:17:32 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220513/</guid>
+      <description> 今天體育課改為線上，點完名，看了一場比賽的影片，就結束了。 一早起來就覺得很累，很沒勁。 晚上弄了雞蛋豆腐吃。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/12 日記</title>
+      <link>https://luke2336.github.io/p/20220512/</link>
+      <pubDate>Thu, 12 May 2022 14:00:18 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220512/</guid>
+      <description> 早上收到通知，明天的體育課也因為疫情，改成線上。 去了圖書館拿預約好的書 - 深入淺出設計模式。 中午出了編譯器的 HW4，但這次因為上次作業的 Deadline 的關係，一週後才會公布延續上次作業的 code。這幾天應該會優先把影片的進度補起來，然後等 TA 把 code 放出來後，再開始寫功課。  整理房間  整理了一下房間，把部分冬衣封進箱子。也隨手把掛燙機收進箱子，但我實在不知道該怎麼妥善地把它像原本的包裝包好。整理了衣架，把一些不堪用的回收。 有些東西丟到女二版上贈送，像是環保吸管、撿到的桌遊等等。 之後有空要把毛巾、一些防塵布、被套、枕套等等洗乾淨，在開始搬家。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/11 日記</title>
+      <link>https://luke2336.github.io/p/20220511/</link>
+      <pubDate>Thu, 12 May 2022 14:00:14 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220511/</guid>
+      <description> 早上去了竹東，結果才知道原本約好的人，接觸到確診者，所以就被隔離了，白跑一趟。 然後，順路去了馬偕，把上週體檢的東西補完。 下午在看編譯器的影片，好不容易補到 4/29 了，但我還是對 SDD 和 SDT 不熟。 晚上吃了烤雞，覺得很開心。  </description>
+    </item>
+    
+    <item>
+      <title>2022/05/10 日記</title>
+      <link>https://luke2336.github.io/p/20220510/</link>
+      <pubDate>Tue, 10 May 2022 17:04:36 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/20220510/</guid>
+      <description> 今天起床時覺得狀態不太好，頭很昏很累，心情很糟。 下午吃了剉冰。 下午手機的網路突然不能用，完全收不到訊號，到傍晚時才可以打電話，弟弟才告訴我是機房的問題，不是我手機壞掉。結果我半個下午都在研究要換 iphone SE3 還是 iphone 13 mini，浪費一堆時間。  </description>
+    </item>
+    
     <item>
       <title>2022/05/09 日記</title>
       <link>https://luke2336.github.io/p/20220509/</link>
