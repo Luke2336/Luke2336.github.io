@@ -4,17 +4,17 @@
 
 <meta content="交大, 修課心得, 交大修課心得, nctu, nctu-course, 交大資工, 交大電資" name="keywords">
 
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='107上～110上，每學期會更新。'><title>交大修課心得</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='107上～110下，資工修課心得。'><title>交大修課心得</title>
 
 <link rel='canonical' href='https://luke2336.github.io/p/course_nctu/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='交大修課心得'>
-<meta property='og:description' content='107上～110上，每學期會更新。'>
+<meta property='og:description' content='107上～110下，資工修課心得。'>
 <meta property='og:url' content='https://luke2336.github.io/p/course_nctu/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Course' /><meta property='article:tag' content='交大' /><meta property='article:published_time' content='2022-01-23T11:00:15&#43;08:00'/><meta property='article:modified_time' content='2022-01-23T11:00:15&#43;08:00'/><meta property='og:image' content='https://luke2336.github.io/post/Other/%E4%BA%A4%E5%A4%A7%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/G0.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Course' /><meta property='article:tag' content='交大' /><meta property='article:published_time' content='2022-06-14T11:00:15&#43;08:00'/><meta property='article:modified_time' content='2022-06-14T11:00:15&#43;08:00'/><meta property='og:image' content='https://luke2336.github.io/post/Other/%E4%BA%A4%E5%A4%A7%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/G0.png' />
 <meta name="twitter:title" content="交大修課心得">
-<meta name="twitter:description" content="107上～110上，每學期會更新。"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="107上～110下，資工修課心得。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://luke2336.github.io/post/Other/%E4%BA%A4%E5%A4%A7%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/G0.png' />
 <script type="application/javascript">
 var doNotTrack = false;
@@ -103,7 +103,7 @@ if (!doNotTrack) {
 
     
     <h3 class="article-subtitle">
-        107上～110上，每學期會更新。
+        107上～110下，資工修課心得。
     </h3>
     <footer class="article-time">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -114,7 +114,7 @@ if (!doNotTrack) {
 
 
 
-        <time class="article-time--published">Jan 23, 2022</time>
+        <time class="article-time--published">Jun 14, 2022</time>
     </footer></div>
 </header>
 
@@ -153,6 +153,7 @@ if (!doNotTrack) {
 <li>數位電路實驗</li>
 <li>計算機組織</li>
 <li>作業系統概論</li>
+<li>編譯器設計</li>
 </ul>
 </li>
 <li>計算理論
@@ -222,12 +223,13 @@ if (!doNotTrack) {
 <h2 id="筆記">筆記</h2>
 <p><a class="link" href="https://github.com/Luke2336/NCTU_Course_Note"  target="_blank" rel="noopener"
     >Github</a></p>
-<h2 id="修課建議">修課建議</h2>
+<h2 id="修課順序建議">修課順序建議</h2>
 <blockquote>
 <p>微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗</p>
-<p>微積分 → 機率 → 統計</p>
+<p>微積分 → 機率 → 統計學</p>
 <p>數位電路設計 → 數位電路實驗 → 計算機組織 → 作業系統</p>
 <p>離散數學、資料結構、機率 → 演算法 → GPE</p>
+<p>正規語言 → 編譯器</p>
 </blockquote>
 <p><img src="/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1071.png" alt=""  />
 <img src="/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1072.png" alt=""  />
@@ -564,6 +566,38 @@ if (!doNotTrack) {
 <li>覺得很催眠的一堂課，只好自學。</li>
 <li>作業覺得沒學到太多東西。</li>
 <li>期中期末平均都 60 幾，學期分數調了 7 分左右。</li>
+</ul>
+</li>
+</ul>
+<h3 id="編譯器設計">編譯器設計</h3>
+<ul>
+<li>授課老師：資工 游逸平</li>
+<li>評分方式：
+<ul>
+<li>大考 2 x 25%</li>
+<li>作業 5 x 10%
+<ol>
+<li>Scanner (<code>lex</code>)</li>
+<li>Parser (<code>yacc</code>)</li>
+<li>Abstract Syntax Tree</li>
+<li>Sematic Analysis</li>
+<li>RISC-V</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>授課內容
+<ul>
+<li>Lexical Analysis, CFG, Parsing, Lex &amp; Yacc, SDD &amp; SDT, IR, Runtime Environment</li>
+</ul>
+</li>
+<li>授課方式
+<ul>
+<li>因為疫情，從學期初就線上授課到期末，有錄影可以看。因為是英授，所以上得比較慢，後面很多東西就沒上到，像是 Code Generation &amp; Optimization。</li>
+<li>課程資料和作業都是透過 Github，作業都會提供完整的測資，所以交功課時就可以知道自己的分數。作業還會要求寫報告，主要內容是介紹你怎麼寫這份作業，以及你認為作業可以改進的地方，大概佔 5% 左右。</li>
+<li>期中考是現場考，期末考則是 Take-Home Exam，老師會提供考古題。</li>
+<li>作業平均需要花 8~10 小時，前面兩次作業很簡單，後面就比較需要熟悉 C++。</li>
+<li>總而言之，是門值得一修的好課。</li>
 </ul>
 </li>
 </ul>
@@ -1323,7 +1357,7 @@ Other: 10%: (1/50) * min(Milestone2, Milestone3) * [(HW1 &gt; 0 ) ? 1 : 0 + (HW2
   <ol>
     <li><a href="#目錄">目錄</a></li>
     <li><a href="#筆記">筆記</a></li>
-    <li><a href="#修課建議">修課建議</a></li>
+    <li><a href="#修課順序建議">修課順序建議</a></li>
     <li><a href="#物理">物理</a>
       <ol>
         <li><a href="#物理一二榮譽班英文班">物理（一）、（二）榮譽班（英文班）</a></li>
@@ -1353,6 +1387,7 @@ Other: 10%: (1/50) * min(Milestone2, Milestone3) * [(HW1 &gt; 0 ) ? 1 : 0 + (HW2
         <li><a href="#數位電路實驗英文班">數位電路實驗（英文班）</a></li>
         <li><a href="#計算機組織">計算機組織</a></li>
         <li><a href="#作業系統概論">作業系統概論</a></li>
+        <li><a href="#編譯器設計">編譯器設計</a></li>
       </ol>
     </li>
     <li><a href="#資工---計算理論">資工 - 計算理論</a>
