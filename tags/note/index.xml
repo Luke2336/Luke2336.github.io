@@ -6,34 +6,7 @@
     <description>Recent content in Note on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Mar 2022 09:59:09 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2022/03/28 日記</title>
-      <link>https://luke2336.github.io/p/20220328/</link>
-      <pubDate>Mon, 28 Mar 2022 09:59:09 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220328/</guid>
-      <description> 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    </description>
-    </item>
-    
-    <item>
-      <title>2022/03/21 日記</title>
-      <link>https://luke2336.github.io/p/20220321/</link>
-      <pubDate>Mon, 21 Mar 2022 10:05:51 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220321/</guid>
-      <description>上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.</description>
-    </item>
-    
-    <item>
-      <title>2022/03/14 日記</title>
-      <link>https://luke2336.github.io/p/20220314/</link>
-      <pubDate>Mon, 14 Mar 2022 10:11:29 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220314/</guid>
-      <description>高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  </description>
-    </item>
-    
+    <lastBuildDate>Fri, 11 Mar 2022 10:18:20 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lex 筆記</title>
       <link>https://luke2336.github.io/p/lex/</link>
@@ -43,35 +16,6 @@
       <description>什麼是 lex lex 是幫我們做 lexical analysis 的工具，它負責將 source code 切成一些 token。
 Compile 方法 1lex rule.l 2gcc lex.yy.c -ll 3./a.out &amp;lt; input lex 的格式 利用 %% 將 code 切成三個區段，第一個和第二個是必須的。
 1definition section 2%% 3rule section 4%% 5user subroutine 最簡單的 lex 程式 1%% Definition Section  寫在此區的 Ｃ 程式碼需要加上 %{ 和 %}，例如放 header 和全域變數等等。 可以給於一些定義。  1digit [0-9] 2letter [a-zA-Z] 3space [ \t]+ 4identifier {letter}({digit}|{letter})* 5integer 0|([1-9]{digit}*)  可以定義一些 State，用 %s 或 %x，預設的 State 稱為 INITIAL。  1%s state1 state2 state3 Rule Section  前面那一項是要寫正規表示法。 比對的規則是先找最長的 rule，遇到一樣長的時候，找最前面的 rule。  1/* 以下這份 code 可以將程式的空白和換行移除。 */ 2{space} { ; } 3\n { ; } 4.</description>
-    </item>
-    
-    <item>
-      <title>2021/12/24 日記</title>
-      <link>https://luke2336.github.io/p/20211224/</link>
-      <pubDate>Fri, 24 Dec 2021 17:41:55 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20211224/</guid>
-      <description> 中午又是 Google 的面試，今天遇到的是台灣人，出了一題 Greedy，但我卻跟他扯 Linear Programming，雖然最後有得到他想要的解，但我覺得我花太多時間了，有點爆炸，幸好 coding 的過程還算順利。 下午睡了一下，然後開始複習賽局理論，發現很多東西都沒弄懂，覺得壓力很大。 星期一隨性的投了一家叫 Siemons 的 EDA 工程師，結果今天就收到感謝函了 QQ 但後來查了一下，發現那家外商公司已台商化，可能拿到 offer 也不會想去。  Review Game Theory </description>
-    </item>
-    
-    <item>
-      <title>2021/08/27 日記</title>
-      <link>https://luke2336.github.io/p/20210827/</link>
-      <pubDate>Fri, 27 Aug 2021 18:59:25 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210827/</guid>
-      <description>暑修  暑修成績出來了，算一算有 A+。  工作  今天都在修 CL 的 bug。  生活 覺得生活中沒有什麼特別想做的事情，平日也因為工作累到晚上沒什麼力氣吸收新的東西，好希望能找到自己想做的事情，但至今尚未開始探索。
-德語資源  Languageguide.org 國立教育廣播電臺 - 德心應口  讀書筆記 不怕23K，每月2000元滾千萬の雞尾酒投資法（毎月5000円で自動的にお金が増える方法）   發現自己的「窮人思維」
- 多數人為了眼前的「安心」，選擇沒有「自由」的生活 7 Qustions  你是否為了錢在工作？  窮人思維是「為了錢工作」 富人思維是「讓錢工作已獲得安心和自由」   3000 元和一小時哪個重要？  讓金錢轉取時間   買了屬於自己的房子會覺得幸福嗎？  讓房產為自己工作，否則多是負債   嚮往年收一千萬元嗎？  富人思維不拘泥收入，關注能為自己創造收入的資產   天氣不好是誰的錯？  怪罪環境是窮人思維   你想付多少稅金？  創造一個系統，從薪水預扣一定額度給未來的自己   你喜歡借錢嗎？  好借款是讓別人幫你還     什麼都不做是最大的風險    理解「金錢奴隸系統」的真面目</description>
-    </item>
-    
-    <item>
-      <title>2021/06/13 日記</title>
-      <link>https://luke2336.github.io/p/20210613/</link>
-      <pubDate>Sun, 13 Jun 2021 21:15:34 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210613/</guid>
-      <description> 今天都在複習正規，明天會寫一回考古題。 還是有點燒，大概到 37.5 而已，有些噁心感，頭還是很暈。  正規語言概論 - 期末筆記 </description>
     </item>
     
     <item>
@@ -90,6 +34,15 @@ Compile 方法 1lex rule.l 2gcc lex.yy.c -ll 3./a.out &amp;lt; input lex 的格�
       
       <guid>https://luke2336.github.io/p/mac_cmd/</guid>
       <description>常用指令    command 用途     clear clear terminal window   ls list directory content   ls -a 將隱藏檔案也列出   cd change directory to home   cd .. change directory to parent   cd - change directory to last working directory   cd / change directory to root   pwd print working directory   rm file_name remove file   mkdir dir_name make directory   rmdir dir_name remove directory   rm -R dir_name remove the directory and all files in the directory   cp -R A B 將 A 資料夾的東西全部複製到 B   mv A dir_name 將 A 搬到資料夾   cat file_name 查看內容   grep text file_name 抓取內容    </description>
+    </item>
+    
+    <item>
+      <title>德文（一）筆記</title>
+      <link>https://luke2336.github.io/p/german1/</link>
+      <pubDate>Mon, 28 Dec 2020 10:19:18 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/german1/</guid>
+      <description>方向 / 方位    中文 German     上 über   下 unter   左 links   右 rechts       中文 German     東 der Osten   西 der Westen   南 der Süden   北 der Norden     Berlin liegt im Osten von Deutschland. in die Mitte  數字用法    Zahlen German Zahlen German Zahlen German     0 null 10 zehn 20 zwanzig   1 eins 11 elf 21 einundzwanzig   2 zwei 12 zwölf     3 drei 13 dreizehn     4 vier 14 vierzehn     5 fünf 15 fünfzehn     6 sechs 16 sechzehn     7 sieben 17 siebzehn     8 acht 18 achtzehn     9 neun 19 neunzehn         Zahlen German     20 zwanzig   30 dreißig   40 vierzig   50 fünfzig   60 sechzig   70 siebzig   100 (ein)hundert   101 hunderteins   1.</description>
     </item>
     
   </channel>

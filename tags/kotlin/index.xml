@@ -26,18 +26,5 @@
 PracticeA - Welcome to AtCoder 1private fun readLn() = readLine()!! 2private fun readInt() = readLn().toInt() 3private fun readStrings() = readLn().split(&amp;#34; &amp;#34;) 4private fun readInts() = readStrings().map { it.toInt() } 5 6fun main() { 7 val a = readInt() 8 val(b, c) = readInts() 9 val s = readLn() 10 println(&amp;#34;${a + b + c}$s&amp;#34;) 11} ABC086A - Product 1private fun readLn() = readLine()!</description>
     </item>
     
-    <item>
-      <title>2021/01/17 日記</title>
-      <link>https://luke2336.github.io/p/20210117/</link>
-      <pubDate>Sun, 17 Jan 2021 16:41:41 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210117/</guid>
-      <description>花了不少時間才起床，買了麥當勞，看完了烘焙王。
-之後就開始研究怎樣才能讓之後寫 Kotlin 比較方便，改了 bashrc，建立了 oj 指令支援 .cpp / .py / .kt 三種副檔名。
-傍晚研究了 Kotlin 的 Tutorial，然後吃了雞腿便當，一邊看了小時候看的甄嬛傳。
-/.bashrc 將雙曲線寫好的 bashrc 增加了 Kotlin 的指令。
-oj() { ext=${1##*.} filename=${1##*/} filename=${filename%.*} case $ext in cpp ) g++ -o &amp;#34;/tmp/$filename&amp;#34; &amp;#34;$1&amp;#34; &amp;amp;&amp;amp; &amp;#34;/tmp/$filename&amp;#34; ;; py ) python3 &amp;#34;$1&amp;#34; ;; kt ) kotlinc &amp;#34;$1&amp;#34; -include-runtime -d &amp;#34;$filename&amp;#34;.jar &amp;amp;&amp;amp; java -jar &amp;#34;$filename&amp;#34;.jar &amp;amp;&amp;amp; rm &amp;#34;$filename&amp;#34;.jar ;; esac } 使用方式 $ oj 1.cpp $ oj 2.kt $ oj 3.</description>
-    </item>
-    
   </channel>
 </rss>

@@ -6,7 +6,34 @@
     <description>Recent content in Code on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jun 2022 14:13:30 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 14:51:45 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USACO</title>
+      <link>https://luke2336.github.io/p/usaco/</link>
+      <pubDate>Thu, 16 Jun 2022 14:51:45 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/usaco/</guid>
+      <description>Chapter 1 1.4 Wormholes  題意：有 12 個蟲洞，要配對成兩兩一組，一旦碰到蟲洞就會被傳送到另一端，且一直往 +X 方向移動，問有多少種組合能形成環？ 這題是很好的題目，能練習實作暴搜。首先要會 DFS 枚舉組合，方法是每次找到第一個沒被用到的點，然後枚舉能和他匹配的點。之後再檢查每個組合是否有環，採取 BFS，每次走兩步，先一步蟲洞，再走到下一個點。  1/* 2ID: whitech1 3TASK: wormhole 4LANG: C++14 5*/ 6#include &amp;lt;bits/stdc++.h&amp;gt;7using namespace std; 8typedef pair&amp;lt;int, int&amp;gt; pii; 9#define x first 10#define y second 11int n, ans = 0; 12vector&amp;lt;pii&amp;gt; p; 13vector&amp;lt;vector&amp;lt;bool&amp;gt; &amp;gt; G; 14vector&amp;lt;int&amp;gt; pr; 15bool check() { 16 vector&amp;lt;int&amp;gt; visit(n); 17 queue&amp;lt;int&amp;gt; q; 18 for (int i = 0; i &amp;lt; n; i++) q.push(i); 19 while (!</description>
+    </item>
+    
+    <item>
+      <title>Kattis</title>
+      <link>https://luke2336.github.io/p/kattis/</link>
+      <pubDate>Thu, 16 Jun 2022 09:32:03 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/kattis/</guid>
+      <description>pJ. Inverse Factorial  給定一個長度不超過 1e6 的字串，代表 n!，求 n 是多少？ 答案的範圍不超過 1e6，所以可以直接 mod 一個夠大的質數  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3#define mod 1000000007 4typedef long long ll; 5int main () { 6 ios_base::sync_with_stdio(0); cin.tie(0); 7 string s; cin &amp;gt;&amp;gt; s; 8 ll sum = 0; 9 for (int i = 0; s[i]; i++) 10 sum = (sum * 10 + s[i] - &amp;#39;0&amp;#39;) % mod; 11 for (ll i = 1, frac = 1; ; i++) { 12 frac = (frac * i) % mod; 13 if (frac == sum) { 14 cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; break; 15 } 16 } 17 return 0; 18}  Tic Tac Toe 給定一個 3x3 的棋盤，問是不是合法的。</description>
+    </item>
+    
+    <item>
+      <title>CSES</title>
+      <link>https://luke2336.github.io/p/cses/</link>
+      <pubDate>Thu, 16 Jun 2022 09:29:58 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/cses/</guid>
+      <description>1202 - Investigation  最短路徑水題 Dijkstra  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3const int mod = 1000000007; 4typedef long long ll; 5typedef pair&amp;lt;ll, int&amp;gt; pii; 6#define pb push_back 7int main () { 8 ios_base::sync_with_stdio(0); cin.tie(0); 9 int n, m; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m; 10 vector&amp;lt;vector&amp;lt;pii&amp;gt;&amp;gt; G(n + 1); 11 for (int i = 0; i &amp;lt; m; i++) { 12 int a, b, c; cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b &amp;gt;&amp;gt; c; 13 G[a].</description>
+    </item>
+    
     <item>
       <title>template class 練習</title>
       <link>https://luke2336.github.io/p/template1/</link>
@@ -62,6 +89,15 @@ cwd  從 proc/[pid]/cwd 裡找，因為是 symbolic link，所以用 readlink() 
       
       <guid>https://luke2336.github.io/p/atcoder_abc216/</guid>
       <description>AtCoder Beginning Contest 192 A. Signed Difficulty 1#pragma GCC optimization(&amp;#34;O3&amp;#34;) 2#include &amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4typedef long long ll; 5typedef pair&amp;lt;int, int&amp;gt; pii; 6#define pb push_back 7int main() 8{ 9 ios::sync_with_stdio(0), cin.tie(0); 10 int X, Y; 11 char c; 12 cin &amp;gt;&amp;gt; X &amp;gt;&amp;gt; c &amp;gt;&amp;gt; Y; 13 if (Y &amp;lt;= 2) 14 cout &amp;lt;&amp;lt; X &amp;lt;&amp;lt; &amp;#34;-\n&amp;#34;; 15 else if (Y &amp;lt;= 6) 16 cout &amp;lt;&amp;lt; X &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 17 else 18 cout &amp;lt;&amp;lt; X &amp;lt;&amp;lt; &amp;#34;+\n&amp;#34;; 19 return 0; 20}  B.</description>
+    </item>
+    
+    <item>
+      <title>Heap&#39;s Algorithm</title>
+      <link>https://luke2336.github.io/p/heaps_algorithm/</link>
+      <pubDate>Tue, 02 Mar 2021 19:19:58 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/heaps_algorithm/</guid>
+      <description> 難解問題課的一個演算法，覺得滿喜歡的。  1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3void heaps(int k, vector&amp;lt;int&amp;gt; &amp;amp;s, int n) { 4 if (k == 1) { 5 for (int i = 0; i &amp;lt; n; i++) 6 cout &amp;lt;&amp;lt; s[i] &amp;lt;&amp;lt; &amp;#34; \n&amp;#34;[i == n - 1]; 7 return; 8 } 9 for (int i = 0; i &amp;lt; k - 1; ++i) { 10 heaps(k - 1, s, n); 11 if (k &amp;amp; 1) swap(s[i], s[k - 1]); 12 else swap(s[0], s[k - 1]); 13 } 14 heaps(k - 1, s, n); 15} 16void permutation(int n) { 17 vector&amp;lt;int&amp;gt; v(n); 18 for (int i = 0; i &amp;lt; n; i++) v[i] = i; 19 heaps(n, v, n); 20} 21int main() { 22 int n; cin &amp;gt;&amp;gt; n; 23 permutation(n); 24 return 0; 25}  </description>
     </item>
     
     <item>
@@ -159,6 +195,16 @@ A. Brick 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3int main()
       <guid>https://luke2336.github.io/p/cf_contest_1459/</guid>
       <description>Codeforces Round #691 (Div. 2) 因為 pC 找不到 bug，就一直亂丟，於是打得超爛。Rating 加了 43 到 1695。
 pA. Red-Blue Shuffle 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4typedef pair&amp;lt;int, int&amp;gt; pii; 5#define pb push_back 6int main() { 7 ios_base::sync_with_stdio(0); cin.tie(0); 8 int T; cin &amp;gt;&amp;gt; T; 9 while (T--) { 10 int n; cin &amp;gt;&amp;gt; n; 11 string R, B; 12 cin &amp;gt;&amp;gt; R &amp;gt;&amp;gt; B; 13 int r = 0, b = 0; 14 for (int i = 0; i &amp;lt; n; i++) 15 if (R[i] &amp;gt; B[i]) r++; 16 else if (R[i] &amp;lt; B[i]) b++; 17 if (r &amp;gt; b) cout &amp;lt;&amp;lt; &amp;#34;RED\n&amp;#34;; 18 else if (r &amp;lt; b) cout &amp;lt;&amp;lt; &amp;#34;BLUE\n&amp;#34;; 19 else cout &amp;lt;&amp;lt; &amp;#34;EQUAL\n&amp;#34;; 20 } 21 return 0; 22}  pB.</description>
+    </item>
+    
+    <item>
+      <title>CPTC</title>
+      <link>https://luke2336.github.io/p/cptc/</link>
+      <pubDate>Wed, 16 Dec 2020 10:20:38 +0800</pubDate>
+      
+      <guid>https://luke2336.github.io/p/cptc/</guid>
+      <description>CPTC 001    Problem Coder Topic     A Hyperbola Binary Search   B Kelly Greedy, Sort   C Hyperbola Enumerate, Prefix Sum   D Hyperbola 互動題, DP   E Kelly 數位 DP    今天難得全都 1AC。讀完題後也有迅速抓出水題，兩題都在正常速度開完。pD 被曲線通靈出來，他邊寫我邊聽 LinLee 講題目。我決定把 pE 拿去做，pC 則留給他們想。pE 算是定義好狀態就很好寫的題目，之前常在 AtCoder 看到類似的題目。
+pB 1#include&amp;lt;bits/stdc++.h&amp;gt;2using namespace std; 3typedef long long ll; 4int main() { 5 int n, m; 6 scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;n ,&amp;amp;m); 7 vector&amp;lt;int&amp;gt; deg(n); 8 for (int i = 0; i &amp;lt; m; i++) { 9 int a, b; 10 scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a, &amp;amp;b); 11 deg[a-1]++, deg[b-1]++; 12 } 13 vector&amp;lt;int&amp;gt; h(n); 14 for (int i = 0; i &amp;lt; n; i++) 15 scanf(&amp;#34;%d&amp;#34;, &amp;amp;h[i]); 16 sort(h.</description>
     </item>
     
     <item>

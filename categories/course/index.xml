@@ -47,15 +47,6 @@ Compile 方法 1lex rule.l 2gcc lex.yy.c -ll 3./a.out &amp;lt; input lex 的格�
     </item>
     
     <item>
-      <title>2021/06/13 日記</title>
-      <link>https://luke2336.github.io/p/20210613/</link>
-      <pubDate>Sun, 13 Jun 2021 21:15:34 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210613/</guid>
-      <description> 今天都在複習正規，明天會寫一回考古題。 還是有點燒，大概到 37.5 而已，有些噁心感，頭還是很暈。  正規語言概論 - 期末筆記 </description>
-    </item>
-    
-    <item>
       <title>大學是不是職業訓練所？</title>
       <link>https://luke2336.github.io/p/pedagogy-report/</link>
       <pubDate>Wed, 14 Apr 2021 19:25:34 +0800</pubDate>

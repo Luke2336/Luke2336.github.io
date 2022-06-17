@@ -6,25 +6,7 @@
     <description>Recent content in OS on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Mar 2022 09:59:09 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2022/03/28 日記</title>
-      <link>https://luke2336.github.io/p/20220328/</link>
-      <pubDate>Mon, 28 Mar 2022 09:59:09 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220328/</guid>
-      <description> 清晨起來把 HW1 寫完，於是早上睡的有點晚，但上高 U 時還是覺得很累。 午覺後，繼續做了 TIWCEF 的 Slide，補了幾張照片上去。 晚上去看醫生，然後吃了三商巧福。  高等 UNIX 筆記 setjmp and longjmp function  goto，只能在同個 function 裡使用。  在系統程式很常使用，例如錯誤處理。   跨 function 時，用 setjmp 和 longjmp。  用法  int setjmp(jmp_buf env);  第一次 call 時，return 0   void longjmp(jmp_buf env, int val);  val will be returned from setjmp    Stack Frame  args, ret, local var  Restoration  變數放在 register 會被還原，但放在 memory 不會。 register int a; violatile int b;  Process Control Process Identifiers  pid (positive)  ps, htop Process Relationship  pstree  Process Creation fork  pid_t fork(void) returns: 0 child, pid of child in parent, -1 on error exec vfork, clone  Process Termination  SIGCHLD wait, waitpid zombie process  avoid zombies by calling fork twice    Race Condition  不知道 child, parent 哪個會先跑 解法：  等 child 全部結束才讓 parent 跑 inprocess communication    Process Execution  exec  Binaries  ELF binary interpreter files binfmt_misc   mount -t binfmt_misc none /proc/sys/fs/binfmt_misc    </description>
-    </item>
-    
-    <item>
-      <title>2022/03/21 日記</title>
-      <link>https://luke2336.github.io/p/20220321/</link>
-      <pubDate>Mon, 21 Mar 2022 10:05:51 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220321/</guid>
-      <description>上課上到一半又跑去睡了 QAQ  高等 UNIX 筆記  id /etc/passwd、/etc/shadow 存放使用者資訊，密碼可以暴力破解 finger  &amp;lt;pwd.h&amp;gt;  getpwuid() getpwnam() getpwent() setpwent() endpwent()  &amp;lt;shadow.h&amp;gt;  getspnam() getspent() setspent() endspent()  User Passwords  Old: salt + encrypted password（DES, 2 + 11 bytes） New: Algorithm id + slat + encrypted password（雜湊值）（用 $ 分隔） Common Algorithms: DES, MD5, SHA256, SHA512 hash(salt+pw) crypt(const char *key, const char *salt)  crypt(&amp;quot;password&amp;quot;, &amp;quot;$1$abcdefg$&amp;quot;) -l crypt: 編譯時要 link lib   /etc/nsswitch.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 18 Mar 2022 18:49:31 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>實作 lsof</title>
       <link>https://luke2336.github.io/p/lsof/</link>
@@ -37,112 +19,12 @@ cwd  從 proc/[pid]/cwd 裡找，因為是 symbolic link，所以用 readlink() 
     </item>
     
     <item>
-      <title>2022/03/14 日記</title>
-      <link>https://luke2336.github.io/p/20220314/</link>
-      <pubDate>Mon, 14 Mar 2022 10:11:29 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220314/</guid>
-      <description>高等 UNIX 筆記  sudo su -  File Descripter  0: STDIN, 1: STDOUT, 2: STDERR unistd.h 0 ~ OPEN_MAX - 1，可用 setrlimit() 改（需要 root 權限）。 redirection, pipe  File I/O vs. Standard I/O File I/O  via file descripter  Standard I/O  via wrapped file descripter fileno()：給 FILE 指標，得到 descripter number  File I/O Function open()  int open(const char *pathname, int flags, mode_t mode); return descripter, error: return -1 flags  O_WRONLY | O_APPEND    creat() close() lseek()  off_t lseek(int fd, off_t offset, int whence); offset 有正負 32-bit File Hole: 中間會填 0，磁碟機實際上只會用寫入的大小，檔案大小會包含空洞。  ls -s cp file-hole file-nohole，沒辦法生出有洞的檔案。    read() write() File I/O Other Issues Efficiency  buffer size 最好是 block size 的倍數。  File Sharing  Kernel Data Structure fork  如果兩個 process 都對同個檔案做操作，有可能會出問題。  Atomic Operation   pread, pwrite   dup, dup2 sync, fsync, fdatasync fcntl: 對 descripter 下指令  O_NONBLOCK val |= flag, val &amp;amp;= ~flag   ioctl: 對 device 下指令 dmesg /dev/fd: virtual file system  cat /etc/passwd | cat /dev/fd/0 netstat    Standard I/O Buffering  fully buffered: 減少 system call 數量 line buffered: 遇到換行做 system call unbuffered setbuf(), setbbuf()  Open Files  fdopen()  Tmp Files  tmpfile, mkstemp   Homework  uid 可從 /etc/passwd 取得  </description>
-    </item>
-    
-    <item>
-      <title>2022/03/07 日記</title>
-      <link>https://luke2336.github.io/p/20220307/</link>
-      <pubDate>Mon, 07 Mar 2022 10:10:12 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220307/</guid>
-      <description>早上的課上到 11:30 就忍不住跑去睡覺了 QQ  筆記 - 高等 UNIX Filename  不可以用 / 和 \0 最多 255 characters  Directory  pwd home path 存在 /etc/password  stat, fstat, lstat  file  data metadata: file information（屬於目錄的 data）   stat：將指定的路徑的 metadata 撈出來存到 buffer fstat：給開好的檔案 lstat：does not follow a symbolic link OK: return 0, error: return -1  man 2 stat
-1struct stat { 2 dev_t st_dev; /* ID of device containing file */ 3 ino_t st_ino; /* Inode number */ 4 mode_t st_mode; /* File type and mode */ 5 nlink_t st_nlink; /* Number of hard links */ 6 uid_t st_uid; /* User ID of owner */ 7 gid_t st_gid; /* Group ID of owner */ 8 dev_t st_rdev; /* Device ID (if special file) */ 9 off_t st_size; /* Total size, in bytes */ 10 blksize_t st_blksize; /* Block size for filesystem I/O */ 11 blkcnt_t st_blocks; /* Number of 512B blocks allocated */ 12 13 /* Since Linux 2.</description>
-    </item>
-    
-    <item>
-      <title>2022/02/21 日記</title>
-      <link>https://luke2336.github.io/p/20220221/</link>
-      <pubDate>Mon, 21 Feb 2022 10:45:09 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220221/</guid>
-      <description>早上的 UNIX 連續上 150 分鐘，覺得超累。  UNIX programming  GCC &amp;amp; g++  gcc -S hello.c -masm=intel：顯示 assembly code g++ 和 gcc compile 出來的 function name 不同，可用 nm 查看 .o 檔。  因為要支援同名的 function，所以會在 function name 加前綴。 可用 extern &amp;quot;C&amp;quot;{} 讓 function 照 gcc 的方式 compile。   c++filt: 把 symbol 翻譯出來。   Makefile  同時 match 兩個 rule，才會有順序問題。   GDB  compile 要加 -g strip hello: 拿掉不需要的 symbol  nm -D hello   可以裝 libc6-dbg:amd64 ulimit -c unlimited：使程式執行後生成 core file。 cat /proc/sys/kernel/core_pattern cat /etc/security/limits.</description>
-    </item>
-    
-    <item>
-      <title>2022/02/06 日記</title>
-      <link>https://luke2336.github.io/p/20220206/</link>
-      <pubDate>Sun, 06 Feb 2022 09:47:58 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220206/</guid>
-      <description>作業系統看到第 38 集。 疫情目前還是在雙北桃和高雄燒，希望不要延後開學。 玩 Command Challenge 和 HackerRank。  ZeroJudge b310: 英靈召喚  爬行法  1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include &amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4int main() { 5 ios::sync_with_stdio(0); 6 cin.tie(0); 7 int n, m; 8 cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m; 9 vector&amp;lt;int&amp;gt; g(n); 10 for (int i = 0; i &amp;lt; n; i++) { 11 cin &amp;gt;&amp;gt; g[i]; 12 } 13 if (m == 0) { 14 cout &amp;lt;&amp;lt; &amp;#34;0\n&amp;#34;; 15 return 0; 16 } 17 int ans = n + 1; 18 for (int l = 0, r = 0, sum = g[0]; r &amp;lt; n; sum += g[++r]) { 19 while (sum &amp;gt;= m) { 20 ans = min(ans, r - l + 1); 21 sum -= g[l++]; 22 } 23 } 24 if (ans == n + 1) { 25 cout &amp;lt;&amp;lt; &amp;#34;GGGGGZ\n&amp;#34;; 26 } else { 27 cout &amp;lt;&amp;lt; ans &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; 28 } 29 return 0; 30}  Command Challenge  Delete all of the files in this challenge directory including all subdirectories and their contents.</description>
-    </item>
-    
-    <item>
-      <title>2022/01/29 日記</title>
-      <link>https://luke2336.github.io/p/20220129/</link>
-      <pubDate>Sat, 29 Jan 2022 18:00:31 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20220129/</guid>
-      <description>下午將 shell 從 bash 改成 zsh。 作業系統看到第 18 集。  設定 zsh 把 shell 換成 zsh chsh -s /bin/zsh
-安裝 Oh-My-Zsh sh -c &amp;quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;quot;
-Terminal 顏色  改成 sublime 的底色，字型改成白色。  設定 ~/.zshrc  為了讓之前的 .bashrc 可以運作，於是要加上 source ~/.bashrc。 主題選用 gozilla。 選用了一些有趣的 plugins，例如 colored-man-pages、sublime、sudo、web-search、copydir、copyfile。 改完後記得跑 source ~/.zshrc。  source ~/.bashrc source ~/.bash_profile # If you come from bash you might have to change your $PATH. # export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation.</description>
-    </item>
-    
-    <item>
       <title>MacOS Command Line Note</title>
       <link>https://luke2336.github.io/p/mac_cmd/</link>
       <pubDate>Sun, 07 Feb 2021 14:08:22 +0800</pubDate>
       
       <guid>https://luke2336.github.io/p/mac_cmd/</guid>
       <description>常用指令    command 用途     clear clear terminal window   ls list directory content   ls -a 將隱藏檔案也列出   cd change directory to home   cd .. change directory to parent   cd - change directory to last working directory   cd / change directory to root   pwd print working directory   rm file_name remove file   mkdir dir_name make directory   rmdir dir_name remove directory   rm -R dir_name remove the directory and all files in the directory   cp -R A B 將 A 資料夾的東西全部複製到 B   mv A dir_name 將 A 搬到資料夾   cat file_name 查看內容   grep text file_name 抓取內容    </description>
-    </item>
-    
-    <item>
-      <title>2021/01/12 日記</title>
-      <link>https://luke2336.github.io/p/20210112/</link>
-      <pubDate>Tue, 12 Jan 2021 14:56:38 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210112/</guid>
-      <description>今天考完了電路學期末考，於是想開始進入寒假狀態，已經有了一些想做的事。
-Todo List  期末的作業們  OS HW4 電路學 Final Project   寒假  競程  PCCA 寒訓 CSES 題單   德文  DW Learn German   Blog  目錄 修課心得 日記      OS HW4 - Meltdown  要在能特定的 CPU 上才能 Meltdown，大部分 Intel 的 CPU 都可以。 Meltdown  現代的 CPU 多透過 Pipeline 去執行指令，當其中某些較快的指令執行完畢後，就會發出 Out-of-order Exception。再 CPU 處理 Exception 前，資料會先從 Register 複製到 Cache。 Meltdown 透過某些指令將 Cache 裡的東西搬到 User Mode 能存取的記憶體裡。    </description>
-    </item>
-    
-    <item>
-      <title>2021/01/06 日記</title>
-      <link>https://luke2336.github.io/p/20210106/</link>
-      <pubDate>Wed, 06 Jan 2021 10:28:28 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210106/</guid>
-      <description>昨天下腹不舒服，花了一段時間才入睡。早上躺到十點才起床，中間醒來了兩次。
-醒來後就開始寫作業，有了進度後就去買了雞腿便當吃，然後把韓劇「我的女友是九尾狐」看完，雖然國小時已經看過一遍，但最近突然想重溫一下。
-之後把 HW2 的 PartI-1 寫完，主要是把函式的參數做修正，使兩隻程式的 shmget 回傳的 id 是一樣的。午睡起床後寫了 PartII。
-晚餐吃了壽司，肚子略略不舒服，吃了阿德比之後就好了。
-OS HW2  學會用 shmget() 和 shmat() 使兩個 processes 共享記憶體。  shmget() 的參數要注意，兩個程式的 key 值要是一樣的正整數。而 shmflg 的值則是建立記憶體的那隻程式設為 IPC_CREAT|0666，另一隻設 0。   PartII 是要把兩個 pointer 的 page table 指向同一個 physical address。重點是用 cr3 和 virtual_address 取得 page_table_address。  </description>
-    </item>
-    
-    <item>
-      <title>2021/01/05 日記</title>
-      <link>https://luke2336.github.io/p/20210105/</link>
-      <pubDate>Tue, 05 Jan 2021 13:35:28 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210105/</guid>
-      <description>早上很想睡，但還是去上了電路學。今天是教如何在 s-domain 下用 Laplace Transform 解電路，比較需要注意的就是 Initial Condition 的部分。
-下午為了寫 OS 作業，所以裝了 TA 提供的 Ubuntu VM。這是我第一次裝 Linux，平常只有比賽的時候會使用 Linux。
-晚餐前注意到含羞草開花了。
-晚上去上了電路學的助教課，結果只有我一個人去，有個女生十幾分鐘就說身體不舒服離開了。結束時和助教隨口聊了一下天，才知道他大學是讀清大。
-在 VirtualBox 裝 Ubuntu  在官網下載 VirtualBox-6.1.16-140961-OSX.dmg。  點擊 VirtualBox.pkg 安裝。 下載 TA 提供的 Ubuntu-18.04 VM 使用 VB 匯入 Ubuntu-VM.ovf。  啟動 VM，將需要用到的 Terminal 和 gedit 拉到左邊。   含羞草開花 不知道是不是因為最近太冷了，加上給的水少，所以就長出花苞了。有一個好像已經謝了，看了一下網路上的文章，他開花到凋謝的時間大概五六小時，希望有機會能看到花。</description>
-    </item>
-    
-    <item>
-      <title>2020/12/30 日記</title>
-      <link>https://luke2336.github.io/p/20201230/</link>
-      <pubDate>Wed, 30 Dec 2020 11:01:35 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20201230/</guid>
-      <description>氣溫驟降，雖然室內有 19 度左右，室外卻只有 11 度，很冷。
-早上考了兩科期末考。中午看到認識語言的總成績已經出來了，94分，比預想的高，原本以為大約 92 分，可能有微微調分吧？
-下午讀了電路學的第 14 章，量有點大。卦長告訴我他看不懂 OS 作業，所以幫不上忙 QAQ 讓我壓力有點大，畢竟現在還有交換申請的自傳還沒寫完，以及電路學的考試和作業，另外還有電路 Final Project 還沒開始弄。
-晚餐吃了狗尾草雞湯，想到很久沒去八分寮吃了～飯後就直接睡了，從八點睡到快十二點，之後心情不太好，到三點多才又開始睡。
-期末考 德文期末考 沒看到公告說 8:15 才開始，結果太早到。
-考試內容不難，都是考文法居多，動詞變化、受格、所有格、冠詞，有點吃虧，我花了不少時間被單字，反而陰陽性沒有記得很熟，但感覺應該是可以有 70 以上。
-OS 期末考 在綜一考試，共 10 題，每題都 10 分，覺得這種配分有點糟，因為有些題是選擇題，選錯就爆了，不像問答題會有部份分。
-考完試不小心把筆袋掉在教室 QAQ</description>
     </item>
     
     <item>
@@ -153,17 +35,6 @@ OS 期末考 在綜一考試，共 10 題，每題都 10 分，覺得這種配�
       <guid>https://luke2336.github.io/p/os_ch5/</guid>
       <description>CH5 - Process Synchronization The Critical-Section Problem 有些資源只能同時被一個 process 使用。
 do { entry_section(); // critical section  exit_section(); // remainder section while (true);  Mutual Excusion Progress (Freedom from Deadlock) Bounded Wait (Freedom from Starvation)   preemptive: 資源被使用時可以被打斷 non-preemptive  Peterson&amp;rsquo;s Solution class PetersonLock { // shared var.  bool flag[2]; int victim; public: void lock() { int i = ThreadID.get(); int j = 1 - i; flag[i] = true; victim = i; while (flag[j] &amp;amp;&amp;amp; victim == i); } void unlock() { int i = ThreadID.</description>
-    </item>
-    
-    <item>
-      <title>2020/12/02 日記</title>
-      <link>https://luke2336.github.io/p/20201202/</link>
-      <pubDate>Wed, 02 Dec 2020 10:58:23 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20201202/</guid>
-      <description>OS HW1 (Python) 中午研究了一下 OS 的作業一，因為對 Python 還不熟，所以先研究了一些模組和函式的用法。之後再慢慢研究 Multithread、Multiprocessing 和 Coroutine。因為期中考表現的很糟，希望能在作業拚一下，把總成績拉到 A。
-Requests: Website Title  $ pip3 install requests $ pip3 install beautifulsoup4  1import requests 2from bs4 import BeautifulSoup 3url = input() 4r = requests.get(url) 5while r.status_code != requests.codes.ok : # 200 6	r = requests.get(url) 7soup = BeautifulSoup(r.text, &amp;#39;html.parser&amp;#39;) 8print(soup.find(&amp;#39;title&amp;#39;).text) SHA 記得要先 encode(&#39;utf-8&#39;)
-1import hashlib # 內建的 2 3def SHA256(s): 4 sha = hashlib.sha256() 5 sha.update(s.encode(&amp;#39;utf-8&amp;#39;)) 6 return sha.</description>
     </item>
     
   </channel>

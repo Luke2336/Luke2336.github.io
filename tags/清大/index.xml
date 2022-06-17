@@ -6,48 +6,17 @@
     <description>Recent content in 清大 on Luke&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Jan 2022 11:42:20 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E6%B8%85%E5%A4%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 10:34:07 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E6%B8%85%E5%A4%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2022/01/31 日記</title>
-      <link>https://luke2336.github.io/p/20220131/</link>
-      <pubDate>Mon, 31 Jan 2022 11:42:20 +0800</pubDate>
+      <title>清大梅園</title>
+      <link>https://luke2336.github.io/p/plum/</link>
+      <pubDate>Fri, 15 Jan 2021 10:34:07 +0800</pubDate>
       
-      <guid>https://luke2336.github.io/p/20220131/</guid>
-      <description> 作業系統看到第 25 集。 中午跟隊友去吃壽司郎。 下午去清大梅園散步，但只剩一棵還有花。 發現要建立 .../layout/robots.txt 才能讓 Google 截取到 sitemap.xml。  </description>
-    </item>
-    
-    <item>
-      <title>2021/03/13 日記</title>
-      <link>https://luke2336.github.io/p/20210313/</link>
-      <pubDate>Sat, 13 Mar 2021 18:36:09 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210313/</guid>
-      <description> 在清大校友體育館打小梅竹，交大電機贏了七十幾分。我打了兩場混雙，都是對到男雙，一場輸一場贏，第一場的時候被殺球打到臉，超痛的～之後跟隊長他們在風雲吃了牛排，然後就回交大休息了。 最近在人多的地方，有時候會覺得莫名的孤單空虛，有點小憂鬱。這兩天也有點沒食慾，可能是平日的課排太緊湊了，生活過得有點累。 洗完澡後完成了 ICCAD contest problem B 的 parser，寫順了就滿快的。 半妖的夜叉姬追到倒數第二集了，故事比預期的爛。 報名了 5/15 的 GEPT 中高級初試。  </description>
-    </item>
-    
-    <item>
-      <title>2021/03/05 日記</title>
-      <link>https://luke2336.github.io/p/20210305/</link>
-      <pubDate>Fri, 05 Mar 2021 11:50:57 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210305/</guid>
-      <description>早上去找導師簽了交換的文件後，在宿舍混了一下，就去清大吃下午茶和寫作業了。
-晚上跟學長去清夜拿羽球拍和吃義大利麵，然後因為戶外下雨，所以就在台達館聊了一下。
-空堂咖啡 去清大的空堂咖啡吃了下午的甜點，這週是提拉米蘇，加上一杯冰拿鐵。
-還被請了一杯檸檬水，但之後肚子不太舒服&amp;hellip;&amp;hellip;
-然後去台達館找了一個空桌寫正規語言作業，發現旁邊有白板，但筆都沒水了，下次會考慮帶自己的筆去。</description>
-    </item>
-    
-    <item>
-      <title>2021/01/15 日記</title>
-      <link>https://luke2336.github.io/p/20210115/</link>
-      <pubDate>Fri, 15 Jan 2021 15:17:37 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/20210115/</guid>
-      <description>早上有點失眠，在床上躺了一陣子才起床。打扮了一下之後，去清大走了走，賞梅。
-晚餐吃了璽子牛肉麵，之後開始寫水題。因為有點累，所以十一點前就睡了。
-CSES - 2191 - Polygon Area 給一個簡單多邊形，輸出面積的兩倍。
-1#pragma GCC optimization (&amp;#34;O3&amp;#34;) 2#include&amp;lt;bits/stdc++.h&amp;gt;3using namespace std; 4typedef long long ll; 5typedef pair&amp;lt;ll, ll&amp;gt; pii; 6#define x first 7#define y second 8#define pb push_back 9ll det(vector&amp;lt;pii&amp;gt; &amp;amp;p, int n) { 10 ll cnt = 0; 11 for (int i = 0; i &amp;lt; n; i++) 12 cnt += p[i].x * p[i + 1].y - p[i + 1].x * p[i].y; 13 return (cnt &amp;gt; 0) ?</description>
+      <guid>https://luke2336.github.io/p/plum/</guid>
+      <description>清華踏青 天氣很好，於是就搭小紅巴出去走走。
+第二招待所 去二招吃印度料理，被老闆娘說很久沒看到我，今天生意相對比較好的樣子。
+梅園 第一次在梅花開的時候過去，上次去是秋天某次滿月和電資系羽的一個學長去夜遊。梅花開的很茂盛，賞花的人也絡繹不絕，剛剛在二招吃飯的一桌老人們也在這邊。有很多蜜蜂在採蜜，有一株有結了三顆梅子，看起來很好吃。
+相思湖 蝴蝶園 台積館 發現了一條蝴蝶園通往台積館的小徑，就從南大門走回交大，然後在石園發現了三隻五色鳥。之後買了蛋捲冰淇淋就回宿舍休息了。</description>
     </item>
     
   </channel>
