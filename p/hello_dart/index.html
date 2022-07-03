@@ -1,37 +1,32 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-
-<meta content="Dart" name="keywords">
-
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='初學 Dart 的筆記'><title>Dart 筆記</title>
 
 <link rel='canonical' href='https://luke2336.github.io/p/hello_dart/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Dart 筆記'>
+<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='Dart 筆記'>
 <meta property='og:description' content='初學 Dart 的筆記'>
 <meta property='og:url' content='https://luke2336.github.io/p/hello_dart/'>
 <meta property='og:site_name' content='Luke&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Code' /><meta property='article:published_time' content='2022-06-27T03:46:07&#43;08:00'/><meta property='article:modified_time' content='2022-06-27T03:46:07&#43;08:00'/>
 <meta name="twitter:title" content="Dart 筆記">
 <meta name="twitter:description" content="初學 Dart 的筆記">
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W1C6W63ELX"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'G-W1C6W63ELX', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-W1C6W63ELX', { 'anonymize_ip': false });
 }
 </script>
 
     </head>
     <body class="
-    article-page has-toc
-">
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -54,26 +49,236 @@ if (!doNotTrack) {
         }
     })();
 </script>
-<div class="container main-container flex 
-    
-        extended
-    
-">
-    
-        <div id="article-toolbar">
-            <a href="https://luke2336.github.io" class="back-home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu4885a8a7d98e244f45df43f94e8a53a2_206284_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Luke&#39;s Blog</a></h1>
+            <h2 class="site-description">Nurture passes nature.</h2>
+        </div><ol class="social-menu">
+                
+                    <li>
+                        <a 
+                            href='https://github.com/Luke2336'
+                            target="_blank"
+                            title="GitHub"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
 </svg>
 
 
 
-                <span>Back</span>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://www.linkedin.com/in/ke-yu-lu/'
+                            target="_blank"
+                            title="Linked"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='https://twitter.com/tfg10432336'
+                            target="_blank"
+                            title="Twitter"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                            
+                        </a>
+                    </li>
+                
+            </ol></header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
             </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml' target="_blank">
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>RSS</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
         </div>
-    
-<main class="main full-width">
+    </ol>
+</aside><main class="main full-width">
     <article class="main-article">
     <header class="article-header">
 
@@ -88,16 +293,38 @@ if (!doNotTrack) {
     </header>
     
 
-    <h2 class="article-title">
-        <a href="/p/hello_dart/">Dart 筆記</a>
-    </h2>
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/hello_dart/">Dart 筆記</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            初學 Dart 的筆記
+        </h3>
+        
+    </div>
 
     
-    <h3 class="article-subtitle">
-        初學 Dart 的筆記
-    </h3>
     <footer class="article-time">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 27, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <polyline points="12 7 12 12 15 15" />
@@ -105,11 +332,21 @@ if (!doNotTrack) {
 
 
 
-        <time class="article-time--published">Jun 27, 2022</time>
-    </footer></div>
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
 </header>
 
     <section class="article-content">
+    
+    
     <h2 id="線上編譯器">線上編譯器</h2>
 <ul>
 <li><a class="link" href="https://dartpad.dartlang.org/"  target="_blank" rel="noopener"
@@ -117,16 +354,16 @@ if (!doNotTrack) {
 </ul>
 <h2 id="hello-world">Hello World!</h2>
 <p><code>dart Hello.dart</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="c1">// Hello.dart
-</span><span class="ln">2</span><span class="c1"></span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">3</span>    <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">);</span>
-<span class="ln">4</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// Hello.dart
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <h2 id="comment">Comment</h2>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="c1">// Inline Comment
-</span><span class="ln">2</span><span class="c1"></span>
-<span class="ln">3</span><span class="cm">/*
-</span><span class="ln">4</span><span class="cm">Comment
-</span><span class="ln">5</span><span class="cm">*/</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// Inline Comment
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="cm">Comment
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="cm">*/</span></span></span></code></pre></div>
 <h2 id="data-type">Data Type</h2>
 <ul>
 <li><code>int</code>, <code>double</code>, <code>num</code></li>
@@ -137,95 +374,95 @@ if (!doNotTrack) {
 <li><code>Set</code></li>
 </ul>
 <h3 id="number">Number</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">num1</span> <span class="o">=</span> <span class="m">1</span><span class="p">;</span>
-<span class="ln"> 3</span>    <span class="n">print</span><span class="p">(</span><span class="n">num1</span><span class="p">);</span> <span class="c1">// 1
-</span><span class="ln"> 4</span><span class="c1"></span>
-<span class="ln"> 5</span>    <span class="kd">var</span> <span class="n">num2</span> <span class="o">=</span> <span class="m">2.05</span><span class="p">;</span>
-<span class="ln"> 6</span>    <span class="n">print</span><span class="p">(</span><span class="n">num2</span><span class="p">);</span> <span class="c1">// 2.05
-</span><span class="ln"> 7</span><span class="c1"></span>
-<span class="ln"> 8</span>    <span class="kd">var</span> <span class="n">num3</span> <span class="o">=</span> <span class="kt">int</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">);</span>
-<span class="ln"> 9</span>    <span class="n">print</span><span class="p">(</span><span class="n">num3</span><span class="p">);</span> <span class="c1">// 1
-</span><span class="ln">10</span><span class="c1"></span>
-<span class="ln">11</span>    <span class="kd">var</span> <span class="n">num4</span> <span class="o">=</span> <span class="kt">double</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;2.05&#39;</span><span class="p">);</span>
-<span class="ln">12</span>    <span class="n">print</span><span class="p">(</span><span class="n">num4</span><span class="p">);</span> <span class="c1">// 2.05
-</span><span class="ln">13</span><span class="c1"></span>
-<span class="ln">14</span>    <span class="kd">var</span> <span class="n">sum</span> <span class="o">=</span> <span class="n">num3</span> <span class="o">+</span> <span class="n">num4</span><span class="p">;</span>
-<span class="ln">15</span>    <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Sum = </span><span class="si">${</span><span class="n">sum</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">);</span> <span class="c1">// Sum = 3.05
-</span><span class="ln">16</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">num1</span> <span class="o">=</span> <span class="m">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">num1</span><span class="p">);</span> <span class="c1">// 1
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="kd">var</span> <span class="n">num2</span> <span class="o">=</span> <span class="m">2.05</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">num2</span><span class="p">);</span> <span class="c1">// 2.05
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="kd">var</span> <span class="n">num3</span> <span class="o">=</span> <span class="kt">int</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">num3</span><span class="p">);</span> <span class="c1">// 1
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="kd">var</span> <span class="n">num4</span> <span class="o">=</span> <span class="kt">double</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;2.05&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">num4</span><span class="p">);</span> <span class="c1">// 2.05
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">    <span class="kd">var</span> <span class="n">sum</span> <span class="o">=</span> <span class="n">num3</span> <span class="o">+</span> <span class="n">num4</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Sum = </span><span class="si">${</span><span class="n">sum</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">);</span> <span class="c1">// Sum = 3.05
+</span></span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div>
 <h3 id="constant">Constant</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">2</span>    <span class="kd">const</span> <span class="n">one</span> <span class="o">=</span> <span class="m">1</span><span class="p">;</span>
-<span class="ln">3</span>    <span class="kd">const</span> <span class="n">PI</span> <span class="o">=</span> <span class="m">3.14</span><span class="p">;</span>
-<span class="ln">4</span>    <span class="kd">const</span> <span class="n">product</span> <span class="o">=</span> <span class="n">one</span> <span class="o">*</span> <span class="n">PI</span><span class="p">;</span>
-<span class="ln">5</span>    <span class="n">print</span><span class="p">(</span><span class="n">product</span><span class="p">);</span> <span class="c1">// 3.14
-</span><span class="ln">6</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="kd">const</span> <span class="n">one</span> <span class="o">=</span> <span class="m">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="kd">const</span> <span class="n">PI</span> <span class="o">=</span> <span class="m">3.14</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="kd">const</span> <span class="n">product</span> <span class="o">=</span> <span class="n">one</span> <span class="o">*</span> <span class="n">PI</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">product</span><span class="p">);</span> <span class="c1">// 3.14
+</span></span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div>
 <h3 id="string">String</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">s1</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span><span class="p">;</span>
-<span class="ln"> 3</span>    <span class="kd">var</span> <span class="n">s2</span> <span class="o">=</span> <span class="s1">&#39;World&#39;</span><span class="p">;</span>
-<span class="ln"> 4</span>    <span class="kd">var</span> <span class="n">s3</span> <span class="o">=</span> <span class="n">s1</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">s2</span><span class="p">;</span>
-<span class="ln"> 5</span>    <span class="n">print</span><span class="p">(</span><span class="n">s3</span><span class="p">);</span> <span class="c1">// Hello World
-</span><span class="ln"> 6</span><span class="c1"></span>
-<span class="ln"> 7</span>    <span class="kt">String</span> <span class="n">one</span> <span class="o">=</span> <span class="m">1.</span><span class="n">toString</span><span class="p">();</span>
-<span class="ln"> 8</span>    <span class="n">print</span><span class="p">(</span><span class="n">one</span><span class="p">);</span> <span class="c1">// 1
-</span><span class="ln"> 9</span><span class="c1"></span>
-<span class="ln">10</span>    <span class="kt">String</span> <span class="n">PI</span> <span class="o">=</span> <span class="m">3.14159</span><span class="p">.</span><span class="n">toStringAsFixed</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>
-<span class="ln">11</span>    <span class="n">print</span><span class="p">(</span><span class="n">PI</span><span class="p">);</span> <span class="c1">// 3.14
-</span><span class="ln">12</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">s1</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="kd">var</span> <span class="n">s2</span> <span class="o">=</span> <span class="s1">&#39;World&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="kd">var</span> <span class="n">s3</span> <span class="o">=</span> <span class="n">s1</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">s2</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s3</span><span class="p">);</span> <span class="c1">// Hello World
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="kt">String</span> <span class="n">one</span> <span class="o">=</span> <span class="m">1.</span><span class="n">toString</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">one</span><span class="p">);</span> <span class="c1">// 1
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="kt">String</span> <span class="n">PI</span> <span class="o">=</span> <span class="m">3.14159</span><span class="p">.</span><span class="n">toStringAsFixed</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">PI</span><span class="p">);</span> <span class="c1">// 3.14
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div>
 <h3 id="boolean">Boolean</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">2</span>    <span class="kt">String</span> <span class="n">s1</span> <span class="o">=</span> <span class="s2">&#34;Hello&#34;</span><span class="p">;</span>
-<span class="ln">3</span>    <span class="kt">String</span> <span class="n">s2</span> <span class="o">=</span> <span class="s2">&#34;World&#34;</span><span class="p">;</span>
-<span class="ln">4</span>    <span class="kt">bool</span> <span class="n">val</span> <span class="o">=</span> <span class="p">(</span><span class="n">s1</span> <span class="o">==</span> <span class="n">s2</span><span class="p">);</span>
-<span class="ln">5</span>    <span class="n">print</span><span class="p">(</span><span class="n">val</span><span class="p">);</span> <span class="c1">// false
-</span><span class="ln">6</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="kt">String</span> <span class="n">s1</span> <span class="o">=</span> <span class="s2">&#34;Hello&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="kt">String</span> <span class="n">s2</span> <span class="o">=</span> <span class="s2">&#34;World&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="kt">bool</span> <span class="n">val</span> <span class="o">=</span> <span class="p">(</span><span class="n">s1</span> <span class="o">==</span> <span class="n">s2</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">val</span><span class="p">);</span> <span class="c1">// false
+</span></span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div>
 <h3 id="list">List</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">L</span> <span class="o">=</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">];</span>
-<span class="ln"> 3</span>    <span class="n">L</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span>
-<span class="ln"> 4</span>    <span class="n">print</span><span class="p">(</span><span class="n">L</span><span class="p">);</span> <span class="c1">// [10, 2, 3]
-</span><span class="ln"> 5</span><span class="c1"></span>
-<span class="ln"> 6</span>    <span class="kd">var</span> <span class="n">constL</span> <span class="o">=</span> <span class="kd">const</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">];</span>
-<span class="ln"> 7</span>
-<span class="ln"> 8</span>    <span class="kd">var</span> <span class="n">L2</span> <span class="o">=</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="p">...</span><span class="n">L</span><span class="p">];</span> <span class="c1">// [1, 10, 2, 3];
-</span><span class="ln"> 9</span><span class="c1"></span>    <span class="n">print</span><span class="p">(</span><span class="n">L2</span><span class="p">);</span>
-<span class="ln">10</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">L</span> <span class="o">=</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">];</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="n">L</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">L</span><span class="p">);</span> <span class="c1">// [10, 2, 3]
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="kd">var</span> <span class="n">constL</span> <span class="o">=</span> <span class="kd">const</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">];</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="kd">var</span> <span class="n">L2</span> <span class="o">=</span> <span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="p">...</span><span class="n">L</span><span class="p">];</span> <span class="c1">// [1, 10, 2, 3];
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span>    <span class="n">print</span><span class="p">(</span><span class="n">L2</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <h3 id="set">Set</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">2</span>    <span class="kd">var</span> <span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Monkdy&#39;</span><span class="p">,</span> <span class="s1">&#39;Dog&#39;</span><span class="p">,</span> <span class="s1">&#39;Goat&#39;</span><span class="p">};</span>
-<span class="ln">3</span>    <span class="n">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span> <span class="n">empty_set1</span> <span class="o">=</span> <span class="p">{};</span>
-<span class="ln">4</span>    <span class="kd">var</span> <span class="n">set2</span> <span class="o">=</span> <span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span><span class="p">{};</span>
-<span class="ln">5</span>    <span class="n">set2</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;Dog&#39;</span><span class="p">);</span>
-<span class="ln">6</span>    <span class="n">set2</span><span class="p">.</span><span class="n">addAll</span><span class="p">(</span><span class="n">set1</span><span class="p">);</span>
-<span class="ln">7</span>    <span class="n">print</span><span class="p">(</span><span class="n">set2</span><span class="p">.</span><span class="n">length</span><span class="p">);</span> <span class="c1">// 3
-</span><span class="ln">8</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="kd">var</span> <span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Monkdy&#39;</span><span class="p">,</span> <span class="s1">&#39;Dog&#39;</span><span class="p">,</span> <span class="s1">&#39;Goat&#39;</span><span class="p">};</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="n">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span> <span class="n">empty_set1</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="kd">var</span> <span class="n">set2</span> <span class="o">=</span> <span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span><span class="p">{};</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="n">set2</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;Dog&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="n">set2</span><span class="p">.</span><span class="n">addAll</span><span class="p">(</span><span class="n">set1</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">set2</span><span class="p">.</span><span class="n">length</span><span class="p">);</span> <span class="c1">// 3
+</span></span></span><span class="line"><span class="ln">8</span><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div>
 <h3 id="map">Map</h3>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">M1</span> <span class="o">=</span> <span class="p">{</span>
-<span class="ln"> 3</span>        <span class="s1">&#39;first&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">,</span>
-<span class="ln"> 4</span>        <span class="s1">&#39;second&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">,</span>
-<span class="ln"> 5</span>        <span class="s1">&#39;third&#39;</span><span class="o">:</span> <span class="m">3</span><span class="p">,</span>
-<span class="ln"> 6</span>    <span class="p">};</span>
-<span class="ln"> 7</span>    <span class="k">assert</span><span class="p">(</span><span class="n">M1</span><span class="p">[</span><span class="s1">&#39;fourth&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">null</span><span class="p">);</span>
-<span class="ln"> 8</span>    <span class="n">print</span><span class="p">(</span><span class="n">M1</span><span class="p">[</span><span class="s1">&#39;third&#39;</span><span class="p">]);</span> <span class="c1">// 3
-</span><span class="ln"> 9</span><span class="c1"></span>
-<span class="ln">10</span>    <span class="n">Map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;</span> <span class="n">M2</span> <span class="o">=</span> <span class="p">{};</span>
-<span class="ln">11</span>    <span class="n">M2</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;0&#39;</span><span class="p">;</span>
-<span class="ln">12</span>    <span class="n">M2</span><span class="p">[</span><span class="m">1999</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;1999&#39;</span><span class="p">;</span>
-<span class="ln">13</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">M1</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">        <span class="s1">&#39;first&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="s1">&#39;second&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">        <span class="s1">&#39;third&#39;</span><span class="o">:</span> <span class="m">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">M1</span><span class="p">[</span><span class="s1">&#39;fourth&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">null</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">M1</span><span class="p">[</span><span class="s1">&#39;third&#39;</span><span class="p">]);</span> <span class="c1">// 3
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="n">Map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;</span> <span class="n">M2</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="n">M2</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;0&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="n">M2</span><span class="p">[</span><span class="m">1999</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;1999&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <h2 id="dynamic-final-const"><code>dynamic</code>, <code>final</code>, <code>const</code></h2>
 <ul>
 <li>沒有被宣告類型的變數會被宣告為 <code>dynamic</code>。</li>
 <li><code>final</code> 和 <code>const</code> 都不可以修改，<code>const</code> 用於編譯時期常數。</li>
 <li><code>final(const) dataType name</code></li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">2</span>    <span class="kt">dynamic</span> <span class="n">x</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span>
-<span class="ln">3</span>    <span class="n">x</span> <span class="o">=</span> <span class="m">20</span><span class="p">;</span>
-<span class="ln">4</span>    <span class="kd">final</span> <span class="n">y</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
-<span class="ln">5</span>    <span class="kd">const</span> <span class="n">z</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span>
-<span class="ln">6</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="kt">dynamic</span> <span class="n">x</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="n">x</span> <span class="o">=</span> <span class="m">20</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="kd">final</span> <span class="n">y</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="kd">const</span> <span class="n">z</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <h2 id="位元運算子">位元運算子</h2>
 <ul>
 <li><code>&amp;</code></li>
@@ -234,143 +471,143 @@ if (!doNotTrack) {
 <li><code>^</code></li>
 </ul>
 <h2 id="if-else"><code>if</code>, <code>else</code></h2>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">x</span> <span class="o">=</span> <span class="o">-</span><span class="m">1</span><span class="p">;</span>
-<span class="ln"> 3</span>    <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln"> 4</span>        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;x = 0&#39;</span><span class="p">);</span>
-<span class="ln"> 5</span>    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln"> 6</span>        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;x &gt; 0&#39;</span><span class="p">);</span>
-<span class="ln"> 7</span>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-<span class="ln"> 8</span>        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;x &lt; 0&#39;</span><span class="p">);</span>
-<span class="ln"> 9</span>    <span class="p">}</span>
-<span class="ln">10</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">x</span> <span class="o">=</span> <span class="o">-</span><span class="m">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;x = 0&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;x &gt; 0&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;x &lt; 0&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <h2 id="switch"><code>switch</code></h2>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">ch</span> <span class="o">=</span> <span class="s1">&#39;a&#39;</span><span class="p">;</span>
-<span class="ln"> 3</span>    <span class="k">switch</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln"> 4</span>        <span class="k">case</span> <span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="p">{</span>
-<span class="ln"> 5</span>            <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Apple&#39;</span><span class="p">);</span>
-<span class="ln"> 6</span>        <span class="p">}</span>
-<span class="ln"> 7</span>        <span class="k">break</span><span class="p">;</span>
-<span class="ln"> 8</span>        <span class="k">case</span> <span class="s1">&#39;b&#39;</span><span class="o">:</span> <span class="p">{</span>
-<span class="ln"> 9</span>            <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Banana&#39;</span><span class="p">);</span>
-<span class="ln">10</span>        <span class="p">}</span>
-<span class="ln">11</span>        <span class="k">break</span><span class="p">;</span>
-<span class="ln">12</span>        <span class="k">default</span><span class="o">:</span> <span class="p">{</span>
-<span class="ln">13</span>            <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Other&#39;</span><span class="p">);</span>
-<span class="ln">14</span>        <span class="p">}</span>
-<span class="ln">15</span>        <span class="k">break</span><span class="p">;</span>
-<span class="ln">16</span>    <span class="p">}</span>
-<span class="ln">17</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">ch</span> <span class="o">=</span> <span class="s1">&#39;a&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="k">switch</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="k">case</span> <span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">            <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Apple&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">        <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="k">case</span> <span class="s1">&#39;b&#39;</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">            <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Banana&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">        <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">        <span class="k">default</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">            <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Other&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">        <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <h2 id="for"><code>for</code></h2>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="kd">var</span> <span class="n">list</span> <span class="o">=</span> <span class="p">[</span><span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">7</span><span class="p">];</span>
-<span class="ln"> 3</span>    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="n">i</span> <span class="k">in</span> <span class="n">list</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln"> 4</span>        <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
-<span class="ln"> 5</span>    <span class="p">}</span>
-<span class="ln"> 6</span><span class="p">}</span>
-<span class="ln"> 7</span><span class="cm">/*
-</span><span class="ln"> 8</span><span class="cm">2
-</span><span class="ln"> 9</span><span class="cm">3
-</span><span class="ln">10</span><span class="cm">5
-</span><span class="ln">11</span><span class="cm">7
-</span><span class="ln">12</span><span class="cm">*/</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="kd">var</span> <span class="n">list</span> <span class="o">=</span> <span class="p">[</span><span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">7</span><span class="p">];</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="n">i</span> <span class="k">in</span> <span class="n">list</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="cm">2
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="cm">3
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="cm">5
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="cm">7
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="cm">*/</span></span></span></code></pre></div>
 <h2 id="do-while"><code>do</code>, <code>while</code></h2>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">2</span>    <span class="kd">var</span> <span class="n">i</span> <span class="o">=</span> <span class="m">1</span><span class="p">;</span>
-<span class="ln">3</span>    <span class="k">do</span> <span class="p">{</span>
-<span class="ln">4</span>        <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
-<span class="ln">5</span>    <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="m">1</span><span class="p">);</span>
-<span class="ln">6</span><span class="p">}</span>
-<span class="ln">7</span><span class="cm">/*
-</span><span class="ln">8</span><span class="cm">1
-</span><span class="ln">9</span><span class="cm">*/</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="kd">var</span> <span class="n">i</span> <span class="o">=</span> <span class="m">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">do</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="m">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="ln">8</span><span class="cl"><span class="cm">1
+</span></span></span><span class="line"><span class="ln">9</span><span class="cl"><span class="cm">*/</span></span></span></code></pre></div>
 <h2 id="function">Function</h2>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln">1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">2</span>    <span class="n">print</span><span class="p">(</span><span class="n">test</span><span class="p">(</span><span class="s1">&#39;hello &#39;</span><span class="p">,</span> <span class="s1">&#39;world&#39;</span><span class="p">));</span> <span class="c1">// hello world
-</span><span class="ln">3</span><span class="c1"></span><span class="p">}</span>
-<span class="ln">4</span><span class="kt">String</span> <span class="n">test</span><span class="p">(</span><span class="kt">String</span> <span class="n">s1</span><span class="p">,</span> <span class="kt">String</span> <span class="n">s2</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln">5</span>    <span class="k">return</span> <span class="n">s1</span> <span class="o">+</span> <span class="n">s2</span><span class="p">;</span>
-<span class="ln">6</span><span class="p">}</span></code></pre></div>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="n">test</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">);</span>
-<span class="ln"> 3</span><span class="p">}</span>
-<span class="hl"><span class="ln"> 4</span><span class="kt">void</span> <span class="n">test</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="p">[</span><span class="n">s2</span><span class="p">,</span> <span class="n">s3</span><span class="p">])</span> <span class="p">{</span>
-</span><span class="ln"> 5</span>    <span class="n">print</span><span class="p">(</span><span class="n">s1</span><span class="p">);</span>
-<span class="ln"> 6</span>    <span class="n">print</span><span class="p">(</span><span class="n">s2</span><span class="p">);</span>
-<span class="ln"> 7</span>    <span class="n">print</span><span class="p">(</span><span class="n">s3</span><span class="p">);</span>
-<span class="ln"> 8</span><span class="p">}</span>
-<span class="ln"> 9</span><span class="cm">/*
-</span><span class="ln">10</span><span class="cm">a
-</span><span class="ln">11</span><span class="cm">b
-</span><span class="ln">12</span><span class="cm">null
-</span><span class="ln">13</span><span class="cm">*/</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln">1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">test</span><span class="p">(</span><span class="s1">&#39;hello &#39;</span><span class="p">,</span> <span class="s1">&#39;world&#39;</span><span class="p">));</span> <span class="c1">// hello world
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="kt">String</span> <span class="n">test</span><span class="p">(</span><span class="kt">String</span> <span class="n">s1</span><span class="p">,</span> <span class="kt">String</span> <span class="n">s2</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="k">return</span> <span class="n">s1</span> <span class="o">+</span> <span class="n">s2</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="n">test</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line hl"><span class="ln"> 4</span><span class="cl"><span class="kt">void</span> <span class="n">test</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="p">[</span><span class="n">s2</span><span class="p">,</span> <span class="n">s3</span><span class="p">])</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s1</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s2</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s3</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="cm">a
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="cm">b
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="cm">null
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="cm">*/</span></span></span></code></pre></div>
 <ul>
 <li>預設引數。</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="n">test</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="nl">s3:</span> <span class="s1">&#39;b&#39;</span><span class="p">);</span>
-<span class="ln"> 3</span><span class="p">}</span>
-<span class="hl"><span class="ln"> 4</span><span class="kt">void</span> <span class="n">test</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="p">{</span><span class="n">s2</span><span class="p">,</span> <span class="nl">s3:</span> <span class="s1">&#39;c&#39;</span><span class="p">})</span> <span class="p">{</span>
-</span><span class="ln"> 5</span>    <span class="n">print</span><span class="p">(</span><span class="n">s1</span><span class="p">);</span>
-<span class="ln"> 6</span>    <span class="n">print</span><span class="p">(</span><span class="n">s2</span><span class="p">);</span>
-<span class="ln"> 7</span>    <span class="n">print</span><span class="p">(</span><span class="n">s3</span><span class="p">);</span>
-<span class="ln"> 8</span><span class="p">}</span>
-<span class="ln"> 9</span><span class="cm">/*
-</span><span class="ln">10</span><span class="cm">a
-</span><span class="ln">11</span><span class="cm">null
-</span><span class="ln">12</span><span class="cm">b
-</span><span class="ln">13</span><span class="cm">*/</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="n">test</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="nl">s3:</span> <span class="s1">&#39;b&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line hl"><span class="ln"> 4</span><span class="cl"><span class="kt">void</span> <span class="n">test</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="p">{</span><span class="n">s2</span><span class="p">,</span> <span class="nl">s3:</span> <span class="s1">&#39;c&#39;</span><span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s1</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s2</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s3</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="cm">a
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="cm">null
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="cm">b
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="cm">*/</span></span></span></code></pre></div>
 <h2 id="class">class</h2>
 <ul>
 <li>格式</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-txt" data-lang="txt"><span class="ln">1</span>class class_name {
-<span class="ln">2</span>    &lt;fields&gt;
-<span class="ln">3</span>    &lt;getters/setters&gt;
-<span class="ln">4</span>    &lt;constructors&gt;
-<span class="ln">5</span>    &lt;functions&gt;
-<span class="ln">6</span>}</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="ln">1</span><span class="cl">class class_name {
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    &lt;fields&gt;
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    &lt;getters/setters&gt;
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    &lt;constructors&gt;
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    &lt;functions&gt;
+</span></span><span class="line"><span class="ln">6</span><span class="cl">}</span></span></code></pre></div>
 <ul>
 <li>繼承和 <code>override</code></li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="n">Child</span> <span class="n">c</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Child</span><span class="p">();</span>
-<span class="ln"> 3</span>    <span class="n">c</span><span class="p">.</span><span class="n">m</span><span class="p">();</span> <span class="c1">// child
-</span><span class="ln"> 4</span><span class="c1"></span><span class="p">}</span>
-<span class="ln"> 5</span>
-<span class="ln"> 6</span><span class="kd">class</span> <span class="nc">Parent</span> <span class="p">{</span>
-<span class="ln"> 7</span>    <span class="kt">void</span> <span class="n">m</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 8</span>        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;parent&#39;</span><span class="p">);</span>
-<span class="ln"> 9</span>    <span class="p">}</span>
-<span class="ln">10</span><span class="p">}</span>
-<span class="ln">11</span>
-<span class="ln">12</span><span class="kd">class</span> <span class="nc">Child</span> <span class="kd">extends</span> <span class="n">Parent</span> <span class="p">{</span>
-<span class="ln">13</span>    <span class="err">@</span><span class="n">override</span>
-<span class="ln">14</span>    <span class="kt">void</span> <span class="n">m</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln">15</span>        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;child&#39;</span><span class="p">);</span>
-<span class="ln">16</span>    <span class="p">}</span>
-<span class="ln">17</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="n">Child</span> <span class="n">c</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Child</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="n">c</span><span class="p">.</span><span class="n">m</span><span class="p">();</span> <span class="c1">// child
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="kd">class</span> <span class="nc">Parent</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="kt">void</span> <span class="n">m</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;parent&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">
+</span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="kd">class</span> <span class="nc">Child</span> <span class="kd">extends</span> <span class="n">Parent</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">    <span class="err">@</span><span class="n">override</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">    <span class="kt">void</span> <span class="n">m</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;child&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 <ul>
 <li><code>this</code>, <code>super</code></li>
 <li><code>static</code></li>
 <li><code>class_name.constructor_name(param_list)</code></li>
 <li><code>..</code></li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-dart" data-lang="dart"><span class="ln"> 1</span><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 2</span>    <span class="k">new</span> <span class="n">Parent</span><span class="p">()</span>
-<span class="ln"> 3</span>    <span class="p">..</span><span class="n">m1</span><span class="p">()</span>
-<span class="ln"> 4</span>    <span class="p">..</span><span class="n">m2</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
-<span class="ln"> 5</span><span class="p">}</span>
-<span class="ln"> 6</span>
-<span class="ln"> 7</span><span class="kd">class</span> <span class="nc">Parent</span> <span class="p">{</span>
-<span class="ln"> 8</span>    <span class="kt">void</span> <span class="n">m1</span><span class="p">()</span> <span class="p">{</span>
-<span class="ln"> 9</span>        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;parent&#39;</span><span class="p">);</span>
-<span class="ln">10</span>    <span class="p">}</span>
-<span class="ln">11</span>    <span class="kt">void</span> <span class="n">m2</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-<span class="ln">12</span>        <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
-<span class="ln">13</span>    <span class="p">}</span>
-<span class="ln">14</span><span class="p">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="k">new</span> <span class="n">Parent</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="p">..</span><span class="n">m1</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="p">..</span><span class="n">m2</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="kd">class</span> <span class="nc">Parent</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="kt">void</span> <span class="n">m1</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="s1">&#39;parent&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="kt">void</span> <span class="n">m2</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 
 </section>
 
@@ -384,19 +621,32 @@ if (!doNotTrack) {
     </section>
 
 
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
     </footer>
+
 
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"crossorigin="anonymous"
-                defer="true"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"crossorigin="anonymous"
-                defer="true"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
@@ -412,14 +662,16 @@ if (!doNotTrack) {
     
 </article>
 
-    <aside class="related-contents--wrapper">
     
+
     
-        <h2 class="section-title">Related contents</h2>
-        <div class="related-contents">
-            <div class="flex article-list--tile">
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
                 
-                    
 <article class="has-image">
     <a href="/p/cf_contest_1676/">
         
@@ -436,8 +688,9 @@ if (!doNotTrack) {
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="">
     <a href="/p/usaco/">
         
@@ -448,8 +701,9 @@ if (!doNotTrack) {
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="">
     <a href="/p/kattis/">
         
@@ -460,8 +714,9 @@ if (!doNotTrack) {
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="">
     <a href="/p/cses/">
         
@@ -472,8 +727,9 @@ if (!doNotTrack) {
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="">
     <a href="/p/template1/">
         
@@ -484,14 +740,14 @@ if (!doNotTrack) {
         </div>
     </a>
 </article>
-                
-            </div>
+
+            
         </div>
-    
+    </div>
 </aside>
 
      
-     
+    
         
     <script src="https://utteranc.es/client.js" 
         repo="Luke2336/comment_myblog"
@@ -546,9 +802,10 @@ if (!doNotTrack) {
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.5.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.12.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
+
 
     
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -614,26 +871,28 @@ if (!doNotTrack) {
 
 </div><script 
                 src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer="true"
+                defer
                 >
             </script><script 
                 src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer="true"
+                defer
                 >
             </script><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
             ><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
 
             </main>
-    
-        <aside class="sidebar right-sidebar sticky">
-            <section class="widget archives">
-                <div class="widget-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <line x1="5" y1="9" x2="19" y2="9" />
   <line x1="5" y1="15" x2="19" y2="15" />
@@ -643,11 +902,11 @@ if (!doNotTrack) {
 
 
 
-                </div>
-                <h2 class="widget-title section-title">Table of contents</h2>
-                
-                <div class="widget--toc">
-                    <nav id="TableOfContents">
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
   <ol>
     <li><a href="#線上編譯器">線上編譯器</a></li>
     <li><a href="#hello-world">Hello World!</a></li>
@@ -673,15 +932,18 @@ if (!doNotTrack) {
     <li><a href="#class">class</a></li>
   </ol>
 </nav>
-                </div>
-            </section>
-        </aside>
-    
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
         </div>
         <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
-                defer="false"
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>
 <script>

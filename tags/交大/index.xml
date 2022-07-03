@@ -1,110 +1,1422 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>交大 on Luke&#39;s Blog</title>
-    <link>https://luke2336.github.io/tags/%E4%BA%A4%E5%A4%A7/</link>
-    <description>Recent content in 交大 on Luke&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jun 2022 11:00:15 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E4%BA%A4%E5%A4%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>交大修課心得</title>
-      <link>https://luke2336.github.io/p/course_nctu/</link>
-      <pubDate>Tue, 14 Jun 2022 11:00:15 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/course_nctu/</guid>
-      <description>目錄 這邊的分類不代表開課系所，只是用課的性質去歸納。
- 物理  物理（一）、（二） 物理實驗（一）、（二）   數學  微積分甲（一）、（二） 離散數學 線性代數 微分方程 訊號與系統 機率   資工  程式  計算機概論與程式設計 物件導向與資料結構 基礎程式設計（GPE）   硬體、底層  數位電路設計 數位電路實驗 計算機組織 作業系統概論 編譯器設計   計算理論  基礎圖論 演算法概論 [清大] 隨機演算法 高等演算法 正規語言概論 隨機演算法 賽局理論及應用   其他  競技程式設計（一）、(二)、（三） 人工智慧概論 資料庫系統概論 計算方法之實務應用 數值軟體開發 資訊工程研討     電機、電子  電子學（一） 電子實驗（一） 電路學 電子設計自動化演算法與實作   通識  校基本  疾病知識與防治 幾何造型 統計方法與資料分析 認識語言   跨院  統計學   核心  政治學 教育學概論 [台大] 東亞儒家：人文精神     外文  大一英文（一） 德文（一） 德文（二） 進階英文寫作    筆記 Github</description>
-    </item>
-    
-    <item>
-      <title>軍艦岩</title>
-      <link>https://luke2336.github.io/p/nycu-taipei/</link>
-      <pubDate>Fri, 11 Mar 2022 10:17:51 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/nycu-taipei/</guid>
-      <description>   時間 地點     12:15 校車   13:20 陽明校門口   13:30 登山口   13:40 大學亭   13:50 軍艦岩    原路折返   16:30 校車   17:40 交大校區    </description>
-    </item>
-    
-    <item>
-      <title>交大交換申請</title>
-      <link>https://luke2336.github.io/p/exchange/</link>
-      <pubDate>Wed, 09 Feb 2022 16:35:46 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/exchange/</guid>
-      <description> 給大家參考一下交大的申請交換經驗。 官網。  申請過程及結果  於 109 上學期末申請交換，預計 110 下學期。 申請的志願排序為：  北京大學 復旦大學 上海交大   計分比例：  成績 60% 自傳 15% 讀書計畫 20% 其他有利審查資料 5%   獎學金  於 109 下學期申請。 獲得 13 萬元。   自傳：  製作簡歷，展示大學期間競賽成績。 說明自己能妥善地利用資源，舉例來說充分利用了交大和清大的資源。   研修計畫：  說明自己的選課計畫。 簡單帶過文化交流的部分。   成績單：  只需要到二下的資料，平均成績約為 87.7。   因為是大陸地區，所以不需要英檢證明。 需繳交 1 萬元保證金，但只要是因疫情放棄即可全退。 放棄：  考量到疫情及無法完整接種兩劑疫苗到生效，決定放棄資格。    </description>
-    </item>
-    
-    <item>
-      <title>交大資工轉系經驗</title>
-      <link>https://luke2336.github.io/p/transfer/</link>
-      <pubDate>Sat, 21 Aug 2021 20:31:26 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/transfer/</guid>
-      <description>原因  因為不想修原系的電子學和電子實驗。 在三上時決定要轉系，三下就修資工的課為主。 看到下一屆的修業規定較適合自己，不用修計網概、編譯器、微處理機等等，於是決定降轉。 自己的成績滿足提畢需求，因此降轉不影響畢業。  準備  上機考前三名。 平均成績高於 85 分，系排 25~50%。 自傳及動機著重在自己不適合原系，強調自己能準時畢業（差 4 門專業選修即符合畢業標準）。 有利資料為選出自己專業科目的優異成績及演算法競賽成績。  審查標準  轉系名額上限為教育部核定名額的兩成 第一志願必須為資工系，操行須在82分以上。 申請文件  歷年成績單（含排名） 自傳及轉系動機說明（兩頁內） 其他有利審查之資料   就學業成績、上機考成績、重點科目（如：計算機概論、基礎程式設計、微積分等）與課外競賽表現擇優錄取。  心得  這屆資工和電機收的名額都很多，但建議還是要將專業科目修到 80 分以上，且上機考有基本的分數，證明自己能適應資工系。 因為原系有選課權，所以才會已經修了很多課，不至於延畢。 等待的時間很焦慮，因為突然發現電機系不開英文班的電子學和實驗，於是無法用原系的修業規定畢業，需要提出申訴之類的手段。  </description>
-    </item>
-    
-    <item>
-      <title>大學是不是職業訓練所？</title>
-      <link>https://luke2336.github.io/p/pedagogy-report/</link>
-      <pubDate>Wed, 14 Apr 2021 19:25:34 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/pedagogy-report/</guid>
-      <description>以下是我寫的教育學概論期中報告，想說既然寫了，也順便放上來。
-這次作業有兩種選項，一種是寫參考書籍的閱讀報告，另一種是寫「我所關心的教育議題」，我選了後者撰寫。字數限制是 2000~2500 字，我寫了 2100 字。
-因為是通識報告，所以寫的時候並不想只針對自己的科系去舉例，但最後還是有點針對電機資訊相關科系。寫這份報告除了是作業以外，也是在認真思考為什麼現在的制度，大部分的人都有所抱怨。
-這個標題是參考之前網路新聞的標題。
- 大學是不是職業訓練所？ 在資工系，我常常聽到同學們抱怨說，「線性代數、微積分、自動機語言等數學課對於未來沒有太大的幫助」「作業都是手寫證明導致就業時都拿不出像樣的作品集」「讀大學只是為了學歷，平常應該多接 case和做 side project，不應該把時間花在考試和寫作業」。這些言論讓我開始思考了一個問題「工程學院只是為了培養業界需要的工程師嗎？」而這個問題可以延伸到「大學是不是職業訓練所？」以及「大學能不能作為職業訓練所？」
-如果以政治學的角度來看，「大學等同職業訓練所」誰可以獲利，很明顯的，業界能將訓練員工的成本轉嫁到所有納稅人身上，也能更方便的挑選需要的員工；而利益損失的則有學界以及想往學界發展的學生。由這個角度，我想探討究竟是什麼原因讓台灣的大學漸漸變得像職業訓練所，還有我認為哪些是大學應提供的基本能力及大學的社會責任。
-首先，誰真正決定了大學的走向？我認為既不是政府，也不是企業家，而是填志願的學生。像是醫藥、電機、資工、法律等第一志願，都是學生們以就業後的薪水做考量做出的決定，像是數學、哲學、中文、社會學等系，則基於出路的原因較不受歡迎，由此可見，多數人認為大學的科系和未來就業的選擇高度相關。
-再者，為什麼高等教育無法和技職教育獨立並行呢？我認為這受到台灣的社會觀念影響，受過大學、碩士教育的薪水普遍較高，導致多數人認為唸大學是必須的。當大學生們普遍為了文憑而唸大學時，大學就需要去最大化所有大學生的利益，也就是它需要去維護文憑的價值。文憑價值的評量又牽扯到了企業對於那間大學人才的評量，因此最後導致大學需要培養企業需要的人才。
-我認為這會導致一些嚴重的教育議題，大學的課程都是為了培養企業所需的人才而設計的，而不是為了讓學生有獨立思考、發現問題、解決問題等能力，那再過幾代，是不是研究會漸漸枯竭，技術會達到極限，或是沒有足夠多的人才被培養成能傳播知識的人。那假設產業結構出現變化，其他產業興起，過去培養的人是不是都無能去跟上時代呢？
-除此之外，我常聽到同學們抱怨說「學校在教的技術早就退流行了，完全派不上用場」。是的，假若學校都是在教技術，而不是創造技術的基本功或是基礎推理能力，學生們無法舉一反三，那他們學到的知識就永遠停留在他們的二十歲，但他們的下半輩子顯然不能只靠那些知識生活，因此培養自學能力是必須的，像是如何尋找需要的資料，如何檢驗資料的正確性，如何將已經會的知識應用在遇到的問題上，這些都是我認為大學應該培養的技能。
-綜合以上幾點後，我們可以思考，對於只渴望學習就業相關技術的人，大學能帶給他哪些文憑以外的收穫，是否能透過在業界的實務經驗來達到更有效率的學習。以下，我想說明大學其實並不是一個好的職業訓練環境。
-仔細檢視我們的大學制度，假設要四年畢業，一個學期需要修 16 學分，而對於每一個學分，上課、複習、寫作業的時間，平均需要花三小時，再加上體育課或導師時間等零學分的課程，少說一週要花 50 小時上課和讀書，也就是平均一天要花到 8 小時。但請注意到，以上僅僅是完成基本的教師要求，也就是根本就沒有多餘的時間，去針對自己有興趣的部分深入的研究。因此，期待大學生有自主學習甚至研究的能力，其實是不可能的。另外，以大學部的課程來說，扣掉加退選、考試，一門三學分的課，實際一學期也就 45 小時，是無法培養學生的實務能力的。舉例來說，以程式設計課程為例，教師往往是出作業，然後讓學生回去做，然後交完作業後，並不會告訴學生可以怎樣改進等等。反之，在業界，員工只需要專研他負責的部分，而能體驗完整去將一個主題做到最優的情況，不是像在學校裡，必須去最大化所有科目的分數總和，而犧牲了試著去將學習做到最好的機會。在業界，實務的成果也是會受到客戶較多檢驗及要求的，能實際理解怎樣的能力是業界真正需要的。
-總結上段所敘述的幾點，我認為大學中的學習，對於只是想要在業界生存的人其實是沒效率的，他想在大學中獲得的技術，在業界能更有效率地取得並檢驗學習成果。因此，這些人與其抱怨，xx課是他們未來工作不需要學習的，不如說，他們對大學本身的期待是不切實際的，大學不應該被期待是個好的職業訓練所。
-最後，我想提出幾點在大學制度中，受到「職業訓練」這個概念影響的缺陷。首先，我認為「必修學分」這個制度其實是可以被討論的，當我詢問系上教授我們為何需要修必修時，他給我的回應是，xx系畢業的學生應該得學會這些。其實，反過來想，為什麼我們是強制規定學生要會這些東西，而不是讓他們去探索他們想要的生涯規劃中，他們需要哪些能力，需要如何安排自己的學習。第二點，很多科系設定「實習」為必修學分，我認為這個本意是好的，但實務上並沒有好的配套措施，像是實習生為了學分被資方剝削的新聞層出不窮，實際上沒得到學習，而只是被當作廉價勞力的新聞層出不窮。
-總結我對大學與職業教育的看法，我認為大部分的大學科系不應該和職業訓練綁定，大學應該是教導學生學習的能力，由企業給予員工職業的訓練，這樣能讓人們獲得更有效率的學習，也不會被一些東拼西湊的政策影響，造成不管是想走學術或是想去業界的學生，都被強迫學習自己無興趣的東西，或是無時間學習自己更有興趣的東西，讓課堂的學習品質上升，使得教育資源能得發揮最大效益。</description>
-    </item>
-    
-    <item>
-      <title>認識語言 期末報告</title>
-      <link>https://luke2336.github.io/p/understanding_language_final_report/</link>
-      <pubDate>Mon, 28 Dec 2020 10:09:29 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/understanding_language_final_report/</guid>
-      <description>「認識語言」期末報告 以下介紹五個我在「認識語言」下半學期學到的重點。
-1. Chomsky 和行為主義 (Behaviorism) 的對立 語言的學習是後天的 (nurutre)，還是天生就有的 (nuture) 學習能力？
-行為主義興起的背景，要從佛洛伊德的時代開始談起，當時心理學是立足於潛意識等無法觀測的東西，因此很多科學家無法認同心理學屬於科學的一支。
-在 Parlov、Skinner 和 Waston 等人的努力下，產生了行為主義學派。他們透過設計實驗來研究人或動物的行為模式，像是古典制約的實驗中，Parlov 的狗被制約，每次接收到搖鈴刺激 (stimulus)，就會不由自主的流口水。而 Skinner 進一步提出了操作制約，透過食物來讓老鼠自己學會按開關。
-行為主義者宣稱，他們可透過制約，也就是給予 positive/negative reforcement，使人類學習，這屬於 stimulus-response learning。他們認為母語的學習也可以透過同樣的管道。
-對此，Chomsky 有不同的看法，他認為語言的習得無法僅僅透過後天的經驗，先天的能力是必須的，因此他提出了 Universal Grammar。&amp;ldquo;What you know exceeds what you were taught.&amp;quot;，舉例來說，小孩子會犯一些大人不會犯的錯誤，像是 &amp;ldquo;holded&amp;rdquo;，這是他們無法透過模仿習得，可以推論出他們先天具備一些學習語言的能力，像是統計、歸納等等。
-Chomsky 說明了在語言的學習上，本能和經驗都是重要的。我認為他的想法是重要且具有突破性的，因為他不只影響了語言學的發展，更對心理學造成了重大的影響，他證明了行為主義是無法解釋所有現象的，讓心理學研究慢慢走出行為主義的框架。
-2. Universal Grammar (UG) Universal Grammar 是 Chomsky 的理論，為了描述所有語言的共同點。Universal Grammar 是由 principles 和 parameters 共同組成。
-由於孩童學習語言的時間是有限的，且他們能得到的資訊量也是有限的，但他們能表達的語句，卻是無限的。可見，這些語句不僅僅是藉由經驗而習得，而需要藉由人類天生就有的 Universal Grammar，將得到的句子提取出一些共通的 principles。像是人們能判斷句子中的代名詞或是反身代名詞是在指誰，都是我們在學習時無法直接解釋的，這些天生就具備的能力，就是屬於 Universal Grammar。
-但這些 principles 卻只能解釋語言具有共通性，而無法解釋語言的差異性，因此他在理論中加入了 parameters 的想法。
-在英語中，是先表達動詞，然後才是受詞。然而，在日語中，兩者卻是相反的。又或是在英文中，我們會將 Where/Who 等疑問詞放在句子開頭，而在中文中，我們卻會任意擺放哪裡/誰/何時在句子的其他位置。這些現象無法被 principles 概括，因此我們有了 parameters。parameters 提供了孩童在學習時，能藉由聽到的資訊，將母語中沒有的 parameters 捨棄，讓他們能專注於學習母語中有的文法或發音。</description>
-    </item>
-    
-    <item>
-      <title>交大 2019 年度賽</title>
-      <link>https://luke2336.github.io/p/nctu_annual_contest_2019/</link>
-      <pubDate>Wed, 04 Sep 2019 11:13:48 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/nctu_annual_contest_2019/</guid>
-      <description>NCTU_Pusheen的第一場ICPC賽制比賽。 （角色：我、隊友H、隊友U） 好像有點太早到了，9:30開始，我們8:05就全到了。 然後就開始討論選課的事，還有推廣了「貼圖大戰」。 似乎三個人還是有點緊張，隊友U算是最淡定的一個，於是就讓他坐電腦前了。只有九隊而已，真的很怕墊底。（明明前一天的新生賽才拿第一，但就是莫名沒自信QQ）
-解題 M很水，於是隊友H就用接近首殺的速度把M殺了。然後我發現K很水，然後就讓隊友U把他殺了，然後過程中順便想出了K的構造題 Ｉ，原本差點就傳了，但剛好發現範圍到10^32，於是改用python寫掉，於是K和Ｉ都拿到首殺，這時大致過了半小時。
-然後，我發現F似乎是簡單的DP建表，於是就丟給隊友U寫。 因為G明顯是我不擅長的幾何題，於是丟給隊友H，隊友H就想出了一個假解，因為我懶得驗證正確性，也不覺得有其他簡單的作法，於是就丟上去讓他WA了。
-E是一題矩陣題，賽中我覺得高斯消去能解，但隊友U阻止了我，提醒我高斯做出來不一定是整數。賽後這題似乎是能用高斯加一些處理弄過。
-因為ABC的題序一樣，然後都沒靈感，於是就先擺著。J看得出來是DP，但以為沒這麼簡單，就擺一邊了，事後證明是個錯誤決定。
-此時沒有人解出其他題目，於是就決定去開D和L。
-D一開始以為是Dijkstra，後來WA了之後，證出等號成立時轉移會出事，於是我就想出了一個二分搜解，但因為複雜度卡卡的，於是繼續在Dijkstra上繞圈圈。然後在最後三十分鐘，隊友U想出了一個具體的二分搜＋BFS作法，但因為搜的東西不對，無法剪枝，於是常數太大，吃了TLE。
-L大概是解出來最爽的一題，花了超過一小時。隊友H先推出大致的規律，然後我用了類似前綴和的東西，把空間和時間壓到lgN，然後交給隊友H和U寫。但賽後證實我們賽中想過本機跑分塊的作法也能喇過。
-A後來有兩隊解出來，於是也稍微想了一下，猜是要建圖，但真的想不出來。
-嗯，看到最後會發現我好像沒碰過鍵盤呢！！
-L的題解 題目是將L到R(0~1e9)的二進位字串接起來，然後求這個字串的1和0共有幾段。例如1~5，表示成11011100101，答案為7。
-隨手寫了一篇題解：2019交大年度賽pL非官方題解</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>交大 on Luke&#39;s Blog</title>
+        <link>https://luke2336.github.io/tags/%E4%BA%A4%E5%A4%A7/</link>
+        <description>Recent content in 交大 on Luke&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 14 Jun 2022 11:00:15 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E4%BA%A4%E5%A4%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>交大修課心得</title>
+        <link>https://luke2336.github.io/p/course_nctu/</link>
+        <pubDate>Tue, 14 Jun 2022 11:00:15 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/course_nctu/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Other/%E4%BA%A4%E5%A4%A7%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/G0.png" alt="Featured image of post 交大修課心得" /&gt;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
+&lt;p&gt;這邊的分類不代表開課系所，只是用課的性質去歸納。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物理
+&lt;ul&gt;
+&lt;li&gt;物理（一）、（二）&lt;/li&gt;
+&lt;li&gt;物理實驗（一）、（二）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;數學
+&lt;ul&gt;
+&lt;li&gt;微積分甲（一）、（二）&lt;/li&gt;
+&lt;li&gt;離散數學&lt;/li&gt;
+&lt;li&gt;線性代數&lt;/li&gt;
+&lt;li&gt;微分方程&lt;/li&gt;
+&lt;li&gt;訊號與系統&lt;/li&gt;
+&lt;li&gt;機率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;資工
+&lt;ul&gt;
+&lt;li&gt;程式
+&lt;ul&gt;
+&lt;li&gt;計算機概論與程式設計&lt;/li&gt;
+&lt;li&gt;物件導向與資料結構&lt;/li&gt;
+&lt;li&gt;基礎程式設計（GPE）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;硬體、底層
+&lt;ul&gt;
+&lt;li&gt;數位電路設計&lt;/li&gt;
+&lt;li&gt;數位電路實驗&lt;/li&gt;
+&lt;li&gt;計算機組織&lt;/li&gt;
+&lt;li&gt;作業系統概論&lt;/li&gt;
+&lt;li&gt;編譯器設計&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;計算理論
+&lt;ul&gt;
+&lt;li&gt;基礎圖論&lt;/li&gt;
+&lt;li&gt;演算法概論&lt;/li&gt;
+&lt;li&gt;[清大] 隨機演算法&lt;/li&gt;
+&lt;li&gt;高等演算法&lt;/li&gt;
+&lt;li&gt;正規語言概論&lt;/li&gt;
+&lt;li&gt;隨機演算法&lt;/li&gt;
+&lt;li&gt;賽局理論及應用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其他
+&lt;ul&gt;
+&lt;li&gt;競技程式設計（一）、(二)、（三）&lt;/li&gt;
+&lt;li&gt;人工智慧概論&lt;/li&gt;
+&lt;li&gt;資料庫系統概論&lt;/li&gt;
+&lt;li&gt;計算方法之實務應用&lt;/li&gt;
+&lt;li&gt;數值軟體開發&lt;/li&gt;
+&lt;li&gt;資訊工程研討&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;電機、電子
+&lt;ul&gt;
+&lt;li&gt;電子學（一）&lt;/li&gt;
+&lt;li&gt;電子實驗（一）&lt;/li&gt;
+&lt;li&gt;電路學&lt;/li&gt;
+&lt;li&gt;電子設計自動化演算法與實作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;通識
+&lt;ul&gt;
+&lt;li&gt;校基本
+&lt;ul&gt;
+&lt;li&gt;疾病知識與防治&lt;/li&gt;
+&lt;li&gt;幾何造型&lt;/li&gt;
+&lt;li&gt;統計方法與資料分析&lt;/li&gt;
+&lt;li&gt;認識語言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;跨院
+&lt;ul&gt;
+&lt;li&gt;統計學&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;核心
+&lt;ul&gt;
+&lt;li&gt;政治學&lt;/li&gt;
+&lt;li&gt;教育學概論&lt;/li&gt;
+&lt;li&gt;[台大] 東亞儒家：人文精神&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;外文
+&lt;ul&gt;
+&lt;li&gt;大一英文（一）&lt;/li&gt;
+&lt;li&gt;德文（一）&lt;/li&gt;
+&lt;li&gt;德文（二）&lt;/li&gt;
+&lt;li&gt;進階英文寫作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;筆記&#34;&gt;筆記&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Luke2336/NCTU_Course_Note&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;修課順序建議&#34;&gt;修課順序建議&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;微積分 → 微分方程、訊號與系統 → 電路學、電子學 → 電子實驗&lt;/p&gt;
+&lt;p&gt;微積分 → 機率 → 統計學&lt;/p&gt;
+&lt;p&gt;數位電路設計 → 數位電路實驗 → 計算機組織 → 作業系統&lt;/p&gt;
+&lt;p&gt;離散數學、資料結構、機率 → 演算法 → GPE&lt;/p&gt;
+&lt;p&gt;正規語言 → 編譯器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1071.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1072.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1081.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1082.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1083.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1091.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1092.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1093.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1101.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/1102.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;物理&#34;&gt;物理&lt;/h2&gt;
+&lt;h3 id=&#34;物理一二榮譽班英文班&#34;&gt;物理（一）、（二）榮譽班（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電物系 籔下篤史&lt;/li&gt;
+&lt;li&gt;評分方式：功課 20%、期中 4 x 20%&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;每次教一個章節，平均一節半就下課放人。上課就投影片唸過，一點點公式推導而已，老師很日本腔，所以大多數人還是選擇自己念。&lt;/li&gt;
+&lt;li&gt;考試基本上是填充加計算，填充是有點配合題加背公式，百分之九十九考古，計算題半考古半作業吧，反正考古背熟就拿 A 了。&lt;/li&gt;
+&lt;li&gt;我對這門課真的沒有任何興趣，加上星期五兩節課後來都被我拿去準備專題的meeting，所以上課不是打瞌睡，就是隨便聽聽。大家分數都不錯，所以完全沒調分。很後悔沒有認真背考古題，最後分數淒慘，卻賭一把期末沒退選。下學期決定翹課看簡紋斌的 OCW 就好，加上把考古背好。&lt;/li&gt;
+&lt;li&gt;結果下學期全部翹課，只去考試。一樣很考古，但計算的比例似乎比上學期重了一些。我真的對物理沒啥興趣，就很乾脆的拿了個 B。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;物理實驗一二&#34;&gt;物理實驗（一）、（二）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;完全看助教開心來給預報和結報的分數，考驗妳的 Excel 能力，來決定你哪時候下課。我覺得一學分真的投資報酬率低，但因為他會公開每次報告的分數，讓人不由自主花很多時間只為了多拿五分，所以我最後調到 A+。&lt;/li&gt;
+&lt;li&gt;下學期以光學和電學實驗為主，所以報告相對上學期的力學變得難寫。完全看助教開心來給預報和結報的分數。我期末忘記帶計算機，就爛掉了。&lt;/li&gt;
+&lt;li&gt;要注意「有效位數」！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;數學&#34;&gt;數學&lt;/h2&gt;
+&lt;h3 id=&#34;微積分甲一二英文班&#34;&gt;微積分甲（一）、（二）（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：應數系 符麥克&lt;/li&gt;
+&lt;li&gt;評分方式：功課 10%、期中 25%、期末 25%、大會考 30%&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;每週四 inclass homework 開書考 10 分鐘 2 題，每週 homework 課本習題 2 題、老師自己出的 4 題。&lt;/li&gt;
+&lt;li&gt;老師是奧地利人，英文帶了點德國腔，剛開始聽會超不習慣，加上他的字小且帶個人風格，上課速度很快，所以剛開始會跟不上。個人是認真的把板書抄下來，但這麼做基本上你就很難認真聽懂他在講什麼，所以抄筆記和聽課可能得取捨一下吧！最好還是課前預習一下。&lt;/li&gt;
+&lt;li&gt;他的期中是偏證明大約 7 題，期末 6 題，計算要快、觀念要熟，和偏計算的大會考真的方向不同。老師會按規定調到平均 79 左右，今年是調 3 分。&lt;/li&gt;
+&lt;li&gt;下學期計算量較多，不像上學期那麼多證明，期中考比大會考多了osculating plane的部分。大會考爆難，我算了五年的考古，還只拿70，總成績調分滿多的。感覺班上來上課的人比上學期又更少了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;離散數學&#34;&gt;離散數學&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工系 楊武&lt;/li&gt;
+&lt;li&gt;評分方式：功課 15%、期中 40%、期末 40%、平時表現 5%&lt;/li&gt;
+&lt;li&gt;授課內容：簡單的數論（質數講很久）、集合、數學歸納法、遞迴、排組、鴿籠、Relation。&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;老師教得很隨性，上課只是抄一抄板書。&lt;/li&gt;
+&lt;li&gt;偶而會有小考十分鐘兩題，會先提醒，千萬別遲到。小考蠻過分的，不是滿分 10 分就是鴨蛋 0 分。&lt;/li&gt;
+&lt;li&gt;期中期末，三成考古，和上課內容不會差太遠，滿分超過一百，平均落在 60 左右，最高 99，基本上就是高於全班平均就能拿 A，期末調分超過 15 分。&lt;/li&gt;
+&lt;li&gt;老師偶而會一直重複上節課講過的東西，記得點醒他，不然他一直講同一型的題目進度很慢。然後他的麥克風雜音超吵，勇者請把它關小聲。個人覺得他還算是個好玩的老師，不過證明有時不太嚴謹，是小小的缺點。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;線性代數英文班&#34;&gt;線性代數（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電控 林源倍&lt;/li&gt;
+&lt;li&gt;評分方式：平時 15%、小考 2 x 10%、期中 30%、期末 35%&lt;/li&gt;
+&lt;li&gt;上課方式：翻轉教學，回家看 &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLj6E8qlqmkFs5e0vOwUC88cPLPtvpO57s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OCW&lt;/a&gt;，上課時發作業，大約四大題，四人一組，抽籤上去用英文講解，可以找其他人的 bug 加分。是一門需要有組員 Carry 的課。助教和老師人都很好。&lt;/li&gt;
+&lt;li&gt;成績：考試大約都是七成基礎定義和計算，三成偏證明，確認是否有把線代融會貫通。認真讀書拿九十分以上不難，雖然我都粗心掉基本分（例如問 row space 我看成 col. space… ），最後就沒有拿到 A+。會調分就是了，而且線代通常對於有些人滿抽象的，所以拿高分的人並不會太多。&lt;/li&gt;
+&lt;li&gt;啟發：這門課給我的收穫算是還滿大的。首先，我們這個班主要是電資班和電機系的學生，所以算是能和系上同學多多互動，也能認識外系的機會。再來也是養成自己規劃讀書進度的習慣，看影片的速度也能慢慢修正。最後，很重要一點是，能增進用英文上台發表看法的能力，同時也會在過程中不斷練習去找同學解法的 bug。是一門規劃得很不錯的反轉教學，讓我回憶起以前去台大上資芽的過程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;微分方程英文班&#34;&gt;微分方程（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電機 李冕&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;12 次小考取 10 次平均&lt;/li&gt;
+&lt;li&gt;期中期末小組報告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;不會點名。老師是義大利人，口音不算太難懂。講投影片為主，老師上課會一直點人上台做題。每週小考，一週手寫，一週 Matlab，題目都是從課本出為主，但我覺得題目選得很爛。助教雷雷的，是印度人，我們不太知道怎麼跟她溝通。&lt;/li&gt;
+&lt;li&gt;期中期末各一個專題，是 3 人小組報告，選一個數學或物理現象用微方解釋。報告會要求解釋物理和數學原理，以及用 Matlab 模擬，還有動手實作的影片，還有放幾個小笑話。期末因為我看到了「Harmonograph」這個主題很有趣，然後剛好懶得找組員，就自己做了，老師給了 100 分，不小心就對到他的胃口了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;訊號與系統英文班&#34;&gt;訊號與系統（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 黃敬群&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;作業 6 次 40%&lt;/li&gt;
+&lt;li&gt;期中期末各 30%&lt;/li&gt;
+&lt;li&gt;一次加分考 5%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課內容：
+&lt;ul&gt;
+&lt;li&gt;LTI System&lt;/li&gt;
+&lt;li&gt;Convolution&lt;/li&gt;
+&lt;li&gt;Fourier Series&lt;/li&gt;
+&lt;li&gt;Fourier Transform&lt;/li&gt;
+&lt;li&gt;Sampling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;很早就變成非同步線上授課了，主要是用書商的投影片上課，然後在旁邊手寫補充。&lt;/li&gt;
+&lt;li&gt;上了不少例題，上課速度偏慢，所以 Laplace 和 Z Transofrm 都沒有上到。&lt;/li&gt;
+&lt;li&gt;後來覺得自己應該去 YouTube 看陳永平的 OCW 比較有效率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;作業和考試：
+&lt;ul&gt;
+&lt;li&gt;作業是每個單元勾課本習題 5~10 題，我自己花了很多時間寫，常常要算 5~15 個小時。原本有說要出 Matlab 作業，但大概就只有一題而已…&lt;/li&gt;
+&lt;li&gt;考試和作業題目類型有點像，大約 5 題，但還是會有比較不一樣的題目，基本上時間很充裕，不用擔心寫不完，助教給分還算寬鬆。&lt;/li&gt;
+&lt;li&gt;總分只有調了一分，但作業分數都給很高，所以覺得會比其他班輕鬆。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;附註：這是老師第一年在交大開課，因為是英授，所以不到十個人選課，之後也不會再開這門課了。老師人很好，但是我覺得教學上仍有待改進。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;機率英文班&#34;&gt;機率（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電機 高榮鴻&lt;/li&gt;
+&lt;li&gt;評分方式：作業 6 次共 20%、期中期末各 40%、加分程式作業一次&lt;/li&gt;
+&lt;li&gt;授課內容：
+&lt;ul&gt;
+&lt;li&gt;高中範圍內容（快速帶過）&lt;/li&gt;
+&lt;li&gt;Independence、Expectation、Variance、Covariance&lt;/li&gt;
+&lt;li&gt;Total Probability Theorem、Bayes’ Rule、Union Bound&lt;/li&gt;
+&lt;li&gt;Discrete/Continuous Random Variable、Transform（Fourier、Laplace、Linear）&lt;/li&gt;
+&lt;li&gt;Markov Inequality、Chebyshev Inequality&lt;/li&gt;
+&lt;li&gt;Weak Law of Large Numbers、Convergence in Probability、Central Limit Theorem&lt;/li&gt;
+&lt;li&gt;Discrete-Time Markov Chain&lt;/li&gt;
+&lt;li&gt;Some Matlab Simulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;純版書，證明定理，然後帶幾題課本例題。&lt;/li&gt;
+&lt;li&gt;個人覺得期中考前的某些東西教得有點慢，可能是因為很多時間在寫板書。&lt;/li&gt;
+&lt;li&gt;老師習慣先寫完整個黑板，然後再開始講，但通常抄完黑板後，就大概了解他要講的東西了…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;作業和考試：
+&lt;ul&gt;
+&lt;li&gt;作業是勾課本上的，通常不到 5 題，難度中等，網路上也可以找到解答。&lt;/li&gt;
+&lt;li&gt;考試難度也不高，滿分 110，基本上看一份考古，然後稍微看一下上課和作業的題目，考到 90 很簡單。期中考班平均 72，標準差 25，但還是有約三成的人不及格。期末考班平均 77，標準差 24。良心建議考完多檢查，計算過程要寫多一點點，分數會比較好看。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;附註：不知道是因為疫情，老師沒有給加簽的名額。個人對這門課沒有太多的感覺，只覺得要拿學生證簽名點名很煩，然後神奇的是考試時反而沒檢查學生證。總成績感覺是沒有調分，也完全不知道點名到底有沒有分數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;資工---程式&#34;&gt;資工 - 程式&lt;/h2&gt;
+&lt;h3 id=&#34;計算機概論與程式設計英文授課&#34;&gt;計算機概論與程式設計（英文授課）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工系 張永儒 Stanley&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;Lab、HW 各佔 20%，有 demo 就滿分。&lt;/li&gt;
+&lt;li&gt;期中筆試上機各 12.5%。&lt;/li&gt;
+&lt;li&gt;期末專題，書面計畫和最終書面報告各佔 8.75%，demo 佔17.5%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;上課都用投影片，偶爾會開 IDE 打幾行程式，但 bug 一堆。前 8 週上 C，但作業我還是偷用 C++寫，進度跳很快，我原本就會寫了所以沒認真聽，其他人大部分就 Lab 時間找大神救，投影片內容很豐富。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;考試方式：
+&lt;ul&gt;
+&lt;li&gt;期中分為選擇和上機，選擇我們這些原本就會寫程式的人大概可以拿 90～100，滿分大約 110，可以 openbook，所以不少人印前一年的考古題，拿滿分，換句話說，完全考古嘔死你。&lt;/li&gt;
+&lt;li&gt;上機四題選三題，我是拿 95，賽後人工評測，寫不出來寫註解也有分，但那天好死不死，想提早交時當機，只好換一台重打一次，快被系計中的冷氣凍死，難度大概不當機一小時打完收工。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;期末專題：
+&lt;ul&gt;
+&lt;li&gt;後面幾週教 python，有教到爬網站、BeautifulSoup、正規表達式等東西。&lt;/li&gt;
+&lt;li&gt;期末專題就是要用「一個爬網站 + 兩個 API」，湊出一個實用的東西。我是用 openCV，但它不用傳 key 之類的東西，導致我分數沒有預期的高，這點可以注意一下，原本有打算加臉書的 API，但它的權限真的很難搞，反正有創意、難度高、實用性都兼顧到應該分數可以到 95 以上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;物件導向與資料結構英文班&#34;&gt;物件導向與資料結構（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 黃世強&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;不調分，真的有不少人被當。&lt;/li&gt;
+&lt;li&gt;Lab 10%：
+&lt;ul&gt;
+&lt;li&gt;基本上會前一天就放上 e3，所以大多數人都滿分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;程式作業 10% x 3：
+&lt;ul&gt;
+&lt;li&gt;給一些老師寫好的 project 挖空，需把一些重點函式填上，主要是用 OpenGL 的方式呈現，但這部分不需要理解。&lt;/li&gt;
+&lt;li&gt;我自己寫起來大致上每次需要花 10~20 小時，通常會給一個月左右的時間完成。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;期中上機 15% x 2：
+&lt;ul&gt;
+&lt;li&gt;可帶紙本資料，第一次需要熟悉基本的 OOP 語法，第二次需要會寫一些基礎的資料結構（BST之類的）。&lt;/li&gt;
+&lt;li&gt;第一次爆簡單，結果第二次就很難，據說第二次平均低於 40。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;期末筆試 20%：
+&lt;ul&gt;
+&lt;li&gt;我這學期成績爆掉的主因，上機和作業都有拿到 90 以上，但忘記筆試佔很重，只考了 60 幾 QQ&lt;/li&gt;
+&lt;li&gt;除了基礎的 OOP 和資料結構外，上課有教到的檔案處理和除錯用的語法也要背。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;期末上機 10%：
+&lt;ul&gt;
+&lt;li&gt;從三次作業去改，可從 e3 上下載作業去改，拿 100 不難。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;感想：
+&lt;ul&gt;
+&lt;li&gt;老師是香港人，所以英文有點口音。&lt;/li&gt;
+&lt;li&gt;上課進度我有點不喜歡，前三週都在複習計概教過的東西（迴圈、陣列、指標），然後資料結構的部分，紅黑樹也只講到定義而已，前面一些基礎的資料結構都重複上好幾次，但每次都講得亂亂的，我覺得自己在上課學會的東西極少。&lt;/li&gt;
+&lt;li&gt;功課的部分算是培養我們寫大型專案的能力吧，但有些註解及說明資料寫得不夠具體，變數的名字好像讓我誤解了不少，讓我實作上花了很多時間。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;附註：
+&lt;ul&gt;
+&lt;li&gt;上機考的部分公平性極低，出場後補交可拿到 60 分。而且抄襲應該也沒有抓得很認真。&lt;/li&gt;
+&lt;li&gt;成績往往都是好幾週後公布，有可能超過退選截止日期。&lt;/li&gt;
+&lt;li&gt;沒有筆電或沒灌 windows 建議不要修，因為功課需要用 vs，不然就得像我一樣窩在計中一整天。然後 vs 老師不知道為什麼不採用 2007 版，造成大家寫功課時花了很多時間把環境搞定。第一次作業時，我因為計中電腦無法用 vs2007 開作業的檔案花了很久嘗試，計中助教也花了幾天才把問題解決。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;基礎程式設計&#34;&gt;基礎程式設計&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;不用上課，只要去考 GPE。&lt;/li&gt;
+&lt;li&gt;一個學期可以考很多場，但每場有人數限制。總共 6 題，3 小時。&lt;/li&gt;
+&lt;li&gt;這門課沒有過的話，會擋修專題和一些實作類課程，所以早點考一考比較好。&lt;/li&gt;
+&lt;li&gt;有提供官方題庫，內容以 UVA 題目為主，但是測資品質普遍沒有 UVA 好。建議考前先熟悉系統，能用的語言就只有 C/C++、JAVA，沒有 Python。&lt;/li&gt;
+&lt;li&gt;難度每次有些落差。雖然只要通過 2.4 題（大概就是有一定的實作能力，拿完部分分就有的分數，不用會太多演算法或資料結構），但聽老師們建議為了讓成績單上成績好看，不要影響到升學、就業等等，就算 0 學分不列入 GPA，還是要考高一點。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;資工---硬體底層&#34;&gt;資工 - 硬體、底層&lt;/h2&gt;
+&lt;h3 id=&#34;數位電路設計&#34;&gt;數位電路設計&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工系 范倫達&lt;/li&gt;
+&lt;li&gt;評分方式：小考20%、期中兩次25%、期末30%&lt;/li&gt;
+&lt;li&gt;授課內容：內容是課本 1～7 章，算是不需要什麼基礎知識，從邏輯二進位教到 latch、flip-flop、counter，會帶一些 verilog，但不需要上機，只要看得懂就好了。&lt;/li&gt;
+&lt;li&gt;授課方式：上課都是用投影片，上課速度時快時慢。小考和期中期末以課本題為主，有練拿 A+ 很簡單，小考是前一週的範圍。老師人很好，很愛關心學生。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;數位電路實驗英文班&#34;&gt;數位電路實驗（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 范倫達&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;Lab 10 次取 8 次 40%&lt;/li&gt;
+&lt;li&gt;期中上機 20%、期末上機 20%&lt;/li&gt;
+&lt;li&gt;期末小組專題 20%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;不會點名。作業每週一晚上 demo，10 天前公佈。基本上上課內容以硬體架構為主，講了一些 FPGA 的東西，還有合成的過程，會有幾堂請業界的人講課，但我真心覺得聽課很無趣，且對作業幫助不大。&lt;/li&gt;
+&lt;li&gt;打分數全由 TA 負責，TA 主要是前一年的修課學生。&lt;/li&gt;
+&lt;li&gt;期中上機剛好是我高二用 Arduino 寫過的東西，所以就拿了 100 分。期末則出 UART，剛好那次Lab碰上日本比賽，所以沒寫，之後沒補，只帶了同學的模板，電腦剛好選到一台無敵爛的，就考 0 分。總之，上機跟選電腦的運氣成分有很大關聯。&lt;/li&gt;
+&lt;li&gt;FPGA 不能帶出實驗室，環境 Vivado 不支援 mac，所以每次都得去實驗室做，後來幾次幾乎都寫超過 10 小時，很崩潰。&lt;/li&gt;
+&lt;li&gt;專題最後我組員退選退光，於是我就一個人做，大概弄了 25~30 小時。期末成績因為調分有拿到A+。&lt;/li&gt;
+&lt;li&gt;板子是用 Arty，有遇過有錢的同學自己買一個玩，就不用假日窩在實驗室合成了。畢竟到後面有時候燒一次就要 20 分鐘，這時候建議多霸佔幾台電腦，這樣就可以同時跑很多版本的 code 了（應該沒有人像我一樣這樣節省時間的吧）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;課程內容：
+&lt;ul&gt;
+&lt;li&gt;Lab1 乘法器&lt;/li&gt;
+&lt;li&gt;Lab2 ALU&lt;/li&gt;
+&lt;li&gt;Lab3 矩陣乘法&lt;/li&gt;
+&lt;li&gt;Lab4 Button &amp;amp; LED&lt;/li&gt;
+&lt;li&gt;Lab5 LCD&lt;/li&gt;
+&lt;li&gt;Lab6 UART&lt;/li&gt;
+&lt;li&gt;Lab7 矩陣乘法(用 SRM，空間優化)&lt;/li&gt;
+&lt;li&gt;Lab8 SD card&lt;/li&gt;
+&lt;li&gt;Lab9 暴力解MD5（用 Pipeline，時間優化）&lt;/li&gt;
+&lt;li&gt;Lab10 VGA 顯示&lt;/li&gt;
+&lt;li&gt;期末專題 VGA 小遊戲 2 選 1（貪吃蛇、皮卡丘打排球）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;計算機組織&#34;&gt;計算機組織&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 蔡文錦&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;我討厭 Verilog 所以選了 B&lt;/li&gt;
+&lt;li&gt;Plan A
+&lt;ul&gt;
+&lt;li&gt;考試 20% * 3&lt;/li&gt;
+&lt;li&gt;小考 20%&lt;/li&gt;
+&lt;li&gt;Verilog HW 20%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Plan B
+&lt;ul&gt;
+&lt;li&gt;考試 25% * 3&lt;/li&gt;
+&lt;li&gt;小考 25%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;課程範圍
+&lt;ul&gt;
+&lt;li&gt;Ch 1: Computer Abstractions and Technology&lt;/li&gt;
+&lt;li&gt;Ch 2: Instructions: Language of the Computer&lt;/li&gt;
+&lt;li&gt;Ch 4: The processor&lt;/li&gt;
+&lt;li&gt;Ch 3: Arithmetic for Computers&lt;/li&gt;
+&lt;li&gt;Ch 5: Memory Hierarchy&lt;/li&gt;
+&lt;li&gt;Ch 6: Multiprocessor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;覺得教得很清楚，讓我沒那麼討厭計組了。重點主要放在第四章。第五、六章和 OS 重疊率很高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作業系統概論&#34;&gt;作業系統概論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 吳育松&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;大考 2 x 30%&lt;/li&gt;
+&lt;li&gt;作業 4 x 10%
+&lt;ul&gt;
+&lt;li&gt;HW1 Multitasking: Python&lt;/li&gt;
+&lt;li&gt;HW2 Memory: C, Linux&lt;/li&gt;
+&lt;li&gt;HW3 File System: Linux cmd&lt;/li&gt;
+&lt;li&gt;HW4 Meltdown: Linux cmd&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式
+&lt;ul&gt;
+&lt;li&gt;用投影片上課，但投影片很多有的沒的東西，不容易抓到重點。&lt;/li&gt;
+&lt;li&gt;覺得很催眠的一堂課，只好自學。&lt;/li&gt;
+&lt;li&gt;作業覺得沒學到太多東西。&lt;/li&gt;
+&lt;li&gt;期中期末平均都 60 幾，學期分數調了 7 分左右。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;編譯器設計&#34;&gt;編譯器設計&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 游逸平&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;大考 2 x 25%&lt;/li&gt;
+&lt;li&gt;作業 5 x 10%
+&lt;ol&gt;
+&lt;li&gt;Scanner (&lt;code&gt;lex&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Parser (&lt;code&gt;yacc&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Abstract Syntax Tree&lt;/li&gt;
+&lt;li&gt;Sematic Analysis&lt;/li&gt;
+&lt;li&gt;RISC-V&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課內容
+&lt;ul&gt;
+&lt;li&gt;Lexical Analysis, CFG, Parsing, Lex &amp;amp; Yacc, SDD &amp;amp; SDT, IR, Runtime Environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式
+&lt;ul&gt;
+&lt;li&gt;因為疫情，從學期初就線上授課到期末，有錄影可以看。因為是英授，所以上得比較慢，後面很多東西就沒上到，像是 Code Generation &amp;amp; Optimization。&lt;/li&gt;
+&lt;li&gt;課程資料和作業都是透過 Github，作業都會提供完整的測資，所以交功課時就可以知道自己的分數。作業還會要求寫報告，主要內容是介紹你怎麼寫這份作業，以及你認為作業可以改進的地方，大概佔 5% 左右。&lt;/li&gt;
+&lt;li&gt;期中考是現場考，期末考則是 Take-Home Exam，老師會提供考古題。&lt;/li&gt;
+&lt;li&gt;作業平均需要花 8~10 小時，前面兩次作業很簡單，後面就比較需要熟悉 C++。&lt;/li&gt;
+&lt;li&gt;總而言之，是門值得一修的好課。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;資工---計算理論&#34;&gt;資工 - 計算理論&lt;/h2&gt;
+&lt;h3 id=&#34;基礎圖論&#34;&gt;基礎圖論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：應數系 傅恆霖&lt;/li&gt;
+&lt;li&gt;評分方式：期中40%、期末60%，滿分約115左右，不調分。&lt;/li&gt;
+&lt;li&gt;授課方式：老師人超好，因為開在早八，所以會晚十分鐘開始上課（我下堂還有課，結果就因為晚下課搶不到位子），有時會在開始上課前給早到的講點小故事。內容還算滿豐富的，上課全是板書，老師的字大小適中且整齊，上課速度也不會太快，老師手寫筆記和考古題也會公開到網路上。&lt;/li&gt;
+&lt;li&gt;授課內容：主要是簡單圖為主，從圖的定義，到一些基本性質，還有介紹一些經典問題，尤拉路徑、中國郵差問題、七橋問題之類的，最小生成樹、最短路徑的演算法也有提一下下，最大流最小割，四色定理等等。&lt;/li&gt;
+&lt;li&gt;會選這門課，主要是因為系上開的離散數學完全跳過圖論這塊，加上以前聽過很多上述的經典問題，卻都不太清楚證明，想說不需要什麼基礎就修修看。&lt;/li&gt;
+&lt;li&gt;考試內容：以上課範圍為主，證明和定義要記清楚，還有一些簡單的構造題，平常上課聽之外，還需要考試前念一點書。老師偶爾會出作業，寫出證明的話，直接總成績加一分，不過我都在忙東忙西，就都沒有寫了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;演算法概論英文班&#34;&gt;演算法概論（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 蔡孟宗&lt;/li&gt;
+&lt;li&gt;評分方式：max ( (2 max(A + B) + min(A, B) + C + D) / 5, 99)
+&lt;ul&gt;
+&lt;li&gt;A. 3 次手寫作業 + 2 次小考&lt;/li&gt;
+&lt;li&gt;B. 3 次程式作業(5題) + 2 次上機&lt;/li&gt;
+&lt;li&gt;C. 期中筆試&lt;/li&gt;
+&lt;li&gt;D. 期末筆試&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;不會點名，某程度上不會被當的課，大神很容易刷分的課，修到 A+ 不難，拿 99 也不無可能，因為每次作業考試都滿分 125。&lt;/li&gt;
+&lt;li&gt;程式作業和考試題目質感高，手寫作業和筆試難度略高，但基本分很好拿。上課是投影片，老師自己做的，所以品質很好。會先英文授課 7 成的時間，然後再用中文講一次。&lt;/li&gt;
+&lt;li&gt;該上的內容都有上，還會自己加一些好玩的題材，像是隨機演算法、近似演算法，還有 Treap、Quake heap 這種比傳統的紅黑樹和費波那契堆好實作且好懂的平衡樹。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;隨機演算法英文班&#34;&gt;隨機演算法（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：清華 韓永楷&lt;/li&gt;
+&lt;li&gt;評分方式：5作業（最低 2.5%，其他 37.5%）、3考試60%&lt;/li&gt;
+&lt;li&gt;授課內容：
+&lt;ul&gt;
+&lt;li&gt;Basic Probability, Discrete Random Variable&lt;/li&gt;
+&lt;li&gt;Verify Matrix Multiplication&lt;/li&gt;
+&lt;li&gt;Random Min-Cut&lt;/li&gt;
+&lt;li&gt;Random Median&lt;/li&gt;
+&lt;li&gt;Poisson Trial&lt;/li&gt;
+&lt;li&gt;Markov Inequality, Chebyshev Inequality, Chernoff Bounds&lt;/li&gt;
+&lt;li&gt;Balls and Bins&lt;/li&gt;
+&lt;li&gt;Probability Methods&lt;/li&gt;
+&lt;li&gt;Markov Chain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.cs.nthu.edu.tw/~wkhon/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;課程資料&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;板書。老師是香港人，但口音聽久就習慣了。&lt;/li&gt;
+&lt;li&gt;老師人很好，會問大家問題，答錯沒關係。上課氣氛非常愉快，然後不需要太多基礎，可能會一點離散數學就夠了。&lt;/li&gt;
+&lt;li&gt;這門課大概讓我喜歡上了機率，然後機率變得滿熟悉的 XD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;附註：加簽沒上限？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;高等演算法&#34;&gt;高等演算法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資科碩 蔡孟宗&lt;/li&gt;
+&lt;li&gt;評分方式：小考 5 x 20%&lt;/li&gt;
+&lt;li&gt;授課內容：Graph Orientation, Color Coding, Connectivity, Spanner, Decomposition, Cuckoo Hash, Monge Matrix, Matroid, Submodularity, Epsilon Net, Derandomization, Distributed Algorithm, Streaming Algorithm, Dynamic Algorithm, ……&lt;/li&gt;
+&lt;li&gt;連續上兩個多小時有點累以外，其實滿喜歡這門課的。每個星期都花不少時間複習，但考試就是難到 Open Internet 還是寫不出來。不知不覺就在一學期學了很多東西，算是看到更廣闊的世界……？用到不少機率，所以現在看到再多機率都不怕了 www&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;正規語言概論&#34;&gt;正規語言概論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 曾文貴&lt;/li&gt;
+&lt;li&gt;評分方式：5 作業 25%、考試 3 x 25%&lt;/li&gt;
+&lt;li&gt;授課內容：Finite State Machine, Regular Language, Pushdown Automata, Context-free Language, Turing Machine, Hierarchy of Formal Language and Automata, Limits of Computation&lt;/li&gt;
+&lt;li&gt;作業和考試多來自課本習題，考試平均大約都五六十分。可能是因為用平板上課，上課會很仔細得寫範例題，上的內容有些少，沒有上到 Reduction 的部分，有些失望。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;隨機演算法&#34;&gt;隨機演算法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 蔡錫鈞&lt;/li&gt;
+&lt;li&gt;評分方式：作業 x 6、期中（一張小抄）、期末（take home）&lt;/li&gt;
+&lt;li&gt;授課內容：幾乎整本第二版的 Probability and Computing、一部分 The Probabilistic Method&lt;/li&gt;
+&lt;li&gt;上課會有投影片，會補充一些書上沒有的內容，回家複習時最好跟書搭配看。強烈建議一定要去上課，不然自己讀會很難抓到精髓。作業多是勾課本習題，每次大約十天五題，但通常網路上找不到答案，應該多和同學討論。期中考的範圍到機率方法，平均落在五十幾分，但其實老師改的算是滿鬆的，題型其實也和作業滿相似的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;賽局理論及應用英文&#34;&gt;賽局理論及應用（英文）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 嚴力行&lt;/li&gt;
+&lt;li&gt;評分方式：程式作業 x 2、小考 x 4、期中 30%、期末 30%&lt;/li&gt;
+&lt;li&gt;授課內容：沒有用教科書。
+&lt;ul&gt;
+&lt;li&gt;Non-cooperative game&lt;/li&gt;
+&lt;li&gt;Coordination game, Potential game and Congestion game&lt;/li&gt;
+&lt;li&gt;Network Problem&lt;/li&gt;
+&lt;li&gt;Graph Problem&lt;/li&gt;
+&lt;li&gt;Coaliction&lt;/li&gt;
+&lt;li&gt;Auction&lt;/li&gt;
+&lt;li&gt;Matching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;上課的投影片量很大，建議去聽課，不然抓不到重點。整學期的課都有錄影放到雲端，所以去上課的人大概不到七成。這門課第一次開英文授課，老師的語速算慢，所以英文不好還是能聽得很懂，而且老師還滿會教課的。小考完都會現場檢討，雖然老師常常答案被打臉，但還是覺得能把不熟的部分補起來。期中期末其實不難，跟小考很相近，但有些名詞的定義還是要搞清楚才能回答問題。程式作業主要是 Graph 那個單元，都不用 100 行就能搞定，只需要交報告，用 C++ 或 Python 都行，算是研究所課中相對涼的一門課。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;資工---其他選修&#34;&gt;資工 - 其他選修&lt;/h2&gt;
+&lt;h3 id=&#34;競技程式設計一二三&#34;&gt;競技程式設計（一）、(二)、（三）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：謝旻錚&lt;/li&gt;
+&lt;li&gt;算是競賽用演算法課吧，因為這年有勾題目，所以大家期中期末都比往年高。這學期放了很多假，因此課程的內容比預期少了不少。&lt;/li&gt;
+&lt;li&gt;很開心在競程一找到 ICPC 的隊友。&lt;/li&gt;
+&lt;li&gt;競程二是要在任一場比賽打敗清大第四名或台大第六名的隊伍才能 PASS。競程三就只要賽季時一週練 10 小時就解決了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;人工智慧概論&#34;&gt;人工智慧概論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 王才沛&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;原本
+&lt;ol&gt;
+&lt;li&gt;程式 50%（個人3次小組1次）&lt;/li&gt;
+&lt;li&gt;大考＋小考＋手寫作業 50%&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;實際
+&lt;ol&gt;
+&lt;li&gt;手寫作業 2% x 3&lt;/li&gt;
+&lt;li&gt;小考 2% x 2&lt;/li&gt;
+&lt;li&gt;段考 23% x 2&lt;/li&gt;
+&lt;li&gt;個人程式作業報告 13% x 2&lt;/li&gt;
+&lt;li&gt;小組程式作業報告 10% ＋對戰排名 8％&lt;/li&gt;
+&lt;li&gt;點名額外加分 1% x 2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：平常上課以投影片為主。主要是以概論的方式來上。
+&lt;ul&gt;
+&lt;li&gt;介紹 AI 的大致種類。&lt;/li&gt;
+&lt;li&gt;State Space Search：有教基本的 DFS、BFS、A*、IDA* 等。&lt;/li&gt;
+&lt;li&gt;Constraint Satisfaction Problem：教 AC3、MRV、LCV、Degree heuristic、Forward checking 等。&lt;/li&gt;
+&lt;li&gt;Adversarial Search：以 0-sum 遊戲為主介紹，教 Min-max pruning、MCTS 等經典算法。&lt;/li&gt;
+&lt;li&gt;介紹 Learning 的種類：介紹 Learning 相關的概念（Bias-Variance Dilemma、Cross validation等）。&lt;/li&gt;
+&lt;li&gt;Supervised Learning：教 Decision Tree、CART 的具體實現，神經網路相關的概念、SVM。
+Unsupervised Learning，k-means、SOM、VQ 等算法簡介。&lt;/li&gt;
+&lt;li&gt;Reinforcement Learning：Q-Learning 為主、TD。&lt;/li&gt;
+&lt;li&gt;Logic：Propositional Logic、First-Order Logic 這兩種，結合了一些Searching 類的演算法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其他：
+&lt;ul&gt;
+&lt;li&gt;手寫作業和小考段考題型都是一樣，投影片讀熟應該考個 90 是沒問題的，但我期中題目沒看仔細，分數跌了不少。&lt;/li&gt;
+&lt;li&gt;個人程式作業以報告評分，大致描述實踐分法、實驗結果就行了，以 C++、python、java、matlab 都行，小組作業就限 C++ 和 python。&lt;/li&gt;
+&lt;li&gt;第一次程式作業是給幾個圖及 3000 個單字，用 AC3、Forward checking 等算法，選幾種去寫，去完成填字遊戲。我自己大約寫了 350 行的 C++，把有教的東西都實踐出來，Forward checking、AC3、Degree hueristic、MRV 都有做效果還不錯。&lt;/li&gt;
+&lt;li&gt;第二次程式作業是實作 Random Forest，可以直接用網路上別人寫好的 code 去改，但我還是選擇自己寫一個出來，也是用 C++寫了 350 行左右，花了很多時間，但一開始對於attritbute bagging的部分理解錯了，到最後一天才在重寫，資料就沒有跑很多，但報告不知道為什麼還拿滿高分的。&lt;/li&gt;
+&lt;li&gt;整體來說很吃寫實驗報告能力，但因為有修過物理實驗，所以這部分就還算能抓個方向，加上一些專題 meeting 時訓練出的做圖表能力，所以報告都拿 90+，助教給分的 Range 從 50~98 都有，這部分電資班的成績普遍比資工系的高，顯然物理實驗和專題對寫報告的能力增進不少。看了一下同系學長姐的成績，似乎程式不怎麼樣，但報告卻拿很高就是了，所以修這門課好像寫報告能力重於程式能力。&lt;/li&gt;
+&lt;li&gt;小組作業是 1~3 人一組，針對 Game 那個單元出一個對戰作業，給定一個黑白跳棋的規則（四方棋盤，可以跳或是直接走一步，跳過對方棋子可以吃掉，看遊戲結束時到對面的棋子數量決定勝負）。總共 51 組，我們拿第 7 名，我們是大概以兩步的結果去評估，加上一些 hueristic 的調整。其他朋友則是真的去做 min-max 和 MCTS 之類的實踐，普遍成績都不錯，我在 PCCA 的隊友，也是同門課中和我唯二的大一生，好像用這個方法拿到第一名。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;資料庫系統概論&#34;&gt;資料庫系統概論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工系 彭文志&lt;/li&gt;
+&lt;li&gt;評分方式：由於疫情，調整成只有作業和期末專題，在討論區發言或回答同學問題能加分。&lt;/li&gt;
+&lt;li&gt;授課方式：修課人數很多，開學就用 Microsoft Teams 遠端，沒上過實體課，原本是一週三堂課，但因為改成線上就只有兩堂。講投影片，投影片的份量有點重，可能因為是線上的，所以覺得老師講起來沒什麼吸引力。加上有時候還沒敲鐘就開始上，前面常常沒聽到，後面就跟不上。&lt;/li&gt;
+&lt;li&gt;作業：我退掉這門課的原因。HW1 我就決定退選了，因為助教給了一份 LOL 的遊戲紀錄，然後搞不懂規則，加上第一次學 mySQL 的狀態下，實在不想在期中考月花時間寫作業，寫了 8 小時左右就放棄了。聽說總共出了四份作業，然後期末專題是三人一組，寫一個應用程式或網頁之類的（類似口罩地圖之類的），主題自訂。據說總共有 4 次 HW，第二次是 B+ Tree，後面我就不清楚了。&lt;/li&gt;
+&lt;li&gt;原本期末專題找隊友兩人一組，他還很認真的陪我寫作業。但因為那陣子忙著算係好與系統，還有讀專題的東西，於是最後就早早停修了，至少不會拖累他。總之，這是一門每年都上靠北交大的課，請慎選，個人覺得今年似乎比往年少一點點雷了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;計算方法之實務應用&#34;&gt;計算方法之實務應用&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資科工碩 吳凱強&lt;/li&gt;
+&lt;li&gt;評分方式：作業 4、期中專題 (3 milestone)、期末專題
+&lt;ul&gt;
+&lt;li&gt;HW1: 10%,
+HW2: 10%,
+HW3: 10%,
+HW4: 10%,
+Milestone1: 15%,
+max(Milestone2, Milestone3): 20%,
+Fin: 15%,
+Other: 10%: (1/50) * min(Milestone2, Milestone3) * [(HW1 &amp;gt; 0 ) ? 1 : 0 + (HW2 &amp;gt; 0 ) ? 1 : 0 + (HW3 &amp;gt; 0 ) ? 1 : 0 + (HW4 &amp;gt; 0 ) ? 1 : 0 + (Milestone1 &amp;gt; 0 ) ? 1 : 0]&lt;/li&gt;
+&lt;li&gt;HW1. 用 minisat 解數獨&lt;/li&gt;
+&lt;li&gt;HW2. 用 BDD 算數獨解的數量&lt;/li&gt;
+&lt;li&gt;HW3. Viterbi Algorithm&lt;/li&gt;
+&lt;li&gt;HW4. 給 BDD，求 satisfied 的機率&lt;/li&gt;
+&lt;li&gt;Minterm: SAT solver&lt;/li&gt;
+&lt;li&gt;Final: Metaheuristic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;這門課主要偏實作，期中作業號稱要 1500 行 c++。時間大多給兩到三週，期中專題可能會做得很趕。理論的部分基礎不需要太多，因為講得很仔細。我覺得我不喜歡老師上課一直講有的沒的冷笑話，讓上課步調偏慢。評分方式都說得不仔細，成績出來，跟助教反應也沒用。&lt;/li&gt;
+&lt;li&gt;課程內容：比課綱少不少，通常上不到 3 小時就下課了。
+&lt;ol&gt;
+&lt;li&gt;SAT solver &amp;amp; application&lt;/li&gt;
+&lt;li&gt;Binary Decision Diagram&lt;/li&gt;
+&lt;li&gt;Hidden Markov Model &amp;amp; Viterbi Algorithm&lt;/li&gt;
+&lt;li&gt;Google&amp;rsquo;s PageRank&lt;/li&gt;
+&lt;li&gt;Pipeline &amp;amp; Retiming&lt;/li&gt;
+&lt;li&gt;Introduction to NLP&lt;/li&gt;
+&lt;li&gt;Metaheuristic&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;數值軟體開發英文&#34;&gt;數值軟體開發（英文）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：陳永昱&lt;/li&gt;
+&lt;li&gt;評分方式：作業 6 x 5%、期中考 30 %、Proposal 8%、Presentation 32%&lt;/li&gt;
+&lt;li&gt;授課內容：&lt;a class=&#34;link&#34; href=&#34;https://yyc.solvcon.net/en/latest/nsd/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;課程網站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;歷年作業都可在老師的 Github 上看到，所以作業量在修課前就可以評估。老師會分享一些業界的事，很喜歡和學生互動。主要會學到的東西是 Script、Makefile、Pybind11 和 Smart Pointer 等 C++ 的細節。Project 會規定用 Python 及 C++，Proposal 基本上很簡單拿滿分，主題建議選一些運算上可以做優化的，期末報告會比較有東西講（要講 18 分鐘）。期中考則是像在考計概，可能要複習一些 float 的表示法之類的東西。作業則是都用 Github 交，一週需要花五個小時左右，有些環境參數的配置會搞很久。整體來說算是很好及格的一門課，也可以學到很多東西。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;資訊工程研討&#34;&gt;資訊工程研討&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：資工 莊榮宏&lt;/li&gt;
+&lt;li&gt;評分方式：最多缺席兩次，每週書面報告 150 字。&lt;/li&gt;
+&lt;li&gt;整學期都是用 Microsoft Meet 上課。會請一些業界的人來演講，大部分都在講創業的事。也會請一些中研院的人或是新進教授，通常這部分比較有內容。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;電機&#34;&gt;電機&lt;/h2&gt;
+&lt;h3 id=&#34;電子學一&#34;&gt;電子學（一）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電工 陳龍英（逝）&lt;/li&gt;
+&lt;li&gt;評分方式：3次大考100%、作業一次1%、點名加分&lt;/li&gt;
+&lt;li&gt;雖然老師是電子學名師，但真的老到講話有氣無力，上課常常東跳西跳，品質據說比以前低。我對這門課真的沒興趣，加上很早就發現跟老師對不到拍，於是很果斷的開始翹課 。&lt;/li&gt;
+&lt;li&gt;第一次期中剛好在 NCPC 完，比完賽隔天病懨懨沒空讀書，於是只讀了第一章就上場考試，然後就低於 40 分。最後去日本比賽完，發現沒空準備第二次期中，就果斷退選了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;電子學一英文班&#34;&gt;電子學（一）（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電子 吳介琮&lt;/li&gt;
+&lt;li&gt;評分方式：六次考試&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.alab.ee.nctu.edu.tw/wpmu/electronics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;課程網站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;需要自己先預習課本作者 Razavi 的&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;影片&lt;/a&gt;，和其他班用的 Smith 課本不一樣。&lt;/li&gt;
+&lt;li&gt;老師教的很好，考古題也都有給，但課本實在太少人用了，連解答都找不到，所以也不好準備。三週考一次試實在來不及準備。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;電子實驗一&#34;&gt;電子實驗（一）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課助教：電工 陳建安&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;小考 8%&lt;/li&gt;
+&lt;li&gt;結報 24%&lt;/li&gt;
+&lt;li&gt;專題 26%&lt;/li&gt;
+&lt;li&gt;實驗 26%&lt;/li&gt;
+&lt;li&gt;期末考 20%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sites.google.com/g2.nctu.edu.tw/nctu-eelab/home&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;課程網頁&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;授課內容：基本儀器操作（示波器、電源供應器、訊號產生器、三用電錶）、基本元件（電阻、電容、電感、二極體）、LTspice。&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;無故缺席兩次會被當，請假要補做。每週上課要先小考，要先看影片預習。小考結束助教會講解實驗內容，要在10點半前做完，大多數人為了早點離開，會直接開始做，不聽助教說明。&lt;/li&gt;
+&lt;li&gt;專題就是有焊接的部分，分別是直流供電器、音源播放器，但美觀完全不影響分數。期末考實驗內容和電子電路學知識大概一半一半，所以我拿41分（平均48）。&lt;/li&gt;
+&lt;li&gt;結報雖然我什麼都不會，但寫認真點，也能拿到70分（平均66）。小考平均也70左右，所以就算不會電子電路學，認真預習，不要翹實驗，照著規則，基本上很難被當，雖然有可能是電工系有些人太混。&lt;/li&gt;
+&lt;li&gt;實驗做不完想繼續完成，或是有事請假，可以跟助教約平日下午補做。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/eelab2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt; &lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/eelab1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;電路學英文班&#34;&gt;電路學（英文班）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：生醫 蔡德明&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;小考 15%&lt;/li&gt;
+&lt;li&gt;作業 10%&lt;/li&gt;
+&lt;li&gt;大考 25% x 3&lt;/li&gt;
+&lt;li&gt;期末專題加分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;課本：&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/1260226409&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fundamentals of Electric Circuits, 7th&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;作業是從最新版的課本出，但可以跟助教借課本拍照。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exam 1&lt;/strong&gt;: 1, 2, 3, 4, 5, 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exam 2&lt;/strong&gt;: 7, 8, 9, 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exam 3&lt;/strong&gt;: 11, 13, 14, 15, 16&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課內容：
+&lt;ul&gt;
+&lt;li&gt;KCL, KVL, Nodal Analysis, Mesh Analysis&lt;/li&gt;
+&lt;li&gt;Theorem: Norton, Thevenin, Superposition, Source Transformaion&lt;/li&gt;
+&lt;li&gt;op-amp, Capacitor, Inductor&lt;/li&gt;
+&lt;li&gt;First/Second-Order Circuit&lt;/li&gt;
+&lt;li&gt;Phasor&lt;/li&gt;
+&lt;li&gt;Magnetically Coupled Circuits&lt;/li&gt;
+&lt;li&gt;Frequency Response, Bode Plot&lt;/li&gt;
+&lt;li&gt;Laplace Transform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;授課方式：
+&lt;ul&gt;
+&lt;li&gt;每個章節會出一次作業，作業會公布詳解。&lt;/li&gt;
+&lt;li&gt;交作業時會小考，小考只有一題，通常不難，考完會馬上講解。&lt;/li&gt;
+&lt;li&gt;講解的很清楚，覺得可以只要會一點微積分就可以了，但有學過線性代數、微分方程、訊號與系統，應該會比較有概念。&lt;/li&gt;
+&lt;li&gt;整個學期大致上是從 t-domain, w-domain, s-domain 去認識電路。&lt;/li&gt;
+&lt;li&gt;上課時會講很多範例，老師強調應該要先把觀念搞懂再寫作業，作業是用來檢驗自己是否有熟習觀念，不應該一邊寫一邊翻課本。&lt;/li&gt;
+&lt;li&gt;老師英文語速不快，私下聊天時可以跟他用中文，很鼓勵學生跟他聊職涯相關問題。&lt;/li&gt;
+&lt;li&gt;每次大考都有提供補考，但最高只能 60 分。&lt;/li&gt;
+&lt;li&gt;週二晚上會有一個小時的助教課，助教會選和作業相似的習題演算，助教們人都很好，偶而可以跟他們聊天。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;電子設計自動化演算法與實作&#34;&gt;電子設計自動化演算法與實作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：電工 陳宏明、趙家佐&lt;/li&gt;
+&lt;li&gt;評分方式：期中考 30%、4 作業 45%、final project 25%&lt;/li&gt;
+&lt;li&gt;作業：由不同實驗室各出一個，所以評分方式也有所不同。測資常常沒說明大小，問助教也並沒有清楚的回覆，這點有些不習慣。
+&lt;ol&gt;
+&lt;li&gt;2-way Partition&lt;/li&gt;
+&lt;li&gt;Grid Routing&lt;/li&gt;
+&lt;li&gt;Binary Decision Diagram&lt;/li&gt;
+&lt;li&gt;SAT-Based Path-Delay-Fault ATPG&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;上課內容
+&lt;ul&gt;
+&lt;li&gt;Introduction to EDA&lt;/li&gt;
+&lt;li&gt;Partitioning: KL, FM, Simulated Annealing&lt;/li&gt;
+&lt;li&gt;Floorplanning: Slicing Tree, B* tree&lt;/li&gt;
+&lt;li&gt;Placement: cluster groth, min-cut, force-directed, simulated annealing, genetic algorithm&lt;/li&gt;
+&lt;li&gt;Routing: global (Lee, line-search), detailed (channel, clock, power/ground)&lt;/li&gt;
+&lt;li&gt;Logic synthesis &amp;amp; verification: ROBDD, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;期中考因為疫情被延到期末，考試範圍只有 Physical Design 和 Logic Synthesis &amp;amp; Verification。&lt;/li&gt;
+&lt;li&gt;個人比較喜歡 Physical 的部分，後面就沒有認真學了。如果討厭 Heuristic 的人，EDA 這個領域可能不適合你。&lt;/li&gt;
+&lt;li&gt;期末專題是選一篇 Paper 寫報告，或是參加 ICCAD contest（會拿 alpha test 計分），參加比賽分數會高個 5~10 分。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;通識&#34;&gt;通識&lt;/h2&gt;
+&lt;h3 id=&#34;校基本---疾病知識與防治&#34;&gt;校基本 - 疾病知識與防治&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：黃元惠（新竹台大醫院的外科醫生）&lt;/li&gt;
+&lt;li&gt;評分方式：上課參與與發問 30%（全勤80，問一次約加 2分）、分組討論報告 20%、個人書面報告 20%、期末考 30%&lt;/li&gt;
+&lt;li&gt;上課是用投影片，老師非常認真回答同學問題。就算你高中不是三類組，也保證能聽得懂。&lt;/li&gt;
+&lt;li&gt;一學期大概點三次名，會挑人數有點少又不會太少。&lt;/li&gt;
+&lt;li&gt;報告最好不要第一組，你比較知道準備方向，五個人一組其實負擔很小，小心不要遇到很雷的人就是了。個人和分組報告都是自己選擇主題，很自由，書面報告大約期末倒數第三週交。&lt;/li&gt;
+&lt;li&gt;期末筆試，可用網路查，兩題申論，一題會是和上課內容有關「冬天需注意的疾病、防治方法」，一題時事題「同婚公投」。反正不翹課應該就能拿 80 分以上，算是甜了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;校基本---幾何造型&#34;&gt;校基本 - 幾何造型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：陳明璋&lt;/li&gt;
+&lt;li&gt;評分方式：隨堂作業 8 次 65%、期末作業 25%、作業每次超過 90 分 + 0.9%、85分 + 0.5%&lt;/li&gt;
+&lt;li&gt;作業會分成課堂操作歷程呈現的部分，還有課後自己練習及成品彙整的部分（5頁以上）。老師作業改得有點慢，所以我有些做的不錯的圖放在歷程的部分，而不是放在彙整的部分，老師就沒有仔細留意，作業分數就落在 87 左右，因此沒到 90 很虧。&lt;/li&gt;
+&lt;li&gt;課堂上由老師帶著做一遍，用老師研發的 &lt;a class=&#34;link&#34; href=&#34;http://ama.nctu.edu.tw/2.1/download.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AMA 軟體&lt;/a&gt;（PPT外掛）進行造型繪製。內容包含對稱、碎形、錯覺等等，上課教的很扎實，設計的過程不只對圖形構造的方法更了解，也能學到如何利用工具提升自己的工作速度，避免一再重複一樣的操作，是一門滿有意義的課。老師準備要退休了，真難過。&lt;/li&gt;
+&lt;li&gt;期末專題是以繪本的方式呈現，至少 25 頁，我做了大約 30 小時，但最後總成績卻還是 A 而已。平常的作業我花的時間大約 5 小時，但認識某資工大神每次花 10 小時做作業，自認不如人家。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/%e4%ba%a4%e5%a4%a7%e4%bf%ae%e8%aa%b2%e5%bf%83%e5%be%97/g7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;校基本---統計方法與資料分析&#34;&gt;校基本 - 統計方法與資料分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：唐麗英&lt;/li&gt;
+&lt;li&gt;網路課程很涼，給分很甜。&lt;/li&gt;
+&lt;li&gt;有三堂面授，有小組報告，每堂老師都會遲到。&lt;/li&gt;
+&lt;li&gt;考試可以帶小抄，期中期末各一。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;校基本---認識語言&#34;&gt;校基本 - 認識語言&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：
+&lt;ul&gt;
+&lt;li&gt;上半學期：盧郁安&lt;/li&gt;
+&lt;li&gt;下半學期：周昭廷&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;評分方式：
+&lt;ul&gt;
+&lt;li&gt;上半學期
+&lt;ul&gt;
+&lt;li&gt;課堂參與 15%：每堂課結束會玩 Kahoot。&lt;/li&gt;
+&lt;li&gt;作業 15%：Praat、&amp;hellip;&lt;/li&gt;
+&lt;li&gt;期中影片 30%：選一個主題做「60 秒懂 xxx」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;下半學期
+&lt;ul&gt;
+&lt;li&gt;下課前 Kahoot 小考 2% x 8&lt;/li&gt;
+&lt;li&gt;Google 表單小考 2% x 7：每週會給一篇文章回去閱讀、題目也會先公布&lt;/li&gt;
+&lt;li&gt;期末報告 20%：&lt;a class=&#34;link&#34; href=&#34;https://luke2336.github.io/p/understanding_language_final_report&#34; &gt;5 important ideas in the course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;每週可針對閱讀或語言學提出一個問題 0.5%&lt;/li&gt;
+&lt;li&gt;上課回答問題 0.5%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;上課內容
+&lt;ul&gt;
+&lt;li&gt;上半學期：聲音的結構與測量、發音部位、語言感知、句法學&amp;hellip;&lt;/li&gt;
+&lt;li&gt;下半學期：認知科學、Universal Grammar、母語的學習歷程、嬰兒的認知能力、Finite State Grammar&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;上半學期的內容著重在音韻學，但也有上到一些句法學，期中專題一半的分數是同學互評。下半學期很有趣，是以認知科學的角度去認識語言學。&lt;/li&gt;
+&lt;li&gt;上半學期有一次上課會用「沙拉油＋活性碳」去塗在舌頭上，做顯影觀察發音的位置。&lt;/li&gt;
+&lt;li&gt;算是偏涼和甜的課，但可以學到很多東西。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;跨院---統計學&#34;&gt;跨院 - 統計學&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：彭南夫&lt;/li&gt;
+&lt;li&gt;評分方式：小考 15% x 2、期中期末各 35%&lt;/li&gt;
+&lt;li&gt;不會點名。上課基本上就是投影片唸一唸，每個章節至少重複講 2 次。&lt;/li&gt;
+&lt;li&gt;因為是電機系開的，所以沒講數學證明，讓我很失望，就不太上這門課了。&lt;/li&gt;
+&lt;li&gt;考前會出作業，會讓助教講解，但不收作業。考試是 openbook，有些人會有考古題抄上去，於是就 95 以上。但我有些計算錯誤之類的，分數就被扣一半掉了，於是總成績只拿 C。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;核心社會---政治學&#34;&gt;核心社會 - 政治學&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：胡志光&lt;/li&gt;
+&lt;li&gt;評分方式：出席 10%、上台報告 10%、期中考 30%、期末考 30%、期末書面報告 20%
+用書：《政治學與台灣政治》，建議一定要準備一本，清大人社圖書館有幾本。&lt;/li&gt;
+&lt;li&gt;授課方式：用書商的投影片，但會在口頭補充一些東西。上課老師會點同學回答問題當點名，一學期大概被點到三次左右。每週上一個單元，有些單元內容不多，甚至會提早一堂課下課。&lt;/li&gt;
+&lt;li&gt;考試：有些名詞定義，還有一些閱讀題，考運用了什麼政治學觀念。老師統計後，大家考前準備時間平均是 7 小時。認真聽課應該就會知道哪些地方是重點，雖然我到考試時就把前一天讀的東西忘光了，讀工科讀久了就忘記怎麼記背科了。老師說只要期末考比期中考進步，就不太會當掉你。&lt;/li&gt;
+&lt;li&gt;上台報告：10 分鐘左右，報告一則國內時事，只要準備新聞網址，說明為什麼是政治的新聞，政治主要就是兩群人的衝突，這個部分有抓到應該都不會太差。報告日期是自己選，建議選中間偏前面，愈早報吿老師要求愈低。&lt;/li&gt;
+&lt;li&gt;期末報告：選一則解嚴後的國內政治事件，寫 2000 字的書面報告，一半的篇幅敘述事件，另外一半用課本中的政治學概念做分析。在最後一個月，老師會點同學確認報告主題。班上滿多人選年金改革、同婚、公投、土地徵收等近幾年的時事。本來有想選大巨蛋案當作題目，但是老師說後來的發展都很陰謀論，所以就聽老師的建議換主題了。繳交時間訂在期末考後下一週，感覺還算友善。&lt;/li&gt;
+&lt;li&gt;原本是聽隊友建議選了這門課當作核心向度的通識，聽他說上課都在聽故事，不會太累，考試不難分數也還可。但後來才知道他是指兩學分的政治學 QQ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;核心社會---教育學概論&#34;&gt;核心社會 - 教育學概論&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：黃漢昌&lt;/li&gt;
+&lt;li&gt;評分方式：期中報告 25%、期末報告 25%、分組報告 20%、課堂學習單與討論 30%&lt;/li&gt;
+&lt;li&gt;每次上課都會發學習單，當天要交回，然後舉手回答問題或提問會加分或得到一本書。基本是提問比較容易拿分。&lt;/li&gt;
+&lt;li&gt;期中報告和期末報告，分別是選一個有興趣的教育問題，和讀一本教育學相關的書寫心得，2500 字，建議在期中選書，選項比較多。&lt;/li&gt;
+&lt;li&gt;分組報告，大約五人一組，但 ppt 在前幾週就要先交，不確定老師如何評分。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;核心人文---東亞儒家人文精神&#34;&gt;核心人文 - 東亞儒家：人文精神&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：台大 黃俊傑&lt;/li&gt;
+&lt;li&gt;評分方式：作業 50％、課程參與 20％（兩次直播和一次討論課）、期末報告30％&lt;/li&gt;
+&lt;li&gt;是&lt;a class=&#34;link&#34; href=&#34;http://www.n2.org.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;夏季學院&lt;/a&gt;開的非同步的線上課程，總共七週，每週都有一週的時間看線上課程和寫作業，字數每次 600~1000 字，教學平台是用 &lt;a class=&#34;link&#34; href=&#34;https://cool.ntu.edu.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NTU Cool&lt;/a&gt;。助教還滿用心改作業的，上課內容也很扎實，分數算是偏甜。&lt;/li&gt;
+&lt;li&gt;上課內容：孔孟思想、大學、道德經、禪宗、心經、朱子、東亞的儒家思想（中日韓台）等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;外文&#34;&gt;外文&lt;/h2&gt;
+&lt;h3 id=&#34;大一英文一&#34;&gt;大一英文（一）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：吳思葦&lt;/li&gt;
+&lt;li&gt;評分方式：出席10%、課堂學習單和平時加分30%、期中20%、期末20%、課堂寫作5%、GEPT 10%（一次課堂三次線上）、VOD 5%（去圖書館三樓語言中心 5 次）&lt;/li&gt;
+&lt;li&gt;以聽力為主，口說次之。絕對不要翹課或請假，分數會差很多。上課還算輕鬆，功課大約 15 分鐘就可以寫完。期中是考聽力，期末是一組三人，十分鐘的對話要背稿。整體來說投資報酬率不高，要拿 90 以上有點難，完全沒調分。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;德文一&#34;&gt;德文（一）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：周玉蕙&lt;/li&gt;
+&lt;li&gt;評分方式：出席、期中小組口試、期末筆試、自我介紹影片&lt;/li&gt;
+&lt;li&gt;上課會有分組互動，和隔壁的同學練習對話。也會點同學回答問題，但只是練習，不影響分數。&lt;/li&gt;
+&lt;li&gt;期中考花了很多個禮拜，這點可以改善。主要的內容是介紹組員。&lt;/li&gt;
+&lt;li&gt;期末文法筆試，主要就是要會背冠詞。&lt;/li&gt;
+&lt;li&gt;建議買課本，或是跟同學借來印。平常會勾練習本的作業，但都不算分。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;德文二&#34;&gt;德文（二）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：周玉蕙&lt;/li&gt;
+&lt;li&gt;評分方式：出席、小組短劇（邀請吃飯）、用德文介紹食譜、期末錄影片（現在完成式練習）&lt;/li&gt;
+&lt;li&gt;主要都在練習動詞、分離動詞、現在完成式。&lt;/li&gt;
+&lt;li&gt;疫情後是非同步影片。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;進階英文寫作&#34;&gt;進階英文寫作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;授課老師：張靜芬&lt;/li&gt;
+&lt;li&gt;評分方式：出席 15%、作業 50%、部落格專題 25%、作品集 10%&lt;/li&gt;
+&lt;li&gt;作業有 7 次，作業給分幾乎都介於 85-90，普通就 87，結構好就會到 90。每個作業的流程都是，一週寫完初稿，下次上課給同學 review，繳交修正版，老師給評語和分數，最後改版和前兩個版本都放到 profolio。&lt;/li&gt;
+&lt;li&gt;老師強調她不想和其他寫作課一樣，都在教 essay，所以作業很豐富，有 summary, product review, &amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;期中是要一個四人一組的專題，要寫一系列文章，每個人要寫四篇，還要寫 Report。&lt;/li&gt;
+&lt;li&gt;上課會有一些分組練習，整體來說上課很活潑，不會想睡。但是比較可惜的是同學通常都很害羞，不會給太具體的建議。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>軍艦岩</title>
+        <link>https://luke2336.github.io/p/nycu-taipei/</link>
+        <pubDate>Fri, 11 Mar 2022 10:17:51 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/nycu-taipei/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20220310/2.jpeg" alt="Featured image of post 軍艦岩" /&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;時間&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;地點&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12:15&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;校車&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:20&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;陽明校門口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;登山口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;大學亭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:50&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;軍艦岩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;原路折返&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;校車&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;17:40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;交大校區&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/1.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/2.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/3.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/4.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/5.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/6.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>交大交換申請</title>
+        <link>https://luke2336.github.io/p/exchange/</link>
+        <pubDate>Wed, 09 Feb 2022 16:35:46 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/exchange/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Other/exchange/grade.png" alt="Featured image of post 交大交換申請" /&gt;&lt;ul&gt;
+&lt;li&gt;給大家參考一下交大的申請交換經驗。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://oia.nycu.edu.tw/study-abroad/outbound-exchange-program/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官網&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;申請過程及結果&#34;&gt;申請過程及結果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;於 109 上學期末申請交換，預計 110 下學期。&lt;/li&gt;
+&lt;li&gt;申請的志願排序為：
+&lt;ol&gt;
+&lt;li&gt;北京大學&lt;/li&gt;
+&lt;li&gt;復旦大學&lt;/li&gt;
+&lt;li&gt;上海交大&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;計分比例：
+&lt;ul&gt;
+&lt;li&gt;成績 60%&lt;/li&gt;
+&lt;li&gt;自傳 15%&lt;/li&gt;
+&lt;li&gt;讀書計畫 20%&lt;/li&gt;
+&lt;li&gt;其他有利審查資料 5%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;獎學金
+&lt;ul&gt;
+&lt;li&gt;於 109 下學期申請。&lt;/li&gt;
+&lt;li&gt;獲得 13 萬元。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自傳：
+&lt;ul&gt;
+&lt;li&gt;製作簡歷，展示大學期間競賽成績。&lt;/li&gt;
+&lt;li&gt;說明自己能妥善地利用資源，舉例來說充分利用了交大和清大的資源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;研修計畫：
+&lt;ul&gt;
+&lt;li&gt;說明自己的選課計畫。&lt;/li&gt;
+&lt;li&gt;簡單帶過文化交流的部分。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;成績單：
+&lt;ul&gt;
+&lt;li&gt;只需要到二下的資料，平均成績約為 87.7。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;因為是大陸地區，所以不需要英檢證明。&lt;/li&gt;
+&lt;li&gt;需繳交 1 萬元保證金，但只要是因疫情放棄即可全退。&lt;/li&gt;
+&lt;li&gt;放棄：
+&lt;ul&gt;
+&lt;li&gt;考量到疫情及無法完整接種兩劑疫苗到生效，決定放棄資格。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/exchange/grade.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>交大資工轉系經驗</title>
+        <link>https://luke2336.github.io/p/transfer/</link>
+        <pubDate>Sat, 21 Aug 2021 20:31:26 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/transfer/</guid>
+        <description>&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;因為不想修原系的電子學和電子實驗。&lt;/li&gt;
+&lt;li&gt;在三上時決定要轉系，三下就修資工的課為主。&lt;/li&gt;
+&lt;li&gt;看到下一屆的修業規定較適合自己，不用修計網概、編譯器、微處理機等等，於是決定降轉。&lt;/li&gt;
+&lt;li&gt;自己的成績滿足提畢需求，因此降轉不影響畢業。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;準備&#34;&gt;準備&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;上機考前三名。&lt;/li&gt;
+&lt;li&gt;平均成績高於 85 分，系排 25~50%。&lt;/li&gt;
+&lt;li&gt;自傳及動機著重在自己不適合原系，強調自己能準時畢業（差 4 門專業選修即符合畢業標準）。&lt;/li&gt;
+&lt;li&gt;有利資料為選出自己專業科目的優異成績及演算法競賽成績。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;審查標準&#34;&gt;審查標準&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;轉系名額上限為教育部核定名額的兩成&lt;/li&gt;
+&lt;li&gt;第一志願必須為資工系，操行須在82分以上。&lt;/li&gt;
+&lt;li&gt;申請文件
+&lt;ul&gt;
+&lt;li&gt;歷年成績單（含排名）&lt;/li&gt;
+&lt;li&gt;自傳及轉系動機說明（兩頁內）&lt;/li&gt;
+&lt;li&gt;其他有利審查之資料&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;就學業成績、上機考成績、重點科目（如：計算機概論、基礎程式設計、微積分等）與課外競賽表現擇優錄取。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;心得&#34;&gt;心得&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;這屆資工和電機收的名額都很多，但建議還是要將專業科目修到 80 分以上，且上機考有基本的分數，證明自己能適應資工系。&lt;/li&gt;
+&lt;li&gt;因為原系有選課權，所以才會已經修了很多課，不至於延畢。&lt;/li&gt;
+&lt;li&gt;等待的時間很焦慮，因為突然發現電機系不開英文班的電子學和實驗，於是無法用原系的修業規定畢業，需要提出申訴之類的手段。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>大學是不是職業訓練所？</title>
+        <link>https://luke2336.github.io/p/pedagogy-report/</link>
+        <pubDate>Wed, 14 Apr 2021 19:25:34 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/pedagogy-report/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Other/PedagogyReport/nctu.gif" alt="Featured image of post 大學是不是職業訓練所？" /&gt;&lt;blockquote&gt;
+&lt;p&gt;以下是我寫的教育學概論期中報告，想說既然寫了，也順便放上來。&lt;/p&gt;
+&lt;p&gt;這次作業有兩種選項，一種是寫參考書籍的閱讀報告，另一種是寫「我所關心的教育議題」，我選了後者撰寫。字數限制是 2000~2500 字，我寫了 2100 字。&lt;/p&gt;
+&lt;p&gt;因為是通識報告，所以寫的時候並不想只針對自己的科系去舉例，但最後還是有點針對電機資訊相關科系。寫這份報告除了是作業以外，也是在認真思考為什麼現在的制度，大部分的人都有所抱怨。&lt;/p&gt;
+&lt;p&gt;這個標題是參考之前網路新聞的標題。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;大學是不是職業訓練所&#34;&gt;大學是不是職業訓練所？&lt;/h1&gt;
+&lt;p&gt;在資工系，我常常聽到同學們抱怨說，「線性代數、微積分、自動機語言等數學課對於未來沒有太大的幫助」「作業都是手寫證明導致就業時都拿不出像樣的作品集」「讀大學只是為了學歷，平常應該多接 case和做 side project，不應該把時間花在考試和寫作業」。這些言論讓我開始思考了一個問題「工程學院只是為了培養業界需要的工程師嗎？」而這個問題可以延伸到「大學是不是職業訓練所？」以及「大學能不能作為職業訓練所？」&lt;/p&gt;
+&lt;p&gt;如果以政治學的角度來看，「大學等同職業訓練所」誰可以獲利，很明顯的，業界能將訓練員工的成本轉嫁到所有納稅人身上，也能更方便的挑選需要的員工；而利益損失的則有學界以及想往學界發展的學生。由這個角度，我想探討究竟是什麼原因讓台灣的大學漸漸變得像職業訓練所，還有我認為哪些是大學應提供的基本能力及大學的社會責任。&lt;/p&gt;
+&lt;p&gt;首先，誰真正決定了大學的走向？我認為既不是政府，也不是企業家，而是填志願的學生。像是醫藥、電機、資工、法律等第一志願，都是學生們以就業後的薪水做考量做出的決定，像是數學、哲學、中文、社會學等系，則基於出路的原因較不受歡迎，由此可見，多數人認為大學的科系和未來就業的選擇高度相關。&lt;/p&gt;
+&lt;p&gt;再者，為什麼高等教育無法和技職教育獨立並行呢？我認為這受到台灣的社會觀念影響，受過大學、碩士教育的薪水普遍較高，導致多數人認為唸大學是必須的。當大學生們普遍為了文憑而唸大學時，大學就需要去最大化所有大學生的利益，也就是它需要去維護文憑的價值。文憑價值的評量又牽扯到了企業對於那間大學人才的評量，因此最後導致大學需要培養企業需要的人才。&lt;/p&gt;
+&lt;p&gt;我認為這會導致一些嚴重的教育議題，大學的課程都是為了培養企業所需的人才而設計的，而不是為了讓學生有獨立思考、發現問題、解決問題等能力，那再過幾代，是不是研究會漸漸枯竭，技術會達到極限，或是沒有足夠多的人才被培養成能傳播知識的人。那假設產業結構出現變化，其他產業興起，過去培養的人是不是都無能去跟上時代呢？&lt;/p&gt;
+&lt;p&gt;除此之外，我常聽到同學們抱怨說「學校在教的技術早就退流行了，完全派不上用場」。是的，假若學校都是在教技術，而不是創造技術的基本功或是基礎推理能力，學生們無法舉一反三，那他們學到的知識就永遠停留在他們的二十歲，但他們的下半輩子顯然不能只靠那些知識生活，因此培養自學能力是必須的，像是如何尋找需要的資料，如何檢驗資料的正確性，如何將已經會的知識應用在遇到的問題上，這些都是我認為大學應該培養的技能。&lt;/p&gt;
+&lt;p&gt;綜合以上幾點後，我們可以思考，對於只渴望學習就業相關技術的人，大學能帶給他哪些文憑以外的收穫，是否能透過在業界的實務經驗來達到更有效率的學習。以下，我想說明大學其實並不是一個好的職業訓練環境。&lt;/p&gt;
+&lt;p&gt;仔細檢視我們的大學制度，假設要四年畢業，一個學期需要修 16 學分，而對於每一個學分，上課、複習、寫作業的時間，平均需要花三小時，再加上體育課或導師時間等零學分的課程，少說一週要花 50 小時上課和讀書，也就是平均一天要花到 8 小時。但請注意到，以上僅僅是完成基本的教師要求，也就是根本就沒有多餘的時間，去針對自己有興趣的部分深入的研究。因此，期待大學生有自主學習甚至研究的能力，其實是不可能的。另外，以大學部的課程來說，扣掉加退選、考試，一門三學分的課，實際一學期也就 45 小時，是無法培養學生的實務能力的。舉例來說，以程式設計課程為例，教師往往是出作業，然後讓學生回去做，然後交完作業後，並不會告訴學生可以怎樣改進等等。反之，在業界，員工只需要專研他負責的部分，而能體驗完整去將一個主題做到最優的情況，不是像在學校裡，必須去最大化所有科目的分數總和，而犧牲了試著去將學習做到最好的機會。在業界，實務的成果也是會受到客戶較多檢驗及要求的，能實際理解怎樣的能力是業界真正需要的。&lt;/p&gt;
+&lt;p&gt;總結上段所敘述的幾點，我認為大學中的學習，對於只是想要在業界生存的人其實是沒效率的，他想在大學中獲得的技術，在業界能更有效率地取得並檢驗學習成果。因此，這些人與其抱怨，xx課是他們未來工作不需要學習的，不如說，他們對大學本身的期待是不切實際的，大學不應該被期待是個好的職業訓練所。&lt;/p&gt;
+&lt;p&gt;最後，我想提出幾點在大學制度中，受到「職業訓練」這個概念影響的缺陷。首先，我認為「必修學分」這個制度其實是可以被討論的，當我詢問系上教授我們為何需要修必修時，他給我的回應是，xx系畢業的學生應該得學會這些。其實，反過來想，為什麼我們是強制規定學生要會這些東西，而不是讓他們去探索他們想要的生涯規劃中，他們需要哪些能力，需要如何安排自己的學習。第二點，很多科系設定「實習」為必修學分，我認為這個本意是好的，但實務上並沒有好的配套措施，像是實習生為了學分被資方剝削的新聞層出不窮，實際上沒得到學習，而只是被當作廉價勞力的新聞層出不窮。&lt;/p&gt;
+&lt;p&gt;總結我對大學與職業教育的看法，我認為大部分的大學科系不應該和職業訓練綁定，大學應該是教導學生學習的能力，由企業給予員工職業的訓練，這樣能讓人們獲得更有效率的學習，也不會被一些東拼西湊的政策影響，造成不管是想走學術或是想去業界的學生，都被強迫學習自己無興趣的東西，或是無時間學習自己更有興趣的東西，讓課堂的學習品質上升，使得教育資源能得發揮最大效益。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>認識語言 期末報告</title>
+        <link>https://luke2336.github.io/p/understanding_language_final_report/</link>
+        <pubDate>Mon, 28 Dec 2020 10:09:29 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/understanding_language_final_report/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Other/understanding_language_final_report/larynx.png" alt="Featured image of post 認識語言 期末報告" /&gt;&lt;h1 id=&#34;認識語言期末報告&#34;&gt;「認識語言」期末報告&lt;/h1&gt;
+&lt;p&gt;以下介紹五個我在「認識語言」下半學期學到的重點。&lt;/p&gt;
+&lt;h2 id=&#34;1-chomsky-和行為主義-behaviorism-的對立&#34;&gt;1. Chomsky 和行為主義 (Behaviorism) 的對立&lt;/h2&gt;
+&lt;p&gt;語言的學習是後天的 (nurutre)，還是天生就有的 (nuture) 學習能力？&lt;/p&gt;
+&lt;p&gt;行為主義興起的背景，要從佛洛伊德的時代開始談起，當時心理學是立足於潛意識等無法觀測的東西，因此很多科學家無法認同心理學屬於科學的一支。&lt;/p&gt;
+&lt;p&gt;在 Parlov、Skinner 和 Waston 等人的努力下，產生了行為主義學派。他們透過設計實驗來研究人或動物的行為模式，像是古典制約的實驗中，Parlov 的狗被制約，每次接收到搖鈴刺激 (stimulus)，就會不由自主的流口水。而 Skinner 進一步提出了操作制約，透過食物來讓老鼠自己學會按開關。&lt;/p&gt;
+&lt;p&gt;行為主義者宣稱，他們可透過制約，也就是給予 positive/negative reforcement，使人類學習，這屬於 stimulus-response learning。他們認為母語的學習也可以透過同樣的管道。&lt;/p&gt;
+&lt;p&gt;對此，Chomsky 有不同的看法，他認為語言的習得無法僅僅透過後天的經驗，先天的能力是必須的，因此他提出了 Universal Grammar。&amp;ldquo;What you know exceeds what you were taught.&amp;quot;，舉例來說，小孩子會犯一些大人不會犯的錯誤，像是 &amp;ldquo;holded&amp;rdquo;，這是他們無法透過模仿習得，可以推論出他們先天具備一些學習語言的能力，像是統計、歸納等等。&lt;/p&gt;
+&lt;p&gt;Chomsky 說明了在語言的學習上，本能和經驗都是重要的。我認為他的想法是重要且具有突破性的，因為他不只影響了語言學的發展，更對心理學造成了重大的影響，他證明了行為主義是無法解釋所有現象的，讓心理學研究慢慢走出行為主義的框架。&lt;/p&gt;
+&lt;h2 id=&#34;2-universal-grammar-ug&#34;&gt;2. Universal Grammar (UG)&lt;/h2&gt;
+&lt;p&gt;Universal Grammar 是 Chomsky 的理論，為了描述所有語言的共同點。Universal Grammar 是由 principles 和 parameters 共同組成。&lt;/p&gt;
+&lt;p&gt;由於孩童學習語言的時間是有限的，且他們能得到的資訊量也是有限的，但他們能表達的語句，卻是無限的。可見，這些語句不僅僅是藉由經驗而習得，而需要藉由人類天生就有的 Universal Grammar，將得到的句子提取出一些共通的 principles。像是人們能判斷句子中的代名詞或是反身代名詞是在指誰，都是我們在學習時無法直接解釋的，這些天生就具備的能力，就是屬於 Universal Grammar。&lt;/p&gt;
+&lt;p&gt;但這些 principles 卻只能解釋語言具有共通性，而無法解釋語言的差異性，因此他在理論中加入了 parameters 的想法。&lt;/p&gt;
+&lt;p&gt;在英語中，是先表達動詞，然後才是受詞。然而，在日語中，兩者卻是相反的。又或是在英文中，我們會將 Where/Who 等疑問詞放在句子開頭，而在中文中，我們卻會任意擺放哪裡/誰/何時在句子的其他位置。這些現象無法被 principles 概括，因此我們有了 parameters。parameters 提供了孩童在學習時，能藉由聽到的資訊，將母語中沒有的 parameters 捨棄，讓他們能專注於學習母語中有的文法或發音。&lt;/p&gt;
+&lt;p&gt;我認為 UG 重要的原因在於它解釋了大部分的語言學習現象，但其發展卻極具挑戰，畢竟這個理論需要符合世界上的所有語言，所以每當科學家舉出一個反例時，這個理論就必須做出修改，因此這個理論勢必逐漸簡化成現今的模樣。&lt;/p&gt;
+&lt;p&gt;UG 到底是如何演化出來的，我認為這是一個滿有趣的問題。人腦中的 Universal Grammar 到底是愈來愈複雜，又或是愈來愈簡化呢？如果按照我對 Universal Grammar 的認識，有了 parameters 的幫助，或許 principles 是可以發展成愈來愈多的？&lt;/p&gt;
+&lt;h2 id=&#34;3-嬰兒的語言發展階段&#34;&gt;3. 嬰兒的語言發展階段&lt;/h2&gt;
+&lt;p&gt;嬰兒的母語發展有幾個重要的階段：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在懷孕的最後幾週，嬰兒的聽力系統已接近發育完全，因此他們就會開始聆聽外界聲音，剛出生的嬰兒就對母語有偏好。&lt;/li&gt;
+&lt;li&gt;3 個月：larynx lowerling，嬰兒的喉頭會下降，他們能發出更多的聲音。&lt;/li&gt;
+&lt;li&gt;6 ~ 10 個月：phoneme comprehension，嬰兒開始失去辨識母語以外的音的能力，不再能分辨所有語言中的音，這讓他們能更專注於學習母語。&lt;/li&gt;
+&lt;li&gt;6 ~ 12 個月：他們透過 Babbling 來學會發音。&lt;/li&gt;
+&lt;li&gt;1 歲多時他們能一些單詞 (1-word)。快 2 歲時，他們會說兩個詞的句子 (2-words)。&lt;/li&gt;
+&lt;li&gt;2 ~ 2.5 歲時，telegraphic stage，他們的單字量迅速擴增，並且能組合成完整的句子，儘管文法不一定正確。&lt;/li&gt;
+&lt;li&gt;2.5 歲後：他們開始發展像成人的語句，並且已習得大多數文法規則，但他們會出現 over-generalization 的狀況，也就是有了像 &amp;ldquo;goed&amp;rdquo; 或是 &amp;ldquo;holded&amp;rdquo; 等成人不會犯錯誤。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;科學家是如何針對不會說話的嬰兒進行研究呢？他們有幾種有趣的研究方式，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacifier experiment：他們利用嬰兒吸食奶嘴的速度來研究嬰兒對事物的興趣，例如他們在聽到的聲音從 &lt;code&gt;/ba/&lt;/code&gt; 變成 &lt;code&gt;/pa/&lt;/code&gt; 時，他們會改變吸食速度。&lt;/li&gt;
+&lt;li&gt;Head-turn Experiment：科學家可能藉由讓嬰兒學會某些規則，例如聽到 ABA 時，玩偶會出現在左方，反之，聽到 AAB ，則會出現在右方。之後，在透過紀錄嬰兒轉頭的方向，來實驗嬰兒是否能學會規則。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這幾個發展的階段，有解釋到幾個我以前無法理解的疑問。首先，我了解到我們長大後學習語言，為什麼無法達到學母語一樣的成果。接著，我也理解到人類演化出喉頭下降是非常重要的，像是我們的近親 - 猿類，就沒有這個演化結果，這讓他們有些音是發不出來的（例如：&lt;code&gt;/i/&lt;/code&gt;、&lt;code&gt;/a/&lt;/code&gt;、&lt;code&gt;/u/&lt;/code&gt;）。而這個演化其實是對人類高風險的，因為這會干擾消化道和呼吸道分離。但他卻出現在三個月大時，以適者生存的角度來看，語言對於人類的生存是非常重要的。&lt;/p&gt;
+&lt;p&gt;非常有趣的一點是，全世界的嬰兒都是用相近的時程來發展，顯然這些都是演化的結果。在上課中有提過，猿類對語言的學習至多是線性的結構，無法像人類一樣有階層狀/洋蔥狀的結構，也無法創造太長的句子。有些好奇有沒有研究能知道這樣的大腦發展的演化和人類發音器官構造的演化，究竟是誰先誰後？還有是否有其他生物一樣有 phoneme comprehension 的現象？&lt;/p&gt;
+&lt;h2 id=&#34;4-雙母語嬰兒的認知能力&#34;&gt;4. 雙母語嬰兒的認知能力&lt;/h2&gt;
+&lt;p&gt;在討論雙母語和單母語嬰兒的認知差異前，我們需要先定義認知能力是什麼？&lt;/p&gt;
+&lt;p&gt;Executive functions (EF) 是認知心理學中，對於人類一些認知能力的統稱，包含了管理工作記憶、控制衝動、能處理多項工作（能快速轉換）的能力。這些能力主要是由前額葉所控制。&lt;/p&gt;
+&lt;p&gt;根據研究，雙母語和單母語嬰兒習得母語的所需時間是相近的。這是由於雙母語的學習會刺激認知能力的發展，而發展較好的認知能力也有助於雙母語的學習。&lt;/p&gt;
+&lt;p&gt;嬰兒在雙母語環境下，他的大腦需要處理兩種語言，因此需要前額葉的幫助，使得嬰兒能快速在兩種語言中切換。根據 Kovács &amp;amp; Mehler 對 7 個月大的研究，當同時有兩個規則時，單母語環境的嬰兒只能學會較簡單的那種，而雙母語嬰兒能學會兩種，得到了雙母語嬰兒有較佳 EF 的結論。&lt;/p&gt;
+&lt;p&gt;很重要的一點是，根據科學家的研究，EF 的發展最快速的時期是在 6 歲前，因此父母在 6 歲前給予嬰兒適當的刺激有助於發展他們的 EF，像是唸外語故事書就是很好的方式。而對於雙語的人，就算他們長時間只使用單一語言，但他們的前額葉仍需要去抑制另外一種語言，因此研究也指出雙語的人比單語的人得到老年癡呆的平均年齡晚 4 年。&lt;/p&gt;
+&lt;p&gt;我很好奇的一點是，人類嬰兒學習語言的能力和其認知能力是相輔相成的，那他們最多能學習多少種語言才會達到認知能力的極限？&lt;/p&gt;
+&lt;h2 id=&#34;5-finite-state-grammars-fsgs&#34;&gt;5. Finite State Grammars (FSGs)&lt;/h2&gt;
+&lt;p&gt;Finite State Grammar 是 Chomsky 提出的概念。我們都知道，句子是由 finite 的字詞組成而成，但其組成方法是無限的。對於一個有限長度的句子，我們可以透過一種特殊的 finite state machine 生成，這種 finite state machine 運用了 transition probability (TP) 的概念，藉由 TP 來定義一種 Markov chain。&lt;/p&gt;
+&lt;p&gt;然而，這種想法是無法實際運用在生成自然語言，他遠遠不足以表達人類的文法。由於 FSGs 只能藉由上一個狀態去決定下一個狀態，故在定義狀態時，只會是線性的，無法表達出階層的概念，也無法透過機率去生成合乎文法的句子，像是不同時態的 is/was，出現在某個名詞後面的機率會是相近的。因此，最後有了 Phrase Sturcture Grammars (PSGs)，讓句子能嵌入進句子中，有了階層狀的結構，而能表達出字詞間的關聯性，不在侷限於相鄰的字間。&lt;/p&gt;
+&lt;p&gt;FSGs 的重要性在於，他提供了一種簡單的運算方式，讓電腦能生成語句。且他將一些遞迴的想法，透過 state diagram 中的 cycle / loop 來達成。&lt;/p&gt;
+&lt;p&gt;句子的組成無法用 Finite State Machine 來表達，但英文的構詞是否能用 Finte State Machine 來找到一些規則？&lt;/p&gt;
+&lt;h1 id=&#34;feedback&#34;&gt;Feedback&lt;/h1&gt;
+&lt;p&gt;因為提出的問題不錯，所以得到 94 分。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有些好奇有沒有研究能知道這樣的大腦發展的演化和人類發⾳器官構造的演化，究竟是誰先誰後?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;應該是發音器官的演化比較早，因為喉頭下降的生理現象雖然黑猩猩與猿類沒有，但是在其他的生物上有歐！例如鹿類就有，但是在其他生物上演化出此生理特徵不是了語言，而是為了增加吼叫聲的威嚇力，讓敵人感覺你的體積龐大，由於有這個另外的演化動力，所以學者的假說是發聲器官的改變早於大腦演化。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;是否有其他⽣生物一樣有 phoneme comprehension 的現象?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其他的生物也會有phoneme comprehension的categorical perception的現象！&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>交大 2019 年度賽</title>
+        <link>https://luke2336.github.io/p/nctu_annual_contest_2019/</link>
+        <pubDate>Wed, 04 Sep 2019 11:13:48 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/nctu_annual_contest_2019/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Other/nctu_annual_contest_2019/standing.jpg" alt="Featured image of post 交大 2019 年度賽" /&gt;&lt;h2 id=&#34;nctu_pusheen的第一場icpc賽制比賽&#34;&gt;NCTU_Pusheen的第一場ICPC賽制比賽。&lt;/h2&gt;
+&lt;p&gt;（角色：我、隊友H、隊友U）
+好像有點太早到了，9:30開始，我們8:05就全到了。
+然後就開始討論選課的事，還有推廣了「貼圖大戰」。
+似乎三個人還是有點緊張，隊友U算是最淡定的一個，於是就讓他坐電腦前了。只有九隊而已，真的很怕墊底。（明明前一天的新生賽才拿第一，但就是莫名沒自信QQ）&lt;/p&gt;
+&lt;h2 id=&#34;解題&#34;&gt;解題&lt;/h2&gt;
+&lt;p&gt;M很水，於是隊友H就用接近首殺的速度把M殺了。然後我發現K很水，然後就讓隊友U把他殺了，然後過程中順便想出了K的構造題 Ｉ，原本差點就傳了，但剛好發現範圍到10^32，於是改用python寫掉，於是K和Ｉ都拿到首殺，這時大致過了半小時。&lt;/p&gt;
+&lt;p&gt;然後，我發現F似乎是簡單的DP建表，於是就丟給隊友U寫。
+因為G明顯是我不擅長的幾何題，於是丟給隊友H，隊友H就想出了一個假解，因為我懶得驗證正確性，也不覺得有其他簡單的作法，於是就丟上去讓他WA了。&lt;/p&gt;
+&lt;p&gt;E是一題矩陣題，賽中我覺得高斯消去能解，但隊友U阻止了我，提醒我高斯做出來不一定是整數。賽後這題似乎是能用高斯加一些處理弄過。&lt;/p&gt;
+&lt;p&gt;因為ABC的題序一樣，然後都沒靈感，於是就先擺著。J看得出來是DP，但以為沒這麼簡單，就擺一邊了，事後證明是個錯誤決定。&lt;/p&gt;
+&lt;p&gt;此時沒有人解出其他題目，於是就決定去開D和L。&lt;/p&gt;
+&lt;p&gt;D一開始以為是Dijkstra，後來WA了之後，證出等號成立時轉移會出事，於是我就想出了一個二分搜解，但因為複雜度卡卡的，於是繼續在Dijkstra上繞圈圈。然後在最後三十分鐘，隊友U想出了一個具體的二分搜＋BFS作法，但因為搜的東西不對，無法剪枝，於是常數太大，吃了TLE。&lt;/p&gt;
+&lt;p&gt;L大概是解出來最爽的一題，花了超過一小時。隊友H先推出大致的規律，然後我用了類似前綴和的東西，把空間和時間壓到lgN，然後交給隊友H和U寫。但賽後證實我們賽中想過本機跑分塊的作法也能喇過。&lt;/p&gt;
+&lt;p&gt;A後來有兩隊解出來，於是也稍微想了一下，猜是要建圖，但真的想不出來。&lt;/p&gt;
+&lt;p&gt;嗯，看到最後會發現我好像沒碰過鍵盤呢！！&lt;/p&gt;
+&lt;h2 id=&#34;l的題解&#34;&gt;L的題解&lt;/h2&gt;
+&lt;p&gt;題目是將L到R(0~1e9)的二進位字串接起來，然後求這個字串的1和0共有幾段。例如1~5，表示成11011100101，答案為7。&lt;/p&gt;
+&lt;p&gt;隨手寫了一篇題解：&lt;a class=&#34;link&#34; href=&#34;https://hackmd.io/ITo64w_LTC2JNCPp7HbJHA?view&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2019交大年度賽pL非官方題解&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,65 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Luke&#39;s Blog</title>
-    <link>https://luke2336.github.io/categories/</link>
-    <description>Recent content in Categories on Luke&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jun 2022 03:46:07 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Code</title>
-      <link>https://luke2336.github.io/categories/code/</link>
-      <pubDate>Mon, 27 Jun 2022 03:46:07 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diary</title>
-      <link>https://luke2336.github.io/categories/diary/</link>
-      <pubDate>Mon, 20 Jun 2022 06:37:25 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/diary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Course</title>
-      <link>https://luke2336.github.io/categories/course/</link>
-      <pubDate>Tue, 14 Jun 2022 11:00:15 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Other</title>
-      <link>https://luke2336.github.io/categories/other/</link>
-      <pubDate>Mon, 06 Jun 2022 16:50:54 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://luke2336.github.io/categories/travel/</link>
-      <pubDate>Sun, 13 Mar 2022 19:39:05 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Career</title>
-      <link>https://luke2336.github.io/categories/career/</link>
-      <pubDate>Fri, 28 Jan 2022 21:26:20 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/categories/career/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Categories on Luke&#39;s Blog</title>
+        <link>https://luke2336.github.io/categories/</link>
+        <description>Recent content in Categories on Luke&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 27 Jun 2022 03:46:07 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Code</title>
+        <link>https://luke2336.github.io/categories/code/</link>
+        <pubDate>Mon, 27 Jun 2022 03:46:07 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/code/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/code/Code.png" alt="Featured image of post Code" /&gt;</description>
+        </item>
+        <item>
+        <title>Diary</title>
+        <link>https://luke2336.github.io/categories/diary/</link>
+        <pubDate>Mon, 20 Jun 2022 06:37:25 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/diary/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/diary/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Diary" /&gt;</description>
+        </item>
+        <item>
+        <title>Course</title>
+        <link>https://luke2336.github.io/categories/course/</link>
+        <pubDate>Tue, 14 Jun 2022 11:00:15 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/course/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/course/Matlab.jpg" alt="Featured image of post Course" /&gt;</description>
+        </item>
+        <item>
+        <title>Other</title>
+        <link>https://luke2336.github.io/categories/other/</link>
+        <pubDate>Mon, 06 Jun 2022 16:50:54 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/other/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/other/other.jpg" alt="Featured image of post Other" /&gt;</description>
+        </item>
+        <item>
+        <title>Travel</title>
+        <link>https://luke2336.github.io/categories/travel/</link>
+        <pubDate>Sun, 13 Mar 2022 19:39:05 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/travel/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/travel/travel.jpg" alt="Featured image of post Travel" /&gt;</description>
+        </item>
+        <item>
+        <title>Career</title>
+        <link>https://luke2336.github.io/categories/career/</link>
+        <pubDate>Fri, 28 Jan 2022 21:26:20 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/career/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/career/Google.png" alt="Featured image of post Career" /&gt;</description>
+        </item>
+        
+    </channel>
 </rss>

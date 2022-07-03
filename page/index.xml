@@ -1,38 +1,84 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pages on Luke&#39;s Blog</title>
-    <link>https://luke2336.github.io/page/</link>
-    <description>Recent content in Pages on Luke&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2020 19:58:32 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://luke2336.github.io/about/</link>
-      <pubDate>Sun, 29 Nov 2020 19:58:32 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/about/</guid>
-      <description>Luke Contact Information  Email: lukeyu2336@gmail.com Github: Luke2336 LinkedIn: Ke-Yu Lu Flickr: luke_2336  Education  Taipei First Girls&#39; High School National Yang Ming Chiao Tung University  Work Experience  Google Taiwan Software Engineer Internship Online Tutor Teaching Assistant  Competition Experience  2018 TOI 1! ICPC 2019 Yokohama Site, Best Female Team ICPC 2019 Taipei-Hsinchu Site, Silver Award ICPC 2020 Taipei-Hsinchu Site, Silver Award 2020 Google Code Jam to I/O for Women, 73th place  Online Judge ID  ZeroJudge: 10432336 Codeforces: KellyLu AtCoder: Kelly2336 CLIST: Kelly2336  Programming Languages  C/C++ Python  Hobbies  Badminton Board Game Hiking Traveling Photography  </description>
-    </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>https://luke2336.github.io/archives/</link>
-      <pubDate>Sat, 28 Nov 2020 22:56:28 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://luke2336.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://luke2336.github.io/search/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Pages on Luke&#39;s Blog</title>
+        <link>https://luke2336.github.io/page/</link>
+        <description>Recent content in Pages on Luke&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 29 Nov 2020 19:58:32 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://luke2336.github.io/about/</link>
+        <pubDate>Sun, 29 Nov 2020 19:58:32 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/about/</guid>
+        <description>&lt;img src="https://luke2336.github.io/page/photo.jpg" alt="Featured image of post About" /&gt;&lt;h1 id=&#34;luke&#34;&gt;Luke&lt;/h1&gt;
+&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Email: &lt;a class=&#34;link&#34; href=&#34;https://mail.google.com/mail/u/?authuser=lukeyu2336@gmail.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;lukeyu2336@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Taipei First Girls&amp;rsquo; High School&lt;/li&gt;
+&lt;li&gt;National Yang Ming Chiao Tung University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Teaching Assistant&lt;/li&gt;
+&lt;li&gt;Google Taiwan Software Engineer Internship&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;competition-experience&#34;&gt;Competition Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2018 TOI 1!&lt;/li&gt;
+&lt;li&gt;ICPC 2019 Yokohama Site, Best Female Team&lt;/li&gt;
+&lt;li&gt;ICPC 2019 Taipei-Hsinchu Site, Silver Award&lt;/li&gt;
+&lt;li&gt;ICPC 2020 Taipei-Hsinchu Site, Silver Award&lt;/li&gt;
+&lt;li&gt;2020 Google Code Jam to I/O for Women, &lt;a class=&#34;link&#34; href=&#34;https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03?scoreboard_type=Taiwan&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;73th place&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;online-judge-id&#34;&gt;Online Judge ID&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ZeroJudge: &lt;a class=&#34;link&#34; href=&#34;https://zerojudge.tw/UserStatistic?id=53861&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;10432336&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Codeforces: &lt;a class=&#34;link&#34; href=&#34;https://codeforces.com/profile/KellyLu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KellyLu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AtCoder: &lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/users/Kelly2336&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kelly2336&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CLIST: &lt;a class=&#34;link&#34; href=&#34;https://clist.by/coder/Kelly2336/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kelly2336&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;programming-languages&#34;&gt;Programming Languages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;C/C++&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Badminton&lt;/li&gt;
+&lt;li&gt;Board Game&lt;/li&gt;
+&lt;li&gt;Hiking&lt;/li&gt;
+&lt;li&gt;Traveling&lt;/li&gt;
+&lt;li&gt;Photography&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://luke2336.github.io/archives/</link>
+        <pubDate>Sat, 28 Nov 2020 22:56:28 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://luke2336.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://luke2336.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

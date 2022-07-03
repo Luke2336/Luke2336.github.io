@@ -1,106 +1,792 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>旅遊 on Luke&#39;s Blog</title>
-    <link>https://luke2336.github.io/tags/%E6%97%85%E9%81%8A/</link>
-    <description>Recent content in 旅遊 on Luke&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 13 Mar 2022 19:39:05 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>野柳、金山</title>
-      <link>https://luke2336.github.io/p/yehliu/</link>
-      <pubDate>Sun, 13 Mar 2022 19:39:05 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/yehliu/</guid>
-      <description> 今天總共走了 3 萬步。  野柳 金山  去泡硫磺泉 喝了一杯紫地瓜歐雷。  金山獅頭山公園 </description>
-    </item>
-    
-    <item>
-      <title>軍艦岩</title>
-      <link>https://luke2336.github.io/p/nycu-taipei/</link>
-      <pubDate>Fri, 11 Mar 2022 10:17:51 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/nycu-taipei/</guid>
-      <description>   時間 地點     12:15 校車   13:20 陽明校門口   13:30 登山口   13:40 大學亭   13:50 軍艦岩    原路折返   16:30 校車   17:40 交大校區    </description>
-    </item>
-    
-    <item>
-      <title>談文 - 鄭漢步道</title>
-      <link>https://luke2336.github.io/p/tanwen/</link>
-      <pubDate>Sun, 06 Mar 2022 09:34:13 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/tanwen/</guid>
-      <description>談文車站、鄭漢步道 16:01 談文車站 16:28 登山步道口 16:40 紀念碑、觀景台 17:51 區間車 晚餐 - 晶品城 B2 水月 豬排飯 </description>
-    </item>
-    
-    <item>
-      <title>紗帽山</title>
-      <link>https://luke2336.github.io/p/yang-ming/</link>
-      <pubDate>Sun, 10 Oct 2021 09:39:05 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/yang-ming/</guid>
-      <description> 和高中同學約去陽明山爬山，九點半從劍潭站出發，要上山的人比想樣中多。 中午爬完山後在劍潭站附近吃了麵店，在公園散步，之後整個下午泡在路易莎聊天。 晚上去逛了士林夜市。  紗帽山  坐紅 5 到陽明山公車總站，然後從北面登山口爬到太子亭後折返，約爬了不到兩小時。 沿途遇到四隻鍬形蟲和兩隻石龍子。 步道只有接近山頂處沒有遮蔭，但風很大很涼爽，坡度算是滿陡的，戴著口罩爬滿喘的。 山頂可看到中山堂，及七星山和大屯山。  </description>
-    </item>
-    
-    <item>
-      <title>新豐 - 鳳崎落日登山步道</title>
-      <link>https://luke2336.github.io/p/xinfeng/</link>
-      <pubDate>Sat, 02 Oct 2021 13:32:08 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/xinfeng/</guid>
-      <description> 位於新竹新豐，靠近西濱。 從蓮花寺的入口上山，到觀景平台的咖啡店看夕陽後折返，下山跟著別人的路線走稜線，因此不到半小時就下山了，中途有看到碉堡。 有一些岔路，可能會需要先查好地圖再開始爬。 步道整理的不錯，但有些路段沒有石階，只有原始的石頭和沙地，走起來就會滑。今天全程幾乎都有遮蔭，因此不算太熱，風景也很不錯。 晚餐去了南寮新的市集，但人很多，消費也偏高。  </description>
-    </item>
-    
-    <item>
-      <title>清大梅園</title>
-      <link>https://luke2336.github.io/p/plum/</link>
-      <pubDate>Fri, 15 Jan 2021 10:34:07 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/plum/</guid>
-      <description>清華踏青 天氣很好，於是就搭小紅巴出去走走。
-第二招待所 去二招吃印度料理，被老闆娘說很久沒看到我，今天生意相對比較好的樣子。
-梅園 第一次在梅花開的時候過去，上次去是秋天某次滿月和電資系羽的一個學長去夜遊。梅花開的很茂盛，賞花的人也絡繹不絕，剛剛在二招吃飯的一桌老人們也在這邊。有很多蜜蜂在採蜜，有一株有結了三顆梅子，看起來很好吃。
-相思湖 蝴蝶園 台積館 發現了一條蝴蝶園通往台積館的小徑，就從南大門走回交大，然後在石園發現了三隻五色鳥。之後買了蛋捲冰淇淋就回宿舍休息了。</description>
-    </item>
-    
-    <item>
-      <title>2019 ICPC Yokohama Regional</title>
-      <link>https://luke2336.github.io/p/icpc-yokohama/</link>
-      <pubDate>Sun, 12 Jan 2020 16:13:01 +0800</pubDate>
-      
-      <guid>https://luke2336.github.io/p/icpc-yokohama/</guid>
-      <description>這篇是遊記＋比賽紀錄，所以就寫得很零碎了。 本來就很想寫這篇，但一直拖到寒假才有空～～
-為什麼去日本呢？ 因為去日本高機率會被電爆，假如要去確實不應該在我們想拿票時去。外國隊名額有限，交大只能派一隊，但剛好沒人要跟我們搶。
-我亂分析了一下，日本是實作、數學、幾何題比較多，我們隊有實作大師，似乎還行。日本似乎沒有東南亞那麼多模板題，對我們這種剛開始打的菜鳥似乎比較沒那麼虧。
-日本雖然沒有官方旅遊行程，但自己玩也很棒，雖然物價有點高。
-行前 暑假一知道可以出國就去辦了台北辦護照，順便回北一女逛了一下。
-出國前三天去旅行社弄了 48hr 的東京地鐵券。
-因為懶得排行程，排行程似乎變因過多，我們決定第四天自由行，第五天去淺草逛逛。
-因為我們原本想住的旅館看起來很不恰當，於是被教練說服比賽期間都跟他住商務旅館（鶴見東橫Inn）。
-日本賽制是不限參考資料頁數，但我們還是決定帶彩色的 25 頁 codebook 和一本字典。
-賽前有練習或討論了超過 5 年的考古。
-DAY1 因為怕打太爛，比賽前不敢排旅遊行程，於是搭 18:25(+8)-22:05(+9) 的飛機。
-跟教練搭計程車，所以提早了不少到機場，但因為我不到20歲，搞保險搞了好久。然後就是人生第一次搭飛機了，幸好我不是一個人出國。
-我們在機場還很認真的研究考古題，上飛機後就開始研究飛機餐了，隊友超愛吃奶油。
-下飛機後，領完行李後，我花了三分鐘弄了張免費網卡，詳請請參考這篇，結果最後只用了 100/500MB。
-然後就搭京急去旅館睡覺了，氣溫雖然不到 15 度，但因為濕度很低，所以感覺不冷，隊友直接只穿一件 T-shirt＋超薄外套。
-DAY2（測機日） 本來這天下午應該要在台灣考演算法概論上機考，有兩個選項，一個是期末算兩倍，另一個是在日本考。我們選擇在日本的 7:00-11:00 考，當作練手感。毫無意外地，小爆炸了一下。
-中午在橫濱市區吃 KFC，日本的 KFC 超好吃的！
-然後準時的抵達賽場，教練似乎跟日本人很熟，我們報到完他就去外交了。台大 wa&amp;hellip;123 坐在我們背後兩組，他們NPSC坐在我們左邊，真是有緣啊！
-他們的系統教學示範超生動的，讓我們好想再去日本比一次。
-桌子的佈局是兩張長桌，放成L型。
-然後就是測機了，全部都是考古題，有幾題上飛機前看過。有一題是暴力枚舉，但我隊友不會寫遞迴枚舉，於是我只好去摸鍵盤了（鍵盤手感不錯）。
-之後是自我介紹時間，事前會叫你交一頁投影片，另外還會給一本印有各隊介紹的本本，很多好玩的ascii圖。清大比我們早了幾天到日本，他們先去寶可夢樂園血拼，於是就全套寶可夢上去介紹。
-牆上有先放隔天的氣球，於是知道總共有11題。有提供點心區和餐盒，於是我很認真的研究了隔天要吃什麼點心。（我們是離點心最近的位置）
-晚上，教練請我們吃燒肉，牛橫膈超好吃的！然後去車站逛了超市。
-DAY3（比賽日） 我雷我抱歉，我鬧鐘又設到晚上了，幸好教練發現我沒出現，就直接 morning call，不然就慘了。然後匆匆忙忙的吃了早餐，隊友也一副沒睡飽的樣子。
-我們即時抵達賽場，教練忙台北站忙到快掛了，就先回去旅館休息。進去後，桌面佈局維持我們前一天調好的樣子。
-比賽提早了五分鐘開始，主席倒數的好嗨好可愛。
-開場就按照策略先把該抄的東西抄好，雖然他們本身很貼心的有提供一些快速編譯的指令。
-然後因為日本有確定 pApB 一定是最水的，於是我們 pB 在 00:23 先AC，pA 有點卡，於是 00:32 才 AC。
-然後 pH 是括號匹配，搭上刪除操作，因為我們把他想成可以用 map 或線段樹之類的弄，想的有點複雜，但感覺做得掉，就交給學弟先寫。</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>旅遊 on Luke&#39;s Blog</title>
+        <link>https://luke2336.github.io/tags/%E6%97%85%E9%81%8A/</link>
+        <description>Recent content in 旅遊 on Luke&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 13 Mar 2022 19:39:05 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>野柳、金山</title>
+        <link>https://luke2336.github.io/p/yehliu/</link>
+        <pubDate>Sun, 13 Mar 2022 19:39:05 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/yehliu/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20220312/1.jpeg" alt="Featured image of post 野柳、金山" /&gt;&lt;ul&gt;
+&lt;li&gt;今天總共走了 3 萬步。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;野柳&#34;&gt;野柳&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220312/1.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220312/2.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220312/3.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220312/4.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;金山&#34;&gt;金山&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;去泡硫磺泉&lt;/li&gt;
+&lt;li&gt;喝了一杯紫地瓜歐雷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220312/food.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;金山獅頭山公園&#34;&gt;金山獅頭山公園&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220313/1.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220313/2.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220313/3.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>軍艦岩</title>
+        <link>https://luke2336.github.io/p/nycu-taipei/</link>
+        <pubDate>Fri, 11 Mar 2022 10:17:51 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/nycu-taipei/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20220310/2.jpeg" alt="Featured image of post 軍艦岩" /&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;時間&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;地點&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12:15&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;校車&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:20&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;陽明校門口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;登山口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;大學亭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13:50&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;軍艦岩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;原路折返&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;校車&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;17:40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;交大校區&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/1.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/2.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/3.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/4.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/5.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220310/6.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>談文 - 鄭漢步道</title>
+        <link>https://luke2336.github.io/p/tanwen/</link>
+        <pubDate>Sun, 06 Mar 2022 09:34:13 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/tanwen/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20220306/3.jpeg" alt="Featured image of post 談文 - 鄭漢步道" /&gt;&lt;h2 id=&#34;談文車站鄭漢步道&#34;&gt;談文車站、鄭漢步道&lt;/h2&gt;
+&lt;h3 id=&#34;1601-談文車站&#34;&gt;16:01 談文車站&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220306/5.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1628-登山步道口&#34;&gt;16:28 登山步道口&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220306/1.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1640-紀念碑觀景台&#34;&gt;16:40 紀念碑、觀景台&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220306/2.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220306/3.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220306/4.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1751-區間車&#34;&gt;17:51 區間車&lt;/h3&gt;
+&lt;h3 id=&#34;晚餐---晶品城-b2-水月-豬排飯&#34;&gt;晚餐 - 晶品城 B2 水月 豬排飯&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20220306/food.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>紗帽山</title>
+        <link>https://luke2336.github.io/p/yang-ming/</link>
+        <pubDate>Sun, 10 Oct 2021 09:39:05 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/yang-ming/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20211009/2.JPG" alt="Featured image of post 紗帽山" /&gt;&lt;ul&gt;
+&lt;li&gt;和高中同學約去陽明山爬山，九點半從劍潭站出發，要上山的人比想樣中多。&lt;/li&gt;
+&lt;li&gt;中午爬完山後在劍潭站附近吃了麵店，在公園散步，之後整個下午泡在路易莎聊天。&lt;/li&gt;
+&lt;li&gt;晚上去逛了士林夜市。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;紗帽山&#34;&gt;紗帽山&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;坐紅 5 到陽明山公車總站，然後從北面登山口爬到太子亭後折返，約爬了不到兩小時。&lt;/li&gt;
+&lt;li&gt;沿途遇到四隻鍬形蟲和兩隻石龍子。&lt;/li&gt;
+&lt;li&gt;步道只有接近山頂處沒有遮蔭，但風很大很涼爽，坡度算是滿陡的，戴著口罩爬滿喘的。&lt;/li&gt;
+&lt;li&gt;山頂可看到中山堂，及七星山和大屯山。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211009/map.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211009/1.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211009/2.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211009/3.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211009/4.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt; &lt;img src=&#34;https://luke2336.github.io/post/Diary/20211009/5.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新豐 - 鳳崎落日登山步道</title>
+        <link>https://luke2336.github.io/p/xinfeng/</link>
+        <pubDate>Sat, 02 Oct 2021 13:32:08 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/xinfeng/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20211002/2.jpg" alt="Featured image of post 新豐 - 鳳崎落日登山步道" /&gt;&lt;ul&gt;
+&lt;li&gt;位於新竹新豐，靠近西濱。&lt;/li&gt;
+&lt;li&gt;從蓮花寺的入口上山，到觀景平台的咖啡店看夕陽後折返，下山跟著別人的路線走稜線，因此不到半小時就下山了，中途有看到碉堡。&lt;/li&gt;
+&lt;li&gt;有一些岔路，可能會需要先查好地圖再開始爬。&lt;/li&gt;
+&lt;li&gt;步道整理的不錯，但有些路段沒有石階，只有原始的石頭和沙地，走起來就會滑。今天全程幾乎都有遮蔭，因此不算太熱，風景也很不錯。&lt;/li&gt;
+&lt;li&gt;晚餐去了南寮新的市集，但人很多，消費也偏高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211002/3.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211002/2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20211002/1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>清大梅園</title>
+        <link>https://luke2336.github.io/p/plum/</link>
+        <pubDate>Fri, 15 Jan 2021 10:34:07 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/plum/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Diary/20210115/%E6%A2%85.jpg" alt="Featured image of post 清大梅園" /&gt;&lt;h2 id=&#34;清華踏青&#34;&gt;清華踏青&lt;/h2&gt;
+&lt;p&gt;天氣很好，於是就搭小紅巴出去走走。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/map.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第二招待所&#34;&gt;第二招待所&lt;/h3&gt;
+&lt;p&gt;去二招吃印度料理，被老闆娘說很久沒看到我，今天生意相對比較好的樣子。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e4%ba%8c%e6%8b%9b.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;梅園&#34;&gt;梅園&lt;/h3&gt;
+&lt;p&gt;第一次在梅花開的時候過去，上次去是秋天某次滿月和電資系羽的一個學長去夜遊。梅花開的很茂盛，賞花的人也絡繹不絕，剛剛在二招吃飯的一桌老人們也在這邊。有很多蜜蜂在採蜜，有一株有結了三顆梅子，看起來很好吃。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e6%a2%85.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e6%a2%855.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e6%a2%852.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e6%a2%853.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e6%a2%854.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/flower3.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e6%a2%85%e5%9c%92.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;相思湖&#34;&gt;相思湖&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/lake.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;蝴蝶園&#34;&gt;蝴蝶園&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/Butterfly.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/Butterfly2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/flower1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/plant.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/flower2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e8%8d%b7%e8%8a%b1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;台積館&#34;&gt;台積館&lt;/h3&gt;
+&lt;p&gt;發現了一條蝴蝶園通往台積館的小徑，就從南大門走回交大，然後在石園發現了三隻五色鳥。之後買了蛋捲冰淇淋就回宿舍休息了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/road.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e4%ba%94%e8%89%b2%e9%b3%a5.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Diary/20210115/%e5%8d%97%e5%a4%a7%e9%96%80.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2019 ICPC Yokohama Regional</title>
+        <link>https://luke2336.github.io/p/icpc-yokohama/</link>
+        <pubDate>Sun, 12 Jan 2020 16:13:01 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/p/icpc-yokohama/</guid>
+        <description>&lt;img src="https://luke2336.github.io/post/Other/ICPC-Yokohama/16.JPG" alt="Featured image of post 2019 ICPC Yokohama Regional" /&gt;&lt;p&gt;這篇是遊記＋比賽紀錄，所以就寫得很零碎了。
+本來就很想寫這篇，但一直拖到寒假才有空～～&lt;/p&gt;
+&lt;h2 id=&#34;為什麼去日本呢&#34;&gt;為什麼去日本呢？&lt;/h2&gt;
+&lt;p&gt;因為去日本高機率會被電爆，假如要去確實不應該在我們想拿票時去。外國隊名額有限，交大只能派一隊，但剛好沒人要跟我們搶。&lt;/p&gt;
+&lt;p&gt;我亂分析了一下，日本是實作、數學、幾何題比較多，我們隊有實作大師，似乎還行。日本似乎沒有東南亞那麼多模板題，對我們這種剛開始打的菜鳥似乎比較沒那麼虧。&lt;/p&gt;
+&lt;p&gt;日本雖然沒有官方旅遊行程，但自己玩也很棒，雖然物價有點高。&lt;/p&gt;
+&lt;h2 id=&#34;行前&#34;&gt;行前&lt;/h2&gt;
+&lt;p&gt;暑假一知道可以出國就去辦了台北辦護照，順便回北一女逛了一下。&lt;/p&gt;
+&lt;p&gt;出國前三天去旅行社弄了 48hr 的東京地鐵券。&lt;/p&gt;
+&lt;p&gt;因為懶得排行程，排行程似乎變因過多，我們決定第四天自由行，第五天去淺草逛逛。&lt;/p&gt;
+&lt;p&gt;因為我們原本想住的旅館看起來很不恰當，於是被教練說服比賽期間都跟他住商務旅館（鶴見東橫Inn）。&lt;/p&gt;
+&lt;p&gt;日本賽制是不限參考資料頁數，但我們還是決定帶彩色的 25 頁 codebook 和一本字典。&lt;/p&gt;
+&lt;p&gt;賽前有練習或討論了超過 5 年的考古。&lt;/p&gt;
+&lt;h2 id=&#34;day1&#34;&gt;DAY1&lt;/h2&gt;
+&lt;p&gt;因為怕打太爛，比賽前不敢排旅遊行程，於是搭 18:25(+8)-22:05(+9) 的飛機。&lt;/p&gt;
+&lt;p&gt;跟教練搭計程車，所以提早了不少到機場，但因為我不到20歲，搞保險搞了好久。然後就是人生第一次搭飛機了，幸好我不是一個人出國。&lt;/p&gt;
+&lt;p&gt;我們在機場還很認真的研究考古題，上飛機後就開始研究飛機餐了，隊友超愛吃奶油。&lt;/p&gt;
+&lt;p&gt;下飛機後，領完行李後，我花了三分鐘弄了張免費網卡，詳請請參考這篇，結果最後只用了 100/500MB。&lt;/p&gt;
+&lt;p&gt;然後就搭京急去旅館睡覺了，氣溫雖然不到 15 度，但因為濕度很低，所以感覺不冷，隊友直接只穿一件 T-shirt＋超薄外套。&lt;/p&gt;
+&lt;h2 id=&#34;day2測機日&#34;&gt;DAY2（測機日）&lt;/h2&gt;
+&lt;p&gt;本來這天下午應該要在台灣考演算法概論上機考，有兩個選項，一個是期末算兩倍，另一個是在日本考。我們選擇在日本的 7:00-11:00 考，當作練手感。毫無意外地，小爆炸了一下。&lt;/p&gt;
+&lt;p&gt;中午在橫濱市區吃 KFC，日本的 KFC 超好吃的！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/3.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然後準時的抵達賽場，教練似乎跟日本人很熟，我們報到完他就去外交了。台大 wa&amp;hellip;123 坐在我們背後兩組，他們NPSC坐在我們左邊，真是有緣啊！&lt;/p&gt;
+&lt;p&gt;他們的系統教學示範超生動的，讓我們好想再去日本比一次。&lt;/p&gt;
+&lt;p&gt;桌子的佈局是兩張長桌，放成L型。&lt;/p&gt;
+&lt;p&gt;然後就是測機了，全部都是考古題，有幾題上飛機前看過。有一題是暴力枚舉，但我隊友不會寫遞迴枚舉，於是我只好去摸鍵盤了（鍵盤手感不錯）。&lt;/p&gt;
+&lt;p&gt;之後是自我介紹時間，事前會叫你交一頁投影片，另外還會給一本印有各隊介紹的本本，很多好玩的ascii圖。清大比我們早了幾天到日本，他們先去寶可夢樂園血拼，於是就全套寶可夢上去介紹。&lt;/p&gt;
+&lt;p&gt;牆上有先放隔天的氣球，於是知道總共有11題。有提供點心區和餐盒，於是我很認真的研究了隔天要吃什麼點心。（我們是離點心最近的位置）&lt;/p&gt;
+&lt;p&gt;晚上，教練請我們吃燒肉，牛橫膈超好吃的！然後去車站逛了超市。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/1.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;day3比賽日&#34;&gt;DAY3（比賽日）&lt;/h2&gt;
+&lt;p&gt;我雷我抱歉，我鬧鐘又設到晚上了，幸好教練發現我沒出現，就直接 morning call，不然就慘了。然後匆匆忙忙的吃了早餐，隊友也一副沒睡飽的樣子。&lt;/p&gt;
+&lt;p&gt;我們即時抵達賽場，教練忙台北站忙到快掛了，就先回去旅館休息。進去後，桌面佈局維持我們前一天調好的樣子。&lt;/p&gt;
+&lt;p&gt;比賽提早了五分鐘開始，主席倒數的好嗨好可愛。&lt;/p&gt;
+&lt;p&gt;開場就按照策略先把該抄的東西抄好，雖然他們本身很貼心的有提供一些快速編譯的指令。&lt;/p&gt;
+&lt;p&gt;然後因為日本有確定 pApB 一定是最水的，於是我們 pB 在 00:23 先AC，pA 有點卡，於是 00:32 才 AC。&lt;/p&gt;
+&lt;p&gt;然後 pH 是括號匹配，搭上刪除操作，因為我們把他想成可以用 map 或線段樹之類的弄，想的有點複雜，但感覺做得掉，就交給學弟先寫。&lt;/p&gt;
+&lt;p&gt;pG 看起來有機會，是我以前打北市賽遇過的類似題，但我真的想不太到，就果決的先丟一旁。&lt;/p&gt;
+&lt;p&gt;這時我和雙曲線有想到 pE，用一些條件判斷哪些不能放同一堆，可以建出圖然後做 bicoloring，然後背包 dp 一下，三個人合力寫掉（雖然學弟始終不知道題目），2:36 一次 AC。&lt;/p&gt;
+&lt;p&gt;這時我和雙曲線已經把所有題目了解。我們排名在前半段，跟台大清大題數一樣，我們 penalty 不高，贏過清大。&lt;/p&gt;
+&lt;p&gt;估計了一下時間大概再開兩題左右，打算瞄準 pG 和 pH。&lt;/p&gt;
+&lt;p&gt;學弟發現我們之前的想法不太可行，於是我突然想到有些東西應該用 stack 的結構維護，然後做二分搜，配上線段樹做修改之類的。&lt;/p&gt;
+&lt;p&gt;於是他就繼續寫下去，我們到了剩一個半鐘頭時，覺得不太妙，就三個人一起開始debug，先是發現線段樹抄爛，然後還有一些 bug，最後就邊想 pG 邊 debug，終於在 4:42(+4 penalty) 把 pH 解掉，理論上應該會贏清大，於是還滿爽的。&lt;/p&gt;
+&lt;p&gt;4:30 就封版了，但清大之後就沒有上傳了&amp;hellip;&lt;/p&gt;
+&lt;p&gt;我們用一些暴力的寫法去弄 pG，當作垂死掙扎，奮戰到最後一秒。&lt;/p&gt;
+&lt;p&gt;賽中，我因為身體不舒服，一直在嗑巧克力&amp;hellip;（點心和飲料可以帶到座位，超棒的）&lt;/p&gt;
+&lt;p&gt;贏了清大，所以我們競程二及格了。&lt;/p&gt;
+&lt;p&gt;因為太興奮，不小心放飛了一顆氣球，賽區主席看到後，馬上吩咐人幫我們用竿子拉下來，真的是太感謝了。因為封板解出 pH，我們決定把一顆氣球藏在外套裡，給教練驚喜。但一看到教練，又不小心讓氣球飛掉了，嗚嗚～&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/2.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;賽後是題解，我覺得還可以，大半都聽得懂，這部分很棒。&lt;/p&gt;
+&lt;p&gt;開獎機很棒，我們最終拿了 27 名，符合預期，算正常發揮範圍內，除了 pH 的 penalty。&lt;/p&gt;
+&lt;p&gt;然後是晚宴，頒了一堆企業贊助獎，我們拿了兩個「有女生的隊伍第一名」，清大拿了「4, 14, 40」的40名獎，台大最後上台拿了「沒被頒到獎的最高名次」
+回去後，其中一個是印著行動電源的紙＋漂亮資料夾，另一個是 ¥10000 的日本 Amazon 禮卷，人品敗光光！&lt;/p&gt;
+&lt;p&gt;因為顧著拿企業攤位的贈品，於是我們晚宴幾乎都沒吃東西。&lt;/p&gt;
+&lt;p&gt;之後，我們就和教練分開，拖著行李箱跑去東京了。&lt;/p&gt;
+&lt;p&gt;選擇住在南千住實在不是個好選擇，交通沒有想象中方便。&lt;/p&gt;
+&lt;h2 id=&#34;day4&#34;&gt;DAY4&lt;/h2&gt;
+&lt;p&gt;和隊友分開行動，雖然前一天累到快死掉，但還是早早起床。&lt;/p&gt;
+&lt;p&gt;但我真的不會日文，原本是想從三之輪站到北千住換千代田線，但最後變成「三之輪-北千住-押上-住吉-新宿三目町-明治神宮前」，換了這麼多次車，上班時間的電車爆擠，又比預期多花了超過半小時。&lt;/p&gt;
+&lt;p&gt;然後就到「明治神宮」了，原本出門時在下雨，到這裡已經變大太陽了。剛好碰上菊花展，且 11 月剛好是七五三節左右，在每個神社都有看到相關的活動公告。&lt;/p&gt;
+&lt;p&gt;走過了一排排神木，很難想像東京這種大都市竟然有一大片森林，超棒的！酒桶牆看起來很壯觀，滿喜歡的！&lt;/p&gt;
+&lt;p&gt;雖然是平日，但還是不少遊客。有隨手買了一本朱印帳做紀念。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/4.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/5.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/6.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/7.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然後因為很想賞楓，於是就近去了「代代木公園」，好像稍微去晚了一個禮拜，葉子掉的差不多了QQ但見到了超多超多的烏鴉，也算是有收穫吧？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/8.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/9.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;中午就去原宿逛「竹下通」，只買了一些小東西，但還是好重。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/17.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;吃了日本的可麗餅當午餐，不像台灣的是脆脆的，他們是軟軟的，我點的是草莓配上一球冰淇淋，感覺還行。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/11.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;順便路過了一下「原宿車站」，回去才知道他即將拆掉，賺到了XD&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/10.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然後去逛了「東鄉神社」，算是很喜歡的一個，雖然外型不太出眾，但牆上一些關於歷史故事的畫作卻讓我忍不住多花了一點時間停留，順便祈求了一下隔週台北站的勝利！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/12.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然後就準備前往新宿御園，但因為去了東鄉神社，然後迷了點小路，加上日本的公車很複雜又沒有里程價，算一算快天黑了，腳也走到破皮了，就決定去新宿逛點街，然後再去都廳看夜景。&lt;/p&gt;
+&lt;p&gt;最後剛好走錯出口，去逛了「花園神社」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/13.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然後逛了一家文具店「世界堂」，七層樓逛起來很棒，順便買些禮物給閨蜜，我承認我好沒逛街效率&amp;hellip;&lt;/p&gt;
+&lt;p&gt;然後去「東京都廳」45 樓北展望室 (202m) 看夜景，大約排了半小時的隊，搭電梯前需要先通過簡單的安檢，人數管控的還行，只是玻璃上反光較嚴重。可以看到同時看到東京鐵塔、晴空塔，還是免費的，真的很推！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/14.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接著就搭丸之內線到「東京車站」找隊友會合，一起吃了義式料理當晚餐，去百貨公司逛了超市。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/15.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;回去旅館時小小迷了點路。&lt;/p&gt;
+&lt;h2 id=&#34;day5&#34;&gt;DAY5&lt;/h2&gt;
+&lt;p&gt;因為傍晚就要搭飛機回去了，於是今天就全隊一起行動。天氣濛濛的，我們去了淺草寺，然後到隅田川旁時天空放晴，看到了晴空塔。隊友太喜歡 KFC 了，於是又去買了 XD&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/16.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/18.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/19.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;之後主要都是隊友的伴手禮任務，我們在淺草橋吃完好吃的牛丼，才 ¥600，真是太棒了。隊友點多肉 ¥1150，滿滿的肉看起來超棒的！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/20.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然後去了上野，分頭行動一小時，我去了上野公園。然後就搭京成去機場了，然後我被隊友慫恿，於是買了不少伴手禮，然後才想起來自己沒朋友 QAQ&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/21.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://luke2336.github.io/post/Other/ICPC-Yokohama/22.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;心得&#34;&gt;心得&lt;/h2&gt;
+&lt;p&gt;第一次出國，很多不懂的事都有隊友 carry，真的超愛他們的！隔週去完台北站之後，覺得日本的比賽品質真的很棒，很開心人生的第一場 ICPC 是去日本。不過沒有逛到橫濱有點可惜，那邊感覺也很棒。&lt;/p&gt;
+&lt;p&gt;原本出國前被功課搞到崩潰，出國散散心的感覺很棒，超不想回國的！這次留了一天的時間各自行動，確實是個好選擇！一個人在街上逛的感覺真的很好。&lt;/p&gt;
+&lt;p&gt;日本的題目真的好硬，幸好我們有練了幾套考古，不然真的會打到哭。&lt;/p&gt;
+&lt;p&gt;台大最強隊來日本也炸了，要來日本拿票真的不容易。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
