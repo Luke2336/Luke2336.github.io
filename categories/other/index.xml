@@ -12,7 +12,7 @@
         <pubDate>Mon, 06 Jun 2022 16:50:54 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/rent-house/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/rent-house/1.png" alt="Featured image of post 台北租屋經驗" /&gt;&lt;p&gt;今年暑假我就畢業了，工作是在 Google 的新店辦公室，因為不方便通勤，所以就得開始找房子。&lt;/p&gt;
+        <description>&lt;img src="https://luke2336.github.io/p/rent-house/1.png" alt="Featured image of post 台北租屋經驗" /&gt;&lt;p&gt;今年暑假我就畢業了，工作是在 Google 的新店辦公室，因為不方便通勤，所以就得開始找房子。&lt;/p&gt;
 &lt;h2 id=&#34;租屋名詞解釋&#34;&gt;租屋名詞解釋&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;獨立套房&lt;/strong&gt;：有廁所的房間，有獨立的出入口。&lt;/li&gt;
@@ -49,12 +49,16 @@
 &lt;li&gt;用 &lt;a class=&#34;link&#34; href=&#34;https://notion.so&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;notion.so&lt;/a&gt; 建立資料庫，可以 sort 和建立 filter。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/rent-house/1.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/p/rent-house/1.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;495&#34;
+	srcset=&#34;https://luke2336.github.io/p/rent-house/1_hu2fb58ca7177230660753d8dfe79127a7_149044_480x0_resize_box_3.png 480w, https://luke2336.github.io/p/rent-house/1_hu2fb58ca7177230660753d8dfe79127a7_149044_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;290&#34;
+		data-flex-basis=&#34;698px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;重視的東西&#34;&gt;重視的東西&lt;/h2&gt;
@@ -1004,7 +1008,7 @@
         <pubDate>Sun, 01 Aug 2021 16:25:52 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/chromethemes/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/ChromeTheme/Theme.png" alt="Featured image of post Chrome Themes 推薦" /&gt;&lt;ul&gt;
+        <description>&lt;img src="https://luke2336.github.io/p/chromethemes/Theme.png" alt="Featured image of post Chrome Themes 推薦" /&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://chrome.google.com/webstore/detail/%D1%84%D0%BB%D0%BE%D0%BA%D1%81%D0%B8%D0%BA%D0%B8/cnpmmkodlamalkbkkppajkdlpffadego&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Floksiki&lt;/a&gt;
 &lt;ul&gt;

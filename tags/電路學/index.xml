@@ -12,7 +12,7 @@
         <pubDate>Wed, 30 Dec 2020 15:29:08 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/circuit_ch14/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/circuit_ch14/filter.jpg" alt="Featured image of post 電路學第 14 章" /&gt;&lt;h2 id=&#34;ch14&#34;&gt;CH14&lt;/h2&gt;
+        <description>&lt;img src="https://luke2336.github.io/p/circuit_ch14/filter.jpg" alt="Featured image of post 電路學第 14 章" /&gt;&lt;h2 id=&#34;ch14&#34;&gt;CH14&lt;/h2&gt;
 &lt;p&gt;這章用 Frequency Domain 來討論電路學，主要的重點有以下幾個：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Frequency &amp;amp; Magnitude Responce&lt;/li&gt;
@@ -21,52 +21,73 @@
 &lt;li&gt;Filter: Lowpass, Highpass, Bandpass, Bandstop&lt;/li&gt;
 &lt;li&gt;Magnitude &amp;amp; Frequency Scaling&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/circuit_ch14/14-1.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/p/circuit_ch14/14-1.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://luke2336.github.io/p/circuit_ch14/14-1_hu71a59ec62ffaee61e56875ec0a06a125_2202191_480x0_resize_q75_box.jpg 480w, https://luke2336.github.io/p/circuit_ch14/14-1_hu71a59ec62ffaee61e56875ec0a06a125_2202191_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
-&gt;
-&lt;img src=&#34;https://luke2336.github.io/post/Other/circuit_ch14/14-2.jpg&#34;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
-	
-	
+&gt; &lt;img src=&#34;https://luke2336.github.io/p/circuit_ch14/14-2.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://luke2336.github.io/p/circuit_ch14/14-2_hu3ea0267266132b30a54c33ea4740274e_2034523_480x0_resize_q75_box.jpg 480w, https://luke2336.github.io/p/circuit_ch14/14-2_hu3ea0267266132b30a54c33ea4740274e_2034523_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
-&gt;
-&lt;img src=&#34;https://luke2336.github.io/post/Other/circuit_ch14/14-3.jpg&#34;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
-	
-	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/p/circuit_ch14/14-3.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://luke2336.github.io/p/circuit_ch14/14-3_hube68127b06c8c370b583337829bebd9b_2130178_480x0_resize_q75_box.jpg 480w, https://luke2336.github.io/p/circuit_ch14/14-3_hube68127b06c8c370b583337829bebd9b_2130178_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
-&gt;
-&lt;img src=&#34;https://luke2336.github.io/post/Other/circuit_ch14/14-4.jpg&#34;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
-	
-	
+&gt; &lt;img src=&#34;https://luke2336.github.io/p/circuit_ch14/14-4.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://luke2336.github.io/p/circuit_ch14/14-4_hu13a2dce84e355210fbb1c95f7a8e946a_2075588_480x0_resize_q75_box.jpg 480w, https://luke2336.github.io/p/circuit_ch14/14-4_hu13a2dce84e355210fbb1c95f7a8e946a_2075588_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
-&gt;
-&lt;img src=&#34;https://luke2336.github.io/post/Other/circuit_ch14/14-5.jpg&#34;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
-	
-	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/p/circuit_ch14/14-5.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://luke2336.github.io/p/circuit_ch14/14-5_hucfd2d6b0848608d09801fca7b7fcca1f_2164106_480x0_resize_q75_box.jpg 480w, https://luke2336.github.io/p/circuit_ch14/14-5_hucfd2d6b0848608d09801fca7b7fcca1f_2164106_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
-&gt;
-&lt;img src=&#34;https://luke2336.github.io/post/Other/circuit_ch14/14-6.jpg&#34;
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
-	
-	
+&gt; &lt;img src=&#34;https://luke2336.github.io/p/circuit_ch14/14-6.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://luke2336.github.io/p/circuit_ch14/14-6_hucb52dfc26b79dff2f577f9e9e5625068_1920805_480x0_resize_q75_box.jpg 480w, https://luke2336.github.io/p/circuit_ch14/14-6_hucb52dfc26b79dff2f577f9e9e5625068_1920805_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
 </description>

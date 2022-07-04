@@ -155,7 +155,7 @@
         <pubDate>Mon, 28 Dec 2020 14:40:40 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/os_ch5/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/os_review/OS.jpg" alt="Featured image of post OS CH5 複習" /&gt;&lt;h1 id=&#34;ch5---process-synchronization&#34;&gt;CH5 - Process Synchronization&lt;/h1&gt;
+        <description>&lt;img src="https://luke2336.github.io/p/os_ch5/OS.jpg" alt="Featured image of post OS CH5 複習" /&gt;&lt;h1 id=&#34;ch5---process-synchronization&#34;&gt;CH5 - Process Synchronization&lt;/h1&gt;
 &lt;h2 id=&#34;the-critical-section-problem&#34;&gt;The Critical-Section Problem&lt;/h2&gt;
 &lt;p&gt;有些資源只能同時被一個 process 使用。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

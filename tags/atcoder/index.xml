@@ -12,7 +12,7 @@
         <pubDate>Sun, 30 Jan 2022 20:51:14 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/atcoder_abc237/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/AtCoder_ABC237/Standing.png" alt="Featured image of post AtCoder Beginning Contest 237" /&gt;&lt;ul&gt;
+        <description>&lt;img src="https://luke2336.github.io/p/atcoder_abc237/Standing.png" alt="Featured image of post AtCoder Beginning Contest 237" /&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc237/tasks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://atcoder.jp/contests/abc237/tasks&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt;很早就放棄掙扎的一場。&lt;/li&gt;
@@ -570,14 +570,18 @@
         <pubDate>Sun, 29 Aug 2021 21:51:11 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/atcoder_abc216/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/AtCoder_ABC216/1.png" alt="Featured image of post AtCoder Beginning Contest 216" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-192httpsatcoderjpcontestsabc192&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc192&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://luke2336.github.io/p/atcoder_abc216/1.png" alt="Featured image of post AtCoder Beginning Contest 216" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-192httpsatcoderjpcontestsabc192&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc192&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;AtCoder Beginning Contest 192&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/AtCoder_ABC216/Standing.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/p/atcoder_abc216/Standing.png&#34;
+	width=&#34;1158&#34;
+	height=&#34;685&#34;
+	srcset=&#34;https://luke2336.github.io/p/atcoder_abc216/Standing_huea77a5714f0524bc9ae0e4182efdbe71_194754_480x0_resize_box_3.png 480w, https://luke2336.github.io/p/atcoder_abc216/Standing_huea77a5714f0524bc9ae0e4182efdbe71_194754_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;405px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;a-signed-difficulty&#34;&gt;A. Signed Difficulty&lt;/h2&gt;
@@ -750,15 +754,19 @@
         <pubDate>Sat, 20 Feb 2021 21:11:32 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/atcoder_abc192/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/AtCoder_ABC192/1.png" alt="Featured image of post AtCoder Beginning Contest 192" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-192httpsatcoderjpcontestsabc192&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc192&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://luke2336.github.io/p/atcoder_abc192/1.png" alt="Featured image of post AtCoder Beginning Contest 192" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-192httpsatcoderjpcontestsabc192&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc192&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;AtCoder Beginning Contest 192&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;pD 被卡了很久，pF 沒靈感，只好掉分。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/AtCoder_ABC192/2.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/p/atcoder_abc192/2.png&#34;
+	width=&#34;1095&#34;
+	height=&#34;384&#34;
+	srcset=&#34;https://luke2336.github.io/p/atcoder_abc192/2_hub52253659d23d113e8e35d7772681bfd_97181_480x0_resize_box_3.png 480w, https://luke2336.github.io/p/atcoder_abc192/2_hub52253659d23d113e8e35d7772681bfd_97181_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;285&#34;
+		data-flex-basis=&#34;684px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;a-star&#34;&gt;A. Star&lt;/h2&gt;
@@ -1151,9 +1159,9 @@
         <pubDate>Sat, 09 Jan 2021 22:03:11 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/atcoder_arc111/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/AtCoder_ARC111/Task.png" alt="Featured image of post AtCoder Regular Contest 111" /&gt;&lt;p&gt;因為 pA 卡住，所以慘慘的 QAQ&lt;/p&gt;
+        <description>&lt;img src="https://luke2336.github.io/p/atcoder_arc111/Task.png" alt="Featured image of post AtCoder Regular Contest 111" /&gt;&lt;p&gt;因為 pA 卡住，所以慘慘的 QAQ&lt;/p&gt;
 &lt;p&gt;掉了 31 分到 1685。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/post/Other/AtCoder_ARC111/AtCoder_ARC111.md&#34;
+&lt;p&gt;&lt;img src=&#34;https://luke2336.github.io/AtCoder_ARC111.md&#34;
 	
 	
 	
@@ -2142,7 +2150,7 @@
         <pubDate>Sat, 19 Dec 2020 22:03:36 +0800</pubDate>
         
         <guid>https://luke2336.github.io/p/atcoder_abc186/</guid>
-        <description>&lt;img src="https://luke2336.github.io/post/Other/AtCoder_ABC186/AtCoder_ABC186_Standing.jpg" alt="Featured image of post AtCoder Beginning Contest 186" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-186httpsatcoderjpcontestsabc186&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc186&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://luke2336.github.io/p/atcoder_abc186/AtCoder_ABC186_Standing.jpg" alt="Featured image of post AtCoder Beginning Contest 186" /&gt;&lt;h1 id=&#34;atcoder-beginning-contest-186httpsatcoderjpcontestsabc186&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://atcoder.jp/contests/abc186&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;AtCoder Beginning Contest 186&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;pE 讓我卡了一下，於是就掉分了。pF 想到了一個假解，浪費了不少時間。可能是因為剛打完 CF，所以狀態不好。&lt;/p&gt;
 &lt;h2 id=&#34;a-brick&#34;&gt;A. Brick&lt;/h2&gt;
