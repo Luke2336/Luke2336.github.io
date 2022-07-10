@@ -72,6 +72,104 @@
         <description></description>
         </item>
         <item>
+        <title>Contents</title>
+        <link>https://luke2336.github.io/contents/</link>
+        <pubDate>Sat, 28 Nov 2020 22:56:28 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/contents/</guid>
+        <description>&lt;h2 id=&#34;日記&#34;&gt;日記&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/2022/&#34; &gt;記 2022&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/2021/&#34; &gt;記 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/news_2021/&#34; &gt;2021 簡記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/review2021/&#34; &gt;2021 回顧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/2020/&#34; &gt;記 2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/news_2020/&#34; &gt;2020 簡記&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;遊記&#34;&gt;遊記&lt;/h2&gt;
+&lt;h3 id=&#34;北部&#34;&gt;北部&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/magang/&#34; &gt;馬崗&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/nycu-taipei/&#34; &gt;軍艦岩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/yang-ming/&#34; &gt;紗帽山&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/yehliu/&#34; &gt;野柳、金山&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/xinshan-dream-lake/&#34; &gt;汐止 - 新山夢湖&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;中部&#34;&gt;中部&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/plum/&#34; &gt;清大梅園&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/hsinchu-food/&#34; &gt;新竹美食筆記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/tanwen/&#34; &gt;談文 - 鄭漢步道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/zaoqiao/&#34; &gt;造橋 - 口山步道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/xinfeng/&#34; &gt;新豐 - 鳳崎落日登山步道&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;比賽&#34;&gt;比賽&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/icpc-yokohama/&#34; &gt;2019 ICPC Yokohama Regional&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/nctu_annual_contest_2019/&#34; &gt;交大 2019 年度賽&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/cptc/&#34; &gt;CPTC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解題&#34;&gt;解題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/usaco/&#34; &gt;USACO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/kattis/&#34; &gt;Kattis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/cses/&#34; &gt;CSES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/uva_106/&#34; &gt;UVA 106 - Fermat vs. Pythagoras&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/zj_a813/&#34; &gt;Zerojudge a813 - 城市觀測&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/tioj1214/&#34; &gt;TIOJ 1214 樹同構&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/negative_cycle/&#34; &gt;有向圖找負環 (Negative-Cycle)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/lcis/&#34; &gt;Longest Common Increasing Subsequence(LCIS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/cf_gym_100274/&#34; &gt;Codeforces GYM 100274&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/cf_contest_1294/&#34; &gt;Codeforces Round #615 (Div. 3)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/cf_contest_1459/&#34; &gt;Codeforces Round 691 Div. 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/cf_contest_1676/&#34; &gt;Codeforces Round 790 Div. 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_arc111/&#34; &gt;AtCoder Regular Contest 111&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_abc186/&#34; &gt;AtCoder Beginning Contest 186&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_abc192/&#34; &gt;AtCoder Beginning Contest 192&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_abc216/&#34; &gt;AtCoder Beginning Contest 216&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_abc237/&#34; &gt;AtCoder Beginning Contest 237&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_education_dp/&#34; &gt;AtCoder Educational DP Contest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder-practice2/&#34; &gt;AtCoder Library Practice Contest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/atcoder_abs/&#34; &gt;AtCoder Beginners Selection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;心得&#34;&gt;心得&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/toi-2018/&#34; &gt;TOI 2018 選訓營一階 心得&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/sprout-2018/&#34; &gt;2018 資訊之芽 算法班 心得&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/course_nctu/&#34; &gt;交大修課心得&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/exchange/&#34; &gt;交大交換申請&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/transfer/&#34; &gt;交大資工轉系經驗&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/rent-house/&#34; &gt;台北租屋經驗&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/google-intern-apply/&#34; &gt;Google Internship Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/google-intern/&#34; &gt;Google Intern Experience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/google-return/&#34; &gt;Google Taiwan 實習轉正&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/toeic_prepare/&#34; &gt;多益準備&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;筆記&#34;&gt;筆記&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/heaps_algorithm/&#34; &gt;Heap&amp;rsquo;s Algorithm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/hello_dart/&#34; &gt;Dart 筆記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/lex/&#34; &gt;lex 筆記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/hello_kotlin/&#34; &gt;Hello, Kotlin!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/template1/&#34; &gt;template class 練習&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/lsof/&#34; &gt;實作 lsof&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/mac_cmd/&#34; &gt;MacOS Command Line Note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/toeic1/&#34; &gt;TOEIC 單字準備&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/fl5/&#34; &gt;正規語言 Lec 5 筆記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/os_ch5/&#34; &gt;OS CH5 複習&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/circuit_ch14/&#34; &gt;電路學第 14 章&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/german1/&#34; &gt;德文（一）筆記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/understanding_language_final_report/&#34; &gt;認識語言 期末報告&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/pedagogy-report/&#34; &gt;大學是不是職業訓練所？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;雜記&#34;&gt;雜記&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/typingclub/&#34; &gt;TypingClub 介紹&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;../p/chromethemes/&#34; &gt;Chrome Themes 推薦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Search</title>
         <link>https://luke2336.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
