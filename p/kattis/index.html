@@ -350,7 +350,7 @@ if (!doNotTrack) {
 
 
                 <time class="article-time--reading">
-                    23 minute read
+                    24 minute read
                 </time>
             </div>
         
@@ -1345,6 +1345,28 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="ln">19</span><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="ln">20</span><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="ln">21</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+<h2 id="add-two-numbershttpsopenkattiscomproblemsaddtwonumbers"><a class="link" href="https://open.kattis.com/problems/addtwonumbers"  target="_blank" rel="noopener"
+    >Add Two Numbers</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">private</span> <span class="k">fun</span> <span class="nf">readLn</span><span class="p">()</span> <span class="p">=</span> <span class="n">readLine</span><span class="p">()</span><span class="o">!!</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">val</span> <span class="err">(</span><span class="py">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">=</span> <span class="n">readLn</span><span class="p">().</span><span class="n">split</span><span class="p">(</span><span class="sc">&#39; &#39;</span><span class="p">).</span><span class="n">map</span> <span class="p">{</span> <span class="k">it</span><span class="p">.</span><span class="n">toInt</span><span class="p">()</span> <span class="p">}</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="n">println</span><span class="p">(</span><span class="n">a</span> <span class="p">+</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+<h2 id="which-is-greaterhttpsopenkattiscomproblemswhichisgreater"><a class="link" href="https://open.kattis.com/problems/whichisgreater"  target="_blank" rel="noopener"
+    >Which is Greater?</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">private</span> <span class="k">fun</span> <span class="nf">readInts</span><span class="p">()</span> <span class="p">=</span> <span class="n">readLine</span><span class="p">()</span><span class="o">!!</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="sc">&#39; &#39;</span><span class="p">).</span><span class="n">map</span><span class="p">{</span> <span class="k">it</span><span class="p">.</span><span class="n">toInt</span><span class="p">()</span> <span class="p">}</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">val</span> <span class="err">(</span><span class="py">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">=</span> <span class="n">readInts</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="k">val</span> <span class="py">ans</span> <span class="p">=</span> <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="p">&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="m">1</span> <span class="k">else</span> <span class="m">0</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="n">println</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+<h2 id="triangle-areahttpsopenkattiscomproblemstriarea"><a class="link" href="https://open.kattis.com/problems/triarea"  target="_blank" rel="noopener"
+    >Triangle Area</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">private</span> <span class="k">fun</span> <span class="nf">readLn</span><span class="p">()</span> <span class="p">=</span> <span class="n">readLine</span><span class="p">()</span><span class="o">!!</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="k">fun</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">val</span> <span class="err">(</span><span class="py">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">=</span> <span class="n">readLn</span><span class="p">().</span><span class="n">split</span><span class="p">(</span><span class="sc">&#39; &#39;</span><span class="p">).</span><span class="n">map</span> <span class="p">{</span> <span class="k">it</span><span class="p">.</span><span class="n">toInt</span><span class="p">()</span> <span class="p">}</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="n">println</span><span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="n">b</span> <span class="p">*</span> <span class="m">0.5</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
 
 </section>
 
@@ -1685,6 +1707,9 @@ if (!doNotTrack) {
     <li><a href="#fireflyhttpsopenkattiscomproblemsfirefly"><a href="https://open.kattis.com/problems/firefly">Firefly</a></a></li>
     <li><a href="#alphabethttpsopenkattiscomproblemsalphabet"><a href="https://open.kattis.com/problems/alphabet">Alphabet</a></a></li>
     <li><a href="#walrus-weightshttpsopenkattiscomproblemswalrusweights"><a href="https://open.kattis.com/problems/walrusweights">Walrus Weights</a></a></li>
+    <li><a href="#add-two-numbershttpsopenkattiscomproblemsaddtwonumbers"><a href="https://open.kattis.com/problems/addtwonumbers">Add Two Numbers</a></a></li>
+    <li><a href="#which-is-greaterhttpsopenkattiscomproblemswhichisgreater"><a href="https://open.kattis.com/problems/whichisgreater">Which is Greater?</a></a></li>
+    <li><a href="#triangle-areahttpsopenkattiscomproblemstriarea"><a href="https://open.kattis.com/problems/triarea">Triangle Area</a></a></li>
   </ol>
 </nav>
         </div>

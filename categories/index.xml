@@ -6,21 +6,21 @@
         <description>Recent content in Categories on Luke&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 09 Jul 2022 18:43:08 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Jul 2022 10:18:38 +0800</lastBuildDate><atom:link href="https://luke2336.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Travel</title>
+        <link>https://luke2336.github.io/categories/travel/</link>
+        <pubDate>Wed, 13 Jul 2022 10:18:38 +0800</pubDate>
+        
+        <guid>https://luke2336.github.io/categories/travel/</guid>
+        <description>&lt;img src="https://luke2336.github.io/categories/travel/travel.jpg" alt="Featured image of post Travel" /&gt;</description>
+        </item>
+        <item>
         <title>Other</title>
         <link>https://luke2336.github.io/categories/other/</link>
         <pubDate>Sat, 09 Jul 2022 18:43:08 +0800</pubDate>
         
         <guid>https://luke2336.github.io/categories/other/</guid>
         <description>&lt;img src="https://luke2336.github.io/categories/other/other.jpg" alt="Featured image of post Other" /&gt;</description>
-        </item>
-        <item>
-        <title>Travel</title>
-        <link>https://luke2336.github.io/categories/travel/</link>
-        <pubDate>Thu, 07 Jul 2022 07:14:15 +0800</pubDate>
-        
-        <guid>https://luke2336.github.io/categories/travel/</guid>
-        <description>&lt;img src="https://luke2336.github.io/categories/travel/travel.jpg" alt="Featured image of post Travel" /&gt;</description>
         </item>
         <item>
         <title>Code</title>
