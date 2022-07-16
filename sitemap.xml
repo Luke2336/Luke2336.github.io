@@ -4,34 +4,62 @@
   
   <url>
     <loc>https://luke2336.github.io/categories/</loc>
-    <lastmod>2022-07-14T08:31:16+08:00</lastmod>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://luke2336.github.io/</loc>
-    <lastmod>2022-07-14T08:31:16+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://luke2336.github.io/categories/other/</loc>
-    <lastmod>2022-07-14T08:31:16+08:00</lastmod>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://luke2336.github.io/post/</loc>
-    <lastmod>2022-07-14T08:31:16+08:00</lastmod>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://luke2336.github.io/tags/</loc>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://luke2336.github.io/categories/travel/</loc>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://luke2336.github.io/p/pingxi/</loc>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://luke2336.github.io/tags/%E6%97%85%E9%81%8A/</loc>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://luke2336.github.io/tags/%E8%B2%93/</loc>
+    <lastmod>2022-07-16T21:37:06+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://luke2336.github.io/categories/other/</loc>
     <lastmod>2022-07-14T08:31:16+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -47,27 +75,6 @@
   <url>
     <loc>https://luke2336.github.io/p/tfg_cat/</loc>
     <lastmod>2022-07-14T08:31:16+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://luke2336.github.io/tags/%E8%B2%93/</loc>
-    <lastmod>2022-07-14T08:31:16+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://luke2336.github.io/categories/travel/</loc>
-    <lastmod>2022-07-13T10:18:38+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://luke2336.github.io/tags/%E6%97%85%E9%81%8A/</loc>
-    <lastmod>2022-07-13T10:18:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
